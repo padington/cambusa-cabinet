@@ -1,0 +1,78 @@
+{
+  "iteration": "cambusa-v20-aluminum-corner",
+  "reference": "cambusa-v19-corner",
+  "axis_xy_mm_assumed": [
+    -3.5,
+    -19.0
+  ],
+  "door_wood_ligament_mm": 3.7,
+  "direct_side_mount": {
+    "profile_and_closed_door_width_overlap_mm": 14.5,
+    "bounding_box_intersection_with_drilled_door_face_mm3": 244458.4
+  },
+  "offset_mount": {
+    "profile_bounds_xy_mm": [
+      [
+        4,
+        23
+      ],
+      [
+        34,
+        53
+      ]
+    ],
+    "front_slot_width_mm": 8,
+    "brackets_per_hinge": 1,
+    "bracket_bounds_mm": [
+      25,
+      31,
+      96
+    ],
+    "bracket_wall_mm": 6,
+    "dirak_hole_centers": {
+      "y_mm": 0,
+      "z_from_hinge_center_mm": [
+        -25.5,
+        25.5
+      ]
+    },
+    "slot_hole_centers": {
+      "x_mm": 19,
+      "z_from_hinge_center_mm": [
+        -39,
+        39
+      ]
+    },
+    "hinge_center_heights_mm": [
+      960.0,
+      1640.0
+    ],
+    "bore_diameter_mm": 6.6,
+    "aligned_fixed_channels": 8,
+    "head_envelopes_mm": {
+      "diameter": 11.0,
+      "depth": 6
+    }
+  },
+  "endpoint_overlapping_volumes": {
+    "0": [],
+    "90": [],
+    "180": [],
+    "270": []
+  },
+  "sample_step_deg": 0.125,
+  "minimum_sample_clearance_mm": 1.5,
+  "closest_sample_deg_and_parts": [
+    0.0,
+    "DIRAK-moving-flat-2",
+    "Bracket-2"
+  ],
+  "continuous_clearance_lower_bound_mm": 0.953,
+  "scope": "Single left-door corner. Assumed rigid-axis leaf and fastener envelopes. No pegboard.",
+  "not_checked": [
+    "Actual hinge knuckles and mounting offset",
+    "Actual profile and T-nut engagement",
+    "Full cabinet frame, tolerances, strength and loaded cycle test"
+  ],
+  "release_for_machining": false
+}
