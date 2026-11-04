@@ -1,0 +1,163 @@
+{
+  "base": "cambusa-v18",
+  "original_axis_xy_mm": [
+    0,
+    -5
+  ],
+  "door_stile_x_range_mm": [
+    70.5,
+    110.5
+  ],
+  "nominal_hinge_center_z_mm": [
+    960,
+    1640
+  ],
+  "direct_catalog_holes_with_original_axis": {
+    "EMKA 1056-U18": [
+      {
+        "x_mm": 28,
+        "relative_z_mm": -15,
+        "center_on_stile": false
+      },
+      {
+        "x_mm": 28,
+        "relative_z_mm": 15,
+        "center_on_stile": false
+      }
+    ],
+    "DIRAK 218-9210.00-00000": [
+      {
+        "x_mm": 45,
+        "relative_z_mm": -18,
+        "center_on_stile": false
+      },
+      {
+        "x_mm": 45,
+        "relative_z_mm": 18,
+        "center_on_stile": false
+      }
+    ],
+    "DIRAK 267-9004.00-00000": [
+      {
+        "x_mm": 32,
+        "relative_z_mm": -25.5,
+        "center_on_stile": false
+      },
+      {
+        "x_mm": 32,
+        "relative_z_mm": 25.5,
+        "center_on_stile": false
+      },
+      {
+        "x_mm": 102,
+        "relative_z_mm": 0,
+        "center_on_stile": true
+      }
+    ]
+  },
+  "adapter_envelope_study": [
+    {
+      "axis_to_mounting_face_hypothesis_mm": 8,
+      "axis_xy_mm": [
+        -14,
+        -20.0
+      ],
+      "door_hole_x_mm": [
+        18,
+        88
+      ],
+      "frame_hole_y_mm": -1.0,
+      "nominal_modeled_profile_slot_y_mm": 15,
+      "frame_hole_to_slot_center_mm": 16.0,
+      "max_sample_step_deg": 0.125,
+      "collision_angles": [],
+      "minimum_sample_clearance_mm": 3.5,
+      "maximum_between_sample_displacement_mm": 0.56,
+      "continuous_clearance_bound_mm": 2.94,
+      "lower_bound_between_leaves_mm": 1.119
+    },
+    {
+      "axis_to_mounting_face_hypothesis_mm": 9.5,
+      "axis_xy_mm": [
+        -15.5,
+        -20.0
+      ],
+      "door_hole_x_mm": [
+        16.5,
+        86.5
+      ],
+      "frame_hole_y_mm": -1.0,
+      "nominal_modeled_profile_slot_y_mm": 15,
+      "frame_hole_to_slot_center_mm": 16.0,
+      "max_sample_step_deg": 0.125,
+      "collision_angles": [],
+      "minimum_sample_clearance_mm": 2.5,
+      "maximum_between_sample_displacement_mm": 0.562,
+      "continuous_clearance_bound_mm": 1.938,
+      "lower_bound_between_leaves_mm": 1.134
+    },
+    {
+      "axis_to_mounting_face_hypothesis_mm": 11,
+      "axis_xy_mm": [
+        -17,
+        -20.0
+      ],
+      "door_hole_x_mm": [
+        15,
+        85
+      ],
+      "frame_hole_y_mm": -1.0,
+      "nominal_modeled_profile_slot_y_mm": 15,
+      "frame_hole_to_slot_center_mm": 16.0,
+      "max_sample_step_deg": 0.125,
+      "collision_angles": [],
+      "minimum_sample_clearance_mm": 1.0,
+      "maximum_between_sample_displacement_mm": 0.563,
+      "continuous_clearance_bound_mm": 0.437,
+      "lower_bound_between_leaves_mm": 1.148
+    }
+  ],
+  "scope": "Projected door, adapters and flat leaf envelopes. Knuckle, screws and actual axis offset are excluded.",
+  "modeled_empty_door_without_hardware_kg": 7.68,
+  "modeled_empty_door_center_of_mass_mm": [
+    262.16,
+    34.37,
+    1289.54
+  ],
+  "static_load_cases": [
+    {
+      "door_storage_payload_kg": 0,
+      "door_and_payload_weight_n": 75.3,
+      "weight_moment_nm": 21.3,
+      "radial_reaction_from_weight_per_hinge_n": 31.3
+    },
+    {
+      "door_storage_payload_kg": 3,
+      "door_and_payload_weight_n": 104.8,
+      "weight_moment_nm": 35.7,
+      "radial_reaction_from_weight_per_hinge_n": 52.5
+    },
+    {
+      "door_storage_payload_kg": 6,
+      "door_and_payload_weight_n": 134.2,
+      "weight_moment_nm": 50.1,
+      "radial_reaction_from_weight_per_hinge_n": 73.6
+    }
+  ],
+  "extrusion_frame": {
+    "posts": 4,
+    "crossmembers": 11,
+    "crossmember_ends": 22,
+    "additional_shelf_angles": 8
+  },
+  "two_gauge_stock_study": {
+    "sheet_mm": [
+      1525,
+      1525
+    ],
+    "sheets_12_mm": 3,
+    "sheets_18_mm": 1,
+    "requires_back_and_lip_joinery_redesign": true
+  },
+  "manufacturing_ready": false
+}

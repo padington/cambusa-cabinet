@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 485" role="img">
+<title>Крепёж длинной петли DIRAK и стойка створки v18</title>
+<rect width="1120" height="485" fill="#f7f4ec"/>
+<g font-family="system-ui,sans-serif" fill="#23312d">
+<text x="32" y="45" font-size="25" font-weight="bold">DIRAK 267-9004 · где окажутся отверстия</text>
+<text x="32" y="76" font-size="16">Вид спереди при оси X = 0 мм · крепёж в стойку попадает только в одной точке</text>
+<rect x="95.0" y="119" width="234.0" height="252" rx="2" fill="#707d7d" opacity=".38"/>
+<text x="212.0" y="397" text-anchor="middle" font-size="17">Профиль</text>
+<rect x="336.79999999999995" y="119" width="280.8" height="252" rx="2" fill="#a69a82" opacity=".38"/>
+<text x="477.19999999999993" y="397" text-anchor="middle" font-size="17">Косяк</text>
+<rect x="644.9" y="119" width="312.0" height="252" rx="2" fill="#b78b63" opacity=".38"/>
+<text x="800.9" y="397" text-anchor="middle" font-size="17">Стойка створки</text>
+<line x1="95" y1="105" x2="95" y2="381" stroke="#23312d" stroke-width="2"/>
+<circle cx="344.6" cy="343.0" r="9" fill="#f7f4ec" stroke="#a44739" stroke-width="3"/>
+<text x="359.6" y="348.0" fill="#a44739" font-size="16">X = 32 мм</text>
+<circle cx="344.6" cy="139.0" r="9" fill="#f7f4ec" stroke="#a44739" stroke-width="3"/>
+<text x="359.6" y="144.0" fill="#a44739" font-size="16">X = 32 мм</text>
+<circle cx="890.6" cy="241" r="9" fill="#f7f4ec" stroke="#29755a" stroke-width="3"/>
+<text x="905.6" y="246" fill="#29755a" font-size="16">X = 102 мм</text>
+<text x="95" y="423" font-size="16">Ось</text>
+<text x="340" y="423" font-size="16">Оба ближних отверстия над неподвижным косяком</text>
+<text x="32" y="463" font-size="15">Размеры отверстий взяты из каталога DIRAK, границы дерева и профиля из закрытой модели v18.</text>
+</g></svg>

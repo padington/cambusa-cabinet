@@ -214,6 +214,12 @@
     ]
   },
   {
+    "url": "https://dirak.partcommunity.com/3d-cad-models/?catalog=dirak&part=267-9004.00-00000&partfixed=false",
+    "recorded_in": [
+      "outputs/hinge-frame-review/README.md"
+    ]
+  },
+  {
     "url": "https://ea.blum.com/en/opening-angle-stops-for-110-and-107-hinges/",
     "recorded_in": [
       "history/outputs/boltfree-cabinet-v03/READ-ME-RU.txt",
@@ -511,6 +517,12 @@
       "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
       "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
       "history/work/spb-printing-research.json"
+    ]
+  },
+  {
+    "url": "https://products.dirak.com/en/products/hinges/267-9004.00-00000-hinge/",
+    "recorded_in": [
+      "outputs/hinge-frame-review/README.md"
     ]
   },
   {
@@ -818,9 +830,22 @@
     ]
   },
   {
+    "url": "https://www.dirak.at/uploads/4aaYA9mc/DIRAKHingesc.pdf#page=27",
+    "recorded_in": [
+      "outputs/hinge-frame-review/README.md"
+    ]
+  },
+  {
     "url": "https://www.emka.com/products/1056-u18",
     "recorded_in": [
-      "outputs/cambusa-frame-v17/КОНСТРУКЦИЯ.md"
+      "outputs/cambusa-frame-v17/КОНСТРУКЦИЯ.md",
+      "outputs/hinge-frame-review/README.md"
+    ]
+  },
+  {
+    "url": "https://www.emka.com/web/image/product.image/95667/image_1024/Drawing%20Image%201?unique=90714aa",
+    "recorded_in": [
+      "outputs/hinge-frame-review/README.md"
     ]
   },
   {
@@ -1233,6 +1258,7 @@
       "outputs/cambusa-doors-v15/ПРОВЕРКА.json",
       "outputs/cambusa-doors-v15/ПРОЧИТАТЬ-СНАЧАЛА.md",
       "outputs/cambusa-frame-v16/ПРОВЕРКА.json",
+      "outputs/hinge-frame-review/README.md",
       "references/README.md"
     ]
   },
