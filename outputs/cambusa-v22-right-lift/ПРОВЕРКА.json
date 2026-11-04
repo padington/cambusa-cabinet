@@ -1,0 +1,41 @@
+{
+  "section_clear_height_mm": [
+    309,
+    309,
+    310
+  ],
+  "door_width_height_mm": [
+    448,
+    300
+  ],
+  "infill_thickness_mm": 6,
+  "pin_diameter_mm": 6,
+  "channel_width_mm": 7.3,
+  "channel_depth_mm": 6.5,
+  "channel_center_limits_from_top_edge_mm": [
+    16,
+    282
+  ],
+  "pivot_depth_from_cabinet_front_mm": 51,
+  "pivot_below_section_roof_mm": 22,
+  "slide_mm": 266,
+  "closed_tilt_from_vertical_deg": 6,
+  "projection_from_cabinet_front_raised_mm": 233,
+  "all_cabinet_endpoint_collisions": {
+    "closed": [],
+    "raised": [],
+    "stowed": []
+  },
+  "closest_sample_mm_by_compartment": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "body_clearance_bound_mm_by_compartment": [
+    0.251,
+    0.251,
+    0.251
+  ],
+  "left_door_continuous_clearance_bound_mm": 0.953,
+  "release_for_machining": false
+}
