@@ -1,0 +1,14 @@
+[
+  {
+    "id": "outside",
+    "sampled_positions": 42,
+    "major_panel_intersections": [],
+    "scope": "Sampled ideal movement only; actual fitting kinematics and strength not validated."
+  },
+  {
+    "id": "inside",
+    "sampled_positions": 42,
+    "major_panel_intersections": [],
+    "scope": "Sampled ideal movement only; actual fitting kinematics and strength not validated."
+  }
+]

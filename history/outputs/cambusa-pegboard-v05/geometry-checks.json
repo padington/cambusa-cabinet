@@ -1,0 +1,16 @@
+[
+  {
+    "id": "outside",
+    "closed_major_panel_intersections": [],
+    "invalid_meshes": [],
+    "holes": 189,
+    "note": "Appearance study. Exact hardware, installation, retention and strength have not been validated."
+  },
+  {
+    "id": "inside",
+    "closed_major_panel_intersections": [],
+    "invalid_meshes": [],
+    "holes": 189,
+    "note": "Appearance study. Exact hardware, installation, retention and strength have not been validated."
+  }
+]

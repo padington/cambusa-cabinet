@@ -1,0 +1,13 @@
+part,material,thickness_mm,x_mm,y_mm,z_mm
+frame-left,wood,18,18.0,349.05,870.0
+frame-right,wood,18,18.0,349.05,1200.0
+shelf-0,wood,18,952.0,230.0,18.0
+shelf-1,wood,18,952.0,230.0,18.0
+shelf-2,wood,18,952.0,230.0,18.0
+shelf-3,wood,18,373.0,230.0,18.0
+partition-0,wood,18,18.0,230.0,324.0
+partition-1,wood,18,18.0,230.0,324.0
+partition-2,wood,18,18.0,230.0,324.0
+back-panel,back,6,952.0,6.0,1022.0
+door-0,wood,18,548.0,18.0,300.0
+door-1,graphite,18,346.0,18.0,300.0

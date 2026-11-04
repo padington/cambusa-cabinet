@@ -1,0 +1,162 @@
+<div id="spherical-cabinet-sketches">
+  <div class="viz-row sc-dimensions"><span>Ширина 100 см</span><span class="text-small">Высота 120 · глубина 35 см</span></div>
+  <div class="viz-controls">
+    <label class="form-label">Ракурс
+      <select class="form-select" data-view>
+        <option value="perspective">Три четверти</option>
+        <option value="front">Спереди</option>
+        <option value="side">Сбоку</option>
+      </select>
+    </label>
+    <label class="form-label">Высота
+      <select class="form-select" data-height>
+        <option value="1200">120 см</option>
+        <option value="1500">150 см</option>
+        <option value="1800">180 см</option>
+      </select>
+    </label>
+  </div>
+  <div class="sc-variants">
+    <section aria-labelledby="sc-top-title">
+      <h3 id="sc-top-title">Верхняя ниша</h3>
+      <canvas data-model="top" role="img" aria-label="Скетч широкой фанерной тумбы: две нижние дверцы и две открытые ниши над ними. В узлах соединений выступают объёмные зелёные шары."></canvas>
+      <div class="text-small">Две дверцы · ниши сверху</div>
+    </section>
+    <section aria-labelledby="sc-side-title">
+      <h3 id="sc-side-title">Боковая колонна</h3>
+      <canvas data-model="side" role="img" aria-label="Скетч фанерной тумбы: слева закрытое отделение с двумя дверцами, справа высокая колонна из четырёх открытых ниш. Соединители шарообразные."></canvas>
+      <div class="text-small">Шкаф слева · полки справа</div>
+    </section>
+    <section aria-labelledby="sc-grid-title">
+      <h3 id="sc-grid-title">Чередование</h3>
+      <canvas data-model="grid" role="img" aria-label="Скетч модульной фанерной тумбы из шести ячеек: три открытые и три с дверцами, в шахматном порядке. На пересечениях панелей объёмные шарообразные соединители."></canvas>
+      <div class="text-small">Три открытых · три закрытых ячейки</div>
+    </section>
+  </div>
+  <div class="viz-row sc-footer"><span class="sc-sphere" aria-hidden="true"></span><span class="text-small">Шаровые узлы Ø64 мм · концепты компоновки</span></div>
+  <style>
+    #spherical-cabinet-sketches { --sc-wood:light-dark(#d8b98d,#c7a779); --sc-back:light-dark(#b69668,#a88b62); --sc-ball:light-dark(#38685c,#78aa98); --sc-gap:light-dark(#776246,#776347); }
+    #spherical-cabinet-sketches .sc-dimensions { justify-content:space-between; gap:8px; padding:0 0 12px; }
+    #spherical-cabinet-sketches .sc-variants { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; padding-top:12px; }
+    #spherical-cabinet-sketches section { min-width:0; }
+    #spherical-cabinet-sketches h3 { margin:0 0 4px; }
+    #spherical-cabinet-sketches canvas { display:block; width:100%; aspect-ratio:0.82; }
+    #spherical-cabinet-sketches .sc-footer { gap:8px; margin-top:22px; }
+    #spherical-cabinet-sketches .sc-sphere { width:22px; height:22px; border-radius:50%; background:radial-gradient(circle at 32% 27%,color-mix(in srgb,var(--sc-ball),var(--foreground) 18%),var(--sc-ball) 40%,color-mix(in srgb,var(--sc-ball),var(--foreground) 48%) 100%); }
+    @media(max-width:600px){#spherical-cabinet-sketches .sc-variants { grid-template-columns:1fr; gap:28px; }#spherical-cabinet-sketches canvas { aspect-ratio:1.1; max-height:470px; } }
+  </style>
+  <script>
+  (()=>{
+    const root=document.getElementById('spherical-cabinet-sketches');
+    const viewSelect=root.querySelector('[data-view]'),heightSelect=root.querySelector('[data-height]');
+    const dimLabel=root.querySelector('.sc-dimensions .text-small');
+    const state={view:'perspective',height:1200};
+    const renderers=[];
+    const probe=document.createElement('span');probe.hidden=true;root.append(probe);
+    const vec=(x,y,z)=>[x,y,z];
+    function color(name){probe.style.color='var('+name+')';const c=getComputedStyle(probe).color.match(/[\d.]+/g);return c?c.slice(0,3).map(x=>Number(x)/255):[.5,.5,.5];}
+    function box(v,n,c,s,x,y,z,w,d,h,col){
+      const a=[x-w/2,x+w/2],b=[y-d/2,y+d/2],e=[z-h/2,z+h/2];
+      const faces=[
+        [[a[0],b[0],e[0]],[a[0],b[0],e[1]],[a[0],b[1],e[1]],[a[0],b[1],e[0]],[-1,0,0]],
+        [[a[1],b[0],e[0]],[a[1],b[1],e[0]],[a[1],b[1],e[1]],[a[1],b[0],e[1]],[1,0,0]],
+        [[a[0],b[0],e[0]],[a[1],b[0],e[0]],[a[1],b[0],e[1]],[a[0],b[0],e[1]],[0,-1,0]],
+        [[a[0],b[1],e[0]],[a[0],b[1],e[1]],[a[1],b[1],e[1]],[a[1],b[1],e[0]],[0,1,0]],
+        [[a[0],b[0],e[0]],[a[0],b[1],e[0]],[a[1],b[1],e[0]],[a[1],b[0],e[0]],[0,0,-1]],
+        [[a[0],b[0],e[1]],[a[1],b[0],e[1]],[a[1],b[1],e[1]],[a[0],b[1],e[1]],[0,0,1]]
+      ];
+      for(const f of faces)for(const i of [0,1,2,0,2,3]){v.push(...f[i]);n.push(...f[4]);c.push(...col);s.push(0);}
+    }
+    function sphere(v,n,c,s,x,y,z,r,col){
+      const rows=14,cols=22;
+      const vertex=(i,j)=>{const p=Math.PI*i/rows,t=2*Math.PI*j/cols;return [Math.sin(p)*Math.cos(t),Math.sin(p)*Math.sin(t),Math.cos(p)];};
+      for(let i=0;i<rows;i++)for(let j=0;j<cols;j++){
+        const q=[vertex(i,j),vertex(i+1,j),vertex(i+1,j+1),vertex(i,j+1)];
+        for(const k of [0,1,2,0,2,3]){const p=q[k];v.push(x+r*p[0],y+r*p[1],z+r*p[2]);n.push(...p);c.push(...col);s.push(1);}
+      }
+    }
+    function build(kind,H){
+      const vertices=[],normals=[],colors=[],shines=[],r=32,t=15,D=350,W=1000,lo=r,hi=H-r,front=r,back=D-r;
+      const wood=color('--sc-wood'),backColor=color('--sc-back'),ball=color('--sc-ball'),gap=color('--sc-gap');
+      const cub=(x,y,z,w,d,h,col=wood)=>box(vertices,normals,colors,shines,x,y,z,w,d,h,col);
+      const node=(x,z)=>{for(const y of [front,back])sphere(vertices,normals,colors,shines,x,y,z,r,ball);};
+      const board=(x0,x1,z,y0=front,y1=back)=>cub((x0+x1)/2,(y0+y1)/2,z,x1-x0,y1-y0,t);
+      const upright=(x,z0=lo,z1=hi)=>cub(x,(front+back)/2,(z0+z1)/2,t,back-front,z1-z0+t);
+      const doors=(x0,x1,z0,z1)=>{
+        const a=x0+t/2+3,b=x1-t/2-3,lower=z0+r+5,upper=z1-r-5;
+        cub((a+b)/2,front+6,(lower+upper)/2,b-a,15,upper-lower);
+        // Shallow front rails leave the circular nodes visible at corners.
+        for(const band of [[z0+t/2,lower-2],[upper+2,z1-t/2]])cub((a+b)/2,front+6,(band[0]+band[1])/2,b-a,15,band[1]-band[0]);
+        // Recessed finger pull indicated as a small dark circular well.
+        sphere(vertices,normals,colors,shines,b-25,front-1,(lower+upper)/2,8,gap);
+      };
+      upright(r);upright(W-r);board(r+t/2,W-r-t/2,lo);board(r+t/2,W-r-t/2,hi);
+      cub(W/2,back+4,(lo+hi)/2,W-2*r+t,6,hi-lo+t,backColor);
+      if(kind==='top'){
+        const mid=500,split=H-330;upright(mid);board(r+t/2,W-r-t/2,split);
+        board(r+t/2,mid-t/2,(lo+split)/2,front+32);board(mid+t/2,W-r-t/2,(lo+split)/2,front+32);
+        doors(r,mid,lo,split);doors(mid,W-r,lo,split);
+        for(const x of [r,mid,W-r])for(const z of [lo,split,hi])node(x,z);
+      }else if(kind==='side'){
+        const split=620,inner=(r+split)/2;upright(split);upright(inner);
+        doors(r,inner,lo,hi);doors(inner,split,lo,hi);
+        for(const frac of [.25,.5,.75]){const z=lo+(hi-lo)*frac;board(split+t/2,W-r-t/2,z);node(split,z);node(W-r,z);}
+        board(r+t/2,inner-t/2,lo+(hi-lo)*.45,front+32);board(inner+t/2,split-t/2,lo+(hi-lo)*.45,front+32);
+        for(const x of [r,inner,split,W-r])for(const z of [lo,hi])node(x,z);
+      }else{
+        const mid=500,z1=lo+(hi-lo)/3,z2=lo+(hi-lo)*2/3;upright(mid);
+        for(const z of [z1,z2])board(r+t/2,W-r-t/2,z);
+        doors(r,mid,lo,z1);doors(mid,W-r,z1,z2);doors(r,mid,z2,hi);
+        for(const x of [r,mid,W-r])for(const z of [lo,z1,z2,hi])node(x,z);
+      }
+      return {vertices,normals,colors,shines};
+    }
+    function makeRenderer(canvas){
+      const gl=canvas.getContext('webgl',{alpha:true,antialias:true,preserveDrawingBuffer:true});
+      if(!gl){canvas.setAttribute('aria-label','3D-просмотр недоступен в этом браузере');return null;}
+      const compile=(type,src)=>{const sh=gl.createShader(type);gl.shaderSource(sh,src);gl.compileShader(sh);if(!gl.getShaderParameter(sh,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(sh));return sh;};
+      const program=gl.createProgram();
+      gl.attachShader(program,compile(gl.VERTEX_SHADER,`
+        attribute vec3 position;attribute vec3 normal;attribute vec3 color;attribute float shine;
+        uniform vec3 right;uniform vec3 up;uniform vec3 camera;uniform vec3 center;uniform vec3 scale;
+        varying vec3 vColor;varying vec3 vNormal;varying float vShine;
+        void main(){vec3 q=position-center;gl_Position=vec4(dot(q,right)*scale.x,dot(q,up)*scale.y,-dot(q,camera)*scale.z,1.0);vColor=color;vNormal=normal;vShine=shine;}
+      `));
+      gl.attachShader(program,compile(gl.FRAGMENT_SHADER,`
+        precision highp float;varying vec3 vColor;varying vec3 vNormal;varying float vShine;uniform vec3 camera;
+        void main(){vec3 n=normalize(vNormal);vec3 light=normalize(vec3(-0.6,-0.8,1.1));float diffuse=max(0.0,dot(n,light));vec3 halfV=normalize(light+camera);float spec=pow(max(0.0,dot(n,halfV)),36.0)*0.25*vShine;gl_FragColor=vec4(vColor*(0.40+0.62*diffuse)+vec3(spec),1.0);}
+      `));
+      gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(program));gl.useProgram(program);
+      gl.enable(gl.DEPTH_TEST);gl.clearColor(0,0,0,0);
+      const buffers={};for(const [name,width] of [['position',3],['normal',3],['color',3],['shine',1]]){const location=gl.getAttribLocation(program,name),buffer=gl.createBuffer();gl.enableVertexAttribArray(location);buffers[name]={location,buffer,width};}
+      const u={};for(const name of ['right','up','camera','center','scale'])u[name]=gl.getUniformLocation(program,name);
+      let count=0;
+      function rebuild(){
+        const mesh=build(canvas.dataset.model,state.height),attrs={position:mesh.vertices,normal:mesh.normals,color:mesh.colors,shine:mesh.shines};
+        for(const name in buffers){const b=buffers[name];gl.bindBuffer(gl.ARRAY_BUFFER,b.buffer);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(attrs[name]),gl.STATIC_DRAW);gl.vertexAttribPointer(b.location,b.width,gl.FLOAT,false,0,0);}
+        count=mesh.vertices.length/3;draw();
+      }
+      function draw(){
+        const w=canvas.clientWidth,h=canvas.clientHeight;if(!w||!h)return;
+        const dpr=Math.min(window.devicePixelRatio||1,2);canvas.width=Math.round(w*dpr);canvas.height=Math.round(h*dpr);gl.viewport(0,0,canvas.width,canvas.height);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);
+        const yaw=(state.view==='front'?0:state.view==='side'?72:25)*Math.PI/180,pitch=(state.view==='front'?0:12)*Math.PI/180;
+        const right=[Math.cos(yaw),Math.sin(yaw),0],up=[-Math.sin(yaw)*Math.sin(pitch),Math.cos(yaw)*Math.sin(pitch),Math.cos(pitch)],camera=[Math.sin(yaw)*Math.cos(pitch),-Math.cos(yaw)*Math.cos(pitch),Math.sin(pitch)];
+        const dot=(a,b)=>a[0]*b[0]+a[1]*b[1]+a[2]*b[2];let minX=Infinity,maxX=-Infinity,minY=Infinity,maxY=-Infinity;
+        for(const x of [0,1000])for(const y of [0,350])for(const z of [0,state.height]){const q=[x-500,y-175,z-state.height/2],a=dot(q,right),b=dot(q,up);minX=Math.min(minX,a);maxX=Math.max(maxX,a);minY=Math.min(minY,b);maxY=Math.max(maxY,b);}
+        const scale=Math.min((w-14)/(maxX-minX),(h-18)/(maxY-minY));
+        gl.uniform3fv(u.right,right);gl.uniform3fv(u.up,up);gl.uniform3fv(u.camera,camera);gl.uniform3fv(u.center,[500,175,state.height/2]);gl.uniform3fv(u.scale,[2*scale/w,2*scale/h,1/2200]);gl.drawArrays(gl.TRIANGLES,0,count);
+        canvas.dataset.rendered='true';canvas.dataset.vertices=String(count);
+      }
+      new ResizeObserver(draw).observe(canvas);return {rebuild,draw};
+    }
+    root.querySelectorAll('canvas').forEach(c=>{const r=makeRenderer(c);if(r)renderers.push(r);});
+    function refresh(rebuild=true){viewSelect.value=state.view;heightSelect.value=String(state.height);dimLabel.textContent='Высота '+state.height/10+' · глубина 35 см';renderers.forEach(r=>rebuild?r.rebuild():r.draw());}
+    function remember(){if(window.openai?.setWidgetState)window.openai.setWidgetState({modelContent:{widthCm:100,heightCm:state.height/10,depthCm:35,connectorShape:'sphere',variants:['Верхняя ниша','Боковая колонна','Чередование']},privateContent:{view:state.view}}).catch(()=>{});}
+    function restore(saved){if(!saved)return;const h=Number(saved.modelContent?.heightCm)*10;if([1200,1500,1800].includes(h))state.height=h;const v=saved.privateContent?.view;if(['front','side','perspective'].includes(v))state.view=v;refresh();}
+    viewSelect.addEventListener('change',()=>{state.view=viewSelect.value;refresh(false);remember();});heightSelect.addEventListener('change',()=>{state.height=Number(heightSelect.value);refresh();remember();});
+    new MutationObserver(()=>refresh()).observe(document.documentElement,{attributes:true,attributeFilter:['class','style','data-theme']});matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>refresh());
+    window.addEventListener('openai:set_globals',e=>{if(e.detail?.globals?.widgetState)restore(e.detail.globals.widgetState);});
+    refresh();restore(window.openai?.widgetState);
+  })();
+  </script>
+</div>

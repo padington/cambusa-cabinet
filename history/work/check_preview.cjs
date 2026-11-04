@@ -1,0 +1,23 @@
+const {chromium}=require('playwright');
+(async()=>{
+  const browser=await chromium.launch({headless:true});
+  const page=await browser.newPage({viewport:{width:800,height:780},deviceScaleFactor:1});
+  let errors=[];page.on('pageerror',e=>errors.push(String(e)));
+  await page.goto('file://./work/cabinet-preview.html');
+  const f=page.frameLocator('iframe');await f.locator('[data-rendered="true"]').waitFor();
+  await page.screenshot({path:'work/cabinet-closed.png',fullPage:true});
+  await f.locator('[data-door]').click();await page.waitForTimeout(600);
+  if(!(await f.locator('[data-status]').textContent()).includes('открыта'))throw Error('Door state did not update');
+  await page.screenshot({path:'work/cabinet-open.png',fullPage:true});
+  await f.locator('[data-view]').selectOption('L');
+  await page.screenshot({path:'work/connector-preview.png',fullPage:true});
+  await f.locator('[data-view]').selectOption('T');
+  await page.screenshot({path:'work/connector-t-preview.png',fullPage:true});
+  await page.setViewportSize({width:360,height:780});
+  await page.screenshot({path:'work/connector-mobile.png',fullPage:true});
+  const overflow=await f.locator('body').evaluate(e=>e.scrollWidth>e.clientWidth+1);
+  await f.locator('[data-view]').selectOption('cabinet');
+  await page.screenshot({path:'work/cabinet-mobile.png',fullPage:true});
+  console.log(JSON.stringify({errors,overflow,triangles:await f.locator('#round-cabinet-v1').getAttribute('data-triangles')}));
+  await browser.close();if(errors.length||overflow)process.exitCode=1;
+})().catch(e=>{console.error(e.message);process.exitCode=1;});

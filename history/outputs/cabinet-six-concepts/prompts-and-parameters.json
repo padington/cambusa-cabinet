@@ -1,0 +1,50 @@
+{
+  "tool": "Built-in ImageGen",
+  "status": "Six concept renderings, not production CAD or verified load-bearing designs.",
+  "requirements": {
+    "width_mm": 1000,
+    "height_mm": 1200,
+    "depth_mm": 350,
+    "finish": "Dark wood; desk photographs are form references only",
+    "assemblyGoal": "Tool-free assembly from prepared components",
+    "loadGoal": "Reserve for books, unverified"
+  },
+  "references": [
+    "/var/folders/dl/4phcx44j6ts069blpwfnmjj40000gn/T/IMAGE 2026-11-03 09:55:18.jpg",
+    "/var/folders/dl/4phcx44j6ts069blpwfnmjj40000gn/T/IMAGE 2026-11-03 09:55:21.jpg",
+    "./outputs/sloped-cabinet-concept-v01.png"
+  ],
+  "commonPrompt": "Use case: product-mockup. Generate ONE furniture concept image, one cabinet only, a large clear front-right three-quarter catalog view, square composition, comfortable small margins, same physical scale, warm pale gray seamless studio backdrop and floor, soft daylight and realistic contact shadows. This is one of SIX GENUINELY DIFFERENT DESIGN ALTERNATIVES, not a recolor: obey the specific silhouette and storage arrangement below. The cabinet is for a user who owns a DARK WOOD desk and likes inclined slim wooden supports. Image 1 and Image 2 are FORM REFERENCES ONLY from THE IDEA desk photographs: borrow the sloping front supports, straight narrow frame members, light mid-century proportions and restrained softened or bevelled edges. DO NOT copy white, gray or yellow paint from these screenshots. Ignore phone interface, text, branding and background objects. Image 3 is a prior cabinet CONCEPT REFERENCE for spherical connectors and wood craft only; do not automatically copy its six-cell layout or broad full-height side slabs.\nCommon constraints: intended maximum width 1000 mm, height 1200 mm INCLUDING feet, depth 350 mm. All natural wood faces should have the SAME rich dark brown oak-like grain, matte finish, neither pale birch nor orange honey wood. Visible plywood laminations on selected edges; intended plywood thickness around 18 mm. Graphite hardware is understated. Wooden inclined/splayed supports, no wheels, no metal legs, no spherical feet. Smooth genuinely SPHERICAL slotted graphite printed connector nodes around 55-65 mm at a few genuine shelf/partition/frame intersections, recessed or partly masked by wooden frame so they do not dominate; no decorative ball knobs. The design is intended for later tool-free assembly from prepared flat panels with hand-tightened hidden metal fasteners and clip-on doors; use plausible flat panels and accessible joints, no floating unsupported modules, no impossible cantilevers. It is a visual study only, not a verified engineering design, so do not claim load ratings. Provide closed storage with doors AND useful open book niches. A few muted hardback books in open compartments for scale; no plants, lamps or ornamental props. Restrained corner radii, crisp bevels; no bulbous bent-plywood shell. No room scene, no actual desk, no logos, no watermark. Use exactly the single Russian concept title specified below at the top, clean small sans-serif text, and the small common footer '1000 × 1200 × 350 мм'. No other text or diagrams. Render the entire cabinet and feet, no clipping.",
+  "variants": [
+    {
+      "id": "01-portal",
+      "title": "1 · Портал",
+      "spec": "DISTINCT DESIGN 1, title exactly '1 · Портал'. A calm SYMMETRICAL two-tier cabinet. Its main lower storage body, approximately 650 mm high, has TWO LARGE SIDE-HINGED DARK WOOD DOORS side by side with discreet recessed finger pulls near the center seam. Above these doors is one broad OPEN DISPLAY NICHE about 330 mm high, divided into TWO equal open book bays by one slender upright. No other open niches, no checkerboard doors, no drawers. Outer silhouette is a complete quiet rectangular cabinet body elevated about 150 mm on FOUR SLIM SPLAYED WOODEN FEET. Separate narrow leaning front stiles/frame members echo the reference desk and continue into the front feet. The closed lower mass dominates; top open niche is a strong horizontal band. A restrained dark graphite rear panel in the upper niche may contrast subtly with the dark wood. Main impression: monolithic closed body, clear upper niche, easy visual order."
+    },
+    {
+      "id": "02-vertical",
+      "title": "2 · Вертикаль",
+      "spec": "DISTINCT DESIGN 2, title exactly '2 · Вертикаль'. A strongly ASYMMETRIC cabinet with TWO VERTICAL ZONES. LEFT: a NARROW CLOSED FULL-HEIGHT STORAGE TOWER approximately 330 mm wide, its entire front one tall solid DARK WOOD hinged door, clean integrated finger recess. RIGHT: an OPEN BOOKSHELF approximately 670 mm wide with THREE LARGE OPEN BAYS stacked vertically, horizontal shelves and one small offset rear support for book-load plausibility. There are NO doors on the right and no upper niche across the left tower. Both zones reach the same overall height; top aligned. Airy open ladder-like inclined side frame visible on the right, solid narrow volume on the left, four short splayed wooden feet. Side frame should be made of slim straight members rather than full broad side slabs. Main impression: one dark vertical spine alongside a much wider light-through shelf gallery; not a two-door lower cabinet."
+    },
+    {
+      "id": "03-offset",
+      "title": "3 · Смещённые ячейки",
+      "spec": "DISTINCT DESIGN 3, title exactly '3 · Смещённые ячейки'. A rectangular cabinet with THREE HORIZONTAL LEVELS and SIX ASYMMETRIC RECTANGULAR COMPARTMENTS. Vertical dividers must SHIFT HORIZONTALLY at each level: bottom division at 60% of width, middle division at 35%, top division at 70%. Absolutely no continuous center upright. EXACTLY TWO CLOSED DOORS: wide bottom-left door is matte graphite, narrow top-right door is DARK WOOD; all FOUR other compartments are open book niches, partially open-backed. Short integral sloping feet and narrow outer side frame with softly rounded upper ends. The true form reference is the staggered compartment rhythm of Riva PASSWORD, adapted into the sloped wooden-frame language of the desk. Main impression: offset rectangular voids and an irregular facade composition; retain a complete rectangular outer envelope."
+    },
+    {
+      "id": "04-step",
+      "title": "4 · Ступень",
+      "spec": "DISTINCT DESIGN 4, title exactly '4 · Ступень'. A CLEARLY STEPPED SILHOUETTE, not a rectangular cabinet. FIVE SEPARATE COMPLETE DARK WOOD BOX MODULES on a low common sloping-foot wooden base. LEFT stack about 600 mm wide has TWO box modules and ends at roughly 850 mm total height. RIGHT stack about 400 mm wide has THREE modules and ends at 1200 mm total height. Upper-left region is EMPTY AIR with NO board, frame, shelf, arch or enclosing top spanning it. Show separate box boundaries with doubled plywood seams and small shadow gaps. Exactly TWO doors: bottom-left wide module has a dark wood door; middle-right module has a matte graphite door; other THREE modules are open. Recessed spherical connectors visibly tie real module corners, not decorative dots. Inspired by the independent stackable volumes of Riva FREEDOM. Slim inclined wooden feet/base relate to the desk. Main impression: sculpture from individual boxes, left lower and right taller."
+    },
+    {
+      "id": "05-ladder",
+      "title": "5 · Лестница",
+      "spec": "DISTINCT DESIGN 5, title exactly '5 · Лестница'. An OPEN LADDER-FRAME COMPOSITION with a LOW CLOSED STORAGE BOX and TWO OPEN SHELF LEVELS ABOVE IT. The lower box spans the whole width, sits about 150 mm above floor, is approximately 350 mm tall and has TWO OVERLAPPING SLIDING DARK WOOD FRONT PANELS with shallow finger recesses in prepared grooves. Above it, two dark wooden shelf planes step back with height: intermediate shelf roughly 300 mm deep, top shelf 250 mm, lower box 350 mm. The shelves sit between SLIM FULL-HEIGHT INCLINED SIDE LADDER FRAMES, echoing the user's desk supports. There are NO solid full-height side walls, NO complete outer rectangular box, NO upper cabinet doors. Use a couple of offset broad vertical book-support partitions between shelf planes to make book support plausible while preserving open ends and strong horizontal lines. Main impression: airy shelves above one low closed box, strong backward rake in side view, horizontal shelf overhangs modest and believable."
+    },
+    {
+      "id": "06-gallery",
+      "title": "6 · Центральная ниша",
+      "spec": "DISTINCT DESIGN 6, title exactly '6 · Центральная ниша'. A THREE-COLUMN cabinet, substantially different from a two-column grid. A narrow FULL-HEIGHT CLOSED DARK WOOD DOOR WING approximately 280 mm wide at LEFT, another identical closed door wing at RIGHT, and a CENTRAL OPEN VERTICAL NICHE about 440 mm wide between them. The central niche contains TWO shelves making THREE OPEN BOOK BAYS. Both tall door wings are closed, wood-grained, handleless except subtle inner-edge finger recesses. A slightly recessed matte graphite back wall in the central niche emphasizes the light-through slot. Overall outer silhouette clean and rectangular above four slim splayed feet; subtly inclined narrow side frame echoes the reference desk. No other open niches, no drawers, no horizontal all-width open band. Main impression: two calm closed vertical wings framing a central book gallery, restrained and architectural."
+    }
+  ]
+}

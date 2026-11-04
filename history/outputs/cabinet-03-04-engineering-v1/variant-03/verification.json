@@ -1,0 +1,2309 @@
+{
+  "static": {
+    "total_parts": 144,
+    "all_watertight": true,
+    "pairs_checked": 10296,
+    "exact_boolean_pairs": 256,
+    "unintended_overlaps": []
+  },
+  "motion": {
+    "sequence": [
+      {
+        "step": "1. Base on protected flat surface",
+        "moving": [
+          "shelf-0",
+          "frame-fastener-left-l0-y130-barrel",
+          "frame-fastener-left-l0-y280-barrel",
+          "frame-fastener-right-l0-y130-barrel",
+          "frame-fastener-right-l0-y280-barrel"
+        ],
+        "samples": 1,
+        "sample_positions_mm": [
+          0.0
+        ],
+        "travel_mm": 0,
+        "collisions": []
+      },
+      {
+        "step": "2. Lower partition into bottom dado",
+        "moving": [
+          "partition-0"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "3. Lower following shelf onto partition",
+        "moving": [
+          "shelf-1",
+          "frame-fastener-left-l1-y130-barrel",
+          "frame-fastener-left-l1-y280-barrel",
+          "frame-fastener-right-l1-y130-barrel",
+          "frame-fastener-right-l1-y280-barrel"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "4. Lower partition into bottom dado",
+        "moving": [
+          "partition-1"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "5. Lower following shelf onto partition",
+        "moving": [
+          "shelf-2",
+          "frame-fastener-left-l2-y130-barrel",
+          "frame-fastener-left-l2-y280-barrel",
+          "frame-fastener-right-l2-y130-barrel",
+          "frame-fastener-right-l2-y280-barrel"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "6. Lower partition into bottom dado",
+        "moving": [
+          "partition-2"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "7. Lower following shelf onto partition",
+        "moving": [
+          "shelf-3",
+          "frame-fastener-left-l3-y130-barrel",
+          "frame-fastener-left-l3-y280-barrel",
+          "frame-fastener-right-l3-y130-barrel",
+          "frame-fastener-right-l3-y280-barrel"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "8. Left frame slides over shelf ends",
+        "moving": [
+          "frame-left"
+        ],
+        "samples": 24,
+        "sample_positions_mm": [
+          1100,
+          800,
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 1100,
+        "collisions": []
+      },
+      {
+        "step": "9. Right frame slides over shelf ends",
+        "moving": [
+          "frame-right"
+        ],
+        "samples": 24,
+        "sample_positions_mm": [
+          1100,
+          800,
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 1100,
+        "collisions": []
+      },
+      {
+        "step": "10. Insert and hand-turn side fastener",
+        "moving": [
+          "frame-fastener-left-l0-y130-stud",
+          "frame-fastener-left-l0-y130-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "10. Insert and hand-turn side fastener",
+        "moving": [
+          "frame-fastener-left-l0-y280-stud",
+          "frame-fastener-left-l0-y280-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "10. Insert and hand-turn side fastener",
+        "moving": [
+          "frame-fastener-right-l0-y130-stud",
+          "frame-fastener-right-l0-y130-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "10. Insert and hand-turn side fastener",
+        "moving": [
+          "frame-fastener-right-l0-y280-stud",
+          "frame-fastener-right-l0-y280-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "10. Insert and hand-turn side fastener",
+        "moving": [
+          "frame-fastener-left-l1-y130-stud",
+          "frame-fastener-left-l1-y130-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "10. Insert and hand-turn side fastener",
+        "moving": [
+          "frame-fastener-left-l1-y280-stud",
+          "frame-fastener-left-l1-y280-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "10. Insert and hand-turn side fastener",
+        "moving": [
+          "frame-fastener-right-l1-y130-stud",
+          "frame-fastener-right-l1-y130-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "10. Insert and hand-turn side fastener",
+        "moving": [
+          "frame-fastener-right-l1-y280-stud",
+          "frame-fastener-right-l1-y280-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "10. Insert and hand-turn side fastener",
+        "moving": [
+          "frame-fastener-left-l2-y130-stud",
+          "frame-fastener-left-l2-y130-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "10. Insert and hand-turn side fastener",
+        "moving": [
+          "frame-fastener-left-l2-y280-stud",
+          "frame-fastener-left-l2-y280-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "10. Insert and hand-turn side fastener",
+        "moving": [
+          "frame-fastener-right-l2-y130-stud",
+          "frame-fastener-right-l2-y130-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "10. Insert and hand-turn side fastener",
+        "moving": [
+          "frame-fastener-right-l2-y280-stud",
+          "frame-fastener-right-l2-y280-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "10. Insert and hand-turn side fastener",
+        "moving": [
+          "frame-fastener-left-l3-y130-stud",
+          "frame-fastener-left-l3-y130-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "10. Insert and hand-turn side fastener",
+        "moving": [
+          "frame-fastener-left-l3-y280-stud",
+          "frame-fastener-left-l3-y280-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "10. Insert and hand-turn side fastener",
+        "moving": [
+          "frame-fastener-right-l3-y130-stud",
+          "frame-fastener-right-l3-y130-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "10. Insert and hand-turn side fastener",
+        "moving": [
+          "frame-fastener-right-l3-y280-stud",
+          "frame-fastener-right-l3-y280-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "11. Slide spherical node with prefit nuts onto panel edges",
+        "moving": [
+          "node-x600-l0-front",
+          "node-x600-l0-front-0-nut",
+          "node-x600-l0-front-1-nut"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x600-l0-front-0-stud",
+          "node-x600-l0-front-0-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x600-l0-front-1-stud",
+          "node-x600-l0-front-1-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "11. Slide spherical node with prefit nuts onto panel edges",
+        "moving": [
+          "node-x600-l1-front",
+          "node-x600-l1-front-0-nut",
+          "node-x600-l1-front-1-nut"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x600-l1-front-0-stud",
+          "node-x600-l1-front-0-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x600-l1-front-1-stud",
+          "node-x600-l1-front-1-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "11. Slide spherical node with prefit nuts onto panel edges",
+        "moving": [
+          "node-x350-l1-front",
+          "node-x350-l1-front-0-nut",
+          "node-x350-l1-front-1-nut"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x350-l1-front-0-stud",
+          "node-x350-l1-front-0-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x350-l1-front-1-stud",
+          "node-x350-l1-front-1-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "11. Slide spherical node with prefit nuts onto panel edges",
+        "moving": [
+          "node-x350-l2-front",
+          "node-x350-l2-front-0-nut",
+          "node-x350-l2-front-1-nut"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x350-l2-front-0-stud",
+          "node-x350-l2-front-0-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x350-l2-front-1-stud",
+          "node-x350-l2-front-1-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "11. Slide spherical node with prefit nuts onto panel edges",
+        "moving": [
+          "node-x700-l2-front",
+          "node-x700-l2-front-0-nut",
+          "node-x700-l2-front-1-nut"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x700-l2-front-0-stud",
+          "node-x700-l2-front-0-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x700-l2-front-1-stud",
+          "node-x700-l2-front-1-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "11. Slide spherical node with prefit nuts onto panel edges",
+        "moving": [
+          "node-x700-l3-front",
+          "node-x700-l3-front-0-nut",
+          "node-x700-l3-front-1-nut"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x700-l3-front-0-stud",
+          "node-x700-l3-front-0-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x700-l3-front-1-stud",
+          "node-x700-l3-front-1-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "11. Slide spherical node with prefit nuts onto panel edges",
+        "moving": [
+          "node-x600-l0-rear",
+          "node-x600-l0-rear-0-nut",
+          "node-x600-l0-rear-1-nut"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x600-l0-rear-0-stud",
+          "node-x600-l0-rear-0-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x600-l0-rear-1-stud",
+          "node-x600-l0-rear-1-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "11. Slide spherical node with prefit nuts onto panel edges",
+        "moving": [
+          "node-x600-l1-rear",
+          "node-x600-l1-rear-0-nut",
+          "node-x600-l1-rear-1-nut"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x600-l1-rear-0-stud",
+          "node-x600-l1-rear-0-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x600-l1-rear-1-stud",
+          "node-x600-l1-rear-1-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "11. Slide spherical node with prefit nuts onto panel edges",
+        "moving": [
+          "node-x350-l1-rear",
+          "node-x350-l1-rear-0-nut",
+          "node-x350-l1-rear-1-nut"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x350-l1-rear-0-stud",
+          "node-x350-l1-rear-0-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x350-l1-rear-1-stud",
+          "node-x350-l1-rear-1-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "11. Slide spherical node with prefit nuts onto panel edges",
+        "moving": [
+          "node-x350-l2-rear",
+          "node-x350-l2-rear-0-nut",
+          "node-x350-l2-rear-1-nut"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x350-l2-rear-0-stud",
+          "node-x350-l2-rear-0-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x350-l2-rear-1-stud",
+          "node-x350-l2-rear-1-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "11. Slide spherical node with prefit nuts onto panel edges",
+        "moving": [
+          "node-x700-l2-rear",
+          "node-x700-l2-rear-0-nut",
+          "node-x700-l2-rear-1-nut"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x700-l2-rear-0-stud",
+          "node-x700-l2-rear-0-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x700-l2-rear-1-stud",
+          "node-x700-l2-rear-1-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "11. Slide spherical node with prefit nuts onto panel edges",
+        "moving": [
+          "node-x700-l3-rear",
+          "node-x700-l3-rear-0-nut",
+          "node-x700-l3-rear-1-nut"
+        ],
+        "samples": 22,
+        "sample_positions_mm": [
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 400,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x700-l3-rear-0-stud",
+          "node-x700-l3-rear-0-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "12. Insert and hand-turn node fastener",
+        "moving": [
+          "node-x700-l3-rear-1-stud",
+          "node-x700-l3-rear-1-knob"
+        ],
+        "samples": 20,
+        "sample_positions_mm": [
+          80,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 80,
+        "collisions": []
+      },
+      {
+        "step": "13. Slide back down through open-top side grooves",
+        "moving": [
+          "back-panel"
+        ],
+        "samples": 24,
+        "sample_positions_mm": [
+          1250,
+          800,
+          400,
+          200,
+          100,
+          60,
+          40,
+          30,
+          20,
+          15,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "travel_mm": 1250,
+        "collisions": []
+      }
+    ],
+    "door_sweeps": [
+      {
+        "door": "door-0",
+        "angle_range_deg": [
+          0,
+          110
+        ],
+        "samples": 23,
+        "collisions": [],
+        "scope": "ideal pivot only; exact supplier hinge linkage and adjustment NOT validated"
+      },
+      {
+        "door": "door-1",
+        "angle_range_deg": [
+          0,
+          110
+        ],
+        "samples": 23,
+        "collisions": [],
+        "scope": "ideal pivot only; exact supplier hinge linkage and adjustment NOT validated"
+      }
+    ],
+    "finger_access": [
+      {
+        "knob": "node-x600-l0-front-0-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x600-l0-front-0-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x600-l0-front-1-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x600-l0-front-1-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x600-l0-rear-0-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x600-l0-rear-0-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x600-l0-rear-1-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x600-l0-rear-1-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x600-l1-front-0-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x600-l1-front-0-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x600-l1-front-1-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x600-l1-front-1-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x600-l1-rear-0-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x600-l1-rear-0-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x600-l1-rear-1-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x600-l1-rear-1-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x350-l1-front-0-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x350-l1-front-0-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x350-l1-front-1-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x350-l1-front-1-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x350-l1-rear-0-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x350-l1-rear-0-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x350-l1-rear-1-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x350-l1-rear-1-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x350-l2-front-0-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x350-l2-front-0-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x350-l2-front-1-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x350-l2-front-1-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x350-l2-rear-0-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x350-l2-rear-0-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x350-l2-rear-1-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x350-l2-rear-1-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x700-l2-front-0-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x700-l2-front-0-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x700-l2-front-1-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x700-l2-front-1-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x700-l2-rear-0-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x700-l2-rear-0-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x700-l2-rear-1-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x700-l2-rear-1-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x700-l3-front-0-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x700-l3-front-0-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x700-l3-front-1-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x700-l3-front-1-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x700-l3-rear-0-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x700-l3-rear-0-knob",
+        "pad": 1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x700-l3-rear-1-knob",
+        "pad": -1,
+        "collisions": []
+      },
+      {
+        "knob": "node-x700-l3-rear-1-knob",
+        "pad": 1,
+        "collisions": []
+      }
+    ],
+    "scope": "Discrete positions, dense within final 10 mm of travel. Collision-free samples do not constitute continuous-motion, ergonomic or physical validation. Exact commercial hinge and back-panel retention hardware pending."
+  }
+}

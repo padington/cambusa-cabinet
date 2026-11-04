@@ -1,0 +1,35 @@
+[
+  {
+    "file": "round-l-15mm-gap03.stl",
+    "watertight": true,
+    "components": 1,
+    "bounds_mm": [
+      56.0,
+      56.0,
+      28.0
+    ],
+    "volume_cm3": 48.64
+  },
+  {
+    "file": "round-t-15mm-gap03.stl",
+    "watertight": true,
+    "components": 1,
+    "bounds_mm": [
+      56.0,
+      56.0,
+      28.0
+    ],
+    "volume_cm3": 41.3
+  },
+  {
+    "file": "fit-test-015-030-045.stl",
+    "watertight": true,
+    "components": 1,
+    "bounds_mm": [
+      95.0,
+      26.0,
+      10.0
+    ],
+    "volume_cm3": 15.15
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "reviewed_date": "2026-11-03",
+  "category": "https://www.riva1920.it/ru/produkty/mebel-dlya-dnevnoj-zony/knizhnye-shkafy",
+  "method": "Read official category, visually inspected all 17 catalog cards by scrolling, then opened four product pages and inspected their official descriptions and main product photographs.",
+  "catalog_cards": ["AQUA BOOKSHELF","PARENTESI","A-BOOK","BIBLIO","BOOKSHELF","BRIE","CRAZY","FINESSE","FREEDOM","MODULA","PASSWORD","PIANO DESIGN BOOKSHELF","PILLAR","SAN PIETROBURGO","STEP BY STEP","TORRE LIGNEA","WALLSTREET"],
+  "detailed_review": [
+    {"slug":"freedom","description":"Stackable modular boxes joined with dedicated fittings; solid wood thickness 1.5 cm; optional backs, doors and drawers; can form a room divider.","visual":"Different rectangular box sizes in a stepped composition, visible wood and open backs.","transfer":"Individual plywood compartments, some closed, united by spherical printed nodes. Riva construction and material do not establish performance of our adaptation."},
+    {"slug":"password","description":"Asymmetric modular sides and shelves, optional backs, flap doors and drawers, optional double-sided composition.","visual":"Light wood rectangular outer silhouette, varied compartments and scattered dark closed fronts.","transfer":"Primary inspiration for an asymmetric open/closed cabinet, using two columns and three levels as a practical starting composition."},
+    {"slug":"bookshelf","description":"David Chipperfield, 2010. Shelves with different depths and asymmetrically positioned dividers; third shelf may function as a desktop. Veneered multilayer version available on request.","visual":"Strong horizontal shelves with projecting ends and staggered broad upright panels.","transfer":"Emphasize shelf planes and offset dividers; avoid implying a validated cantilever or load capacity."},
+    {"slug":"aqua-bookshelf","description":"LCM MARIN Design Studio, 2026. Solid wood and plywood, turned cylindrical uprights, open horizontal modules, metal details on upright ends.","visual":"Open plywood/wood boxes supported between round vertical posts, with gaps between box levels.","transfer":"Round structural elements and visually separate boxes; spherical nodes are our own construction proposal, not a Riva feature."}
+  ],
+  "design_status":"Reference research only. Existing sketches and CAD files have not been modified. Current envelope remains W1000 H1200 D350 mm, plywood 15 mm; height not newly confirmed."
+}

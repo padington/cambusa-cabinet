@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-03",
+  "current_version": "cambusa-v08",
+  "dimensions_mm": {
+    "width": 1000,
+    "height": 1800,
+    "depth": 500
+  },
+  "casters": false,
+  "user_confirmed": [
+    "Cambusa Fly as design direction",
+    "180 cm overall height",
+    "key or screwdriver permitted",
+    "user assembles separate prepared parts",
+    "full right-side pegboard",
+    "dark wood finish",
+    "preserve proportions of the reference",
+    "remove all wheels"
+  ],
+  "layout_for_review": {
+    "body_height_mm": 1000,
+    "base_height_mm": 800,
+    "doors": 2,
+    "door_trays": 6,
+    "internal_drawers": 2
+  },
+  "proportion_note": "1000 + 800 is our proposed division for the 1000 x 1800 cabinet, not a verified factory dimension of Riva1920.",
+  "not_production_released": true
+}

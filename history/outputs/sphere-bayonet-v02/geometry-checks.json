@@ -1,0 +1,59 @@
+{
+  "status": "geometry prototype only; no strength or physical operation validation",
+  "units": "mm",
+  "sphere_diameter_mm": 90.0,
+  "plywood_thickness_mm": 18,
+  "shaft_diameter_mm": 6,
+  "key_push_to_unlock_mm": 0.8,
+  "parts": {
+    "body": {
+      "watertight": true,
+      "components": 1,
+      "volume_cm3": 251.669
+    },
+    "key": {
+      "watertight": true,
+      "components": 1,
+      "volume_cm3": 3.17
+    },
+    "shelf": {
+      "watertight": true,
+      "components": 1,
+      "volume_cm3": 409.862
+    },
+    "divider": {
+      "watertight": true,
+      "components": 1,
+      "volume_cm3": 293.289
+    }
+  },
+  "assembled_intersections": [],
+  "movement_tests": {
+    "body_insertion": {
+      "samples": 17,
+      "collisions": []
+    },
+    "key_insertion": {
+      "samples": 15,
+      "collisions": []
+    },
+    "quarter_turn_while_pressed": {
+      "samples": 46,
+      "collisions": []
+    },
+    "settle_into_j_pockets": {
+      "samples": 9,
+      "collisions": []
+    }
+  },
+  "negative_tests": {
+    "withdraw_key_without_unlock_mm3": 4.6268,
+    "rotate_key_without_pressing_30deg_mm3": 3.2896,
+    "divider_withdraw_4mm_key_overlap_mm3": 17.2006,
+    "shelf_withdraw_4mm_key_overlap_mm3": 32.9334
+  },
+  "backlash_screening_mm": {
+    "divider_first_key_obstruction": 0.7,
+    "shelf_first_key_obstruction": 0.5
+  }
+}

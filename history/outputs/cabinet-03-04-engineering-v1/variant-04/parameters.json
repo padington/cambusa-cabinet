@@ -1,0 +1,25 @@
+{
+  "width_mm": 1000,
+  "height_mm": 1200,
+  "depth_mm": 350,
+  "plywood_mm": 18,
+  "back_mm": 6,
+  "shelf_depth_mm": 230,
+  "node_diameter_mm": 72,
+  "levels_mm": [
+    170.0,
+    500.0,
+    830.0,
+    1160.0
+  ],
+  "divider_positions_mm": [
+    600.0,
+    600.0,
+    600.0
+  ],
+  "node_count": 8,
+  "frame_bolts": 14,
+  "spherical_node_bolts": 20,
+  "door_hinges": "Supplier CLIP inset hinges, preinstalled; exact linkage pending",
+  "status": "engineering study / NOT a fabrication release"
+}

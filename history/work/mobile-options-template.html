@@ -1,0 +1,67 @@
+<div id="mobile-cabinet-v04">
+  <div class="viz-controls">
+    <label class="form-label">Вариант
+      <select class="form-select" id="mc-variant">
+        <option value="clean">Скошенный корпус</option>
+        <option value="aluminium">Тонкий алюминий</option>
+        <option value="wedge">Рамы и плоские клинья</option>
+      </select>
+    </label>
+    <label class="form-label" for="mc-open">Дверцы <span id="mc-open-value">0°</span>
+      <input class="form-range" id="mc-open" type="range" min="0" max="90" value="0">
+    </label>
+    <label class="form-label" for="mc-rotate">Поворот <span id="mc-rotate-value">27°</span>
+      <input class="form-range" id="mc-rotate" type="range" min="-180" max="180" value="27">
+    </label>
+    <label class="form-check"><input class="form-check-input" type="checkbox" id="mc-explode"><span class="form-check-label">Разнести детали</span></label>
+  </div>
+  <div class="mc-stage"><canvas id="mc-canvas" role="img" aria-label="Вращаемая трёхмерная модель тумбы с колёсами, дверцами и нишами">Три варианта тумбы: фанерный корпус, алюминиевый каркас и фанерные рамы с клиньями.</canvas></div>
+  <div class="viz-row text-small"><span>1000 × 1200 × 350 мм · высота с колёсами</span><span>Перетаскивай для вращения</span></div>
+  <div class="text-small" id="mc-detail" aria-live="polite"></div>
+</div>
+<style>
+#mobile-cabinet-v04 .mc-stage{width:100%;height:540px;touch-action:none}
+#mobile-cabinet-v04 canvas{width:100%;height:100%;display:block;cursor:grab}
+#mobile-cabinet-v04 canvas:active{cursor:grabbing}
+#mobile-cabinet-v04 .viz-row{justify-content:space-between}
+@media(max-width:500px){#mobile-cabinet-v04 .mc-stage{height:430px}}
+</style>
+<script type="application/json" id="mc-data">__MODEL_DATA__</script>
+<script>
+(()=>{
+const root=document.getElementById('mobile-cabinet-v04');
+const data=JSON.parse(document.getElementById('mc-data').textContent);
+const canvas=root.querySelector('#mc-canvas'),ctx=canvas.getContext('2d');
+const choice=root.querySelector('#mc-variant'),opened=root.querySelector('#mc-open'),rotation=root.querySelector('#mc-rotate'),explode=root.querySelector('#mc-explode');
+let state={variant:'clean',yaw:27,pitch:14,open:0,explode:false},drag=null;
+const rad=Math.PI/180,light=[-.39,-.56,.73];
+for(const m of data.models)for(const p of m.parts){p.normals=p.f.map(f=>{const a=p.v[f[0]],b=p.v[f[1]],c=p.v[f[2]],u=b.map((v,i)=>v-a[i]),v=c.map((v,i)=>v-a[i]);const n=[u[1]*v[2]-u[2]*v[1],u[2]*v[0]-u[0]*v[2],u[0]*v[1]-u[1]*v[0]],s=Math.hypot(...n)||1;return n.map(v=>v/s)});}
+function save(){if(window.openai?.setWidgetState)window.openai.setWidgetState({modelContent:{variant:state.variant,doors_degrees:state.open},privateContent:{yaw:state.yaw,pitch:state.pitch,explode:state.explode}}).catch(()=>{});}
+function restore(saved){const m=saved?.modelContent||{},p=saved?.privateContent||{};if(data.models.some(v=>v.id===m.variant))state.variant=m.variant;if(Number.isFinite(m.doors_degrees))state.open=Math.max(0,Math.min(90,m.doors_degrees));if(Number.isFinite(p.yaw))state.yaw=p.yaw;if(Number.isFinite(p.pitch))state.pitch=p.pitch;if(typeof p.explode==='boolean')state.explode=p.explode;sync();draw();}
+function sync(){choice.value=state.variant;opened.value=state.open;rotation.value=state.yaw;explode.checked=state.explode;root.querySelector('#mc-open-value').textContent=Math.round(state.open)+'°';root.querySelector('#mc-rotate-value').textContent=Math.round(state.yaw)+'°';root.querySelector('#mc-detail').textContent=data.models.find(m=>m.id===state.variant).detail;}
+function draw(){
+  const w=canvas.clientWidth,h=canvas.clientHeight,dpr=Math.min(window.devicePixelRatio||1,2);if(!w||!h)return;
+  canvas.width=Math.round(w*dpr);canvas.height=Math.round(h*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,w,h);
+  const y=state.yaw*rad,p=state.pitch*rad,R=[Math.cos(y),Math.sin(y),0],U=[-Math.sin(y)*Math.sin(p),Math.cos(y)*Math.sin(p),Math.cos(p)],C=[Math.sin(y)*Math.cos(p),-Math.cos(y)*Math.cos(p),Math.sin(p)];
+  const dot=(a,b)=>a[0]*b[0]+a[1]*b[1]+a[2]*b[2];const triangles=[];let minx=Infinity,maxx=-Infinity,miny=Infinity,maxy=-Infinity;
+  const model=data.models.find(m=>m.id===state.variant);
+  for(const part of model.parts){
+    const angle=part.group==='door'?part.sign*state.open*rad:0,cs=Math.cos(angle),sn=Math.sin(angle),off=[0,0,0];
+    if(state.explode){if(part.name==='frame-left')off[0]=-135;else if(part.name==='frame-right')off[0]=135;else if(part.group==='back')off[1]=145;else if(part.group==='door')off[1]=-150;else if(part.group==='wheel')off[2]=-70;else if(part.group==='key')off[0]=part.v[0][0]<500?-155:155;else if(part.group==='profile')off[0]=part.v[0][0]<500?-70:70;}
+    const vv=part.v.map(a=>{let b=a.slice();if(angle){const x=b[0]-part.pivot[0],yy=b[1]-part.pivot[1];b[0]=part.pivot[0]+cs*x-sn*yy;b[1]=part.pivot[1]+sn*x+cs*yy;}b=b.map((v,i)=>v+off[i]-[500,175,600][i]);const sx=dot(b,R),sy=-dot(b,U),z=dot(b,C);minx=Math.min(minx,sx);maxx=Math.max(maxx,sx);miny=Math.min(miny,sy);maxy=Math.max(maxy,sy);return[sx,sy,z];});
+    for(let i=0;i<part.f.length;i++){let n=part.normals[i];if(angle)n=[cs*n[0]-sn*n[1],sn*n[0]+cs*n[1],n[2]];if(dot(n,C)<-.01)continue;const f=part.f[i],a=vv[f[0]],b=vv[f[1]],c=vv[f[2]],color=data.colors[part.material],shade=(.53+.65*Math.max(0,dot(n,light)))*(part.edge[i]?1.21:1);triangles.push({points:[a,b,c],z:(a[2]+b[2]+c[2])/3,color:'rgb('+color.slice(0,3).map(c=>Math.min(255,Math.round(c*shade))).join(',')+')'});}
+  }
+  const scale=Math.min((w-22)/(maxx-minx),(h-20)/(maxy-miny)),cx=(minx+maxx)/2,cy=(miny+maxy)/2;
+  triangles.sort((a,b)=>a.z-b.z);for(const t of triangles){ctx.beginPath();for(let i=0;i<3;i++){const a=t.points[i],x=(a[0]-cx)*scale+w/2,y=(a[1]-cy)*scale+h/2;if(i===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);}ctx.closePath();ctx.fillStyle=t.color;ctx.fill();}
+}
+choice.addEventListener('change',()=>{state.variant=choice.value;sync();draw();save();});
+opened.addEventListener('input',()=>{state.open=+opened.value;sync();draw();});opened.addEventListener('change',save);
+rotation.addEventListener('input',()=>{state.yaw=+rotation.value;sync();draw();});rotation.addEventListener('change',save);
+explode.addEventListener('change',()=>{state.explode=explode.checked;draw();save();});
+canvas.addEventListener('pointerdown',e=>{drag=[e.clientX,e.clientY,state.yaw,state.pitch];canvas.setPointerCapture(e.pointerId);});
+canvas.addEventListener('pointermove',e=>{if(!drag)return;state.yaw=((drag[2]+(e.clientX-drag[0])*.45+540)%360)-180;state.pitch=Math.max(-12,Math.min(65,drag[3]+(e.clientY-drag[1])*.25));sync();draw();});
+canvas.addEventListener('pointerup',()=>{drag=null;save();});canvas.addEventListener('pointercancel',()=>{drag=null;});
+new ResizeObserver(draw).observe(canvas);window.addEventListener('openai:set_globals',e=>{if(e.detail?.globals?.widgetState)restore(e.detail.globals.widgetState);});
+restore(window.openai?.widgetState);sync();draw();
+})();
+</script>

@@ -1,0 +1,18 @@
+{
+  "status": "CONCEPT ONLY — NOT FOR CUTTING OR PURCHASE",
+  "dimensions_mm": [
+    1000,
+    1800,
+    500
+  ],
+  "parts": 125,
+  "plywood_blanks": 50,
+  "base_profile_blanks": 12,
+  "profile_metres": 5.416,
+  "pegboard_holes": 270,
+  "invalid_meshes": [],
+  "static_major_intersections": [],
+  "sampled_door_intersections": [],
+  "sampled_drawer_intersections": [],
+  "scope": "Ideal fixed-axis rotations and straight drawer motion only. Actual hinges, attachments, assembly access, strength and stability are not validated."
+}

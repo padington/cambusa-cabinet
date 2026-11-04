@@ -1,0 +1,70 @@
+{
+  "checked_date": "2026-11-03",
+  "scope": "Shortlist for CNC-machined plywood parts of a tool-free assembly cabinet in Saint Petersburg. No contact or order placed.",
+  "requirements": ["birch plywood 18 mm", "6 mm plywood back", "sloped and rounded 2D outlines", "blind dados 6 mm deep", "through holes and hinge bores", "two-sided operations where required", "small order about 12 parts", "optional sanding and dark finish"],
+  "common_unconfirmed": ["acceptance of this exact order and final CAD", "two-sided machining and registration tolerances", "actual plywood thickness and fit coupon", "6 mm deep dados in 18 mm plywood to final width", "sanding and dark stain/clear coat of exposed plywood edges", "preinstallation and adjustment of door hardware"],
+  "vendors": [
+    {
+      "name": "Лекс Мебель",
+      "priority": 1,
+      "address": "Санкт-Петербург, Михайловский переулок, 7А, литера В",
+      "phone": "+7 911 145-28-59",
+      "email": "info@lf-spb.ru",
+      "urls": ["https://raspil78.ru/frezerovka/fanera/", "https://raspil78.ru/prisadka/", "https://raspil78.ru/raspil/pazy/", "https://raspil78.ru/klientam/"],
+      "confirmed": ["CNC plywood milling and complex contours", "published 18 mm and 6 mm plywood rates", "through and blind furniture fixing holes, 5/8/10 mm", "35 mm hinge boring", "grooves of variable width/depth and angled sawing up to 45 degrees", "purchase of material by vendor is possible"],
+      "published_price": {"min_order_rub": 2000, "plywood18_cut_rub_per_m": 95, "plywood6_cut_rub_per_m": 54, "hinge_bore_rub_each": 75, "hole5_rub_each": 21, "note": "Not a quotation for our cabinet; material, pockets, two-sided operations, finish must be priced separately."},
+      "formats": ["Базис-Мебельщик", "CorelDraw for curved cutting", "additional PDF drawings for facade milling", "Excel for cutting/edging without drilling only"],
+      "small_order": "Published minimum 2000 rubles; exact acceptance of a 12-part furniture order not confirmed directly.",
+      "lead_time": "Site states 2–10 working days after model, payment and all materials, plus 3 working days material supply if purchased by vendor.",
+      "fit_assessment": "Best first candidate for ready-to-assemble furniture parts due to explicit furniture holes, hinge bores and grooves. Hardware is not supplied as a set according to client instructions page. DXF acceptance is not confirmed."
+    },
+    {
+      "name": "Звено",
+      "priority": 2,
+      "address": "Санкт-Петербург, ул. Расстанная, 27, литера Д, территория ЭМЗ; office number differs on site and should be checked before visit",
+      "phone": "+7 812 986-74-04",
+      "email": "9867404@mail.ru",
+      "urls": ["https://zveno-web.ru/frezerovka/frezerovka-fanery/", "https://zveno-web.ru/raspil-ldsp/pazy-i-chetverti/", "https://zveno-web.ru/kontakty/"],
+      "confirmed": ["own furniture-part production and CNC machining centre", "curved plywood parts including furniture parts", "CNC curved/radius outlines and drilling", "grooves wider than 4 mm, stopped grooves, shaped grooves and deeper grooves are routed", "plywood materials catalogue exists"],
+      "published_price": {"min_order_rub": null, "note": "No sufficiently specific 18 mm plywood milling price or minimum verified in reviewed pages; quote from drawing."},
+      "formats": ["dimensioned drawing sufficient for quotation; named machine-ready format not verified"],
+      "small_order": "Site's standard scheduling range begins at 1–10 sheets; single cabinet acceptance requires confirmation.",
+      "fit_assessment": "Strong alternative to Lex for complete prepared furniture parts; exact 18/6 mm material availability and specific tolerances not verified."
+    },
+    {
+      "name": "Вырежем",
+      "priority": 3,
+      "address": "Санкт-Петербург, Екатерининский проспект, 21 — office and collection; exact executing workshop not confirmed",
+      "phone": "+7 921 418-73-91",
+      "email": "zakaz@vyrezhem.com",
+      "urls": ["https://vyrezhem.com/frezernaya-rezka/", "https://vyrezhem.com/zayavka/", "https://vyrezhem.com/rezka-fanery-po-chertezhu/", "https://vyrezhem.com/partneram/"],
+      "confirmed": ["plywood furniture and shelf parts 12–21 mm", "cutting with holes and grooves", "birch FK plywood supply with published 18 mm and 6 mm rates", "orders from one part", "1:1 millimetre closed contours; dogbone relief discussed for internal corners"],
+      "published_price": {"min_order_rub": 500, "plywood18_cut_rub_per_m": 68, "plywood6_cut_rub_per_m": 32, "entry_rub_each": 3, "plywood18_rub_per_m2": 1010, "plywood6_rub_per_m2": 300, "note": "Site prices dated October 2026; separate rate for pockets, material quality/sort and full cabinet quote required."},
+      "formats": ["DXF", "DWG", "SVG", "CDR", "AI", "PDF; image/sketch accepted for review/conversion"],
+      "small_order": "Explicitly from one part; minimum 500 rubles.",
+      "finish": "Painting/assembly offered for discussion only, not guaranteed for this order.",
+      "fit_assessment": "Convenient low-minimum trial/coupon option. Partner recruitment page indicates partner workshop network; do not describe as confirmed all-in-house execution. Blind depth and two-sided processing need confirmation."
+    },
+    {
+      "name": "Spline",
+      "priority": 4,
+      "address": "Санкт-Петербург, ул. Комсомола, 1–3",
+      "phone": "+7 964 330-20-30; +7 812 649-79-75",
+      "email": "info@spline-spb.ru; spline-spb@mail.ru for file quotation",
+      "urls": ["https://spline-spb.ru/service/frezerovka-fanery/", "https://spline-spb.ru/service/frezerovka-mebeli/"],
+      "confirmed": ["CNC plywood machining", "material can be provided by vendor", "furniture machining and holes", "explicit reference to one-off small orders", "vector artwork required"],
+      "published_price": {"min_order_rub": 1500, "plywood15_18_cut_retail_rub_per_m": 91, "plywood4_6_cut_retail_rub_per_m": 40.88, "note": "Page says listed linear rates apply to medium/large volumes; price of a small cabinet to be confirmed from file."},
+      "formats": ["vector artwork; named DXF/STEP format not verified"],
+      "small_order": "Explicit reference to one-off small orders; minimum 1500 rubles.",
+      "fit_assessment": "Useful reserve for shaped plywood parts; exact blind dados, two-sided process and finishing are not confirmed."
+    }
+  ],
+  "extra_candidate": {
+    "name": "Стар-Принт",
+    "url": "https://starprintspb.ru/services/raskroj-listovyh-materialov/",
+    "address": "СПб, Тихорецкий проспект, 4",
+    "confirmed": ["plywood CNC 18–40 mm at published 40 rubles/m", "DXF/DWG/CDR/AI/EPS, STL/STEP/IGES for 3D", "choice of pocket depth and through-hole layers", "customer-supplied material and no minimum volume for that material"],
+    "uncertainty": "Minimum charge not verified; two-sided work/finish not verified. Page has differing conversion price statements (from 1000 rubles vs from 500 per part), so do not quote preparation price as fixed."
+  },
+  "recommended_next_step": "Send the same final drawings to Lex and Zveno for complete part preparation, and compare a trial joint/coupon at Vyrezhem. Request itemized material, contour milling, pockets by depth/side, holes, sanding/finish, hardware preinstallation, packaging and delivery. No messages sent."
+}

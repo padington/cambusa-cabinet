@@ -1,0 +1,77 @@
+<div id="cambusa-pegboard-v05">
+  <div class="viz-controls">
+    <label class="form-label">Вариант
+      <select class="form-select" id="mc-variant">
+        <option value="inside">Ящики за дверцей</option>
+        <option value="outside">Ящики снаружи</option>
+      </select>
+    </label>
+    <label class="form-label" for="mc-open">Дверцы <span id="mc-open-value">100°</span>
+      <input class="form-range" id="mc-open" type="range" min="0" max="110" value="100">
+    </label>
+    <label class="form-label">Ящик
+      <select class="form-select" id="mc-drawer"><option value="1">Верхний</option><option value="0">Нижний</option></select>
+    </label>
+    <label class="form-label" for="mc-pull">Выдвижение <span id="mc-pull-value">180 мм</span>
+      <input class="form-range" id="mc-pull" type="range" min="0" max="280" value="180">
+    </label>
+    <label class="form-label" for="mc-rotate">Поворот <span id="mc-rotate-value">42°</span>
+      <input class="form-range" id="mc-rotate" type="range" min="-180" max="180" value="42">
+    </label>
+    <label class="form-check"><input class="form-check-input" type="checkbox" id="mc-accessories" checked><span class="form-check-label">Навесная полка и крючки</span></label>
+  </div>
+  <div class="mc-stage"><canvas class="cursor-interaction" id="mc-canvas" role="img" aria-label="Вращаемая трёхмерная модель тумбы с полной перфорированной боковиной, ящиками и колёсами">Два варианта расположения ящиков: внутренние и наружные. Слева дверца с двумя лотками, сверху открытые полки, справа сплошная перфорированная панель.</canvas></div>
+  <div class="viz-row text-small"><span>Корпус 100 × 120 × 50 см · высота с колёсами</span><span>Перетаскивай для вращения</span></div>
+  <div class="text-small" id="mc-detail" aria-live="polite"></div>
+</div>
+<style>
+#cambusa-pegboard-v05 .mc-stage{width:100%;height:550px;touch-action:none}
+#cambusa-pegboard-v05 canvas{width:100%;height:100%;display:block;cursor:grab}
+#cambusa-pegboard-v05 canvas:active{cursor:grabbing}
+#cambusa-pegboard-v05 .viz-row{justify-content:space-between}
+@media(max-width:500px){#cambusa-pegboard-v05 .mc-stage{height:440px}}
+</style>
+<script type="application/json" id="mc-data">__MODEL_DATA__</script>
+<script>
+(()=>{
+const root=document.getElementById('cambusa-pegboard-v05');
+const data=JSON.parse(document.getElementById('mc-data').textContent);
+for(const m of data.models)m.parts=[...data.shared,...m.parts];
+const canvas=root.querySelector('#mc-canvas'),ctx=canvas.getContext('2d');
+const choice=root.querySelector('#mc-variant'),opened=root.querySelector('#mc-open'),rotation=root.querySelector('#mc-rotate'),accessories=root.querySelector('#mc-accessories'),drawer=root.querySelector('#mc-drawer'),pull=root.querySelector('#mc-pull');
+let state={variant:'inside',yaw:42,pitch:17,open:100,pull:180,drawer:1,accessories:true},drag=null;
+const rad=Math.PI/180,light=[-.39,-.56,.73];
+for(const m of data.models)for(const p of m.parts){p.normals=p.f.map(f=>{const a=p.v[f[0]],b=p.v[f[1]],c=p.v[f[2]],u=b.map((v,i)=>v-a[i]),v=c.map((v,i)=>v-a[i]);const n=[u[1]*v[2]-u[2]*v[1],u[2]*v[0]-u[0]*v[2],u[0]*v[1]-u[1]*v[0]],s=Math.hypot(...n)||1;return n.map(v=>v/s)});}
+function save(){if(window.openai?.setWidgetState)window.openai.setWidgetState({modelContent:{variant:state.variant,doors_degrees:state.open,drawer:state.drawer,drawer_extension_mm:state.pull,depth_cm:50},privateContent:{yaw:state.yaw,pitch:state.pitch,accessories:state.accessories}}).catch(()=>{});}
+function restore(saved){const m=saved?.modelContent||{},p=saved?.privateContent||{};if(data.models.some(v=>v.id===m.variant))state.variant=m.variant;if(Number.isFinite(m.doors_degrees))state.open=Math.max(0,Math.min(110,m.doors_degrees));if(Number.isFinite(m.drawer_extension_mm))state.pull=Math.max(0,Math.min(280,m.drawer_extension_mm));if(m.drawer===0||m.drawer===1)state.drawer=m.drawer;if(Number.isFinite(p.yaw))state.yaw=p.yaw;if(Number.isFinite(p.pitch))state.pitch=p.pitch;if(typeof p.accessories==='boolean')state.accessories=p.accessories;guard();sync();draw();}
+function guard(){if(state.variant==='inside'&&state.pull>0)state.open=Math.max(95,state.open);}
+function sync(){choice.value=state.variant;opened.value=state.open;rotation.value=state.yaw;drawer.value=state.drawer;pull.value=state.pull;accessories.checked=state.accessories;root.querySelector('#mc-open-value').textContent=Math.round(state.open)+'°';root.querySelector('#mc-pull-value').textContent=Math.round(state.pull)+' мм';root.querySelector('#mc-rotate-value').textContent=Math.round(state.yaw)+'°';root.querySelector('#mc-detail').textContent=data.models.find(m=>m.id===state.variant).detail;}
+function draw(){
+  const w=canvas.clientWidth,h=canvas.clientHeight,dpr=Math.min(window.devicePixelRatio||1,2);if(!w||!h)return;
+  canvas.width=Math.round(w*dpr);canvas.height=Math.round(h*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,w,h);
+  const y=state.yaw*rad,p=state.pitch*rad,R=[Math.cos(y),Math.sin(y),0],U=[-Math.sin(y)*Math.sin(p),Math.cos(y)*Math.sin(p),Math.cos(p)],C=[Math.sin(y)*Math.cos(p),-Math.cos(y)*Math.cos(p),Math.sin(p)];
+  const dot=(a,b)=>a[0]*b[0]+a[1]*b[1]+a[2]*b[2];const triangles=[];let minx=Infinity,maxx=-Infinity,miny=Infinity,maxy=-Infinity;
+  const model=data.models.find(m=>m.id===state.variant);
+  for(const part of model.parts){
+    if(part.group==='accessory'&&!state.accessories)continue;
+    const angle=part.group==='door'?part.sign*state.open*rad:0,cs=Math.cos(angle),sn=Math.sin(angle),off=[0,0,0];
+    if(part.group==='drawer'&&part.drawer_id===state.drawer)off[1]=-state.pull;
+    const vv=part.v.map(a=>{let b=a.slice();if(angle){const x=b[0]-part.pivot[0],yy=b[1]-part.pivot[1];b[0]=part.pivot[0]+cs*x-sn*yy;b[1]=part.pivot[1]+sn*x+cs*yy;}b=b.map((v,i)=>v+off[i]-[500,250,600][i]);const sx=dot(b,R),sy=-dot(b,U),z=dot(b,C);minx=Math.min(minx,sx);maxx=Math.max(maxx,sx);miny=Math.min(miny,sy);maxy=Math.max(maxy,sy);return[sx,sy,z];});
+    for(let i=0;i<part.f.length;i++){let n=part.normals[i];if(angle)n=[cs*n[0]-sn*n[1],sn*n[0]+cs*n[1],n[2]];if(dot(n,C)<-.01)continue;const f=part.f[i],a=vv[f[0]],b=vv[f[1]],c=vv[f[2]],color=data.colors[part.material],shade=(.53+.65*Math.max(0,dot(n,light)))*(part.edge[i]?1.21:1);triangles.push({points:[a,b,c],z:(a[2]+b[2]+c[2])/3,color:'rgb('+color.slice(0,3).map(c=>Math.min(255,Math.round(c*shade))).join(',')+')'});}
+  }
+  const scale=Math.min((w-22)/(maxx-minx),(h-20)/(maxy-miny)),cx=(minx+maxx)/2,cy=(miny+maxy)/2;
+  triangles.sort((a,b)=>a.z-b.z);for(const t of triangles){ctx.beginPath();for(let i=0;i<3;i++){const a=t.points[i],x=(a[0]-cx)*scale+w/2,y=(a[1]-cy)*scale+h/2;if(i===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);}ctx.closePath();ctx.fillStyle=t.color;ctx.fill();}
+}
+choice.addEventListener('change',()=>{state.variant=choice.value;guard();sync();draw();save();});
+opened.addEventListener('input',()=>{state.open=+opened.value;if(state.variant==='inside'&&state.open<95)state.pull=0;sync();draw();});opened.addEventListener('change',save);
+drawer.addEventListener('change',()=>{state.drawer=+drawer.value;sync();draw();save();});
+pull.addEventListener('input',()=>{state.pull=+pull.value;guard();sync();draw();});pull.addEventListener('change',save);
+rotation.addEventListener('input',()=>{state.yaw=+rotation.value;sync();draw();});rotation.addEventListener('change',save);
+accessories.addEventListener('change',()=>{state.accessories=accessories.checked;draw();save();});
+canvas.addEventListener('pointerdown',e=>{drag=[e.clientX,e.clientY,state.yaw,state.pitch];canvas.setPointerCapture(e.pointerId);});
+canvas.addEventListener('pointermove',e=>{if(!drag)return;state.yaw=((drag[2]+(e.clientX-drag[0])*.45+540)%360)-180;state.pitch=Math.max(-12,Math.min(65,drag[3]+(e.clientY-drag[1])*.25));sync();draw();});
+canvas.addEventListener('pointerup',()=>{drag=null;save();});canvas.addEventListener('pointercancel',()=>{drag=null;});
+new ResizeObserver(draw).observe(canvas);window.addEventListener('openai:set_globals',e=>{if(e.detail?.globals?.widgetState)restore(e.detail.globals.widgetState);});
+restore(window.openai?.widgetState);sync();draw();
+})();
+</script>

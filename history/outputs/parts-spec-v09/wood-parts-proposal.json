@@ -1,0 +1,482 @@
+[
+  {
+    "id": "B00-bottom",
+    "thickness_mm": 18.0,
+    "blank_w_mm": 1000.0,
+    "blank_h_mm": 468.0,
+    "quantity": 1,
+    "group": "body",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": "Предложено сократить глубину на 12 мм под накладной задник."
+  },
+  {
+    "id": "B01-top",
+    "thickness_mm": 18.0,
+    "blank_w_mm": 1000.0,
+    "blank_h_mm": 468.0,
+    "quantity": 1,
+    "group": "body",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": "Предложено сократить глубину на 12 мм под накладной задник."
+  },
+  {
+    "id": "B02-left-side",
+    "thickness_mm": 18.0,
+    "blank_w_mm": 468.0,
+    "blank_h_mm": 964.0,
+    "quantity": 1,
+    "group": "body",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": "Предложено сократить глубину на 12 мм под накладной задник; отверстия задней колонки проверить."
+  },
+  {
+    "id": "B03-right-pegboard",
+    "thickness_mm": 18.0,
+    "blank_w_mm": 468.0,
+    "blank_h_mm": 964.0,
+    "quantity": 1,
+    "group": "pegboard",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": "Предложено сократить глубину на 12 мм под накладной задник; отверстия задней колонки проверить."
+  },
+  {
+    "id": "B04-back",
+    "thickness_mm": 12.0,
+    "blank_w_mm": 1000.0,
+    "blank_h_mm": 1000.0,
+    "quantity": 1,
+    "group": "back",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": "Предложен накладной задник: можно прикрутить снаружи в торцы корпуса, сохраняя общую глубину 500 мм."
+  },
+  {
+    "id": "B05-divider",
+    "thickness_mm": 18.0,
+    "blank_w_mm": 384.0,
+    "blank_h_mm": 964.0,
+    "quantity": 1,
+    "group": "body",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "B10-left-shelf",
+    "thickness_mm": 18.0,
+    "blank_w_mm": 473.0,
+    "blank_h_mm": 384.0,
+    "quantity": 1,
+    "group": "body",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "B11-left-shelf",
+    "thickness_mm": 18.0,
+    "blank_w_mm": 473.0,
+    "blank_h_mm": 384.0,
+    "quantity": 1,
+    "group": "body",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "B20-right-shelf",
+    "thickness_mm": 18.0,
+    "blank_w_mm": 473.0,
+    "blank_h_mm": 384.0,
+    "quantity": 1,
+    "group": "body",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "B21-right-shelf",
+    "thickness_mm": 18.0,
+    "blank_w_mm": 473.0,
+    "blank_h_mm": 384.0,
+    "quantity": 1,
+    "group": "body",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "B30-door",
+    "thickness_mm": 18.0,
+    "blank_w_mm": 496.0,
+    "blank_h_mm": 992.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T00-bottom",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 404.0,
+    "blank_h_mm": 65.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T00-lip",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 404.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T00-left",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 56.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T00-right",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 56.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T01-bottom",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 404.0,
+    "blank_h_mm": 65.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T01-lip",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 404.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T01-left",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 56.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T01-right",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 56.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T02-bottom",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 404.0,
+    "blank_h_mm": 65.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T02-lip",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 404.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T02-left",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 56.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T02-right",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 56.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "B31-door",
+    "thickness_mm": 18.0,
+    "blank_w_mm": 496.0,
+    "blank_h_mm": 992.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T10-bottom",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 404.0,
+    "blank_h_mm": 65.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T10-lip",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 404.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T10-left",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 56.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T10-right",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 56.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T11-bottom",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 404.0,
+    "blank_h_mm": 65.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T11-lip",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 404.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T11-left",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 56.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T11-right",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 56.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T12-bottom",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 404.0,
+    "blank_h_mm": 65.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T12-lip",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 404.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T12-left",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 56.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "T12-right",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 56.0,
+    "blank_h_mm": 40.0,
+    "quantity": 1,
+    "group": "door",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "D0-left",
+    "thickness_mm": 12.0,
+    "blank_w_mm": 340.0,
+    "blank_h_mm": 110.0,
+    "quantity": 1,
+    "group": "drawer",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "D0-right",
+    "thickness_mm": 12.0,
+    "blank_w_mm": 340.0,
+    "blank_h_mm": 110.0,
+    "quantity": 1,
+    "group": "drawer",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "D0-front",
+    "thickness_mm": 12.0,
+    "blank_w_mm": 431.0,
+    "blank_h_mm": 110.0,
+    "quantity": 1,
+    "group": "drawer",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "D0-rear",
+    "thickness_mm": 12.0,
+    "blank_w_mm": 431.0,
+    "blank_h_mm": 110.0,
+    "quantity": 1,
+    "group": "drawer",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "D0-bottom",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 437.0,
+    "blank_h_mm": 322.0,
+    "quantity": 1,
+    "group": "drawer",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": "Размер при пазах глубиной 3 мм: (431+6) × (340-24+6). Дно в пазах, ниже дна оставить 13 мм до нижней кромки стенок; уточнить детали под Blum."
+  },
+  {
+    "id": "D0-face",
+    "thickness_mm": 12.0,
+    "blank_w_mm": 465.0,
+    "blank_h_mm": 142.0,
+    "quantity": 1,
+    "group": "drawer",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "D1-left",
+    "thickness_mm": 12.0,
+    "blank_w_mm": 340.0,
+    "blank_h_mm": 110.0,
+    "quantity": 1,
+    "group": "drawer",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "D1-right",
+    "thickness_mm": 12.0,
+    "blank_w_mm": 340.0,
+    "blank_h_mm": 110.0,
+    "quantity": 1,
+    "group": "drawer",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "D1-front",
+    "thickness_mm": 12.0,
+    "blank_w_mm": 431.0,
+    "blank_h_mm": 110.0,
+    "quantity": 1,
+    "group": "drawer",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "D1-rear",
+    "thickness_mm": 12.0,
+    "blank_w_mm": 431.0,
+    "blank_h_mm": 110.0,
+    "quantity": 1,
+    "group": "drawer",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  },
+  {
+    "id": "D1-bottom",
+    "thickness_mm": 9.0,
+    "blank_w_mm": 437.0,
+    "blank_h_mm": 322.0,
+    "quantity": 1,
+    "group": "drawer",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": "Размер при пазах глубиной 3 мм: (431+6) × (340-24+6). Дно в пазах, ниже дна оставить 13 мм до нижней кромки стенок; уточнить детали под Blum."
+  },
+  {
+    "id": "D1-face",
+    "thickness_mm": 12.0,
+    "blank_w_mm": 465.0,
+    "blank_h_mm": 142.0,
+    "quantity": 1,
+    "group": "drawer",
+    "status": "ПРЕДЛОЖЕНИЕ ДЛЯ РАСЧЁТА; НЕ РЕЗАТЬ ДО ПРИСАДКИ",
+    "change_from_v08": null
+  }
+]

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ящик v13 — 3D и размерные привязки</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font:15px system-ui,sans-serif;color:#26382d;background:#f3f4f0}header{padding:18px 24px;background:#24382b;color:#fff}h1{font-size:21px;margin:0 0 6px}header p{margin:0;font-size:13px}main{display:grid;grid-template-columns:315px 1fr;min-height:710px}aside{padding:20px;background:#fff}label{display:block;margin:14px 0 6px;font-weight:600}select,button{width:100%;padding:9px;font:inherit;border:1px solid #aab8ad;border-radius:5px;background:white}button{margin:8px 0;cursor:pointer}input[type=checkbox]{width:auto}.check{font-weight:400;display:flex;align-items:center;gap:8px}#stage{position:relative;min-height:710px;touch-action:none}canvas{position:absolute;width:100%;height:100%;display:block}#labels{pointer-events:none}#hint{position:absolute;bottom:16px;left:20px;font-size:12px;background:#ffffffe8;padding:8px;border-radius:4px}#detail{font-size:13px;line-height:1.65;padding:12px 0;min-height:190px}dl{margin:4px 0}dt{color:#596d5e}dd{margin:0 0 6px;font-weight:600}footer{padding:14px 24px;background:#f0dfbd;font-size:13px;line-height:1.6}.good{color:#315d3e}.links{margin-top:12px;font-size:13px;line-height:1.8}a{color:#236282}@media(max-width:760px){main{display:flex;flex-direction:column}aside{padding:14px}#stage{height:560px;min-height:560px}#detail{min-height:0}}
+</style>
+<header><h1>Ящик v13: отверстие в детали и его отступы</h1><p>Контрольный узел • 455 × 340 × 110 мм • не для изготовления • геометрия соответствует размерным листам</p></header>
+<main><aside>
+<label for="part">Деталь</label><select id="part"></select>
+<label for="feature">Операция</label><select id="feature"></select>
+<label class="check"><input id="isolate" type="checkbox" checked>Показать выбранную деталь отдельно</label>
+<label class="check"><input id="explode" type="checkbox">Разнести детали</label>
+<label class="check"><input id="cut" type="checkbox" checked>Подсветить вырез и привязки</label>
+<button id="reset">Вернуть удобный ракурс</button>
+<div id="detail"></div>
+<p class="good">50 вырезов проверены в материале.<br>12 пар осей соединений и 4 оси фасада совпадают.</p>
+<div class="links"><a href="Размерные-привязки-v13.pdf">Размерные листы PDF</a><br><a href="assembled.glb">3D сборка GLB</a> · <a href="exploded.glb">Разнесённые детали</a><br><a href="ПРОВЕРКИ-3D.json">Полный отчёт проверок</a></div>
+</aside><div id="stage"><canvas id="gl"></canvas><canvas id="labels"></canvas><div id="hint">Вращение — потянуть мышью • масштаб — колесом • отступы привязаны к базам U0 / V0</div></div></main>
+<footer><b>Не для изготовления.</b> Показаны деревянные детали и контрольные объёмы обработки. Реальная фурнитура не смоделирована. Пилоты замков и направляющих, допуски, прочность и остальные узлы шкафа ещё не проверены.</footer>
+<script id="model-data" type="application/json">__DATA__</script>
+<script>
+(()=>{'use strict';
+const D=JSON.parse(document.getElementById('model-data').textContent),$=id=>document.getElementById(id),cv=$('gl'),stage=$('stage'),overlay=$('labels'),ctx=overlay.getContext('2d'),gl=cv.getContext('webgl',{antialias:true,alpha:false});
+if(!gl){$('detail').textContent='Браузер не предоставил WebGL. Модель доступна по ссылке GLB.';return;}
+const vertex=`attribute vec3 pos;attribute vec3 normal;uniform mat4 mvp;uniform vec3 shift;varying float light;void main(){gl_Position=mvp*vec4(pos+shift,1.);light=.5+.5*max(0.,dot(normalize(normal),normalize(vec3(-.7,-1.,1.4))));}`;
+const fragment=`precision mediump float;uniform vec4 color;varying float light;void main(){gl_FragColor=vec4(color.rgb*light,color.a);}`;
+function shader(type,src){let s=gl.createShader(type);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(s));return s;}
+let prog=gl.createProgram();gl.attachShader(prog,shader(gl.VERTEX_SHADER,vertex));gl.attachShader(prog,shader(gl.FRAGMENT_SHADER,fragment));gl.linkProgram(prog);if(!gl.getProgramParameter(prog,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(prog));gl.useProgram(prog);
+const loc={pos:gl.getAttribLocation(prog,'pos'),normal:gl.getAttribLocation(prog,'normal'),mvp:gl.getUniformLocation(prog,'mvp'),shift:gl.getUniformLocation(prog,'shift'),color:gl.getUniformLocation(prog,'color')};
+function buf(v){let b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(v.flat()),gl.STATIC_DRAW);return b;}
+for(const m of [...D.parts,...D.features]){m.pb=buf(m.vertices);m.nb=buf(m.normals);m.count=m.vertices.length;}
+for(const p of D.parts)$('part').add(new Option(p.codes.join('/')+' — '+p.name,p.id));
+let yaw=.5,pitch=.65,zoom=1,drag=null,M=null,center=[0,0,0],active=null;
+const add=(a,b)=>a.map((v,i)=>v+b[i]),mul=(a,s)=>a.map(v=>v*s),dot=(a,b)=>a.reduce((s,v,i)=>s+v*b[i],0);
+function wp(p,u,v,w){return add(p.origin,add(mul(p.u,u),add(mul(p.v,v),mul(p.n,w))));}
+function offset(p){return $('explode').checked?p.shift:[0,0,0];}
+function choosePart(){const id=$('part').value;yaw=['front','face'].includes(id)?Math.PI-.25:id==='right'?-1.2:id==='left'?1.2:.25;pitch=.55;zoom=1;$('feature').replaceChildren();for(const a of D.features.filter(a=>a.part===id))$('feature').add(new Option(a.id+' — '+a.reason,a.id));chooseFeature();}
+function chooseFeature(){active=D.features.find(a=>a.id===$('feature').value)||null;const p=D.parts.find(p=>p.id===$('part').value);if(!active){$('detail').textContent='Дно без отверстий. Размер '+p.width+' × '+p.height+' × '+p.thickness+' мм.';}else{let a=active,o=a.offsets_mm;$('detail').innerHTML='<b>'+a.id+'</b><br>'+a.reason+'<dl><dt>От базы U0 / от U1</dt><dd>'+o.from_U0+' / '+o.from_U1+' мм</dd><dt>От базы V0 / от V1</dt><dd>'+o.from_V0+' / '+o.from_V1+' мм</dd><dt>Привязан '+a.anchor+'</dt><dd>'+(a.diameter?'Ø'+a.diameter:a.size.join(' × '))+'; глубина '+a.depth+' мм; сторона '+a.face+'</dd></dl>';}draw();}
+function bind(m,color,shift){gl.bindBuffer(gl.ARRAY_BUFFER,m.pb);gl.enableVertexAttribArray(loc.pos);gl.vertexAttribPointer(loc.pos,3,gl.FLOAT,false,0,0);gl.bindBuffer(gl.ARRAY_BUFFER,m.nb);gl.enableVertexAttribArray(loc.normal);gl.vertexAttribPointer(loc.normal,3,gl.FLOAT,false,0,0);gl.uniform3fv(loc.shift,shift);gl.uniform4fv(loc.color,color);gl.drawArrays(gl.TRIANGLES,0,m.count);}
+function project(p){const x=M[0]*p[0]+M[4]*p[1]+M[8]*p[2]+M[12],y=M[1]*p[0]+M[5]*p[1]+M[9]*p[2]+M[13];return [(x+1)*overlay.width/2,(1-y)*overlay.height/2];}
+function mark(a,b,label,color){let q=project(a),r=project(b);ctx.strokeStyle=color;ctx.fillStyle=color;ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(...q);ctx.lineTo(...r);ctx.stroke();const x=(q[0]+r[0])/2,y=(q[1]+r[1])/2;ctx.font='bold 14px system-ui';const tw=ctx.measureText(label).width;ctx.fillStyle='#ffffffed';ctx.fillRect(x-tw/2-4,y-19,tw+8,21);ctx.fillStyle=color;ctx.textAlign='center';ctx.fillText(label,x,y-3);}
+function draw(){const width=stage.clientWidth,height=stage.clientHeight,dpr=Math.min(window.devicePixelRatio||1,1.5);cv.width=Math.round(width*dpr);cv.height=Math.round(height*dpr);overlay.width=cv.width;overlay.height=cv.height;gl.viewport(0,0,cv.width,cv.height);
+ const selected=$('part').value,visible=$('isolate').checked?D.parts.filter(p=>p.id===selected):D.parts;
+ let lo=[Infinity,Infinity,Infinity],hi=[-Infinity,-Infinity,-Infinity];for(const p of visible){const off=offset(p);for(const v of p.vertices)for(let i=0;i<3;i++){lo[i]=Math.min(lo[i],v[i]+off[i]);hi[i]=Math.max(hi[i],v[i]+off[i]);}}center=mul(add(lo,hi),.5);let radius=Math.max(hi[0]-lo[0],hi[1]-lo[1],hi[2]-lo[2],80);
+ const r=[Math.cos(yaw),Math.sin(yaw),0],u=[-Math.sin(yaw)*Math.sin(pitch),Math.cos(yaw)*Math.sin(pitch),Math.cos(pitch)],z=[Math.sin(yaw)*Math.cos(pitch),-Math.cos(yaw)*Math.cos(pitch),Math.sin(pitch)];
+ const aspect=cv.width/cv.height,s=1.5*zoom/radius,sx=s/Math.max(1,aspect),sy=s*Math.min(1,aspect),sz=-1/(radius*4);
+ M=new Float32Array([r[0]*sx,u[0]*sy,z[0]*sz,0,r[1]*sx,u[1]*sy,z[1]*sz,0,r[2]*sx,u[2]*sy,z[2]*sz,0,-dot(center,r)*sx,-dot(center,u)*sy,-dot(center,z)*sz,1]);gl.uniformMatrix4fv(loc.mvp,false,M);
+ gl.clearColor(.94,.95,.92,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.enable(gl.DEPTH_TEST);gl.depthMask(true);gl.disable(gl.BLEND);for(const p of visible)bind(p,p.id===selected?[.72,.56,.37,1]:[.55,.58,.53,1],offset(p));
+ ctx.clearRect(0,0,overlay.width,overlay.height);
+ if(active&&$('cut').checked){let p=D.parts.find(p=>p.id===active.part);gl.disable(gl.DEPTH_TEST);gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);bind(active,[.12,.55,.85,.27],offset(p));gl.disable(gl.BLEND);
+  const a=active,w=a.face==='A'?0:a.face==='B'?p.thickness:p.thickness/2,off=offset(p),O=add(wp(p,0,0,w),off),U=add(wp(p,a.u,0,w),off),V=add(wp(p,0,a.v,w),off),P=add(wp(p,a.u,a.v,w),off);
+  mark(O,U,'U = '+a.u+' мм','#176448');mark(O,V,'V = '+a.v+' мм','#965318');mark(U,P,'','#176448');mark(V,P,'','#965318');
+  let q=project(O);ctx.fillStyle='#24382b';ctx.textAlign='left';ctx.fillText('U0 / V0',q[0]+7,q[1]+18);
+  q=project(P);ctx.beginPath();ctx.arc(q[0],q[1],5,0,Math.PI*2);ctx.fillStyle='#126ca6';ctx.fill();
+ }
+}
+$('part').addEventListener('change',choosePart);$('feature').addEventListener('change',chooseFeature);for(const id of ['isolate','explode','cut'])$(id).addEventListener('change',draw);$('reset').addEventListener('click',()=>{const id=$('part').value;yaw=['front','face'].includes(id)?Math.PI-.25:id==='right'?-1.2:id==='left'?1.2:.25;pitch=.55;zoom=1;draw();});
+cv.addEventListener('pointerdown',e=>{drag=[e.clientX,e.clientY];cv.setPointerCapture(e.pointerId);});cv.addEventListener('pointermove',e=>{if(!drag)return;yaw+=(e.clientX-drag[0])*.007;pitch=Math.max(-1.5,Math.min(1.5,pitch+(e.clientY-drag[1])*.007));drag=[e.clientX,e.clientY];draw();});cv.addEventListener('pointerup',()=>drag=null);cv.addEventListener('wheel',e=>{e.preventDefault();zoom=Math.max(.4,Math.min(4,zoom*Math.exp(-e.deltaY*.001)));draw();},{passive:false});window.addEventListener('resize',draw);choosePart();
+})();
+</script></html>

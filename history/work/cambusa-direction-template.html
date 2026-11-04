@@ -1,0 +1,69 @@
+<div id="cambusa-fly-v07">
+  <div class="viz-controls">
+    <label class="form-label" for="cf-open">Дверцы <span id="cf-angle">0°</span>
+      <input class="form-range" id="cf-open" type="range" min="0" max="155" value="0">
+    </label>
+    <label class="form-label" for="cf-drawer">Ящик
+      <select class="form-select" id="cf-drawer"><option value="1">Верхний</option><option value="0">Нижний</option></select>
+    </label>
+    <label class="form-label" for="cf-pull">Выдвижение <span id="cf-distance">0 мм</span>
+      <input class="form-range" id="cf-pull" type="range" min="0" max="280" value="0">
+    </label>
+    <label class="form-label" for="cf-yaw">Поворот
+      <input class="form-range" id="cf-yaw" type="range" min="-180" max="180" value="30">
+    </label>
+    <label class="form-check"><input class="form-check-input" type="checkbox" id="cf-exploded"><span class="form-check-label">Разнести детали</span></label>
+  </div>
+  <div class="cf-stage"><canvas class="cursor-interaction" id="cf-canvas" role="img" aria-label="Высокая тумба 100 на 180 на 50 сантиметров в духе Cambusa Fly. Можно открывать две дверцы с лотками, выдвигать два внутренних ящика и вращать модель.">Закрытый деревянный корпус на низком чёрном основании и колёсах. Правая боковина полностью перфорирована.</canvas></div>
+  <div class="viz-row text-small"><span>100 × 180 × 50 см · с колёсами</span><span id="cf-status" aria-live="polite">Эскиз компоновки</span></div>
+  <span class="sr-only" id="cf-probe" aria-hidden="true"></span>
+</div>
+<style>
+#cambusa-fly-v07 {color-scheme:light dark;--cf-wood:light-dark(rgb(91,64,46),rgb(123,88,63));--cf-inner:light-dark(rgb(116,83,55),rgb(145,105,72));--cf-back:light-dark(rgb(71,49,35),rgb(98,70,51));--cf-frame:light-dark(rgb(42,45,44),rgb(90,96,93));--cf-metal:light-dark(rgb(118,124,125),rgb(160,168,170));--cf-rubber:light-dark(rgb(33,35,34),rgb(73,76,74));--cf-book:light-dark(rgb(120,123,111),rgb(157,163,145));--cf-book2:light-dark(rgb(144,125,100),rgb(175,157,128))}
+#cambusa-fly-v07 .cf-stage {width:100%;height:570px;touch-action:none}
+#cambusa-fly-v07 canvas {width:100%;height:100%;display:block;cursor:grab}
+#cambusa-fly-v07 canvas:active {cursor:grabbing}
+#cambusa-fly-v07 .viz-row {justify-content:space-between}
+@media(max-width:500px){#cambusa-fly-v07 .cf-stage{height:440px}}
+</style>
+<script type="application/json" id="cf-data">__MODEL_DATA__</script>
+<script>
+(()=>{
+const root=document.getElementById('cambusa-fly-v07'),data=JSON.parse(document.getElementById('cf-data').textContent);
+const canvas=root.querySelector('#cf-canvas'),ctx=canvas.getContext('2d'),opened=root.querySelector('#cf-open'),pull=root.querySelector('#cf-pull'),drawer=root.querySelector('#cf-drawer'),yaw=root.querySelector('#cf-yaw'),exploded=root.querySelector('#cf-exploded'),probe=root.querySelector('#cf-probe');
+const rad=Math.PI/180,light=[-.39,-.56,.73];let drag=null,palette={},state={angle:0,pull:0,drawer:1,yaw:30,pitch:13,exploded:false};
+for(const p of data.parts)p.normals=p.f.map(f=>{const a=p.v[f[0]],b=p.v[f[1]],c=p.v[f[2]],u=b.map((v,i)=>v-a[i]),v=c.map((v,i)=>v-a[i]);const n=[u[1]*v[2]-u[2]*v[1],u[2]*v[0]-u[0]*v[2],u[0]*v[1]-u[1]*v[0]],s=Math.hypot(...n)||1;return n.map(v=>v/s)});
+function colors(){for(const key of Object.keys(data.colors)){probe.style.color='var(--cf-'+key+')';const rgb=getComputedStyle(probe).color.match(/[\d.]+/g)?.slice(0,3).map(Number);palette[key]=rgb?.length===3?rgb:data.colors[key].slice(0,3)}}
+function save(){window.openai?.setWidgetState?.({modelContent:{version:'cambusa-v07',width_cm:100,height_cm:180,depth_cm:50,doors_degrees:state.angle,drawer:state.drawer,drawer_extension_mm:state.pull,exploded:state.exploded},privateContent:{yaw:state.yaw,pitch:state.pitch}})?.catch(()=>{})}
+function sync(){opened.value=state.angle;pull.value=state.pull;drawer.value=state.drawer;yaw.value=state.yaw;exploded.checked=state.exploded;root.querySelector('#cf-angle').textContent=Math.round(state.angle)+'°';root.querySelector('#cf-distance').textContent=Math.round(state.pull)+' мм';root.querySelector('#cf-status').textContent=state.exploded?'Разнесённый вид деталей':'Эскиз компоновки'}
+function restore(s){const m=s?.modelContent||{},p=s?.privateContent||{};if(m.version==='cambusa-v07'){if(Number.isFinite(m.doors_degrees))state.angle=Math.max(0,Math.min(155,m.doors_degrees));if(Number.isFinite(m.drawer_extension_mm))state.pull=Math.max(0,Math.min(280,m.drawer_extension_mm));if(m.drawer===0||m.drawer===1)state.drawer=m.drawer;state.exploded=!!m.exploded}if(Number.isFinite(p.yaw))state.yaw=Math.max(-180,Math.min(180,p.yaw));if(Number.isFinite(p.pitch))state.pitch=Math.max(-10,Math.min(60,p.pitch));if(state.pull>0)state.angle=Math.max(145,state.angle);sync();draw()}
+function draw(){
+const w=canvas.clientWidth,h=canvas.clientHeight,dpr=Math.min(window.devicePixelRatio||1,2);if(!w||!h)return;
+canvas.width=Math.round(w*dpr);canvas.height=Math.round(h*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,w,h);
+const a=state.yaw*rad,b=state.pitch*rad,R=[Math.cos(a),Math.sin(a),0],U=[-Math.sin(a)*Math.sin(b),Math.cos(a)*Math.sin(b),Math.cos(b)],C=[Math.sin(a)*Math.cos(b),-Math.cos(a)*Math.cos(b),Math.sin(b)];
+const dot=(v,n)=>v[0]*n[0]+v[1]*n[1]+v[2]*n[2];let minx=Infinity,maxx=-Infinity,miny=Infinity,maxy=-Infinity;const triangles=[];
+for(const part of data.parts){
+if(state.exploded&&part.group==='prop')continue;
+const angle=part.group==='door'&&!state.exploded?part.sign*state.angle*rad:0,cs=Math.cos(angle),sn=Math.sin(angle),off=[0,0,0];
+if(part.group==='drawer'&&part.drawer_id===state.drawer&&!state.exploded)off[1]=-state.pull;
+if(state.exploded){if(part.group==='door')off[1]-=270;else if(part.group==='drawer')off[1]-=420;else if(part.group==='pegboard')off[0]+=160;else if(part.group==='back')off[1]+=170;else if(part.group==='wheel')off[2]-=100;else if(part.name==='B01-top')off[2]+=120;else if(part.name==='B02-left-side')off[0]-=120}
+const vv=part.v.map(v=>{let q=v.slice();if(angle){const x=q[0]-part.pivot[0],y=q[1]-part.pivot[1];q[0]=part.pivot[0]+cs*x-sn*y;q[1]=part.pivot[1]+sn*x+cs*y}q=q.map((v,i)=>v+off[i]-[500,250,900][i]);const sx=dot(q,R),sy=-dot(q,U),z=dot(q,C);minx=Math.min(minx,sx);maxx=Math.max(maxx,sx);miny=Math.min(miny,sy);maxy=Math.max(maxy,sy);return[sx,sy,z]});
+for(let i=0;i<part.f.length;i++){let n=part.normals[i];if(angle)n=[cs*n[0]-sn*n[1],sn*n[0]+cs*n[1],n[2]];if(dot(n,C)<-.01)continue;const f=part.f[i],points=f.map(j=>vv[j]),shade=.53+.65*Math.max(0,dot(n,light));const color=palette[part.material];triangles.push({points,z:points.reduce((s,p)=>s+p[2],0)/3,color:'rgb('+color.map(v=>Math.min(255,Math.round(v*shade))).join(',')+')'})}
+}
+const scale=Math.min((w-24)/(maxx-minx),(h-24)/(maxy-miny)),cx=(minx+maxx)/2,cy=(miny+maxy)/2;
+triangles.sort((a,b)=>a.z-b.z);for(const t of triangles){ctx.beginPath();for(let i=0;i<3;i++){const p=t.points[i],x=(p[0]-cx)*scale+w/2,y=(p[1]-cy)*scale+h/2;if(i===0)ctx.moveTo(x,y);else ctx.lineTo(x,y)}ctx.closePath();ctx.fillStyle=t.color;ctx.fill()}
+}
+opened.addEventListener('input',()=>{state.angle=+opened.value;state.exploded=false;if(state.angle<145)state.pull=0;sync();draw()});opened.addEventListener('change',save);
+pull.addEventListener('input',()=>{state.pull=+pull.value;state.exploded=false;if(state.pull>0)state.angle=Math.max(145,state.angle);sync();draw()});pull.addEventListener('change',save);
+drawer.addEventListener('change',()=>{state.drawer=+drawer.value;sync();draw();save()});
+yaw.addEventListener('input',()=>{state.yaw=+yaw.value;draw()});yaw.addEventListener('change',save);
+exploded.addEventListener('change',()=>{state.exploded=exploded.checked;sync();draw();save()});
+canvas.addEventListener('pointerdown',e=>{drag=[e.clientX,e.clientY,state.yaw,state.pitch];canvas.setPointerCapture(e.pointerId)});
+canvas.addEventListener('pointermove',e=>{if(!drag)return;state.yaw=((drag[2]+(e.clientX-drag[0])*.45+540)%360)-180;state.pitch=Math.max(-10,Math.min(60,drag[3]+(e.clientY-drag[1])*.25));sync();draw()});
+canvas.addEventListener('pointerup',()=>{drag=null;save()});canvas.addEventListener('pointercancel',()=>{drag=null});
+colors();new ResizeObserver(draw).observe(canvas);window.addEventListener('openai:set_globals',e=>{if(e.detail?.globals?.widgetState)restore(e.detail.globals.widgetState)});
+new MutationObserver(()=>{colors();draw()}).observe(document.documentElement,{attributes:true,attributeFilter:['class','style','data-theme']});
+window.matchMedia?.('(prefers-color-scheme: dark)').addEventListener('change',()=>{colors();draw()});
+colors();restore(window.openai?.widgetState);
+})();
+</script>

@@ -1,0 +1,1208 @@
+{
+  "3": {
+    "parameters": {
+      "width_mm": 1000,
+      "height_mm": 1200,
+      "depth_mm": 350,
+      "actual_envelope_mm": [
+        998.055,
+        348.452,
+        1200.0
+      ],
+      "bounds_mm": [
+        [
+          0.972,
+          1.548,
+          0.0
+        ],
+        [
+          999.028,
+          350.0,
+          1200.0
+        ]
+      ],
+      "plywood_mm": 18,
+      "back_mm": 6,
+      "shelf_main_depth_mm": 215,
+      "sphere_diameter_mm": 90,
+      "sphere_count": 20,
+      "printed_keys": 20,
+      "back_stops": 2,
+      "corpus_metal_bolts": 0,
+      "corpus_screws": 0,
+      "hinges": "User accepted factory-mounted clip-on hinges with hidden screws. Exact hinge/mounting plate and 86-degree stop require fitting before cutting.",
+      "door_opening_candidate_deg": 86,
+      "status": "Geometry study; NOT a production release"
+    },
+    "static": {
+      "parts": 54,
+      "pairs": 1431,
+      "exact_pairs": 128,
+      "all_watertight": true,
+      "overlaps": []
+    },
+    "motion": {
+      "sequence": [
+        {
+          "step": "Base",
+          "parts": [
+            "shelf-0"
+          ],
+          "samples": 1,
+          "collisions": []
+        },
+        {
+          "step": "Place partition",
+          "parts": [
+            "partition-0"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Place next shelf",
+          "parts": [
+            "shelf-1"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Place partition",
+          "parts": [
+            "partition-1"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Place next shelf",
+          "parts": [
+            "shelf-2"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Place partition",
+          "parts": [
+            "partition-2"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Place next shelf",
+          "parts": [
+            "shelf-3"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Close left frame",
+          "parts": [
+            "frame-left"
+          ],
+          "samples": 22,
+          "collisions": []
+        },
+        {
+          "step": "Close right frame",
+          "parts": [
+            "frame-right"
+          ],
+          "samples": 22,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-side-left-0"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-side-left-0-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-side-left-1"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-side-left-1-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-side-left-2"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-side-left-2-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-side-left-3"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-side-left-3-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-side-right-0"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-side-right-0-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-side-right-1"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-side-right-1-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-side-right-2"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-side-right-2-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-side-right-3"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-side-right-3-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x600-0-front"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x600-0-front-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x600-0-rear"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x600-0-rear-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x600-1-front"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x600-1-front-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x600-1-rear"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x600-1-rear-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x350-1-front"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x350-1-front-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x350-1-rear"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x350-1-rear-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x350-2-front"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x350-2-front-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x350-2-rear"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x350-2-rear-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x700-2-front"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x700-2-front-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x700-2-rear"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x700-2-rear-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x700-3-front"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x700-3-front-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x700-3-rear"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x700-3-rear-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide back down",
+          "parts": [
+            "back-panel"
+          ],
+          "samples": 22,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat rear stop",
+          "parts": [
+            "back-stop-left"
+          ],
+          "samples": 35,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat rear stop",
+          "parts": [
+            "back-stop-right"
+          ],
+          "samples": 35,
+          "collisions": []
+        }
+      ],
+      "door_sweeps": [
+        {
+          "name": "door-0",
+          "samples": 44,
+          "limit_deg": 86,
+          "collisions": [],
+          "scope": "ideal pivot sweep only; actual supplier hinge is not modelled"
+        },
+        {
+          "name": "door-1",
+          "samples": 44,
+          "limit_deg": 86,
+          "collisions": [],
+          "scope": "ideal pivot sweep only; actual supplier hinge is not modelled"
+        }
+      ],
+      "scope": "Discrete geometric checks only. Hinge installation, ergonomics, tolerances, loading and material behaviour not validated."
+    },
+    "retention": {
+      "checks": [
+        {
+          "joint": "side-left-0",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4726,
+          "blocked": true
+        },
+        {
+          "joint": "side-left-1",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4727,
+          "blocked": true
+        },
+        {
+          "joint": "side-left-2",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4731,
+          "blocked": true
+        },
+        {
+          "joint": "side-left-3",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4729,
+          "blocked": true
+        },
+        {
+          "joint": "side-right-0",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4733,
+          "blocked": true
+        },
+        {
+          "joint": "side-right-1",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4729,
+          "blocked": true
+        },
+        {
+          "joint": "side-right-2",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4735,
+          "blocked": true
+        },
+        {
+          "joint": "side-right-3",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4732,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x600-0-front",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4736,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x600-0-rear",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4729,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x600-1-front",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4736,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x600-1-rear",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.473,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x350-1-front",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.473,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x350-1-rear",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4723,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x350-2-front",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4731,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x350-2-rear",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4724,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x700-2-front",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4735,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x700-2-rear",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4728,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x700-3-front",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.473,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x700-3-rear",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4723,
+          "blocked": true
+        },
+        {
+          "joint": "back-stop-left",
+          "attempt": "lift locked stop 2 mm",
+          "obstruction_mm3": 9.2537,
+          "blocked": true
+        },
+        {
+          "joint": "back-stop-left",
+          "attempt": "turn locked stop 30 degrees without pressing",
+          "obstruction_mm3": 7.3643,
+          "blocked": true
+        },
+        {
+          "joint": "back-stop-left",
+          "attempt": "lift back panel 4 mm",
+          "obstruction_mm3": 36.0,
+          "blocked": true
+        },
+        {
+          "joint": "back-stop-right",
+          "attempt": "lift locked stop 2 mm",
+          "obstruction_mm3": 9.2537,
+          "blocked": true
+        },
+        {
+          "joint": "back-stop-right",
+          "attempt": "turn locked stop 30 degrees without pressing",
+          "obstruction_mm3": 7.3643,
+          "blocked": true
+        },
+        {
+          "joint": "back-stop-right",
+          "attempt": "lift back panel 4 mm",
+          "obstruction_mm3": 36.0,
+          "blocked": true
+        }
+      ],
+      "all_blocked": true,
+      "scope": "Positive mesh obstruction only; NOT a retention-force, wear or strength test."
+    }
+  },
+  "4": {
+    "parameters": {
+      "width_mm": 1000,
+      "height_mm": 1200,
+      "depth_mm": 350,
+      "actual_envelope_mm": [
+        998.055,
+        348.452,
+        1200.0
+      ],
+      "bounds_mm": [
+        [
+          0.972,
+          1.548,
+          0.0
+        ],
+        [
+          999.028,
+          350.0,
+          1200.0
+        ]
+      ],
+      "plywood_mm": 18,
+      "back_mm": 6,
+      "shelf_main_depth_mm": 215,
+      "sphere_diameter_mm": 90,
+      "sphere_count": 15,
+      "printed_keys": 19,
+      "back_stops": 2,
+      "corpus_metal_bolts": 0,
+      "corpus_screws": 0,
+      "hinges": "User accepted factory-mounted clip-on hinges with hidden screws. Exact hinge/mounting plate and 86-degree stop require fitting before cutting.",
+      "door_opening_candidate_deg": 86,
+      "status": "Geometry study; NOT a production release"
+    },
+    "static": {
+      "parts": 48,
+      "pairs": 1128,
+      "exact_pairs": 133,
+      "all_watertight": true,
+      "overlaps": []
+    },
+    "motion": {
+      "sequence": [
+        {
+          "step": "Base",
+          "parts": [
+            "shelf-0"
+          ],
+          "samples": 1,
+          "collisions": []
+        },
+        {
+          "step": "Place partition",
+          "parts": [
+            "partition-0"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Place next shelf",
+          "parts": [
+            "shelf-1"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Place partition",
+          "parts": [
+            "partition-1"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Place next shelf",
+          "parts": [
+            "shelf-2"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Place partition",
+          "parts": [
+            "partition-2"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Place next shelf",
+          "parts": [
+            "shelf-3"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Close left frame",
+          "parts": [
+            "frame-left"
+          ],
+          "samples": 22,
+          "collisions": []
+        },
+        {
+          "step": "Close right frame",
+          "parts": [
+            "frame-right"
+          ],
+          "samples": 22,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-side-left-0"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-side-left-0-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-side-left-1"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-side-left-1-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-side-left-2"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-side-left-2-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-side-right-0"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-side-right-0-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-side-right-1"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-side-right-1-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-side-right-2"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-side-right-2-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-side-right-3"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-side-right-3-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x600-0-front"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x600-0-front-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x600-0-rear"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x600-0-rear-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x600-1-front"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x600-1-front-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x600-1-front-1"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x600-1-rear"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x600-1-rear-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x600-1-rear-1"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x600-2-front"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x600-2-front-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x600-2-front-1"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x600-2-rear"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x600-2-rear-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x600-2-rear-1"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x600-3-front"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x600-3-front-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide empty sphere",
+          "parts": [
+            "sphere-inner-x600-3-rear"
+          ],
+          "samples": 20,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat printed key",
+          "parts": [
+            "key-inner-x600-3-rear-0"
+          ],
+          "samples": 34,
+          "collisions": []
+        },
+        {
+          "step": "Slide back down",
+          "parts": [
+            "back-panel"
+          ],
+          "samples": 22,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat rear stop",
+          "parts": [
+            "back-stop-left"
+          ],
+          "samples": 35,
+          "collisions": []
+        },
+        {
+          "step": "Insert, turn and seat rear stop",
+          "parts": [
+            "back-stop-right"
+          ],
+          "samples": 35,
+          "collisions": []
+        }
+      ],
+      "door_sweeps": [
+        {
+          "name": "door-0",
+          "samples": 44,
+          "limit_deg": 86,
+          "collisions": [],
+          "scope": "ideal pivot sweep only; actual supplier hinge is not modelled"
+        },
+        {
+          "name": "door-1",
+          "samples": 44,
+          "limit_deg": 86,
+          "collisions": [],
+          "scope": "ideal pivot sweep only; actual supplier hinge is not modelled"
+        }
+      ],
+      "scope": "Discrete geometric checks only. Hinge installation, ergonomics, tolerances, loading and material behaviour not validated."
+    },
+    "retention": {
+      "checks": [
+        {
+          "joint": "side-left-0",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4726,
+          "blocked": true
+        },
+        {
+          "joint": "side-left-1",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4723,
+          "blocked": true
+        },
+        {
+          "joint": "side-left-2",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4724,
+          "blocked": true
+        },
+        {
+          "joint": "side-right-0",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4733,
+          "blocked": true
+        },
+        {
+          "joint": "side-right-1",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4729,
+          "blocked": true
+        },
+        {
+          "joint": "side-right-2",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4735,
+          "blocked": true
+        },
+        {
+          "joint": "side-right-3",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4732,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x600-0-front",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4736,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x600-0-rear",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4729,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x600-1-front",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 1224.9469,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x600-1-rear",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 1224.9455,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x600-2-front",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 1224.9471,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x600-2-rear",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 1224.9456,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x600-3-front",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.473,
+          "blocked": true
+        },
+        {
+          "joint": "inner-x600-3-rear",
+          "attempt": "withdraw locked sphere 4 mm along installation axis",
+          "obstruction_mm3": 612.4723,
+          "blocked": true
+        },
+        {
+          "joint": "back-stop-left",
+          "attempt": "lift locked stop 2 mm",
+          "obstruction_mm3": 9.2537,
+          "blocked": true
+        },
+        {
+          "joint": "back-stop-left",
+          "attempt": "turn locked stop 30 degrees without pressing",
+          "obstruction_mm3": 7.3643,
+          "blocked": true
+        },
+        {
+          "joint": "back-stop-left",
+          "attempt": "lift back panel 4 mm",
+          "obstruction_mm3": 36.0,
+          "blocked": true
+        },
+        {
+          "joint": "back-stop-right",
+          "attempt": "lift locked stop 2 mm",
+          "obstruction_mm3": 9.2537,
+          "blocked": true
+        },
+        {
+          "joint": "back-stop-right",
+          "attempt": "turn locked stop 30 degrees without pressing",
+          "obstruction_mm3": 7.3643,
+          "blocked": true
+        },
+        {
+          "joint": "back-stop-right",
+          "attempt": "lift back panel 4 mm",
+          "obstruction_mm3": 36.0,
+          "blocked": true
+        }
+      ],
+      "all_blocked": true,
+      "scope": "Positive mesh obstruction only; NOT a retention-force, wear or strength test."
+    }
+  }
+}

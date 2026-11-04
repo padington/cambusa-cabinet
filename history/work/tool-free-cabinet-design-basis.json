@@ -1,0 +1,31 @@
+{
+  "date":"2026-11-03",
+  "user_confirmed":{
+    "width_mm":1000,
+    "initial_envelope_height_mm":1200,
+    "initial_envelope_depth_mm":350,
+    "assembly":"User must assemble at home without tools",
+    "storage":"Use not yet decided; design with reserve for books",
+    "existing_desk":"Dark finish; uploaded desk photographs are references for form, not actual color",
+    "form":"Sloping side contours/legs, softened corners and visible wood/plywood detail",
+    "connector_origin":"Spherical 3D-printed plywood connectors"
+  },
+  "proposed_engineering_route_not_validated":{
+    "supply":"CNC-cut, sanded and finished panels; printed nodes delivered with captive metal hardware; hinge cups and plates preinstalled and adjusted by fabricator",
+    "load_path":"Shelves bear on machined wood seats/tongues; connector nodes locate and retain panels",
+    "retention":"Split spherical clamp bodies, metal screw and captive metal nut; finger-operated knob faces inside cabinet, with accessible tightening clearance",
+    "racking":"Mechanically captured rear plywood panel or equivalent verified brace",
+    "doors":"Clip-on cabinet hinges, with all drilling and initial adjustment performed before delivery",
+    "panel_thickness":"18 mm as initial calculation candidate for book loads instead of 15 mm appearance sketch; final stock and thickness require confirmation and prototype",
+    "assembly_sequence":"Lay one prepared side frame down, insert supported shelves and partitions plus rear panel, add other side, close and hand-tighten nodes, stand cabinet, clip on doors",
+    "wall_anchor":"Plan anti-tip restraint with wall-appropriate fixing. Wall installation is a separate task requiring tools or suitable existing fixing points.",
+    "prototype_gate":"Test one complete joint with actual finished plywood stock before full cutting/printing; check hand assembly, retention, sustained loading and accessibility; then full prototype and stability checks"
+  },
+  "sources":[
+    "https://www.blum.com/gb/en/products/hingesystems/clip-top/assembly/",
+    "https://live-katalog.ganternorm.com/pdf/ganter/en/6336_4k_mb.pdf?dispositiontype=attachment",
+    "https://help.prusa3d.com/article/petg_2059?product=mmu3",
+    "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/AnchorItgov"
+  ],
+  "status":"Design proposal only. No production CAD, purchased parts, test results, verified load rating, fit tolerance, exact angle or final finish match. No external orders have been placed."
+}

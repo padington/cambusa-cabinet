@@ -1,0 +1,2523 @@
+{
+  "version": "drawer-proof-v13",
+  "parts": [
+    {
+      "id": "left",
+      "name": "Левая боковина",
+      "width": 340,
+      "height": 110,
+      "thickness": 12,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "u": [
+        0,
+        1,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        1
+      ],
+      "n": [
+        1,
+        0,
+        0
+      ],
+      "codes": [
+        "W37",
+        "W43"
+      ],
+      "operations": [
+        {
+          "id": "left-01",
+          "part": "left",
+          "face": "B",
+          "kind": "bore",
+          "u": 6,
+          "v": 55,
+          "diameter": 5,
+          "depth": 9,
+          "size": null,
+          "reason": "Шток Twister DU319T 48037",
+          "joint": "left-front-55",
+          "source": "twister",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "left-02",
+          "part": "left",
+          "face": "B",
+          "kind": "bore",
+          "u": 6,
+          "v": 90,
+          "diameter": 5,
+          "depth": 9,
+          "size": null,
+          "reason": "Шток Twister DU319T 48037",
+          "joint": "left-front-90",
+          "source": "twister",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "left-03",
+          "part": "left",
+          "face": "B",
+          "kind": "bore",
+          "u": 6,
+          "v": 35,
+          "diameter": 8,
+          "depth": 8,
+          "size": null,
+          "reason": "Шкант 8×30; сопряжение с торцом стенки",
+          "joint": "left-front-dowel",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "left-04",
+          "part": "left",
+          "face": "B",
+          "kind": "bore",
+          "u": 334,
+          "v": 55,
+          "diameter": 5,
+          "depth": 9,
+          "size": null,
+          "reason": "Шток Twister DU319T 48037",
+          "joint": "left-rear-55",
+          "source": "twister",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "left-05",
+          "part": "left",
+          "face": "B",
+          "kind": "bore",
+          "u": 334,
+          "v": 90,
+          "diameter": 5,
+          "depth": 9,
+          "size": null,
+          "reason": "Шток Twister DU319T 48037",
+          "joint": "left-rear-90",
+          "source": "twister",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "left-06",
+          "part": "left",
+          "face": "B",
+          "kind": "bore",
+          "u": 334,
+          "v": 35,
+          "diameter": 8,
+          "depth": 8,
+          "size": null,
+          "reason": "Шкант 8×30; сопряжение с торцом стенки",
+          "joint": "left-rear-dowel",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "left-07",
+          "part": "left",
+          "face": "B",
+          "kind": "pocket",
+          "u": 6,
+          "v": 12.9,
+          "diameter": null,
+          "depth": 3,
+          "size": [
+            328,
+            9.2
+          ],
+          "reason": "Паз дна; концы R3. При фактической толщине дна ≠9 пересчитать ширину.",
+          "joint": "bottom-groove",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 3
+        }
+      ]
+    },
+    {
+      "id": "right",
+      "name": "Правая боковина",
+      "width": 340,
+      "height": 110,
+      "thickness": 12,
+      "origin": [
+        443,
+        0,
+        0
+      ],
+      "u": [
+        0,
+        1,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        1
+      ],
+      "n": [
+        1,
+        0,
+        0
+      ],
+      "codes": [
+        "W38",
+        "W44"
+      ],
+      "operations": [
+        {
+          "id": "right-01",
+          "part": "right",
+          "face": "A",
+          "kind": "bore",
+          "u": 6,
+          "v": 55,
+          "diameter": 5,
+          "depth": 9,
+          "size": null,
+          "reason": "Шток Twister DU319T 48037",
+          "joint": "right-front-55",
+          "source": "twister",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "right-02",
+          "part": "right",
+          "face": "A",
+          "kind": "bore",
+          "u": 6,
+          "v": 90,
+          "diameter": 5,
+          "depth": 9,
+          "size": null,
+          "reason": "Шток Twister DU319T 48037",
+          "joint": "right-front-90",
+          "source": "twister",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "right-03",
+          "part": "right",
+          "face": "A",
+          "kind": "bore",
+          "u": 6,
+          "v": 35,
+          "diameter": 8,
+          "depth": 8,
+          "size": null,
+          "reason": "Шкант 8×30; сопряжение с торцом стенки",
+          "joint": "right-front-dowel",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "right-04",
+          "part": "right",
+          "face": "A",
+          "kind": "bore",
+          "u": 334,
+          "v": 55,
+          "diameter": 5,
+          "depth": 9,
+          "size": null,
+          "reason": "Шток Twister DU319T 48037",
+          "joint": "right-rear-55",
+          "source": "twister",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "right-05",
+          "part": "right",
+          "face": "A",
+          "kind": "bore",
+          "u": 334,
+          "v": 90,
+          "diameter": 5,
+          "depth": 9,
+          "size": null,
+          "reason": "Шток Twister DU319T 48037",
+          "joint": "right-rear-90",
+          "source": "twister",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "right-06",
+          "part": "right",
+          "face": "A",
+          "kind": "bore",
+          "u": 334,
+          "v": 35,
+          "diameter": 8,
+          "depth": 8,
+          "size": null,
+          "reason": "Шкант 8×30; сопряжение с торцом стенки",
+          "joint": "right-rear-dowel",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "right-07",
+          "part": "right",
+          "face": "A",
+          "kind": "pocket",
+          "u": 6,
+          "v": 12.9,
+          "diameter": null,
+          "depth": 3,
+          "size": [
+            328,
+            9.2
+          ],
+          "reason": "Паз дна; концы R3. При фактической толщине дна ≠9 пересчитать ширину.",
+          "joint": "bottom-groove",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 3
+        }
+      ]
+    },
+    {
+      "id": "front",
+      "name": "Передняя стенка короба",
+      "width": 431,
+      "height": 110,
+      "thickness": 12,
+      "origin": [
+        12,
+        0,
+        0
+      ],
+      "u": [
+        1,
+        0,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        1
+      ],
+      "n": [
+        0,
+        1,
+        0
+      ],
+      "codes": [
+        "W39",
+        "W45"
+      ],
+      "operations": [
+        {
+          "id": "front-01",
+          "part": "front",
+          "face": "B",
+          "kind": "bore",
+          "u": 24,
+          "v": 55,
+          "diameter": 15,
+          "depth": 10,
+          "size": null,
+          "reason": "Карман Rastex15/12 9116019; центр 24 от торца",
+          "joint": "left-front-55",
+          "source": "rastex",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-02",
+          "part": "front",
+          "face": "U0",
+          "kind": "edge_bore",
+          "u": 0,
+          "v": 55,
+          "diameter": 8,
+          "depth": 24,
+          "size": null,
+          "reason": "Канал штока; ось в 6 мм от пласти A",
+          "joint": "left-front-55",
+          "source": "rastex",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-03",
+          "part": "front",
+          "face": "B",
+          "kind": "bore",
+          "u": 24,
+          "v": 90,
+          "diameter": 15,
+          "depth": 10,
+          "size": null,
+          "reason": "Карман Rastex15/12 9116019; центр 24 от торца",
+          "joint": "left-front-90",
+          "source": "rastex",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-04",
+          "part": "front",
+          "face": "U0",
+          "kind": "edge_bore",
+          "u": 0,
+          "v": 90,
+          "diameter": 8,
+          "depth": 24,
+          "size": null,
+          "reason": "Канал штока; ось в 6 мм от пласти A",
+          "joint": "left-front-90",
+          "source": "rastex",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-05",
+          "part": "front",
+          "face": "U0",
+          "kind": "edge_bore",
+          "u": 0,
+          "v": 35,
+          "diameter": 8,
+          "depth": 24,
+          "size": null,
+          "reason": "Шкант 8×30; ось в 6 мм от пласти A",
+          "joint": "left-front-dowel",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-06",
+          "part": "front",
+          "face": "B",
+          "kind": "bore",
+          "u": 407,
+          "v": 55,
+          "diameter": 15,
+          "depth": 10,
+          "size": null,
+          "reason": "Карман Rastex15/12 9116019; центр 24 от торца",
+          "joint": "right-front-55",
+          "source": "rastex",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-07",
+          "part": "front",
+          "face": "U1",
+          "kind": "edge_bore",
+          "u": 431,
+          "v": 55,
+          "diameter": 8,
+          "depth": 24,
+          "size": null,
+          "reason": "Канал штока; ось в 6 мм от пласти A",
+          "joint": "right-front-55",
+          "source": "rastex",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-08",
+          "part": "front",
+          "face": "B",
+          "kind": "bore",
+          "u": 407,
+          "v": 90,
+          "diameter": 15,
+          "depth": 10,
+          "size": null,
+          "reason": "Карман Rastex15/12 9116019; центр 24 от торца",
+          "joint": "right-front-90",
+          "source": "rastex",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-09",
+          "part": "front",
+          "face": "U1",
+          "kind": "edge_bore",
+          "u": 431,
+          "v": 90,
+          "diameter": 8,
+          "depth": 24,
+          "size": null,
+          "reason": "Канал штока; ось в 6 мм от пласти A",
+          "joint": "right-front-90",
+          "source": "rastex",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-10",
+          "part": "front",
+          "face": "U1",
+          "kind": "edge_bore",
+          "u": 431,
+          "v": 35,
+          "diameter": 8,
+          "depth": 24,
+          "size": null,
+          "reason": "Шкант 8×30; ось в 6 мм от пласти A",
+          "joint": "right-front-dowel",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-11",
+          "part": "front",
+          "face": "B",
+          "kind": "pocket",
+          "u": 0,
+          "v": 12.9,
+          "diameter": null,
+          "depth": 3,
+          "size": [
+            431,
+            9.2
+          ],
+          "reason": "Сквозной по длине паз дна, выход в оба торца",
+          "joint": "bottom-groove",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-12",
+          "part": "front",
+          "face": "B",
+          "kind": "bore",
+          "u": 60,
+          "v": 40,
+          "diameter": 4,
+          "depth": 12,
+          "size": null,
+          "reason": "Сквозной под шуруп фасада 3,5×20",
+          "joint": "face-60-40",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-13",
+          "part": "front",
+          "face": "B",
+          "kind": "countersink",
+          "u": 60,
+          "v": 40,
+          "diameter": 7,
+          "depth": 1.5,
+          "size": null,
+          "reason": "Зенковка 90°; головка шурупа",
+          "joint": "face-60-40",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-14",
+          "part": "front",
+          "face": "B",
+          "kind": "bore",
+          "u": 60,
+          "v": 90,
+          "diameter": 4,
+          "depth": 12,
+          "size": null,
+          "reason": "Сквозной под шуруп фасада 3,5×20",
+          "joint": "face-60-90",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-15",
+          "part": "front",
+          "face": "B",
+          "kind": "countersink",
+          "u": 60,
+          "v": 90,
+          "diameter": 7,
+          "depth": 1.5,
+          "size": null,
+          "reason": "Зенковка 90°; головка шурупа",
+          "joint": "face-60-90",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-16",
+          "part": "front",
+          "face": "B",
+          "kind": "bore",
+          "u": 371,
+          "v": 40,
+          "diameter": 4,
+          "depth": 12,
+          "size": null,
+          "reason": "Сквозной под шуруп фасада 3,5×20",
+          "joint": "face-371-40",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-17",
+          "part": "front",
+          "face": "B",
+          "kind": "countersink",
+          "u": 371,
+          "v": 40,
+          "diameter": 7,
+          "depth": 1.5,
+          "size": null,
+          "reason": "Зенковка 90°; головка шурупа",
+          "joint": "face-371-40",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-18",
+          "part": "front",
+          "face": "B",
+          "kind": "bore",
+          "u": 371,
+          "v": 90,
+          "diameter": 4,
+          "depth": 12,
+          "size": null,
+          "reason": "Сквозной под шуруп фасада 3,5×20",
+          "joint": "face-371-90",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "front-19",
+          "part": "front",
+          "face": "B",
+          "kind": "countersink",
+          "u": 371,
+          "v": 90,
+          "diameter": 7,
+          "depth": 1.5,
+          "size": null,
+          "reason": "Зенковка 90°; головка шурупа",
+          "joint": "face-371-90",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        }
+      ]
+    },
+    {
+      "id": "rear",
+      "name": "Задняя стенка короба",
+      "width": 431,
+      "height": 97,
+      "thickness": 12,
+      "origin": [
+        12,
+        328,
+        13
+      ],
+      "u": [
+        1,
+        0,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        1
+      ],
+      "n": [
+        0,
+        1,
+        0
+      ],
+      "codes": [
+        "W40",
+        "W46"
+      ],
+      "operations": [
+        {
+          "id": "rear-01",
+          "part": "rear",
+          "face": "A",
+          "kind": "bore",
+          "u": 24,
+          "v": 42,
+          "diameter": 15,
+          "depth": 10,
+          "size": null,
+          "reason": "Карман Rastex15/12 9116019; центр 24 от торца",
+          "joint": "left-rear-55",
+          "source": "rastex",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "rear-02",
+          "part": "rear",
+          "face": "U0",
+          "kind": "edge_bore",
+          "u": 0,
+          "v": 42,
+          "diameter": 8,
+          "depth": 24,
+          "size": null,
+          "reason": "Канал штока; ось в 6 мм от пласти A",
+          "joint": "left-rear-55",
+          "source": "rastex",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "rear-03",
+          "part": "rear",
+          "face": "A",
+          "kind": "bore",
+          "u": 24,
+          "v": 77,
+          "diameter": 15,
+          "depth": 10,
+          "size": null,
+          "reason": "Карман Rastex15/12 9116019; центр 24 от торца",
+          "joint": "left-rear-90",
+          "source": "rastex",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "rear-04",
+          "part": "rear",
+          "face": "U0",
+          "kind": "edge_bore",
+          "u": 0,
+          "v": 77,
+          "diameter": 8,
+          "depth": 24,
+          "size": null,
+          "reason": "Канал штока; ось в 6 мм от пласти A",
+          "joint": "left-rear-90",
+          "source": "rastex",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "rear-05",
+          "part": "rear",
+          "face": "U0",
+          "kind": "edge_bore",
+          "u": 0,
+          "v": 22,
+          "diameter": 8,
+          "depth": 24,
+          "size": null,
+          "reason": "Шкант 8×30; ось в 6 мм от пласти A",
+          "joint": "left-rear-dowel",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "rear-06",
+          "part": "rear",
+          "face": "A",
+          "kind": "bore",
+          "u": 407,
+          "v": 42,
+          "diameter": 15,
+          "depth": 10,
+          "size": null,
+          "reason": "Карман Rastex15/12 9116019; центр 24 от торца",
+          "joint": "right-rear-55",
+          "source": "rastex",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "rear-07",
+          "part": "rear",
+          "face": "U1",
+          "kind": "edge_bore",
+          "u": 431,
+          "v": 42,
+          "diameter": 8,
+          "depth": 24,
+          "size": null,
+          "reason": "Канал штока; ось в 6 мм от пласти A",
+          "joint": "right-rear-55",
+          "source": "rastex",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "rear-08",
+          "part": "rear",
+          "face": "A",
+          "kind": "bore",
+          "u": 407,
+          "v": 77,
+          "diameter": 15,
+          "depth": 10,
+          "size": null,
+          "reason": "Карман Rastex15/12 9116019; центр 24 от торца",
+          "joint": "right-rear-90",
+          "source": "rastex",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "rear-09",
+          "part": "rear",
+          "face": "U1",
+          "kind": "edge_bore",
+          "u": 431,
+          "v": 77,
+          "diameter": 8,
+          "depth": 24,
+          "size": null,
+          "reason": "Канал штока; ось в 6 мм от пласти A",
+          "joint": "right-rear-90",
+          "source": "rastex",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "rear-10",
+          "part": "rear",
+          "face": "U1",
+          "kind": "edge_bore",
+          "u": 431,
+          "v": 22,
+          "diameter": 8,
+          "depth": 24,
+          "size": null,
+          "reason": "Шкант 8×30; ось в 6 мм от пласти A",
+          "joint": "right-rear-dowel",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "rear-11",
+          "part": "rear",
+          "face": "B",
+          "kind": "bore",
+          "u": 7,
+          "v": 11,
+          "diameter": 6,
+          "depth": 10,
+          "size": null,
+          "reason": "Зацеп TANDEM: 7 от внутренней боковой грани, 11 над нижним торцом задней стенки",
+          "joint": "rear-hook-7",
+          "source": "tandem",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "rear-12",
+          "part": "rear",
+          "face": "B",
+          "kind": "bore",
+          "u": 424,
+          "v": 11,
+          "diameter": 6,
+          "depth": 10,
+          "size": null,
+          "reason": "Зацеп TANDEM: 7 от внутренней боковой грани, 11 над нижним торцом задней стенки",
+          "joint": "rear-hook-424",
+          "source": "tandem",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        }
+      ]
+    },
+    {
+      "id": "bottom",
+      "name": "Дно",
+      "width": 436.6,
+      "height": 318.6,
+      "thickness": 9,
+      "origin": [
+        9.2,
+        9.2,
+        13
+      ],
+      "u": [
+        1,
+        0,
+        0
+      ],
+      "v": [
+        0,
+        1,
+        0
+      ],
+      "n": [
+        0,
+        0,
+        1
+      ],
+      "codes": [
+        "W41",
+        "W47"
+      ],
+      "operations": []
+    },
+    {
+      "id": "face",
+      "name": "Внутренний фасад",
+      "width": 465,
+      "height": 142,
+      "thickness": 12,
+      "origin": [
+        -5,
+        -12,
+        -19
+      ],
+      "u": [
+        1,
+        0,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        1
+      ],
+      "n": [
+        0,
+        1,
+        0
+      ],
+      "codes": [
+        "W42",
+        "W48"
+      ],
+      "operations": [
+        {
+          "id": "face-01",
+          "part": "face",
+          "face": "B",
+          "kind": "bore",
+          "u": 77,
+          "v": 59,
+          "diameter": 2.5,
+          "depth": 8,
+          "size": null,
+          "reason": "Пилот шурупа 3,5×20; размер проверить на образце",
+          "joint": "face-60-40",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "face-02",
+          "part": "face",
+          "face": "B",
+          "kind": "bore",
+          "u": 77,
+          "v": 109,
+          "diameter": 2.5,
+          "depth": 8,
+          "size": null,
+          "reason": "Пилот шурупа 3,5×20; размер проверить на образце",
+          "joint": "face-60-90",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "face-03",
+          "part": "face",
+          "face": "B",
+          "kind": "bore",
+          "u": 388,
+          "v": 59,
+          "diameter": 2.5,
+          "depth": 8,
+          "size": null,
+          "reason": "Пилот шурупа 3,5×20; размер проверить на образце",
+          "joint": "face-371-40",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "face-04",
+          "part": "face",
+          "face": "B",
+          "kind": "bore",
+          "u": 388,
+          "v": 109,
+          "diameter": 2.5,
+          "depth": 8,
+          "size": null,
+          "reason": "Пилот шурупа 3,5×20; размер проверить на образце",
+          "joint": "face-371-90",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 0
+        },
+        {
+          "id": "face-05",
+          "part": "face",
+          "face": "B",
+          "kind": "pocket",
+          "u": 182.5,
+          "v": 128,
+          "diameter": null,
+          "depth": 6,
+          "size": [
+            100,
+            14
+          ],
+          "reason": "Предложенный фрезерованный хват сзади, открыт к верхней кромке; без покупной ручки",
+          "joint": "finger-pull",
+          "source": "",
+          "status": "расчёт для контрольного образца",
+          "corner_radius_mm": 3
+        }
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "id": "left-01",
+      "part": "left",
+      "face": "B",
+      "kind": "bore",
+      "u": 6,
+      "v": 55,
+      "diameter": 5,
+      "depth": 9,
+      "size": null,
+      "reason": "Шток Twister DU319T 48037",
+      "joint": "left-front-55",
+      "source": "twister",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "left-02",
+      "part": "left",
+      "face": "B",
+      "kind": "bore",
+      "u": 6,
+      "v": 90,
+      "diameter": 5,
+      "depth": 9,
+      "size": null,
+      "reason": "Шток Twister DU319T 48037",
+      "joint": "left-front-90",
+      "source": "twister",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "left-03",
+      "part": "left",
+      "face": "B",
+      "kind": "bore",
+      "u": 6,
+      "v": 35,
+      "diameter": 8,
+      "depth": 8,
+      "size": null,
+      "reason": "Шкант 8×30; сопряжение с торцом стенки",
+      "joint": "left-front-dowel",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "left-04",
+      "part": "left",
+      "face": "B",
+      "kind": "bore",
+      "u": 334,
+      "v": 55,
+      "diameter": 5,
+      "depth": 9,
+      "size": null,
+      "reason": "Шток Twister DU319T 48037",
+      "joint": "left-rear-55",
+      "source": "twister",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "left-05",
+      "part": "left",
+      "face": "B",
+      "kind": "bore",
+      "u": 334,
+      "v": 90,
+      "diameter": 5,
+      "depth": 9,
+      "size": null,
+      "reason": "Шток Twister DU319T 48037",
+      "joint": "left-rear-90",
+      "source": "twister",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "left-06",
+      "part": "left",
+      "face": "B",
+      "kind": "bore",
+      "u": 334,
+      "v": 35,
+      "diameter": 8,
+      "depth": 8,
+      "size": null,
+      "reason": "Шкант 8×30; сопряжение с торцом стенки",
+      "joint": "left-rear-dowel",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "left-07",
+      "part": "left",
+      "face": "B",
+      "kind": "pocket",
+      "u": 6,
+      "v": 12.9,
+      "diameter": null,
+      "depth": 3,
+      "size": [
+        328,
+        9.2
+      ],
+      "reason": "Паз дна; концы R3. При фактической толщине дна ≠9 пересчитать ширину.",
+      "joint": "bottom-groove",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 3
+    },
+    {
+      "id": "right-01",
+      "part": "right",
+      "face": "A",
+      "kind": "bore",
+      "u": 6,
+      "v": 55,
+      "diameter": 5,
+      "depth": 9,
+      "size": null,
+      "reason": "Шток Twister DU319T 48037",
+      "joint": "right-front-55",
+      "source": "twister",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "right-02",
+      "part": "right",
+      "face": "A",
+      "kind": "bore",
+      "u": 6,
+      "v": 90,
+      "diameter": 5,
+      "depth": 9,
+      "size": null,
+      "reason": "Шток Twister DU319T 48037",
+      "joint": "right-front-90",
+      "source": "twister",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "right-03",
+      "part": "right",
+      "face": "A",
+      "kind": "bore",
+      "u": 6,
+      "v": 35,
+      "diameter": 8,
+      "depth": 8,
+      "size": null,
+      "reason": "Шкант 8×30; сопряжение с торцом стенки",
+      "joint": "right-front-dowel",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "right-04",
+      "part": "right",
+      "face": "A",
+      "kind": "bore",
+      "u": 334,
+      "v": 55,
+      "diameter": 5,
+      "depth": 9,
+      "size": null,
+      "reason": "Шток Twister DU319T 48037",
+      "joint": "right-rear-55",
+      "source": "twister",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "right-05",
+      "part": "right",
+      "face": "A",
+      "kind": "bore",
+      "u": 334,
+      "v": 90,
+      "diameter": 5,
+      "depth": 9,
+      "size": null,
+      "reason": "Шток Twister DU319T 48037",
+      "joint": "right-rear-90",
+      "source": "twister",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "right-06",
+      "part": "right",
+      "face": "A",
+      "kind": "bore",
+      "u": 334,
+      "v": 35,
+      "diameter": 8,
+      "depth": 8,
+      "size": null,
+      "reason": "Шкант 8×30; сопряжение с торцом стенки",
+      "joint": "right-rear-dowel",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "right-07",
+      "part": "right",
+      "face": "A",
+      "kind": "pocket",
+      "u": 6,
+      "v": 12.9,
+      "diameter": null,
+      "depth": 3,
+      "size": [
+        328,
+        9.2
+      ],
+      "reason": "Паз дна; концы R3. При фактической толщине дна ≠9 пересчитать ширину.",
+      "joint": "bottom-groove",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 3
+    },
+    {
+      "id": "front-01",
+      "part": "front",
+      "face": "B",
+      "kind": "bore",
+      "u": 24,
+      "v": 55,
+      "diameter": 15,
+      "depth": 10,
+      "size": null,
+      "reason": "Карман Rastex15/12 9116019; центр 24 от торца",
+      "joint": "left-front-55",
+      "source": "rastex",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-02",
+      "part": "front",
+      "face": "U0",
+      "kind": "edge_bore",
+      "u": 0,
+      "v": 55,
+      "diameter": 8,
+      "depth": 24,
+      "size": null,
+      "reason": "Канал штока; ось в 6 мм от пласти A",
+      "joint": "left-front-55",
+      "source": "rastex",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-03",
+      "part": "front",
+      "face": "B",
+      "kind": "bore",
+      "u": 24,
+      "v": 90,
+      "diameter": 15,
+      "depth": 10,
+      "size": null,
+      "reason": "Карман Rastex15/12 9116019; центр 24 от торца",
+      "joint": "left-front-90",
+      "source": "rastex",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-04",
+      "part": "front",
+      "face": "U0",
+      "kind": "edge_bore",
+      "u": 0,
+      "v": 90,
+      "diameter": 8,
+      "depth": 24,
+      "size": null,
+      "reason": "Канал штока; ось в 6 мм от пласти A",
+      "joint": "left-front-90",
+      "source": "rastex",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-05",
+      "part": "front",
+      "face": "U0",
+      "kind": "edge_bore",
+      "u": 0,
+      "v": 35,
+      "diameter": 8,
+      "depth": 24,
+      "size": null,
+      "reason": "Шкант 8×30; ось в 6 мм от пласти A",
+      "joint": "left-front-dowel",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-06",
+      "part": "front",
+      "face": "B",
+      "kind": "bore",
+      "u": 407,
+      "v": 55,
+      "diameter": 15,
+      "depth": 10,
+      "size": null,
+      "reason": "Карман Rastex15/12 9116019; центр 24 от торца",
+      "joint": "right-front-55",
+      "source": "rastex",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-07",
+      "part": "front",
+      "face": "U1",
+      "kind": "edge_bore",
+      "u": 431,
+      "v": 55,
+      "diameter": 8,
+      "depth": 24,
+      "size": null,
+      "reason": "Канал штока; ось в 6 мм от пласти A",
+      "joint": "right-front-55",
+      "source": "rastex",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-08",
+      "part": "front",
+      "face": "B",
+      "kind": "bore",
+      "u": 407,
+      "v": 90,
+      "diameter": 15,
+      "depth": 10,
+      "size": null,
+      "reason": "Карман Rastex15/12 9116019; центр 24 от торца",
+      "joint": "right-front-90",
+      "source": "rastex",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-09",
+      "part": "front",
+      "face": "U1",
+      "kind": "edge_bore",
+      "u": 431,
+      "v": 90,
+      "diameter": 8,
+      "depth": 24,
+      "size": null,
+      "reason": "Канал штока; ось в 6 мм от пласти A",
+      "joint": "right-front-90",
+      "source": "rastex",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-10",
+      "part": "front",
+      "face": "U1",
+      "kind": "edge_bore",
+      "u": 431,
+      "v": 35,
+      "diameter": 8,
+      "depth": 24,
+      "size": null,
+      "reason": "Шкант 8×30; ось в 6 мм от пласти A",
+      "joint": "right-front-dowel",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-11",
+      "part": "front",
+      "face": "B",
+      "kind": "pocket",
+      "u": 0,
+      "v": 12.9,
+      "diameter": null,
+      "depth": 3,
+      "size": [
+        431,
+        9.2
+      ],
+      "reason": "Сквозной по длине паз дна, выход в оба торца",
+      "joint": "bottom-groove",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-12",
+      "part": "front",
+      "face": "B",
+      "kind": "bore",
+      "u": 60,
+      "v": 40,
+      "diameter": 4,
+      "depth": 12,
+      "size": null,
+      "reason": "Сквозной под шуруп фасада 3,5×20",
+      "joint": "face-60-40",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-13",
+      "part": "front",
+      "face": "B",
+      "kind": "countersink",
+      "u": 60,
+      "v": 40,
+      "diameter": 7,
+      "depth": 1.5,
+      "size": null,
+      "reason": "Зенковка 90°; головка шурупа",
+      "joint": "face-60-40",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-14",
+      "part": "front",
+      "face": "B",
+      "kind": "bore",
+      "u": 60,
+      "v": 90,
+      "diameter": 4,
+      "depth": 12,
+      "size": null,
+      "reason": "Сквозной под шуруп фасада 3,5×20",
+      "joint": "face-60-90",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-15",
+      "part": "front",
+      "face": "B",
+      "kind": "countersink",
+      "u": 60,
+      "v": 90,
+      "diameter": 7,
+      "depth": 1.5,
+      "size": null,
+      "reason": "Зенковка 90°; головка шурупа",
+      "joint": "face-60-90",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-16",
+      "part": "front",
+      "face": "B",
+      "kind": "bore",
+      "u": 371,
+      "v": 40,
+      "diameter": 4,
+      "depth": 12,
+      "size": null,
+      "reason": "Сквозной под шуруп фасада 3,5×20",
+      "joint": "face-371-40",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-17",
+      "part": "front",
+      "face": "B",
+      "kind": "countersink",
+      "u": 371,
+      "v": 40,
+      "diameter": 7,
+      "depth": 1.5,
+      "size": null,
+      "reason": "Зенковка 90°; головка шурупа",
+      "joint": "face-371-40",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-18",
+      "part": "front",
+      "face": "B",
+      "kind": "bore",
+      "u": 371,
+      "v": 90,
+      "diameter": 4,
+      "depth": 12,
+      "size": null,
+      "reason": "Сквозной под шуруп фасада 3,5×20",
+      "joint": "face-371-90",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "front-19",
+      "part": "front",
+      "face": "B",
+      "kind": "countersink",
+      "u": 371,
+      "v": 90,
+      "diameter": 7,
+      "depth": 1.5,
+      "size": null,
+      "reason": "Зенковка 90°; головка шурупа",
+      "joint": "face-371-90",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "rear-01",
+      "part": "rear",
+      "face": "A",
+      "kind": "bore",
+      "u": 24,
+      "v": 42,
+      "diameter": 15,
+      "depth": 10,
+      "size": null,
+      "reason": "Карман Rastex15/12 9116019; центр 24 от торца",
+      "joint": "left-rear-55",
+      "source": "rastex",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "rear-02",
+      "part": "rear",
+      "face": "U0",
+      "kind": "edge_bore",
+      "u": 0,
+      "v": 42,
+      "diameter": 8,
+      "depth": 24,
+      "size": null,
+      "reason": "Канал штока; ось в 6 мм от пласти A",
+      "joint": "left-rear-55",
+      "source": "rastex",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "rear-03",
+      "part": "rear",
+      "face": "A",
+      "kind": "bore",
+      "u": 24,
+      "v": 77,
+      "diameter": 15,
+      "depth": 10,
+      "size": null,
+      "reason": "Карман Rastex15/12 9116019; центр 24 от торца",
+      "joint": "left-rear-90",
+      "source": "rastex",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "rear-04",
+      "part": "rear",
+      "face": "U0",
+      "kind": "edge_bore",
+      "u": 0,
+      "v": 77,
+      "diameter": 8,
+      "depth": 24,
+      "size": null,
+      "reason": "Канал штока; ось в 6 мм от пласти A",
+      "joint": "left-rear-90",
+      "source": "rastex",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "rear-05",
+      "part": "rear",
+      "face": "U0",
+      "kind": "edge_bore",
+      "u": 0,
+      "v": 22,
+      "diameter": 8,
+      "depth": 24,
+      "size": null,
+      "reason": "Шкант 8×30; ось в 6 мм от пласти A",
+      "joint": "left-rear-dowel",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "rear-06",
+      "part": "rear",
+      "face": "A",
+      "kind": "bore",
+      "u": 407,
+      "v": 42,
+      "diameter": 15,
+      "depth": 10,
+      "size": null,
+      "reason": "Карман Rastex15/12 9116019; центр 24 от торца",
+      "joint": "right-rear-55",
+      "source": "rastex",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "rear-07",
+      "part": "rear",
+      "face": "U1",
+      "kind": "edge_bore",
+      "u": 431,
+      "v": 42,
+      "diameter": 8,
+      "depth": 24,
+      "size": null,
+      "reason": "Канал штока; ось в 6 мм от пласти A",
+      "joint": "right-rear-55",
+      "source": "rastex",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "rear-08",
+      "part": "rear",
+      "face": "A",
+      "kind": "bore",
+      "u": 407,
+      "v": 77,
+      "diameter": 15,
+      "depth": 10,
+      "size": null,
+      "reason": "Карман Rastex15/12 9116019; центр 24 от торца",
+      "joint": "right-rear-90",
+      "source": "rastex",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "rear-09",
+      "part": "rear",
+      "face": "U1",
+      "kind": "edge_bore",
+      "u": 431,
+      "v": 77,
+      "diameter": 8,
+      "depth": 24,
+      "size": null,
+      "reason": "Канал штока; ось в 6 мм от пласти A",
+      "joint": "right-rear-90",
+      "source": "rastex",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "rear-10",
+      "part": "rear",
+      "face": "U1",
+      "kind": "edge_bore",
+      "u": 431,
+      "v": 22,
+      "diameter": 8,
+      "depth": 24,
+      "size": null,
+      "reason": "Шкант 8×30; ось в 6 мм от пласти A",
+      "joint": "right-rear-dowel",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "rear-11",
+      "part": "rear",
+      "face": "B",
+      "kind": "bore",
+      "u": 7,
+      "v": 11,
+      "diameter": 6,
+      "depth": 10,
+      "size": null,
+      "reason": "Зацеп TANDEM: 7 от внутренней боковой грани, 11 над нижним торцом задней стенки",
+      "joint": "rear-hook-7",
+      "source": "tandem",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "rear-12",
+      "part": "rear",
+      "face": "B",
+      "kind": "bore",
+      "u": 424,
+      "v": 11,
+      "diameter": 6,
+      "depth": 10,
+      "size": null,
+      "reason": "Зацеп TANDEM: 7 от внутренней боковой грани, 11 над нижним торцом задней стенки",
+      "joint": "rear-hook-424",
+      "source": "tandem",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "face-01",
+      "part": "face",
+      "face": "B",
+      "kind": "bore",
+      "u": 77,
+      "v": 59,
+      "diameter": 2.5,
+      "depth": 8,
+      "size": null,
+      "reason": "Пилот шурупа 3,5×20; размер проверить на образце",
+      "joint": "face-60-40",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "face-02",
+      "part": "face",
+      "face": "B",
+      "kind": "bore",
+      "u": 77,
+      "v": 109,
+      "diameter": 2.5,
+      "depth": 8,
+      "size": null,
+      "reason": "Пилот шурупа 3,5×20; размер проверить на образце",
+      "joint": "face-60-90",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "face-03",
+      "part": "face",
+      "face": "B",
+      "kind": "bore",
+      "u": 388,
+      "v": 59,
+      "diameter": 2.5,
+      "depth": 8,
+      "size": null,
+      "reason": "Пилот шурупа 3,5×20; размер проверить на образце",
+      "joint": "face-371-40",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "face-04",
+      "part": "face",
+      "face": "B",
+      "kind": "bore",
+      "u": 388,
+      "v": 109,
+      "diameter": 2.5,
+      "depth": 8,
+      "size": null,
+      "reason": "Пилот шурупа 3,5×20; размер проверить на образце",
+      "joint": "face-371-90",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 0
+    },
+    {
+      "id": "face-05",
+      "part": "face",
+      "face": "B",
+      "kind": "pocket",
+      "u": 182.5,
+      "v": 128,
+      "diameter": null,
+      "depth": 6,
+      "size": [
+        100,
+        14
+      ],
+      "reason": "Предложенный фрезерованный хват сзади, открыт к верхней кромке; без покупной ручки",
+      "joint": "finger-pull",
+      "source": "",
+      "status": "расчёт для контрольного образца",
+      "corner_radius_mm": 3
+    }
+  ],
+  "checks": {
+    "version": "drawer-proof-v13",
+    "status": "Контрольная 3D-геометрия одного ящика; не выпуск в изготовление",
+    "input_source_sha256": "e3826c48a0302ebab7592acf2423fb7110ea8f96efeccfb681a3fd9f200c7692",
+    "features": [
+      {
+        "id": "left-01",
+        "part": "left",
+        "stock_cut_mm3": 176.431,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 3
+      },
+      {
+        "id": "left-02",
+        "part": "left",
+        "stock_cut_mm3": 176.431,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 3
+      },
+      {
+        "id": "left-03",
+        "part": "left",
+        "stock_cut_mm3": 401.478,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 4
+      },
+      {
+        "id": "left-04",
+        "part": "left",
+        "stock_cut_mm3": 176.431,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 3
+      },
+      {
+        "id": "left-05",
+        "part": "left",
+        "stock_cut_mm3": 176.431,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 3
+      },
+      {
+        "id": "left-06",
+        "part": "left",
+        "stock_cut_mm3": 401.478,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 4
+      },
+      {
+        "id": "left-07",
+        "part": "left",
+        "stock_cut_mm3": 9029.488,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 9
+      },
+      {
+        "id": "right-01",
+        "part": "right",
+        "stock_cut_mm3": 176.431,
+        "wood_remaining_in_feature_mm3": 0,
+        "nominal_back_or_radial_wall_mm": 3
+      },
+      {
+        "id": "right-02",
+        "part": "right",
+        "stock_cut_mm3": 176.431,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 3
+      },
+      {
+        "id": "right-03",
+        "part": "right",
+        "stock_cut_mm3": 401.478,
+        "wood_remaining_in_feature_mm3": 0,
+        "nominal_back_or_radial_wall_mm": 4
+      },
+      {
+        "id": "right-04",
+        "part": "right",
+        "stock_cut_mm3": 176.431,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 3
+      },
+      {
+        "id": "right-05",
+        "part": "right",
+        "stock_cut_mm3": 176.431,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 3
+      },
+      {
+        "id": "right-06",
+        "part": "right",
+        "stock_cut_mm3": 401.478,
+        "wood_remaining_in_feature_mm3": 0,
+        "nominal_back_or_radial_wall_mm": 4
+      },
+      {
+        "id": "right-07",
+        "part": "right",
+        "stock_cut_mm3": 9029.488,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 9
+      },
+      {
+        "id": "front-01",
+        "part": "front",
+        "stock_cut_mm3": 1764.309,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 2
+      },
+      {
+        "id": "front-02",
+        "part": "front",
+        "stock_cut_mm3": 1204.435,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 2.0
+      },
+      {
+        "id": "front-03",
+        "part": "front",
+        "stock_cut_mm3": 1764.309,
+        "wood_remaining_in_feature_mm3": 0,
+        "nominal_back_or_radial_wall_mm": 2
+      },
+      {
+        "id": "front-04",
+        "part": "front",
+        "stock_cut_mm3": 1204.435,
+        "wood_remaining_in_feature_mm3": 2e-06,
+        "nominal_back_or_radial_wall_mm": 2.0
+      },
+      {
+        "id": "front-05",
+        "part": "front",
+        "stock_cut_mm3": 1204.435,
+        "wood_remaining_in_feature_mm3": 0,
+        "nominal_back_or_radial_wall_mm": 2.0
+      },
+      {
+        "id": "front-06",
+        "part": "front",
+        "stock_cut_mm3": 1764.309,
+        "wood_remaining_in_feature_mm3": 1.2e-05,
+        "nominal_back_or_radial_wall_mm": 2
+      },
+      {
+        "id": "front-07",
+        "part": "front",
+        "stock_cut_mm3": 1204.435,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 2.0
+      },
+      {
+        "id": "front-08",
+        "part": "front",
+        "stock_cut_mm3": 1764.309,
+        "wood_remaining_in_feature_mm3": 5e-06,
+        "nominal_back_or_radial_wall_mm": 2
+      },
+      {
+        "id": "front-09",
+        "part": "front",
+        "stock_cut_mm3": 1204.435,
+        "wood_remaining_in_feature_mm3": 1e-06,
+        "nominal_back_or_radial_wall_mm": 2.0
+      },
+      {
+        "id": "front-10",
+        "part": "front",
+        "stock_cut_mm3": 1204.435,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 2.0
+      },
+      {
+        "id": "front-11",
+        "part": "front",
+        "stock_cut_mm3": 11895.601,
+        "wood_remaining_in_feature_mm3": 0,
+        "nominal_back_or_radial_wall_mm": 9
+      },
+      {
+        "id": "front-12",
+        "part": "front",
+        "stock_cut_mm3": 150.554,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 0
+      },
+      {
+        "id": "front-13",
+        "part": "front",
+        "stock_cut_mm3": 36.462,
+        "wood_remaining_in_feature_mm3": 0,
+        "nominal_back_or_radial_wall_mm": 10.5
+      },
+      {
+        "id": "front-14",
+        "part": "front",
+        "stock_cut_mm3": 150.554,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 0
+      },
+      {
+        "id": "front-15",
+        "part": "front",
+        "stock_cut_mm3": 36.462,
+        "wood_remaining_in_feature_mm3": 0,
+        "nominal_back_or_radial_wall_mm": 10.5
+      },
+      {
+        "id": "front-16",
+        "part": "front",
+        "stock_cut_mm3": 150.554,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 0
+      },
+      {
+        "id": "front-17",
+        "part": "front",
+        "stock_cut_mm3": 36.462,
+        "wood_remaining_in_feature_mm3": 0,
+        "nominal_back_or_radial_wall_mm": 10.5
+      },
+      {
+        "id": "front-18",
+        "part": "front",
+        "stock_cut_mm3": 150.554,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 0
+      },
+      {
+        "id": "front-19",
+        "part": "front",
+        "stock_cut_mm3": 36.462,
+        "wood_remaining_in_feature_mm3": 0,
+        "nominal_back_or_radial_wall_mm": 10.5
+      },
+      {
+        "id": "rear-01",
+        "part": "rear",
+        "stock_cut_mm3": 1764.309,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 2
+      },
+      {
+        "id": "rear-02",
+        "part": "rear",
+        "stock_cut_mm3": 1204.434,
+        "wood_remaining_in_feature_mm3": 9e-06,
+        "nominal_back_or_radial_wall_mm": 2.0
+      },
+      {
+        "id": "rear-03",
+        "part": "rear",
+        "stock_cut_mm3": 1764.309,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 2
+      },
+      {
+        "id": "rear-04",
+        "part": "rear",
+        "stock_cut_mm3": 1204.434,
+        "wood_remaining_in_feature_mm3": 2.3e-05,
+        "nominal_back_or_radial_wall_mm": 2.0
+      },
+      {
+        "id": "rear-05",
+        "part": "rear",
+        "stock_cut_mm3": 1204.434,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 2.0
+      },
+      {
+        "id": "rear-06",
+        "part": "rear",
+        "stock_cut_mm3": 1764.309,
+        "wood_remaining_in_feature_mm3": 1.2e-05,
+        "nominal_back_or_radial_wall_mm": 2
+      },
+      {
+        "id": "rear-07",
+        "part": "rear",
+        "stock_cut_mm3": 1204.434,
+        "wood_remaining_in_feature_mm3": 8e-06,
+        "nominal_back_or_radial_wall_mm": 2.0
+      },
+      {
+        "id": "rear-08",
+        "part": "rear",
+        "stock_cut_mm3": 1764.309,
+        "wood_remaining_in_feature_mm3": 5e-06,
+        "nominal_back_or_radial_wall_mm": 2
+      },
+      {
+        "id": "rear-09",
+        "part": "rear",
+        "stock_cut_mm3": 1204.434,
+        "wood_remaining_in_feature_mm3": 1.3e-05,
+        "nominal_back_or_radial_wall_mm": 2.0
+      },
+      {
+        "id": "rear-10",
+        "part": "rear",
+        "stock_cut_mm3": 1204.434,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 2.0
+      },
+      {
+        "id": "rear-11",
+        "part": "rear",
+        "stock_cut_mm3": 282.289,
+        "wood_remaining_in_feature_mm3": 0,
+        "nominal_back_or_radial_wall_mm": 2
+      },
+      {
+        "id": "rear-12",
+        "part": "rear",
+        "stock_cut_mm3": 282.289,
+        "wood_remaining_in_feature_mm3": 0,
+        "nominal_back_or_radial_wall_mm": 2
+      },
+      {
+        "id": "face-01",
+        "part": "face",
+        "stock_cut_mm3": 39.207,
+        "wood_remaining_in_feature_mm3": 0,
+        "nominal_back_or_radial_wall_mm": 4
+      },
+      {
+        "id": "face-02",
+        "part": "face",
+        "stock_cut_mm3": 39.207,
+        "wood_remaining_in_feature_mm3": 0,
+        "nominal_back_or_radial_wall_mm": 4
+      },
+      {
+        "id": "face-03",
+        "part": "face",
+        "stock_cut_mm3": 39.207,
+        "wood_remaining_in_feature_mm3": 0,
+        "nominal_back_or_radial_wall_mm": 4
+      },
+      {
+        "id": "face-04",
+        "part": "face",
+        "stock_cut_mm3": 39.207,
+        "wood_remaining_in_feature_mm3": 0,
+        "nominal_back_or_radial_wall_mm": 4
+      },
+      {
+        "id": "face-05",
+        "part": "face",
+        "stock_cut_mm3": 8376.687,
+        "wood_remaining_in_feature_mm3": 0.0,
+        "nominal_back_or_radial_wall_mm": 6
+      }
+    ],
+    "feature_overlaps": [
+      {
+        "a": "front-01",
+        "b": "front-02",
+        "volume_mm3": 362.187,
+        "expected": true
+      },
+      {
+        "a": "front-03",
+        "b": "front-04",
+        "volume_mm3": 362.187,
+        "expected": true
+      },
+      {
+        "a": "front-06",
+        "b": "front-07",
+        "volume_mm3": 362.187,
+        "expected": true
+      },
+      {
+        "a": "front-08",
+        "b": "front-09",
+        "volume_mm3": 362.187,
+        "expected": true
+      },
+      {
+        "a": "front-12",
+        "b": "front-13",
+        "volume_mm3": 18.819,
+        "expected": true
+      },
+      {
+        "a": "front-14",
+        "b": "front-15",
+        "volume_mm3": 18.819,
+        "expected": true
+      },
+      {
+        "a": "front-16",
+        "b": "front-17",
+        "volume_mm3": 18.819,
+        "expected": true
+      },
+      {
+        "a": "front-18",
+        "b": "front-19",
+        "volume_mm3": 18.819,
+        "expected": true
+      },
+      {
+        "a": "rear-01",
+        "b": "rear-02",
+        "volume_mm3": 362.187,
+        "expected": true
+      },
+      {
+        "a": "rear-03",
+        "b": "rear-04",
+        "volume_mm3": 362.187,
+        "expected": true
+      },
+      {
+        "a": "rear-06",
+        "b": "rear-07",
+        "volume_mm3": 362.187,
+        "expected": true
+      },
+      {
+        "a": "rear-08",
+        "b": "rear-09",
+        "volume_mm3": 362.187,
+        "expected": true
+      }
+    ],
+    "mating_axes": [
+      {
+        "joint": "left-front-55",
+        "parts": [
+          "left",
+          "front"
+        ],
+        "position_mm": [
+          12,
+          6,
+          55
+        ],
+        "misalignment_mm": 0.0
+      },
+      {
+        "joint": "left-front-90",
+        "parts": [
+          "left",
+          "front"
+        ],
+        "position_mm": [
+          12,
+          6,
+          90
+        ],
+        "misalignment_mm": 0.0
+      },
+      {
+        "joint": "left-front-dowel",
+        "parts": [
+          "left",
+          "front"
+        ],
+        "position_mm": [
+          12,
+          6,
+          35
+        ],
+        "misalignment_mm": 0.0
+      },
+      {
+        "joint": "left-rear-55",
+        "parts": [
+          "left",
+          "rear"
+        ],
+        "position_mm": [
+          12,
+          334,
+          55
+        ],
+        "misalignment_mm": 0.0
+      },
+      {
+        "joint": "left-rear-90",
+        "parts": [
+          "left",
+          "rear"
+        ],
+        "position_mm": [
+          12,
+          334,
+          90
+        ],
+        "misalignment_mm": 0.0
+      },
+      {
+        "joint": "left-rear-dowel",
+        "parts": [
+          "left",
+          "rear"
+        ],
+        "position_mm": [
+          12,
+          334,
+          35
+        ],
+        "misalignment_mm": 0.0
+      },
+      {
+        "joint": "right-front-55",
+        "parts": [
+          "right",
+          "front"
+        ],
+        "position_mm": [
+          443,
+          6,
+          55
+        ],
+        "misalignment_mm": 0.0
+      },
+      {
+        "joint": "right-front-90",
+        "parts": [
+          "right",
+          "front"
+        ],
+        "position_mm": [
+          443,
+          6,
+          90
+        ],
+        "misalignment_mm": 0.0
+      },
+      {
+        "joint": "right-front-dowel",
+        "parts": [
+          "right",
+          "front"
+        ],
+        "position_mm": [
+          443,
+          6,
+          35
+        ],
+        "misalignment_mm": 0.0
+      },
+      {
+        "joint": "right-rear-55",
+        "parts": [
+          "right",
+          "rear"
+        ],
+        "position_mm": [
+          443,
+          334,
+          55
+        ],
+        "misalignment_mm": 0.0
+      },
+      {
+        "joint": "right-rear-90",
+        "parts": [
+          "right",
+          "rear"
+        ],
+        "position_mm": [
+          443,
+          334,
+          90
+        ],
+        "misalignment_mm": 0.0
+      },
+      {
+        "joint": "right-rear-dowel",
+        "parts": [
+          "right",
+          "rear"
+        ],
+        "position_mm": [
+          443,
+          334,
+          35
+        ],
+        "misalignment_mm": 0.0
+      }
+    ],
+    "face_screw_axes": [
+      {
+        "joint": "face-60-40",
+        "misalignment_mm": 0.0
+      },
+      {
+        "joint": "face-60-90",
+        "misalignment_mm": 0.0
+      },
+      {
+        "joint": "face-371-40",
+        "misalignment_mm": 0.0
+      },
+      {
+        "joint": "face-371-90",
+        "misalignment_mm": 0.0
+      }
+    ],
+    "wood_part_collisions": [],
+    "assembly_wood_only": [
+      {
+        "step": 1,
+        "moving_part": "front",
+        "initial_offset_mm": [
+          500,
+          0,
+          0
+        ],
+        "samples": 101,
+        "wood_collisions": []
+      },
+      {
+        "step": 2,
+        "moving_part": "rear",
+        "initial_offset_mm": [
+          500,
+          0,
+          0
+        ],
+        "samples": 101,
+        "wood_collisions": []
+      },
+      {
+        "step": 3,
+        "moving_part": "bottom",
+        "initial_offset_mm": [
+          500,
+          0,
+          0
+        ],
+        "samples": 101,
+        "wood_collisions": []
+      },
+      {
+        "step": 4,
+        "moving_part": "right",
+        "initial_offset_mm": [
+          500,
+          0,
+          0
+        ],
+        "samples": 101,
+        "wood_collisions": []
+      },
+      {
+        "step": 5,
+        "moving_part": "face",
+        "initial_offset_mm": [
+          0,
+          -100,
+          0
+        ],
+        "samples": 101,
+        "wood_collisions": []
+      }
+    ],
+    "nominal_gaps": {
+      "bottom_side_capture_mm": 2.8,
+      "bottom_front_capture_mm": 2.8,
+      "bottom_vertical_gap_below_mm": 0.1,
+      "bottom_vertical_gap_above_mm": 0.1,
+      "bottom_rear_gap_mm": 0.2
+    },
+    "true_countersink_cones": true,
+    "true_side_groove_radius_mm": 3,
+    "not_verified": [
+      "Геометрия и установка реальных эксцентриков и штоков",
+      "Замки, направляющие и их незаданные пилоты",
+      "Допуски фактической фанеры и отделки",
+      "Прочность, нагрузка и устойчивость",
+      "Присадка остальных деталей шкафа и новых дверей"
+    ],
+    "geometry_sha256": {
+      "assembled.glb": "09c1738a831d5603d310d822b8a096e437ff5bbc9b70f571ecaf14d500d36024",
+      "exploded.glb": "68f74e050d7b9e0e3b3f585bffd83d216be2c6192b4419d4e8c202380bfe1d39"
+    }
+  },
+  "sources": {
+    "rastex": "https://catalog.hettich.com/General/TuI/ru_RU/catalogs/TuI_ru_RU/pdf/save/bk_1265.pdf",
+    "twister": "https://catalog.hettich.com/General/TuI/ru_RU/catalogs/TuI_ru_RU/pdf/save/bk_1267.pdf",
+    "tandem": "https://d2.blum.com/services/BEC003/me16460573_ep_dok_bau_%24sru_%24aof_%24v4.pdf",
+    "template": "https://www.axminstertools.com/media/downloads/505186_manual.pdf",
+    "hinge": "https://d1.blum.com/services/BEC003/clp0027-td-091_td_dok_bau_%24sen_%24aof_%24v2.pdf",
+    "riva": "https://www.riva1920.it/en/products/living-and-dining-furniture/display-and-storage-units/cambusa-fly",
+    "hes70": "https://www.sugatsune.com/content/site-assets/201B_PDF/309.pdf"
+  },
+  "copy_quantity": 2
+}

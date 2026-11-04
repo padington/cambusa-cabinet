@@ -1,0 +1,1260 @@
+[
+  {
+    "url": "http://www.w3.org/2000/svg",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/S12-1.svg",
+      "history/outputs/layout-cost-v10/S18-1.svg",
+      "history/outputs/layout-cost-v10/S18-2.svg",
+      "history/outputs/layout-cost-v10/S18-3.svg",
+      "history/outputs/layout-cost-v10/S9-1.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B00-base.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B01-shelf.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B02-shelf.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B03-shelf.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B04-top.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B10-partition.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B11-partition.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B12-partition.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B20-left-side.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B21-left-side.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B22-left-side.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B30-right-side.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B31-right-side.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B32-right-side.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B40-back.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B50-pegboard.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B60-left-door.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B61-right-door.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B70-bottom.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B70-left.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B70-lip.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B70-right.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B71-bottom.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B71-left.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B71-lip.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/B71-right.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/D0-bottom.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/D0-face.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/D0-front.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/D0-left.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/D0-rear.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/D0-right.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/D1-bottom.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/D1-face.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/D1-front.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/D1-left.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/D1-rear.svg",
+      "history/outputs/order-preparation-v06/quote-outlines/D1-right.svg",
+      "history/work/build_layout_v10.py",
+      "history/work/build_orderprep_v06.py",
+      "outputs/cambusa-frame-v16/planning/cut-plan.svg"
+    ]
+  },
+  {
+    "url": "http://www.w3.org/2000/svg&#x27",
+    "recorded_in": [
+      "history/work/cabinet-after-references-preview.html",
+      "history/work/cabinet-preview.html",
+      "history/work/spherical-cabinet-preview.html"
+    ]
+  },
+  {
+    "url": "https://3dkuznya.ru/izgotovlenie-detaley-na-zakaz.html",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
+      "history/work/spb-printing-research.json"
+    ]
+  },
+  {
+    "url": "https://3dkuznya.ru/kontakty.html",
+    "recorded_in": [
+      "history/work/spb-printing-research.json"
+    ]
+  },
+  {
+    "url": "https://3dwarehouse.sketchup.com/catalog/a7c3a01e-6ba3-4b3b-8d19-85eac8da8314/section/8fda4e83-a008-4acf-93bc-953a7d078c40/TANDEM",
+    "recorded_in": [
+      "references/README.md"
+    ]
+  },
+  {
+    "url": "https://addicted2diy.com/how-to-build-a-mobile-workbench/",
+    "recorded_in": [
+      "history/work/ai-furniture-cases.json"
+    ]
+  },
+  {
+    "url": "https://addicted2diy.gumroad.com/l/mobileworkbench",
+    "recorded_in": [
+      "history/work/ai-furniture-cases.json"
+    ]
+  },
+  {
+    "url": "https://booktwo.org/notebook/ai-chair-1-0/",
+    "recorded_in": [
+      "history/work/ai-furniture-cases.json"
+    ]
+  },
+  {
+    "url": "https://cabinet.titusplus.com/us/en/cabinet-connectors/cams-and-dowels/quickfit-tl",
+    "recorded_in": [
+      "history/outputs/order-preparation-v06/hardware-candidates.json",
+      "history/work/decision-history/before-cambusa-v07-order_hardware_candidates.json",
+      "history/work/order_hardware_candidates.json"
+    ]
+  },
+  {
+    "url": "https://catalog.hettich.com/General/TuI/ru_RU/catalogs/TuI_ru_RU/pdf/save/bk_1265.pdf",
+    "recorded_in": [
+      "history/outputs/assembly-method-v11/МЕТОДОЛОГИЯ.md",
+      "history/outputs/drawer-proof-v13/МОДЕЛЬ-И-ОПЕРАЦИИ.json",
+      "history/outputs/joinery-review-v12/operations.json",
+      "history/outputs/joinery-review-v12/ПРИСАДКА.md",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/build_joinery_v12.py",
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://catalog.hettich.com/General/TuI/ru_RU/catalogs/TuI_ru_RU/pdf/save/bk_1267.pdf",
+    "recorded_in": [
+      "history/outputs/drawer-proof-v13/МОДЕЛЬ-И-ОПЕРАЦИИ.json",
+      "history/outputs/joinery-review-v12/operations.json",
+      "history/outputs/joinery-review-v12/ПРИСАДКА.md",
+      "history/work/build_joinery_v12.py"
+    ]
+  },
+  {
+    "url": "https://cdn.jsdelivr.net",
+    "recorded_in": [
+      "history/work/cabinet-after-references-preview.html",
+      "history/work/cabinet-preview.html",
+      "history/work/spherical-cabinet-preview.html"
+    ]
+  },
+  {
+    "url": "https://cdnjs.cloudflare.com",
+    "recorded_in": [
+      "history/work/cabinet-after-references-preview.html",
+      "history/work/cabinet-preview.html",
+      "history/work/spherical-cabinet-preview.html"
+    ]
+  },
+  {
+    "url": "https://d1.blum.com/services/BEC003/clp0027-td-091_td_dok_bau_%24sen_%24aof_%24v2.pdf",
+    "recorded_in": [
+      "history/outputs/drawer-proof-v13/МОДЕЛЬ-И-ОПЕРАЦИИ.json",
+      "history/outputs/joinery-review-v12/operations.json",
+      "history/work/build_joinery_v12.py"
+    ]
+  },
+  {
+    "url": "https://d2.blum.com/services/BEC003/clp0034-fl-335_fl_dok_bau_%24sru_%24aof_%24v2.pdf",
+    "recorded_in": [
+      "history/outputs/assembly-method-v11/МЕТОДОЛОГИЯ.md"
+    ]
+  },
+  {
+    "url": "https://d2.blum.com/services/BEC003/clp0034-fl-335_fl_dok_bau_%24sru_%24aof_%24v2.pdf):",
+    "recorded_in": [
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://d2.blum.com/services/BEC003/concealedhinges_ep_dok_bus_%24sen-us_%24aof_%24v18.pdf",
+    "recorded_in": [
+      "history/outputs/cambusa-pegboard-v05/READ-ME-RU.txt",
+      "history/work/finish_cambusa_pegboard.py"
+    ]
+  },
+  {
+    "url": "https://d2.blum.com/services/BEC003/me16460573_ep_dok_bau_%24sru_%24aof_%24v4.pdf",
+    "recorded_in": [
+      "history/outputs/assembly-method-v11/МЕТОДОЛОГИЯ.md",
+      "history/outputs/drawer-proof-v13/МОДЕЛЬ-И-ОПЕРАЦИИ.json",
+      "history/outputs/joinery-review-v12/operations.json",
+      "history/outputs/joinery-review-v12/ПРИСАДКА.md",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/outputs/tandem-review-v14/ПРОВЕРКА.json",
+      "history/work/build_joinery_v12.py",
+      "history/work/build_parts_spec_v09.py",
+      "history/work/build_tandem_review_v14.py"
+    ]
+  },
+  {
+    "url": "https://d2.blum.com/services/BEC003/me16460573_ep_dok_bau_%24sru_%24aof_%24v4.pdf):",
+    "recorded_in": [
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://dipaul3d.ru/3d-print/pechat-iz-poliamidnogo-poroshka-sls/",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
+      "history/work/spb-printing-research.json"
+    ]
+  },
+  {
+    "url": "https://dipaul3d.ru/contacts/",
+    "recorded_in": [
+      "history/work/spb-printing-research.json"
+    ]
+  },
+  {
+    "url": "https://ea.blum.com/en/opening-angle-stops-for-110-and-107-hinges/",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/READ-ME-RU.txt",
+      "history/outputs/boltfree-pilot-v03/READ-ME-RU.txt"
+    ]
+  },
+  {
+    "url": "https://esm.sh",
+    "recorded_in": [
+      "history/work/cabinet-after-references-preview.html",
+      "history/work/cabinet-preview.html",
+      "history/work/spherical-cabinet-preview.html"
+    ]
+  },
+  {
+    "url": "https://fkmspb.ru/brend/blum/page/82/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://fonts.bunny.net",
+    "recorded_in": [
+      "history/work/cabinet-after-references-preview.html",
+      "history/work/cabinet-preview.html",
+      "history/work/spherical-cabinet-preview.html"
+    ]
+  },
+  {
+    "url": "https://fonts.googleapis.com",
+    "recorded_in": [
+      "history/work/cabinet-after-references-preview.html",
+      "history/work/cabinet-preview.html",
+      "history/work/spherical-cabinet-preview.html"
+    ]
+  },
+  {
+    "url": "https://fonts.gstatic.com",
+    "recorded_in": [
+      "history/work/cabinet-after-references-preview.html",
+      "history/work/cabinet-preview.html",
+      "history/work/spherical-cabinet-preview.html"
+    ]
+  },
+  {
+    "url": "https://furnion.ru/komplekt-napravlyayushchikh-tandem-poln-vydvizheniya-s-dovodchikom-s-zamkami-560h3500bt511703/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://github.com/openai/openai/blob/master/codex/codex-apps/webview/src/icons/chevron.svg",
+    "recorded_in": [
+      "history/work/cabinet-after-references-preview.html",
+      "history/work/cabinet-preview.html",
+      "history/work/spherical-cabinet-preview.html"
+    ]
+  },
+  {
+    "url": "https://github.com/padington/cambusa-cabinet",
+    "recorded_in": [
+      "history/work/self-assembly-requirements.json"
+    ]
+  },
+  {
+    "url": "https://global.sugatsune.com/global/en/tech/products/21590_t",
+    "recorded_in": [
+      "references/README.md"
+    ]
+  },
+  {
+    "url": "https://greatseneca.net/ai-kitchen-design-walnut-cabinet/",
+    "recorded_in": [
+      "history/work/ai-furniture-cases.json"
+    ]
+  },
+  {
+    "url": "https://gt3d.ru/",
+    "recorded_in": [
+      "history/work/spb-printing-research.json"
+    ]
+  },
+  {
+    "url": "https://gt3d.ru/3d-pechat-na-zakaz-spb/",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
+      "history/work/spb-printing-research.json"
+    ]
+  },
+  {
+    "url": "https://gt3d.ru/sls-pechat/",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
+      "history/work/spb-printing-research.json"
+    ]
+  },
+  {
+    "url": "https://hafele-sg.com/uploads/document/IXCONNECT_SC_8_25.pdf",
+    "recorded_in": [
+      "history/outputs/order-preparation-v06/hardware-candidates.json",
+      "history/work/decision-history/before-cambusa-v07-order_hardware_candidates.json",
+      "history/work/order_hardware_candidates.json"
+    ]
+  },
+  {
+    "url": "https://hdsr.mitpress.mit.edu/pub/15nqmdzl/release/2",
+    "recorded_in": [
+      "history/work/ai-furniture-cases.json"
+    ]
+  },
+  {
+    "url": "https://hdsr.mitpress.mit.edu/pub/hiii8fyn/release/2",
+    "recorded_in": [
+      "history/work/ai-furniture-cases.json"
+    ]
+  },
+  {
+    "url": "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
+    "recorded_in": [
+      "history/outputs/round-cabinet/README.md"
+    ]
+  },
+  {
+    "url": "https://help.prusa3d.com/article/petg_2059",
+    "recorded_in": [
+      "history/outputs/cabinet-03-04-engineering-v1/READ-ME-RU.txt",
+      "history/outputs/round-cabinet/README.md"
+    ]
+  },
+  {
+    "url": "https://help.prusa3d.com/article/petg_2059?product=mmu3",
+    "recorded_in": [
+      "history/work/tool-free-cabinet-design-basis.json"
+    ]
+  },
+  {
+    "url": "https://hettich-shop.ru/soedinitelnaya-furnitura/532/ekstsentrikovye-styazhki-rastex-15/ekstsentriki.html?format=html&keyword=",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://is8.ru/printing/",
+    "recorded_in": [
+      "history/work/spb-printing-research.json"
+    ]
+  },
+  {
+    "url": "https://jamesbridle.com/works/ai-chair-1-0",
+    "recorded_in": [
+      "history/work/ai-furniture-cases.json"
+    ]
+  },
+  {
+    "url": "https://live-katalog.ganternorm.com/pdf/ganter/en/6336_4k_mb.pdf?dispositiontype=attachment",
+    "recorded_in": [
+      "history/work/tool-free-cabinet-design-basis.json"
+    ]
+  },
+  {
+    "url": "https://lockdowel.com/evaluation-kits/",
+    "recorded_in": [
+      "history/outputs/order-preparation-v06/hardware-candidates.json",
+      "history/work/decision-history/before-cambusa-v07-order_hardware_candidates.json",
+      "history/work/order_hardware_candidates.json"
+    ]
+  },
+  {
+    "url": "https://lockdowel.com/product-list/",
+    "recorded_in": [
+      "history/outputs/order-preparation-v06/hardware-candidates.json",
+      "history/work/decision-history/before-cambusa-v07-order_hardware_candidates.json",
+      "history/work/order_hardware_candidates.json"
+    ]
+  },
+  {
+    "url": "https://mk-27.ru/perforirovannyy-krepezh/ugolki/ugolok-bytovoy-kronshteyn-mebelnyy-tsink-zhelt-20kh20kh15-16kh1-5mm/",
+    "recorded_in": [
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://neva-torg.ru/tseny/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/layout-cost-v10/РАСЧЁТ.md",
+      "history/work/build_layout_v10.py"
+    ]
+  },
+  {
+    "url": "https://offcut.diy/",
+    "recorded_in": [
+      "history/work/ai-furniture-cases.json"
+    ]
+  },
+  {
+    "url": "https://oniks-krep.ru/catalog/din_7991_a2/din_7991_vint_s_potajnoj_golovkoj_vnutr_shestigr_nerzh_a2_m6x25/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/layout-cost-v10/ОСНОВАНИЕ.md",
+      "history/work/build_layout_v10.py"
+    ]
+  },
+  {
+    "url": "https://ooo-mgrad.ru/uslugi/pokraska_mdf/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/work/build_layout_v10.py"
+    ]
+  },
+  {
+    "url": "https://openscad.org/about.html",
+    "recorded_in": [
+      "history/outputs/round-cabinet/README.md"
+    ]
+  },
+  {
+    "url": "https://openscad.org/downloads.html",
+    "recorded_in": [
+      "history/outputs/round-cabinet/README.md"
+    ]
+  },
+  {
+    "url": "https://ovvotech.com/",
+    "recorded_in": [
+      "history/outputs/mobile-cabinet-options-v04/READ-ME-RU.txt",
+      "history/work/finish_mobile_options.py"
+    ]
+  },
+  {
+    "url": "https://ovvotech.com/faqs/",
+    "recorded_in": [
+      "history/outputs/mobile-cabinet-options-v04/READ-ME-RU.txt",
+      "history/outputs/order-preparation-v06/hardware-candidates.json",
+      "history/work/decision-history/before-cambusa-v07-order_hardware_candidates.json",
+      "history/work/finish_mobile_options.py",
+      "history/work/order_hardware_candidates.json"
+    ]
+  },
+  {
+    "url": "https://ovvotech.com/furniture-connector-types/milling-connectors/",
+    "recorded_in": [
+      "history/outputs/mobile-cabinet-options-v04/READ-ME-RU.txt",
+      "history/work/finish_mobile_options.py"
+    ]
+  },
+  {
+    "url": "https://ovvotech.com/product/v-0930r/",
+    "recorded_in": [
+      "history/outputs/order-preparation-v06/hardware-candidates.json",
+      "history/work/decision-history/before-cambusa-v07-order_hardware_candidates.json",
+      "history/work/order_hardware_candidates.json"
+    ]
+  },
+  {
+    "url": "https://ovvotech.com/product/v-1230r/",
+    "recorded_in": [
+      "history/outputs/order-preparation-v06/hardware-candidates.json",
+      "history/work/decision-history/before-cambusa-v07-order_hardware_candidates.json",
+      "history/work/order_hardware_candidates.json"
+    ]
+  },
+  {
+    "url": "https://poligon3d.ru/",
+    "recorded_in": [
+      "history/work/spb-printing-research.json"
+    ]
+  },
+  {
+    "url": "https://poligon3d.ru/pricing.html",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
+      "history/work/spb-printing-research.json"
+    ]
+  },
+  {
+    "url": "https://poligon3d.ru/prototypes.html",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
+      "history/work/spb-printing-research.json"
+    ]
+  },
+  {
+    "url": "https://publications.blum.com/2022/catalogue/en/451/",
+    "recorded_in": [
+      "history/outputs/cambusa-pegboard-v05/READ-ME-RU.txt",
+      "history/work/finish_cambusa_pegboard.py"
+    ]
+  },
+  {
+    "url": "https://publications.blum.com/2024/catalogue/en/435/",
+    "recorded_in": [
+      "history/outputs/tandem-review-v14/ПРОВЕРКА.json",
+      "history/outputs/tandem-review-v14/ПРОЧИТАТЬ-СНАЧАЛА.md",
+      "history/work/build_tandem_review_v14.py",
+      "references/README.md"
+    ]
+  },
+  {
+    "url": "https://raspil78.ru/czeny/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/work/build_layout_v10.py"
+    ]
+  },
+  {
+    "url": "https://raspil78.ru/frezerovka/fanera/",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
+      "history/work/spb-plywood-research.json"
+    ]
+  },
+  {
+    "url": "https://raspil78.ru/klientam/",
+    "recorded_in": [
+      "history/work/spb-plywood-research.json"
+    ]
+  },
+  {
+    "url": "https://raspil78.ru/prisadka/",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/build_parts_spec_v09.py",
+      "history/work/spb-plywood-research.json"
+    ]
+  },
+  {
+    "url": "https://raspil78.ru/raspil/pazy/",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
+      "history/work/spb-plywood-research.json"
+    ]
+  },
+  {
+    "url": "https://search.sugatsune.co.jp/product/g/gHES3D-120/",
+    "recorded_in": [
+      "references/README.md"
+    ]
+  },
+  {
+    "url": "https://shop.hettich.com/us_EN/Further-products/Connecting-technology/Connecting-fittings-for-cabinet-bodies/Rastex-eccentric-connecting-fitting/Rastex-15-dowels/Screw-in-dowel-Twister-DU-319-T%2C-20-mm%2C-green/p/48037",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://southco.com/latches/cam-latches",
+    "recorded_in": [
+      "history/outputs/sphere-bayonet-v02/READ-ME-RU.txt"
+    ]
+  },
+  {
+    "url": "https://spb-mk.ru/catalog/furnitura_blum/petli_blum/petli_blum_clip_top_blumotion_s_dovodchikom/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://spline-spb.ru/service/frezerovka-fanery/",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
+      "history/work/spb-plywood-research.json"
+    ]
+  },
+  {
+    "url": "https://spline-spb.ru/service/frezerovka-mebeli/",
+    "recorded_in": [
+      "history/work/spb-plywood-research.json"
+    ]
+  },
+  {
+    "url": "https://starprintspb.ru/services/raskroj-listovyh-materialov/",
+    "recorded_in": [
+      "history/work/spb-plywood-research.json"
+    ]
+  },
+  {
+    "url": "https://swshardware.com/cdn/cad-files/cad46278782_runner_1_cad_bau_%24sall_%24acaddxf_%24v1.dxf",
+    "recorded_in": [
+      "history/outputs/tandem-review-v14/ПРОВЕРКА.json",
+      "history/work/build_tandem_review_v14.py"
+    ]
+  },
+  {
+    "url": "https://swshardware.com/cdn/cad-files/cad47021868_runner_1_cad_bau_%24sall_%24acaddxf_%24v1.dxf",
+    "recorded_in": [
+      "history/outputs/tandem-review-v14/ПРОВЕРКА.json",
+      "history/work/build_tandem_review_v14.py"
+    ]
+  },
+  {
+    "url": "https://swshardware.com/products/tandem-full-extension-runner-plus-blumot?variantId=12052",
+    "recorded_in": [
+      "history/outputs/tandem-review-v14/ПРОВЕРКА.json",
+      "history/outputs/tandem-review-v14/ПРОЧИТАТЬ-СНАЧАЛА.md",
+      "history/work/build_tandem_review_v14.py"
+    ]
+  },
+  {
+    "url": "https://tdmspb.ru/catalog/products/50109/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ПРИМЕЧАНИЯ.md",
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://tdmtdm.ru/catalog/gayki/din_439_iso_4035_gayka_nizkaya/din439_m8_gayka_nizkaya_tsink/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/layout-cost-v10/ОСНОВАНИЕ.md",
+      "history/work/build_layout_v10.py"
+    ]
+  },
+  {
+    "url": "https://unpkg.com",
+    "recorded_in": [
+      "history/work/cabinet-after-references-preview.html",
+      "history/work/cabinet-preview.html",
+      "history/work/spherical-cabinet-preview.html"
+    ]
+  },
+  {
+    "url": "https://unpkg.com/@floating-ui/core@1.7.3/dist/floating-ui.core.umd.min.js&quot;&gt;&lt;/script&gt",
+    "recorded_in": [
+      "history/work/cabinet-after-references-preview.html",
+      "history/work/cabinet-preview.html",
+      "history/work/spherical-cabinet-preview.html"
+    ]
+  },
+  {
+    "url": "https://unpkg.com/@floating-ui/dom@1.7.4/dist/floating-ui.dom.umd.min.js&quot;&gt;&lt;/script&gt",
+    "recorded_in": [
+      "history/work/cabinet-after-references-preview.html",
+      "history/work/cabinet-preview.html",
+      "history/work/spherical-cabinet-preview.html"
+    ]
+  },
+  {
+    "url": "https://unpkg.com/lucide@1.17.0/dist/umd/lucide.js&quot;&gt;&lt;/script&gt",
+    "recorded_in": [
+      "history/work/cabinet-after-references-preview.html",
+      "history/work/cabinet-preview.html",
+      "history/work/spherical-cabinet-preview.html"
+    ]
+  },
+  {
+    "url": "https://virutexrussia.ru/image/pdf/virutex-catalog-22-23.pdf",
+    "recorded_in": [
+      "history/outputs/order-preparation-v06/hardware-candidates.json",
+      "history/work/decision-history/before-cambusa-v07-order_hardware_candidates.json",
+      "history/work/order_hardware_candidates.json"
+    ]
+  },
+  {
+    "url": "https://vyrezhem.com/frezernaya-rezka/",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
+      "history/work/spb-plywood-research.json"
+    ]
+  },
+  {
+    "url": "https://vyrezhem.com/partneram/",
+    "recorded_in": [
+      "history/work/spb-plywood-research.json"
+    ]
+  },
+  {
+    "url": "https://vyrezhem.com/rezka-fanery-po-chertezhu/",
+    "recorded_in": [
+      "history/work/spb-plywood-research.json"
+    ]
+  },
+  {
+    "url": "https://vyrezhem.com/zayavka/",
+    "recorded_in": [
+      "history/work/spb-plywood-research.json"
+    ]
+  },
+  {
+    "url": "https://www.axminstertools.com/media/downloads/505186_manual.pdf",
+    "recorded_in": [
+      "history/outputs/drawer-proof-v13/МОДЕЛЬ-И-ОПЕРАЦИИ.json",
+      "history/outputs/joinery-review-v12/operations.json",
+      "history/outputs/joinery-review-v12/ПРИСАДКА.md",
+      "history/outputs/joinery-review-v12/ПРОВЕРКИ.json",
+      "history/work/build_joinery_v12.py"
+    ]
+  },
+  {
+    "url": "https://www.blickle.us/en-us/guide/load-capacity",
+    "recorded_in": [
+      "history/outputs/mobile-cabinet-options-v04/READ-ME-RU.txt",
+      "history/work/finish_mobile_options.py"
+    ]
+  },
+  {
+    "url": "https://www.blum.com/eu/en/products/runnersystems/tandem/assembly/",
+    "recorded_in": [
+      "history/outputs/cambusa-pegboard-v05/READ-ME-RU.txt",
+      "history/work/finish_cambusa_pegboard.py"
+    ]
+  },
+  {
+    "url": "https://www.blum.com/gb/en/products/hingesystems/clip-top/assembly/",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/READ-ME-RU.txt",
+      "history/outputs/boltfree-pilot-v03/READ-ME-RU.txt",
+      "history/outputs/cabinet-03-04-engineering-v1/READ-ME-RU.txt",
+      "history/work/tool-free-cabinet-design-basis.json"
+    ]
+  },
+  {
+    "url": "https://www.blum.com/us/en/services/e-services/onlineproductconfigurator/",
+    "recorded_in": [
+      "references/README.md"
+    ]
+  },
+  {
+    "url": "https://www.boschrexroth.com/en/de/p/strut-profile-3842990723/",
+    "recorded_in": [
+      "outputs/cambusa-frame-v16/КОНСТРУКЦИЯ.md",
+      "outputs/cambusa-frame-v16/ПРОВЕРКА.json",
+      "references/README.md",
+      "work/build_cambusa_frame_v16.py"
+    ]
+  },
+  {
+    "url": "https://www.boschrexroth.com/en/in/p/gusset-3842523530/",
+    "recorded_in": [
+      "references/README.md"
+    ]
+  },
+  {
+    "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/AnchorItgov",
+    "recorded_in": [
+      "history/outputs/cabinet-03-04-engineering-v1/READ-ME-RU.txt",
+      "history/outputs/mobile-cabinet-options-v04/READ-ME-RU.txt",
+      "history/work/finish_mobile_options.py",
+      "history/work/tool-free-cabinet-design-basis.json"
+    ]
+  },
+  {
+    "url": "https://www.demos-trade.eu/product-file/download/33797",
+    "recorded_in": [
+      "history/outputs/tandem-review-v14/ПРОВЕРКА.json",
+      "history/work/build_tandem_review_v14.py"
+    ]
+  },
+  {
+    "url": "https://www.demos-trade.eu/product-file/download/33798",
+    "recorded_in": [
+      "history/outputs/tandem-review-v14/ПРОВЕРКА.json",
+      "history/work/build_tandem_review_v14.py"
+    ]
+  },
+  {
+    "url": "https://www.designingoverload.com/posts/2025/table-feet/",
+    "recorded_in": [
+      "history/work/ai-furniture-cases.json"
+    ]
+  },
+  {
+    "url": "https://www.grouppartner.ru/catalog/krepezhnaya-furnitura/ekstsentrikovye-styazhki/hettich_9/styazhka-ekstsentrikovaya-rastex-15-polka-18-mm-bez-burtika-tsinkovoe-lite-9056599/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://www.hatchomatic.com/p/built-in-bench-bookends-basement",
+    "recorded_in": [
+      "history/work/ai-furniture-cases.json"
+    ]
+  },
+  {
+    "url": "https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/",
+    "recorded_in": [
+      "history/outputs/sphere-bayonet-v02/READ-ME-RU.txt"
+    ]
+  },
+  {
+    "url": "https://www.instagram.com/andrewbarrielab/p/DZtQPSeE-n7/",
+    "recorded_in": [
+      "history/work/reference-review.json"
+    ]
+  },
+  {
+    "url": "https://www.instagram.com/andrewbarrielab/p/DbHIpoxEy8y/",
+    "recorded_in": [
+      "history/work/reference-review.json"
+    ]
+  },
+  {
+    "url": "https://www.instagram.com/domj0hnson/",
+    "recorded_in": [
+      "history/work/archive_cabinet_session.py",
+      "references/design-links.txt"
+    ]
+  },
+  {
+    "url": "https://www.instagram.com/greg.dean.mann/",
+    "recorded_in": [
+      "history/work/archive_cabinet_session.py",
+      "references/design-links.txt"
+    ]
+  },
+  {
+    "url": "https://www.instagram.com/guillaume_jandin/",
+    "recorded_in": [
+      "history/work/archive_cabinet_session.py",
+      "references/design-links.txt"
+    ]
+  },
+  {
+    "url": "https://www.instagram.com/itsnicethat/p/DdBh8oSlHnp/",
+    "recorded_in": [
+      "history/work/reference-review.json"
+    ]
+  },
+  {
+    "url": "https://www.instagram.com/p/DUC9AhtCOgn/",
+    "recorded_in": [
+      "history/work/archive_cabinet_session.py",
+      "history/work/reference-review.json",
+      "references/design-links.txt"
+    ]
+  },
+  {
+    "url": "https://www.instagram.com/p/DUDbeApl1VM/",
+    "recorded_in": [
+      "history/work/archive_cabinet_session.py",
+      "history/work/reference-review.json",
+      "references/design-links.txt"
+    ]
+  },
+  {
+    "url": "https://www.instagram.com/p/DdYVaM4irWC/",
+    "recorded_in": [
+      "history/outputs/mobile-cabinet-options-v04/READ-ME-RU.txt",
+      "history/work/archive_cabinet_session.py",
+      "history/work/finish_mobile_options.py",
+      "history/work/reference-review.json",
+      "references/design-links.txt"
+    ]
+  },
+  {
+    "url": "https://www.instagram.com/reel/DMUpQAet0EN/",
+    "recorded_in": [
+      "history/work/archive_cabinet_session.py",
+      "history/work/reference-review.json",
+      "references/design-links.txt"
+    ]
+  },
+  {
+    "url": "https://www.instagram.com/reel/DMUqrTBt7dS/",
+    "recorded_in": [
+      "history/work/archive_cabinet_session.py",
+      "history/work/reference-review.json",
+      "references/design-links.txt"
+    ]
+  },
+  {
+    "url": "https://www.instagram.com/reel/DQRs9qPiD78/",
+    "recorded_in": [
+      "history/work/archive_cabinet_session.py",
+      "history/work/reference-review.json",
+      "references/design-links.txt"
+    ]
+  },
+  {
+    "url": "https://www.instagram.com/reel/DeH7xiDxZNn/",
+    "recorded_in": [
+      "history/work/archive_cabinet_session.py",
+      "history/work/reference-review.json",
+      "references/design-links.txt"
+    ]
+  },
+  {
+    "url": "https://www.instagram.com/reel/DeNH8KUxL0F/",
+    "recorded_in": [
+      "history/work/archive_cabinet_session.py",
+      "history/work/reference-review.json",
+      "references/design-links.txt"
+    ]
+  },
+  {
+    "url": "https://www.instagram.com/the_idea/",
+    "recorded_in": [
+      "references/README.md"
+    ]
+  },
+  {
+    "url": "https://www.intelligentfixings.com/products/peanut-drawer-runner",
+    "recorded_in": [
+      "history/outputs/order-preparation-v06/hardware-candidates.json",
+      "history/work/decision-history/before-cambusa-v07-order_hardware_candidates.json",
+      "history/work/order_hardware_candidates.json"
+    ]
+  },
+  {
+    "url": "https://www.item24.com/en-cz/profile-6-30x30-light-natural-45107",
+    "recorded_in": [
+      "history/outputs/mobile-cabinet-options-v04/READ-ME-RU.txt",
+      "history/work/finish_mobile_options.py"
+    ]
+  },
+  {
+    "url": "https://www.item24.com/en-cz/standard-fastening-set-6-one-sided-71618",
+    "recorded_in": [
+      "history/outputs/mobile-cabinet-options-v04/READ-ME-RU.txt",
+      "history/work/finish_mobile_options.py"
+    ]
+  },
+  {
+    "url": "https://www.mdm-complect.ru/catalog/",
+    "recorded_in": [
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://www.mdm-complect.ru/catalog/ruchki/filter/tip-krepleniya-is-vreznoy-montazh-or-vreznoy-montazh-vintami-or-vreznoy-montazh-samorezami/tsvetovaya-gamma-is-chernyy-or-khrom-matovyy/material-is-alyuminiy-or-alyuminiy-metall-or-metall/?sort_order=asc&sort_type=availability",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://www.olimp3d.ru/ceny/",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
+      "history/work/spb-printing-research.json"
+    ]
+  },
+  {
+    "url": "https://www.olimp3d.ru/uslugi/3d-pechat-na-zakaz/",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
+      "history/work/spb-printing-research.json"
+    ]
+  },
+  {
+    "url": "https://www.ozon.ru/product/ugolok-krepezhnyy-kronshteyn-pmk-tsink-20h20h15-mm-8-sht-v-upak-mebelnyy-krepezhnyy-ugolok-usilennyy-5157956769/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://www.printables.com/model/185020-modular-and-re-usable-plywood-furniture-connectors",
+    "recorded_in": [
+      "history/outputs/round-cabinet/README.md"
+    ]
+  },
+  {
+    "url": "https://www.reddit.com/r/woodworking/comments/1xag16h/walnut_side_table_with_brass_inlay_designed_to/",
+    "recorded_in": [
+      "history/work/ai-furniture-cases.json"
+    ]
+  },
+  {
+    "url": "https://www.riva1920.it/components/com_riva/files/product_gallery/76/cambusa-fly-1753679982.jpg",
+    "recorded_in": [
+      "history/outputs/cambusa-pegboard-v05/READ-ME-RU.txt",
+      "history/work/finish_cambusa_pegboard.py",
+      "references/README.md"
+    ]
+  },
+  {
+    "url": "https://www.riva1920.it/en/products/living-and-dining-furniture/display-and-storage-units/cambusa-fly",
+    "recorded_in": [
+      "history/outputs/drawer-proof-v13/МОДЕЛЬ-И-ОПЕРАЦИИ.json",
+      "history/outputs/joinery-review-v12/operations.json",
+      "history/outputs/joinery-review-v12/РЕФЕРЕНСЫ.md",
+      "history/work/build_joinery_v12.py"
+    ]
+  },
+  {
+    "url": "https://www.riva1920.it/it/prodotti/mobili-zona-giorno/mobili-contenitori/cambusa-fly",
+    "recorded_in": [
+      "history/outputs/cambusa-direction-v07/READ-ME-RU.txt",
+      "history/outputs/cambusa-pegboard-v05/READ-ME-RU.txt",
+      "history/outputs/cambusa-proportions-v08/READ-ME-RU.txt",
+      "history/work/archive_cabinet_session.py",
+      "history/work/finish_cambusa_pegboard.py",
+      "references/design-links.txt"
+    ]
+  },
+  {
+    "url": "https://www.riva1920.it/ru/produkty/mebel-dlya-dnevnoj-zony/knizhnye-shkafy",
+    "recorded_in": [
+      "history/work/archive_cabinet_session.py",
+      "history/work/riva-bookshelves-review.json",
+      "references/design-links.txt"
+    ]
+  },
+  {
+    "url": "https://www.riva1920.it/ru/produkty/mebel-dlya-dnevnoj-zony/mebel-dlya-khraneniya",
+    "recorded_in": [
+      "history/work/archive_cabinet_session.py",
+      "history/work/riva-reference-review.json",
+      "references/design-links.txt"
+    ]
+  },
+  {
+    "url": "https://www.rsi-llc.ru",
+    "recorded_in": [
+      "history/work/build_layout_v10.py",
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://www.rsi-llc.ru/catalog/117/2178/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/layout-cost-v10/ОСНОВАНИЕ.md",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md"
+    ]
+  },
+  {
+    "url": "https://www.rsi-llc.ru/catalog/137/561/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/layout-cost-v10/ОСНОВАНИЕ.md",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md"
+    ]
+  },
+  {
+    "url": "https://www.rsi-llc.ru/catalog/157/214/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/layout-cost-v10/ОСНОВАНИЕ.md"
+    ]
+  },
+  {
+    "url": "https://www.rsi-llc.ru/catalog/158/449/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/layout-cost-v10/ОСНОВАНИЕ.md"
+    ]
+  },
+  {
+    "url": "https://www.rsi-llc.ru/catalog/179/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/layout-cost-v10/ОСНОВАНИЕ.md"
+    ]
+  },
+  {
+    "url": "https://www.rsi-llc.ru/catalog/190/1177/",
+    "recorded_in": [
+      "history/outputs/order-preparation-v06/hardware-candidates.json",
+      "history/work/decision-history/before-cambusa-v07-order_hardware_candidates.json",
+      "history/work/order_hardware_candidates.json"
+    ]
+  },
+  {
+    "url": "https://www.rsi-llc.ru/catalog/69/",
+    "recorded_in": [
+      "history/outputs/order-preparation-v06/hardware-candidates.json",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/decision-history/before-cambusa-v07-order_hardware_candidates.json",
+      "history/work/order_hardware_candidates.json"
+    ]
+  },
+  {
+    "url": "https://www.rsi-llc.ru/catalog/69/3522/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/layout-cost-v10/ОСНОВАНИЕ.md",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md"
+    ]
+  },
+  {
+    "url": "https://www.rsi-llc.ru/catalog/73/424/",
+    "recorded_in": [
+      "history/outputs/assembly-method-v11/МЕТОДОЛОГИЯ.md",
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/layout-cost-v10/ОСНОВАНИЕ.md",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md"
+    ]
+  },
+  {
+    "url": "https://www.rsi-llc.ru/catalog/76/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/layout-cost-v10/ОСНОВАНИЕ.md",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md"
+    ]
+  },
+  {
+    "url": "https://www.rsi-llc.ru/catalog/85/193/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/layout-cost-v10/ОСНОВАНИЕ.md",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md"
+    ]
+  },
+  {
+    "url": "https://www.rsi-llc.ru/catalog/corner/1037.PDF",
+    "recorded_in": [
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://www.sugatsune.com/3-way-adjustable-concealed-hinge-black-hes3d-120bl/",
+    "recorded_in": [
+      "history/work/build_cambusa_doors_v15.py",
+      "outputs/cambusa-doors-v15/ПРОВЕРКА.json",
+      "outputs/cambusa-doors-v15/ПРОЧИТАТЬ-СНАЧАЛА.md",
+      "references/README.md"
+    ]
+  },
+  {
+    "url": "https://www.sugatsune.com/content/site-assets/201B_PDF/182.pdf",
+    "recorded_in": [
+      "history/work/build_cambusa_doors_v15.py",
+      "outputs/cambusa-doors-v15/ПРОВЕРКА.json",
+      "references/README.md"
+    ]
+  },
+  {
+    "url": "https://www.sugatsune.com/content/site-assets/201B_PDF/309.pdf",
+    "recorded_in": [
+      "history/outputs/drawer-proof-v13/МОДЕЛЬ-И-ОПЕРАЦИИ.json",
+      "history/outputs/joinery-review-v12/operations.json",
+      "history/outputs/joinery-review-v12/РЕФЕРЕНСЫ.md",
+      "history/work/build_joinery_v12.py"
+    ]
+  },
+  {
+    "url": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf",
+    "recorded_in": [
+      "history/work/build_cambusa_doors_v15.py",
+      "outputs/cambusa-doors-v15/ПРОВЕРКА.json",
+      "outputs/cambusa-doors-v15/ПРОЧИТАТЬ-СНАЧАЛА.md",
+      "outputs/cambusa-frame-v16/ПРОВЕРКА.json",
+      "references/README.md"
+    ]
+  },
+  {
+    "url": "https://www.sveza.com/products/sveza-fk/",
+    "recorded_in": [
+      "history/outputs/mobile-cabinet-options-v04/READ-ME-RU.txt",
+      "history/work/finish_mobile_options.py"
+    ]
+  },
+  {
+    "url": "https://www.tdserver.ru/catalog/krepezhnaya_furnitura/krepezh_raznyy/ekstsentrikovaya_styazhka_rastex_15_dlya_plit_12_mm_bez_pokrytiya_art_9116019_hettich/",
+    "recorded_in": [
+      "history/outputs/layout-cost-v10/cost-data.json",
+      "history/outputs/parts-spec-v09/parts.json",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/build_parts_spec_v09.py"
+    ]
+  },
+  {
+    "url": "https://www.thingiverse.com/thing:7071010",
+    "recorded_in": [
+      "history/work/ai-furniture-cases.json"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=94hwx23N_Hs",
+    "recorded_in": [
+      "history/work/ai-furniture-cases.json"
+    ]
+  },
+  {
+    "url": "https://zveno-web.ru/frezerovka/frezerovka-fanery/",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
+      "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+      "history/work/build_parts_spec_v09.py",
+      "history/work/spb-plywood-research.json"
+    ]
+  },
+  {
+    "url": "https://zveno-web.ru/kontakty/",
+    "recorded_in": [
+      "history/work/spb-plywood-research.json"
+    ]
+  },
+  {
+    "url": "https://zveno-web.ru/raspil-ldsp/pazy-i-chetverti/",
+    "recorded_in": [
+      "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
+      "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
+      "history/work/spb-plywood-research.json"
+    ]
+  }
+]

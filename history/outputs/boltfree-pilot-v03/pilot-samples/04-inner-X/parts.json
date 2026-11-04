@@ -1,0 +1,114 @@
+{
+  "parts": {
+    "shelf-1": {
+      "material": "wood",
+      "group": "wood",
+      "bounds_mm": [
+        [
+          -100.0,
+          -20.0,
+          -9.0
+        ],
+        [
+          100.0,
+          90.0,
+          9.0
+        ]
+      ],
+      "watertight": true,
+      "components": 1
+    },
+    "partition-0": {
+      "material": "wood",
+      "group": "wood",
+      "bounds_mm": [
+        [
+          -9.0,
+          -20.0,
+          -150.0
+        ],
+        [
+          9.0,
+          90.0,
+          -3.0
+        ]
+      ],
+      "watertight": true,
+      "components": 1
+    },
+    "partition-1": {
+      "material": "wood",
+      "group": "wood",
+      "bounds_mm": [
+        [
+          -9.0,
+          -20.0,
+          3.0
+        ],
+        [
+          9.0,
+          90.0,
+          150.0
+        ]
+      ],
+      "watertight": true,
+      "components": 1
+    },
+    "sphere-inner-x600-1-front": {
+      "material": "node",
+      "group": "node",
+      "bounds_mm": [
+        [
+          -44.028,
+          -45.0,
+          -43.984
+        ],
+        [
+          44.028,
+          43.006,
+          43.984
+        ]
+      ],
+      "watertight": true,
+      "components": 1
+    },
+    "key-inner-x600-1-front-0": {
+      "material": "key",
+      "group": "key",
+      "bounds_mm": [
+        [
+          -5.854,
+          -8.5,
+          -30.016
+        ],
+        [
+          42.76,
+          8.5,
+          36.458
+        ]
+      ],
+      "watertight": true,
+      "components": 1
+    },
+    "key-inner-x600-1-front-1": {
+      "material": "key",
+      "group": "key",
+      "bounds_mm": [
+        [
+          -42.76,
+          -8.5,
+          -36.458
+        ],
+        [
+          5.854,
+          8.5,
+          30.016
+        ]
+      ],
+      "watertight": true,
+      "components": 1
+    }
+  },
+  "unintended_overlaps": [],
+  "status": "physical prototype not tested"
+}

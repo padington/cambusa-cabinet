@@ -1,0 +1,5 @@
+id,material,blank_w_mm,blank_h_mm,thickness_mm,quantity,status
+M0-caster-adapter,steel,75,75,6,1,CONCEPT_ONLY_HOLES_AND_CONNECTIONS_PENDING
+M1-caster-adapter,steel,75,75,6,1,CONCEPT_ONLY_HOLES_AND_CONNECTIONS_PENDING
+M2-caster-adapter,steel,75,75,6,1,CONCEPT_ONLY_HOLES_AND_CONNECTIONS_PENDING
+M3-caster-adapter,steel,75,75,6,1,CONCEPT_ONLY_HOLES_AND_CONNECTIONS_PENDING

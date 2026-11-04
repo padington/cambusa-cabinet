@@ -5,3 +5,4 @@ work/cambusa-frame-v16-meshes.json
 work/vendor/
 inputs/*.local.json
 local-estimate/
+node_modules/

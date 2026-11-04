@@ -1,0 +1,59 @@
+{
+  "scope": "User accepted 12 feed publications per account instead of 20. All eight direct references were opened; requested carousel slide indices were inspected. Feed posts may be collaborations and direct links overlap with feed links.",
+  "profiles": {
+    "domj0hnson": [
+      ["DPJzYdziIzX", "Black Button stool, round seat and three stout legs"],
+      ["DekAj-vCFNp", "Sketch of mobile plywood storage, drawers and open shelves, oval carry cutout"],
+      ["DecASgMiBgt", "XL Domino benches, rounded thick boards and visible joinery"],
+      ["DdOQSwcCC9G", "Lavender plywood box with round and oval cutouts"],
+      ["DdJYbu2CEnx", "Raw plywood cupboard, lavender interior, casters"],
+      ["https://www.instagram.com/itsnicethat/p/DdBh8oSlHnp/", "Collaboration: yellow and gray cabinet doors, raw plywood interior, oval pulls"],
+      ["Dca_N7YCPay", "Bent compressed paper furniture, curved repeated forms"],
+      ["Db862M4iNTR", "Simple low wooden bench with rounded edges"],
+      ["DboCppEiCUd", "Tall bathroom locker, three stacked doors, cutout pulls"],
+      ["DZw9uSaCGtf", "Mobile workshop caddy with external tools"],
+      ["DZK77gciH9Q", "Gramicci interior installation, stacked chairs and furniture props"],
+      ["DXExkHFCDWx", "Totem crates, color and raw sheet material, oval handles"]
+    ],
+    "greg.dean.mann": [
+      ["DfEiMS3xWzd", "Close-up of rounded slotted printed connector; author discusses 45-degree print orientation"],
+      ["DemKtN2ILA1", "Laser-cut plywood bedside table with kerf-bent curved corners"],
+      ["DeNH8KUxL0F", "Updated tile shelf as TV stand, rectangular connectors, rear tile bracing"],
+      ["Dd2BYlDxAGl", "12 mm plywood kerf-bent wave front furniture"],
+      ["Ddb6E1sIhFS", "Modular printed chessboard and sand-weighted pieces"],
+      ["DcBw4PJDABT", "Timber Monogamy pavilion and visible wedged joinery"],
+      ["DbvmfZDxtGA", "Chess knight redesign and teardrop form language"],
+      ["Dazcm09s25w", "Lamp from repeated pentagonal components"],
+      ["https://www.instagram.com/andrewbarrielab/p/DbHIpoxEy8y/", "Collaboration: pavilion wood wedges close-up"],
+      ["DaHvcuFxtsg", "Lamp from repeated printed organic modules, rotated stacking"],
+      ["https://www.instagram.com/andrewbarrielab/p/DZtQPSeE-n7/", "Collaboration: timber pavilion and simple joinery"],
+      ["DZAg7S5Mc9X", "Concrete chessboard cast in printed mold"]
+    ],
+    "guillaume_jandin": [
+      ["DdTWP6XF6GA", "Four-level rotating radial storage carousel"],
+      ["DdL2o7Il1BT", "Gigacolor shop, blue stained wood and polycarbonate"],
+      ["DdGhN94l2gb", "Outdoor wooden benches, exposed square joinery"],
+      ["DdBkJ8WF5wd", "Blue workshop cabinetry with standard gray crates as drawers"],
+      ["Dc5pdN9F96S", "Large worktables, beam frames and cable tie bracing"],
+      ["Dc0uzjml1qo", "Blue shop shelving and counters, translucent inserts"],
+      ["DYUIz5EFyHo", "Room divider, thin aluminum shelves, plywood box and round steel upright"],
+      ["DXd9WTNFzVG", "Children's activity board using reclaimed mechanisms"],
+      ["DXEeDv6l0FM", "Blue dyed birch plywood desk and shelving, visible grain"],
+      ["DUDbeApl1VM", "Demountable divider bookcase: pine uprights, plywood boxes, wheeled cabinets"],
+      ["DSHvZT8F1Oi", "Archive cabinet: dark frame, ribbed polycarbonate, standard crate drawers"],
+      ["DRzMCXAF0JU", "Mobile exhibition counter, folded stainless steel and poplar plywood"]
+    ]
+  },
+  "direct_references": [
+    ["https://www.instagram.com/reel/DeNH8KUxL0F/", "Gregory Mann, updated tile shelf/TV stand"],
+    ["https://www.instagram.com/reel/DQRs9qPiD78/", "Geoshape Studio Honey shelf, hexagonal cells and angular connectors"],
+    ["https://www.instagram.com/p/DdYVaM4irWC/", "Cheesign modular trolley; slide 5, plywood pegboard and aluminum frame"],
+    ["https://www.instagram.com/reel/DeH7xiDxZNn/", "Gregory Mann updated tile shelf, simplified components and rear bracing"],
+    ["https://www.instagram.com/reel/DMUpQAet0EN/", "Original spherical terracotta slotted connectors joining white tiles; author describes friction fit"],
+    ["https://www.instagram.com/reel/DMUqrTBt7dS/", "Original spherical connector tile shelf, second reel"],
+    ["https://www.instagram.com/p/DUC9AhtCOgn/", "Ublik Etablik workshop cabinet; slide 3, plywood side with routed openings"],
+    ["https://www.instagram.com/p/DUDbeApl1VM/", "Guillaume Jandin demountable pine and plywood room divider, slide 5"]
+  ],
+  "design_basis": {"width_mm":1000,"initial_height_mm":1200,"depth_mm":350,"plywood_mm":15,"connector_shape":"sphere","sketch_connector_diameter_mm":64},
+  "status": "Concepts only. No load rating established. Slots, retention, hinges, clearances and anti-racking construction require detailed CAD and a physical connector prototype."
+}

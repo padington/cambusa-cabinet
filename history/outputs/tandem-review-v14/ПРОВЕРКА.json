@@ -1,0 +1,585 @@
+{
+  "version": "tandem-review-v14",
+  "status": "TRIAL_FIT_ONLY",
+  "rail_sku": "560H3500B",
+  "lock_sku": "T51.1700.04 L/R",
+  "input_sha256": {
+    "rail-L.dxf": "349f73b05e1c7ea07e5f2ad6647470a6f3abd94a44070cfbcb20e9bdb0ba4ea8",
+    "rail-R.dxf": "07e2a92ced22cacd8a60efc9445deecad451d6cce693b9bab151219f24b3b648",
+    "lock-L.dwg": "a30a2ab11e52aff3c2b7c5da70060961b159d65e0da648afe9fdd1ddcc0b8f04",
+    "lock-R.dwg": "a30a2ab11e52aff3c2b7c5da70060961b159d65e0da648afe9fdd1ddcc0b8f04",
+    "assembled.glb": "09c1738a831d5603d310d822b8a096e437ff5bbc9b70f571ecaf14d500d36024"
+  },
+  "sources": {
+    "planning": "https://publications.blum.com/2024/catalogue/en/435/",
+    "ru_manual": "https://d2.blum.com/services/BEC003/me16460573_ep_dok_bau_%24sru_%24aof_%24v4.pdf",
+    "rail_listing": "https://swshardware.com/products/tandem-full-extension-runner-plus-blumot?variantId=12052",
+    "rail-L.dxf": "https://swshardware.com/cdn/cad-files/cad46278782_runner_1_cad_bau_%24sall_%24acaddxf_%24v1.dxf",
+    "rail-R.dxf": "https://swshardware.com/cdn/cad-files/cad47021868_runner_1_cad_bau_%24sall_%24acaddxf_%24v1.dxf",
+    "lock-L.dwg": "https://www.demos-trade.eu/product-file/download/33797",
+    "lock-R.dwg": "https://www.demos-trade.eu/product-file/download/33798"
+  },
+  "rail_acis_body_bounds_mm": {
+    "L": [
+      [
+        [
+          0.0,
+          -35.0,
+          -36.3
+        ],
+        [
+          42.1,
+          315.0,
+          11.2
+        ]
+      ],
+      [
+        [
+          26.98,
+          51.5,
+          -32.095
+        ],
+        [
+          51.68,
+          310.0,
+          -15.295
+        ]
+      ],
+      [
+        [
+          14.85,
+          4.869787,
+          -32.975
+        ],
+        [
+          51.05,
+          314.5,
+          6.925
+        ]
+      ]
+    ],
+    "R": [
+      [
+        [
+          -42.1,
+          -35.0,
+          -36.3
+        ],
+        [
+          -0.0,
+          315.0,
+          11.2
+        ]
+      ],
+      [
+        [
+          -51.68,
+          51.5,
+          -32.095
+        ],
+        [
+          -26.98,
+          310.0,
+          -15.295
+        ]
+      ],
+      [
+        [
+          -51.05,
+          4.869787,
+          -32.975
+        ],
+        [
+          -14.85,
+          314.5,
+          6.925
+        ]
+      ]
+    ]
+  },
+  "edge_extraction": {
+    "L": {
+      "ellipse-curve": 323,
+      "straight-curve": 640,
+      "skipped_intcurve-curve": 8
+    },
+    "R": {
+      "ellipse-curve": 323,
+      "straight-curve": 640,
+      "skipped_intcurve-curve": 8
+    }
+  },
+  "mounting_arc_centres_y": {
+    "L": [
+      -27.0,
+      -18.0,
+      -9.0,
+      -0.0,
+      23.0,
+      32.0,
+      110.0,
+      119.0,
+      128.0,
+      206.0,
+      215.0,
+      224.0
+    ],
+    "R": [
+      -27.0,
+      -18.0,
+      -9.0,
+      -0.0,
+      23.0,
+      32.0,
+      110.0,
+      119.0,
+      128.0,
+      206.0,
+      215.0,
+      224.0
+    ]
+  },
+  "placement_basis": {
+    "x_left": 509.0,
+    "x_right": 982.0,
+    "cad_mount_row_y0_world_y": 171.0,
+    "cad_top_face_z": -9.775,
+    "trial_mount_z": 869.775,
+    "trial_wood_floor_underface_z": 860.0
+  },
+  "drawer_width": {
+    "case_mm": 473.0,
+    "inner_mm": 431,
+    "nominal_accepted_range_mm": [
+      429.5,
+      431
+    ],
+    "example_finished_target_mm": 430.25
+  },
+  "v08_geometry_options": [
+    {
+      "shift_mm": 0,
+      "face_y_mm": 122.0,
+      "available_mm": 366.0,
+      "required_min_mm": 365.0,
+      "reserve_mm": 1.0,
+      "clear_to_empty_closed_v08_trays_mm": 39.0,
+      "mounting_candidates_not_drill_map": [
+        {
+          "drawer": 1,
+          "catalog_offset_from_face_mm": 31.0,
+          "yz_mm": [
+            153.0,
+            869.775
+          ],
+          "from_W04_edges_mm": [
+            133.0,
+            51.77499999999998
+          ],
+          "from_W06_edges_mm": [
+            49.0,
+            51.77499999999998
+          ],
+          "nearest_peg_yz_mm": [
+            150,
+            890
+          ],
+          "clearance_to_peg_at_screw_radius_mm": 12.446
+        },
+        {
+          "drawer": 1,
+          "catalog_offset_from_face_mm": 49.0,
+          "yz_mm": [
+            171.0,
+            869.775
+          ],
+          "from_W04_edges_mm": [
+            151.0,
+            51.77499999999998
+          ],
+          "from_W06_edges_mm": [
+            67.0,
+            51.77499999999998
+          ],
+          "nearest_peg_yz_mm": [
+            150,
+            890
+          ],
+          "clearance_to_peg_at_screw_radius_mm": 21.156
+        },
+        {
+          "drawer": 1,
+          "catalog_offset_from_face_mm": 81.0,
+          "yz_mm": [
+            203.0,
+            869.775
+          ],
+          "from_W04_edges_mm": [
+            183.0,
+            51.77499999999998
+          ],
+          "from_W06_edges_mm": [
+            99.0,
+            51.77499999999998
+          ],
+          "nearest_peg_yz_mm": [
+            200,
+            890
+          ],
+          "clearance_to_peg_at_screw_radius_mm": 12.446
+        },
+        {
+          "drawer": 1,
+          "catalog_offset_from_face_mm": 273.0,
+          "yz_mm": [
+            395.0,
+            869.775
+          ],
+          "from_W04_edges_mm": [
+            375.0,
+            51.77499999999998
+          ],
+          "from_W06_edges_mm": [
+            291.0,
+            51.77499999999998
+          ],
+          "nearest_peg_yz_mm": [
+            400,
+            890
+          ],
+          "clearance_to_peg_at_screw_radius_mm": 12.834
+        },
+        {
+          "drawer": 2,
+          "catalog_offset_from_face_mm": 31.0,
+          "yz_mm": [
+            153.0,
+            1023.775
+          ],
+          "from_W04_edges_mm": [
+            133.0,
+            205.77499999999998
+          ],
+          "from_W06_edges_mm": [
+            49.0,
+            205.77499999999998
+          ],
+          "nearest_peg_yz_mm": [
+            150,
+            1040
+          ],
+          "clearance_to_peg_at_screw_radius_mm": 8.5
+        },
+        {
+          "drawer": 2,
+          "catalog_offset_from_face_mm": 49.0,
+          "yz_mm": [
+            171.0,
+            1023.775
+          ],
+          "from_W04_edges_mm": [
+            151.0,
+            205.77499999999998
+          ],
+          "from_W06_edges_mm": [
+            67.0,
+            205.77499999999998
+          ],
+          "nearest_peg_yz_mm": [
+            150,
+            1040
+          ],
+          "clearance_to_peg_at_screw_radius_mm": 18.538
+        },
+        {
+          "drawer": 2,
+          "catalog_offset_from_face_mm": 81.0,
+          "yz_mm": [
+            203.0,
+            1023.775
+          ],
+          "from_W04_edges_mm": [
+            183.0,
+            205.77499999999998
+          ],
+          "from_W06_edges_mm": [
+            99.0,
+            205.77499999999998
+          ],
+          "nearest_peg_yz_mm": [
+            200,
+            1040
+          ],
+          "clearance_to_peg_at_screw_radius_mm": 8.5
+        },
+        {
+          "drawer": 2,
+          "catalog_offset_from_face_mm": 273.0,
+          "yz_mm": [
+            395.0,
+            1023.775
+          ],
+          "from_W04_edges_mm": [
+            375.0,
+            205.77499999999998
+          ],
+          "from_W06_edges_mm": [
+            291.0,
+            205.77499999999998
+          ],
+          "nearest_peg_yz_mm": [
+            400,
+            1040
+          ],
+          "clearance_to_peg_at_screw_radius_mm": 8.978
+        }
+      ]
+    },
+    {
+      "shift_mm": -4,
+      "face_y_mm": 118.0,
+      "available_mm": 370.0,
+      "required_min_mm": 365.0,
+      "reserve_mm": 5.0,
+      "clear_to_empty_closed_v08_trays_mm": 35.0,
+      "mounting_candidates_not_drill_map": [
+        {
+          "drawer": 1,
+          "catalog_offset_from_face_mm": 31.0,
+          "yz_mm": [
+            149.0,
+            869.775
+          ],
+          "from_W04_edges_mm": [
+            129.0,
+            51.77499999999998
+          ],
+          "from_W06_edges_mm": [
+            45.0,
+            51.77499999999998
+          ],
+          "nearest_peg_yz_mm": [
+            150,
+            890
+          ],
+          "clearance_to_peg_at_screw_radius_mm": 12.25
+        },
+        {
+          "drawer": 1,
+          "catalog_offset_from_face_mm": 49.0,
+          "yz_mm": [
+            167.0,
+            869.775
+          ],
+          "from_W04_edges_mm": [
+            147.0,
+            51.77499999999998
+          ],
+          "from_W06_edges_mm": [
+            63.0,
+            51.77499999999998
+          ],
+          "nearest_peg_yz_mm": [
+            150,
+            890
+          ],
+          "clearance_to_peg_at_screw_radius_mm": 18.421
+        },
+        {
+          "drawer": 1,
+          "catalog_offset_from_face_mm": 81.0,
+          "yz_mm": [
+            199.0,
+            869.775
+          ],
+          "from_W04_edges_mm": [
+            179.0,
+            51.77499999999998
+          ],
+          "from_W06_edges_mm": [
+            95.0,
+            51.77499999999998
+          ],
+          "nearest_peg_yz_mm": [
+            200,
+            890
+          ],
+          "clearance_to_peg_at_screw_radius_mm": 12.25
+        },
+        {
+          "drawer": 1,
+          "catalog_offset_from_face_mm": 273.0,
+          "yz_mm": [
+            391.0,
+            869.775
+          ],
+          "from_W04_edges_mm": [
+            371.0,
+            51.77499999999998
+          ],
+          "from_W06_edges_mm": [
+            287.0,
+            51.77499999999998
+          ],
+          "nearest_peg_yz_mm": [
+            400,
+            890
+          ],
+          "clearance_to_peg_at_screw_radius_mm": 14.137
+        },
+        {
+          "drawer": 2,
+          "catalog_offset_from_face_mm": 31.0,
+          "yz_mm": [
+            149.0,
+            1023.775
+          ],
+          "from_W04_edges_mm": [
+            129.0,
+            205.77499999999998
+          ],
+          "from_W06_edges_mm": [
+            45.0,
+            205.77499999999998
+          ],
+          "nearest_peg_yz_mm": [
+            150,
+            1040
+          ],
+          "clearance_to_peg_at_screw_radius_mm": 8.256
+        },
+        {
+          "drawer": 2,
+          "catalog_offset_from_face_mm": 49.0,
+          "yz_mm": [
+            167.0,
+            1023.775
+          ],
+          "from_W04_edges_mm": [
+            147.0,
+            205.77499999999998
+          ],
+          "from_W06_edges_mm": [
+            63.0,
+            205.77499999999998
+          ],
+          "nearest_peg_yz_mm": [
+            150,
+            1040
+          ],
+          "clearance_to_peg_at_screw_radius_mm": 15.5
+        },
+        {
+          "drawer": 2,
+          "catalog_offset_from_face_mm": 81.0,
+          "yz_mm": [
+            199.0,
+            1023.775
+          ],
+          "from_W04_edges_mm": [
+            179.0,
+            205.77499999999998
+          ],
+          "from_W06_edges_mm": [
+            95.0,
+            205.77499999999998
+          ],
+          "nearest_peg_yz_mm": [
+            200,
+            1040
+          ],
+          "clearance_to_peg_at_screw_radius_mm": 8.256
+        },
+        {
+          "drawer": 2,
+          "catalog_offset_from_face_mm": 273.0,
+          "yz_mm": [
+            391.0,
+            1023.775
+          ],
+          "from_W04_edges_mm": [
+            371.0,
+            205.77499999999998
+          ],
+          "from_W06_edges_mm": [
+            287.0,
+            205.77499999999998
+          ],
+          "nearest_peg_yz_mm": [
+            400,
+            1040
+          ],
+          "clearance_to_peg_at_screw_radius_mm": 10.554
+        }
+      ]
+    }
+  ],
+  "cad_vertices_inside_v13_wood": [
+    {
+      "hand": "L",
+      "solid": 0,
+      "wood": "front",
+      "vertices_inside": 4,
+      "witness": {
+        "point": [
+          539.3,
+          138.5,
+          847.075
+        ],
+        "distance_to_wood_surface_mm": 0.075
+      }
+    },
+    {
+      "hand": "L",
+      "solid": 2,
+      "wood": "rear",
+      "vertices_inside": 2,
+      "witness": {
+        "point": [
+          533.7,
+          468.6515,
+          870.0
+        ],
+        "distance_to_wood_surface_mm": 0.4482
+      }
+    },
+    {
+      "hand": "R",
+      "solid": 0,
+      "wood": "front",
+      "vertices_inside": 4,
+      "witness": {
+        "point": [
+          945.2,
+          136.0,
+          847.075
+        ],
+        "distance_to_wood_surface_mm": 0.075
+      }
+    },
+    {
+      "hand": "R",
+      "solid": 2,
+      "wood": "rear",
+      "vertices_inside": 2,
+      "witness": {
+        "point": [
+          957.3,
+          468.6515,
+          870.0
+        ],
+        "distance_to_wood_surface_mm": 0.4482
+      }
+    }
+  ],
+  "lock_dwg_imported": false,
+  "lock_downloads_identical": true,
+  "hardware_solid_collision_proved": false,
+  "hold": [
+    "Не сверлить по этому отчёту.",
+    "Проверить сопоставление опорной поверхности и хвостовика со сборочным CAD Blum либо реальным комплектом.",
+    "Импортировать замки, получить углы и глубины пилотов.",
+    "Уточнить размеры после отделки и зазор с наполненными дверьми."
+  ],
+  "review_glb_sha256": "6ba33563ce030f679d6203ac9a49455390685f70060d64c23cc6d7655544695e"
+}

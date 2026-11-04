@@ -1,0 +1,36 @@
+{
+  "pdf_pages": 10,
+  "all_48_part_codes_in_pdf": true,
+  "sheet_counts": {
+    "18": 3,
+    "12": 1,
+    "9": 1
+  },
+  "part_count": 48,
+  "net_area_m2": {
+    "18": 3.919072,
+    "12": 1.4713,
+    "9": 0.562828
+  },
+  "outer_perimeter_m": {
+    "18": 27.104,
+    "12": 14.356,
+    "9": 16.296
+  },
+  "finish_area_m2": 12.790566577501995,
+  "pegboard_holes": 171,
+  "pegboard_hole_diameter_mm": 12,
+  "pegboard_cut_m": 6.446548125166256,
+  "margin_mm": 10,
+  "contour_gap_mm": 8,
+  "assumed_router_diameter_mm": 6,
+  "checks": "Все 48 деталей размещены один раз; границы, зазоры и направление волокон проверены.",
+  "production_status": "Контуры для расчёта, не выпуск присадки или управляющей программы.",
+  "workbook": {
+    "baseline": 108736.42,
+    "withReserve": 130483.7,
+    "partCount": 48,
+    "area": 5.953200000000001,
+    "priceSensitivity": true
+  }
+}

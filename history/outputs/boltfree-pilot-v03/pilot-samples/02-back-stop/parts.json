@@ -1,0 +1,60 @@
+{
+  "parts": {
+    "frame-left": {
+      "material": "wood",
+      "group": "wood",
+      "bounds_mm": [
+        [
+          -6.0,
+          -35.0,
+          -50.0
+        ],
+        [
+          12.0,
+          15.0,
+          0.0
+        ]
+      ],
+      "watertight": true,
+      "components": 1
+    },
+    "back-panel": {
+      "material": "back",
+      "group": "back",
+      "bounds_mm": [
+        [
+          6.0,
+          -3.0,
+          -50.0
+        ],
+        [
+          63.0,
+          3.0,
+          -24.0
+        ]
+      ],
+      "watertight": true,
+      "components": 1
+    },
+    "back-stop-left": {
+      "material": "key",
+      "group": "cap",
+      "bounds_mm": [
+        [
+          -5.0,
+          -4.0,
+          -21.0
+        ],
+        [
+          20.0,
+          4.0,
+          0.0
+        ]
+      ],
+      "watertight": true,
+      "components": 1
+    }
+  },
+  "unintended_overlaps": [],
+  "status": "physical prototype not tested"
+}

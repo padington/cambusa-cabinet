@@ -1,0 +1,2757 @@
+[
+  {
+    "path": "history/work/activate_cabinet_version.py",
+    "bytes": 1864,
+    "sha256": "ab57a6efab229650d0e1d35ca5cad83adb560b55d54c50cf4d1defb2d568ff77"
+  },
+  {
+    "path": "history/work/ai-furniture-cases.json",
+    "bytes": 15368,
+    "sha256": "a9cdd7cead44a3e2eb2ea4753a9daf6b0861f7ee3a7e681db3602540e130c9cd"
+  },
+  {
+    "path": "history/work/archive_cabinet_session.py",
+    "bytes": 18216,
+    "sha256": "8cc557c866c37d45f7e7978b9975f4e0ce40dd9d253732241d09e796be70eca2"
+  },
+  {
+    "path": "history/work/assembly-v1/variant-03-meshes.json",
+    "bytes": 1598075,
+    "sha256": "52dedc73ca181af6ad6e33ac84c405b521a990e9b295fb0f114ebef45c2702ce"
+  },
+  {
+    "path": "history/work/assembly-v1/variant-04-meshes.json",
+    "bytes": 1284715,
+    "sha256": "52c69c013f37cc75696f5e942b8f3ebcd37b325aadbb41c9cea7dda1e5614864"
+  },
+  {
+    "path": "history/work/bayonet-meshes.json",
+    "bytes": 266118,
+    "sha256": "797f23f1b48e96a09be2f48ea10e44644d9498e97db3f2e150cac33febfe35a0"
+  },
+  {
+    "path": "history/work/build_assembly_v1.py",
+    "bytes": 20721,
+    "sha256": "60bcb7dfa0a71471a858839f55b3d0f7154b20b6a53ddbe1fdb929ef8d0bbd8f"
+  },
+  {
+    "path": "history/work/build_bayonet_node.py",
+    "bytes": 7597,
+    "sha256": "dc096ce1f4df4223d98461f7bc3fe15ff5a1a4cdb0c3a121ead0df739e1025b8"
+  },
+  {
+    "path": "history/work/build_boltfree_cabinet.py",
+    "bytes": 19916,
+    "sha256": "3854fe31fe8b2edd6274f22c4cab7855f02d8101deec74ec6018a0c50e250f10"
+  },
+  {
+    "path": "history/work/build_cambusa_direction_v07.py",
+    "bytes": 9466,
+    "sha256": "862f264e0004f165cbd8576fe0598c98c10d73e97c0dcf92e6e2a46722ac72dd"
+  },
+  {
+    "path": "history/work/build_cambusa_doors_v15.py",
+    "bytes": 15072,
+    "sha256": "93412a18801b3e122a233214973291214df97180f2a9eb61db1ab2ad479564d8"
+  },
+  {
+    "path": "history/work/build_cambusa_pegboard.py",
+    "bytes": 9832,
+    "sha256": "2da8cdb0a280bb02e38f8386ff292ed3efc34ebb920c283e44b63346b6299a6d"
+  },
+  {
+    "path": "history/work/build_cambusa_proportions_v08.py",
+    "bytes": 9196,
+    "sha256": "387e5a7251ab88189e48f0c52b99b5c27f3a8a666ed0de2db74702d3bcdf42cc"
+  },
+  {
+    "path": "history/work/build_cost_v10.mjs",
+    "bytes": 8983,
+    "sha256": "0783ccbb9a2c8965674d0dda411ea0b3a397d60518cfb32e05329a4665390d2e"
+  },
+  {
+    "path": "history/work/build_drawer_proof_v13.py",
+    "bytes": 21408,
+    "sha256": "03537d5c1ca6833e917aeda3c656cb44740368f8f1da3c038072dacd484b277e"
+  },
+  {
+    "path": "history/work/build_joinery_v12.py",
+    "bytes": 29994,
+    "sha256": "749a75b00668f0f3a420eed4c7e8c563e83ea576f131130b139044fe3d248788"
+  },
+  {
+    "path": "history/work/build_layout_v10.py",
+    "bytes": 36598,
+    "sha256": "b03e44af9426502eef040eb99fb664158acd6b7b6818398073c7a0cbbd3fc0f1"
+  },
+  {
+    "path": "history/work/build_mobile_options.py",
+    "bytes": 14373,
+    "sha256": "015e6f3bd9854f7e96912f71819721fc2c769354e35be17ec6bb71b2a818a0c9"
+  },
+  {
+    "path": "history/work/build_orderprep_v06.py",
+    "bytes": 9763,
+    "sha256": "d4d586602f5b469eec55e87e84cb99310abfe240f4243531a173c1bfd19ea92e"
+  },
+  {
+    "path": "history/work/build_parts_spec_v09.py",
+    "bytes": 32427,
+    "sha256": "bba10c65071ecb1378df09e80b6e633a1a9d1bef954d7a91c1e5281739b521d8"
+  },
+  {
+    "path": "history/work/build_round_cabinet.py",
+    "bytes": 5906,
+    "sha256": "b20dc6d7b8fee6a98b8d85a140b8f80a9eb6e766a1fb31dd61c37aeb5c6d2c87"
+  },
+  {
+    "path": "history/work/build_tandem_review_v14.py",
+    "bytes": 13733,
+    "sha256": "f91f49a9f0c89d072ca6b173456970195d752ed2543917be9c41c08101b31839"
+  },
+  {
+    "path": "history/work/cabinet-after-references-preview.html",
+    "bytes": 100098,
+    "sha256": "3866de1f8c914ff299f1ef3fa4eac1e4d9153cc4f6c5de71cf74f335f51d5623"
+  },
+  {
+    "path": "history/work/cabinet-closed.png",
+    "bytes": 28406,
+    "sha256": "bc35290a424b45cb4b0eae0208350ec48a46e90d43644ea550c6911225b82a7a"
+  },
+  {
+    "path": "history/work/cabinet-meshes.json",
+    "bytes": 97394,
+    "sha256": "83406d982f5d770d6fe9420290727bded99ead421c5ccef739dac1a745508a25"
+  },
+  {
+    "path": "history/work/cabinet-mobile.png",
+    "bytes": 25613,
+    "sha256": "8970700820e9e65843a1a03a56c3d1e6e349a1c49d9b2433e4c216f903106130"
+  },
+  {
+    "path": "history/work/cabinet-open.png",
+    "bytes": 29043,
+    "sha256": "c348112d3127a666b76bee88479a299ce2d06a0e6515424001b2b7d7f29852d8"
+  },
+  {
+    "path": "history/work/cabinet-preview.html",
+    "bytes": 193182,
+    "sha256": "30aafde31c2b913b844d50685d6e8ec3087d5dc2438728ea6fcb08f80c7142aa"
+  },
+  {
+    "path": "history/work/cambusa-direction-data.json",
+    "bytes": 580060,
+    "sha256": "29c85c1150d58eb8ed615fd3a60109ada2611f0ae40edf26865236456185d796"
+  },
+  {
+    "path": "history/work/cambusa-direction-template.html",
+    "bytes": 8923,
+    "sha256": "b7ec8b0fb93ff697b0e31799ea172df177324f3b8265509b5fea062a38185199"
+  },
+  {
+    "path": "history/work/cambusa-pegboard-data.json",
+    "bytes": 488487,
+    "sha256": "2f69fdb8fd531d3bcb59bf8d79e20ec45bf1532aba8e70895c2585db6ade03f4"
+  },
+  {
+    "path": "history/work/cambusa-pegboard-template.html",
+    "bytes": 8489,
+    "sha256": "00f5393b1d5c4592f7debb5f6a0a88ec47af3c9b25b4edb6333816561be11a7a"
+  },
+  {
+    "path": "history/work/cambusa-proportions-v08-data.json",
+    "bytes": 358880,
+    "sha256": "4600438e679f0fa8c81ca4adf1383b56c5697c6430fdd0af19aef6db6031fec2"
+  },
+  {
+    "path": "history/work/cambusa-proportions-v08-template.html",
+    "bytes": 9010,
+    "sha256": "061b9c1f7d2ca5eb609e8d87654637acd84a5021da0839f2192cda5f384ce0c1"
+  },
+  {
+    "path": "history/work/check_cambusa_direction.cjs",
+    "bytes": 2724,
+    "sha256": "897912a24bcf71b1e2a1a0d13419bfc62a1907816abf1e5bdbeb96f7ef1248a3"
+  },
+  {
+    "path": "history/work/check_cambusa_pegboard.cjs",
+    "bytes": 2528,
+    "sha256": "5739a641f06de084a4d344d518fa49d93baa0989eac26382ee5deb68b207e75d"
+  },
+  {
+    "path": "history/work/check_cambusa_proportions_v08.cjs",
+    "bytes": 2734,
+    "sha256": "07a27b69bb946cb953cd619f5bfdf28fe0464ce9d39365fdb7efd0b319d071c9"
+  },
+  {
+    "path": "history/work/check_mobile_options.cjs",
+    "bytes": 2278,
+    "sha256": "b1f3dd207ab636aa5e363b71d420055a33299a4fe7df6347ccfe9b26534a0fdf"
+  },
+  {
+    "path": "history/work/check_preview.cjs",
+    "bytes": 1617,
+    "sha256": "71b8f9127de8bba2a2ab6d5b02302a1ad1f58b004d40aa6fa4b46e72021113e0"
+  },
+  {
+    "path": "history/work/check_reference_designs.cjs",
+    "bytes": 1631,
+    "sha256": "d413e120cd46b2908684bd687a653416c57eb68652c39c422cbf6ad8a212fa1d"
+  },
+  {
+    "path": "history/work/check_spherical_sketches.cjs",
+    "bytes": 1679,
+    "sha256": "3b1272eae51a7c0baee26cc1a24d047c16a0920f106600f8ca7b7545adc1d97f"
+  },
+  {
+    "path": "history/work/connector-mobile.png",
+    "bytes": 22440,
+    "sha256": "d5bda1c95cfe35173b9461355b4a83b28a0a4d90291c883e399f0bab0a9cc250"
+  },
+  {
+    "path": "history/work/connector-preview.png",
+    "bytes": 27453,
+    "sha256": "4f8ff7c4e38a26b93452ad774597c6b82e140b7cf354a9094c93bb0096613b59"
+  },
+  {
+    "path": "history/work/connector-t-preview.png",
+    "bytes": 28374,
+    "sha256": "7a4aa99c765fa603fd11081630b7578342ca6f5f2217541e1bc201f960256ed1"
+  },
+  {
+    "path": "history/work/current-cabinet-direction.json",
+    "bytes": 785,
+    "sha256": "3d0cd349a0f1a0c5f40cfcf07f3ff47d1acecba80a4be7609c22e0c749e108ea"
+  },
+  {
+    "path": "history/work/decision-history/before-cambusa-v07-current-cabinet-direction.json",
+    "bytes": 1068,
+    "sha256": "d58197605b887173dc214955f782c6c4dfe1cc35d7e8f49c1cec480c634547cc"
+  },
+  {
+    "path": "history/work/decision-history/before-cambusa-v07-order_hardware_candidates.json",
+    "bytes": 4111,
+    "sha256": "58c5f072ad2e22190f1d7aa14a72f1a99f7a9523f1486635a04aebf0c48aa55e"
+  },
+  {
+    "path": "history/work/decision-history/before-cambusa-v07-self-assembly-requirements.json",
+    "bytes": 3148,
+    "sha256": "5323f7b4186758031dbd8973117bc19a353f3b96d4f59e67c2a7cbba9d7d8cdc"
+  },
+  {
+    "path": "history/work/drawer-v13-viewer.html",
+    "bytes": 10920,
+    "sha256": "594bc41c57b72cd4242c405bacf86225f5ad79293394edee22debbdf81221f81"
+  },
+  {
+    "path": "history/work/export_boltfree_pilots.py",
+    "bytes": 3546,
+    "sha256": "adbf7d00d22656c8e19d1a37b3439904bf78e306447bb337f9b4c5987c5943d1"
+  },
+  {
+    "path": "history/work/finish_cambusa_pegboard.py",
+    "bytes": 14291,
+    "sha256": "982e91fc523210bcf433b247133f680e0da2b7c6d8c020d406370a0cbc48d4e0"
+  },
+  {
+    "path": "history/work/finish_mobile_options.py",
+    "bytes": 15622,
+    "sha256": "be170600764ad49a3532766e8ccf78880db80bf65d07437c9673d7fb1a94fce6"
+  },
+  {
+    "path": "history/work/mobile-options-data.json",
+    "bytes": 243389,
+    "sha256": "c900c852365f5416d34e721000fe0795b504bc8e2ee1129941eda9c152a1a022"
+  },
+  {
+    "path": "history/work/mobile-options-template.html",
+    "bytes": 7194,
+    "sha256": "a8808a91d268d678afa83c87c17048ab7ec16a34d9eb53f5431fa0a4f6b7ce48"
+  },
+  {
+    "path": "history/work/order_hardware_candidates.json",
+    "bytes": 4631,
+    "sha256": "f02c229ee805b2a6e988b586d2d5274e23ff1e5f57023e29bb3ec6f7691f8503"
+  },
+  {
+    "path": "history/work/reference-design-meshes.json.gz",
+    "bytes": 3417670,
+    "sha256": "9c11498d520b4e157a931e15f22d1d72c89d8157003abd8691aefe18514c2949"
+  },
+  {
+    "path": "history/work/reference-designs-open.png",
+    "bytes": 54923,
+    "sha256": "24c0c2a88b602748870536e540d6ddff6322c85464ea8c3808efc303b47848af"
+  },
+  {
+    "path": "history/work/reference-designs.png",
+    "bytes": 55098,
+    "sha256": "fe82990383a8dd72eb3ade530fece56dfb3f22637f4df6398e93a7de2435ccbb"
+  },
+  {
+    "path": "history/work/reference-review.json",
+    "bytes": 4835,
+    "sha256": "c554ff8e43c6bfeef532e596ad50f8ba0287156c4ef40c932244d70c1b10409f"
+  },
+  {
+    "path": "history/work/register_drawer_v13.py",
+    "bytes": 10008,
+    "sha256": "d0707c3cf920aa458e3b43719cc284a204e1265343a63f3343bf98a5c4f0a0d6"
+  },
+  {
+    "path": "history/work/register_joinery_v12.py",
+    "bytes": 9280,
+    "sha256": "0e7355843f6d6a53084e320067e7f8091cbe8e4d46c0b7b8cbf501cecf180b89"
+  },
+  {
+    "path": "history/work/register_tandem_v14.py",
+    "bytes": 5548,
+    "sha256": "6e54ce11b86ffef61220230b9e76f8788bdc18459b64c05c01d2613f2f0a6aca"
+  },
+  {
+    "path": "history/work/render_assembly_v1.py",
+    "bytes": 6207,
+    "sha256": "a285844a921d7d2baa975990b339df33a5f1b149aa4257e101f5a228e399dc8d"
+  },
+  {
+    "path": "history/work/render_bayonet_node.py",
+    "bytes": 4660,
+    "sha256": "8d4f9f9e2cf7ecf41ab90487e3961629b52dd4a95b5339f852a7376e42093cca"
+  },
+  {
+    "path": "history/work/render_boltfree_cabinet.py",
+    "bytes": 4227,
+    "sha256": "3892741e1478bbd7f70ac46c42b112e510d0ee615a2ee1a2c2b5949269187afd"
+  },
+  {
+    "path": "history/work/render_reference_designs.py",
+    "bytes": 2401,
+    "sha256": "ee3030bf08745ec8120c08b48448f090d5cef10501904fef762ad54f901bcf13"
+  },
+  {
+    "path": "history/work/riva-bookshelves-review.json",
+    "bytes": 2499,
+    "sha256": "16ea3227e50ad8f3737e2b4e178c683a85bf7b20e9637ba63ef31d937696e007"
+  },
+  {
+    "path": "history/work/riva-reference-review.json",
+    "bytes": 2140,
+    "sha256": "d0bfdf60e883152d094dc13a5d7d688dfacb9dc9683b3973a15210128ceee32e"
+  },
+  {
+    "path": "history/work/self-assembly-requirements.json",
+    "bytes": 4703,
+    "sha256": "dc9b1957e69796a091026e2808295b2dd48a3baf9d0a9bf7c654536f6b743140"
+  },
+  {
+    "path": "history/work/spb-plywood-research.json",
+    "bytes": 7530,
+    "sha256": "0781f51a6d81db971a7a9318d388809321b3c16dfa7f351c5e1cb14c20094594"
+  },
+  {
+    "path": "history/work/spb-printing-research.json",
+    "bytes": 12518,
+    "sha256": "af6ebfe0b8fbf482f88b54869edf5d404ee37e227ffced622f85345f13fee5dc"
+  },
+  {
+    "path": "history/work/spherical-cabinet-preview.html",
+    "bytes": 95993,
+    "sha256": "9dc181c79ed321af76d8201e37a89d2c2d6b92cd24d0d4ae81171c46d10a65b4"
+  },
+  {
+    "path": "history/work/spherical-sketches-front.png",
+    "bytes": 51403,
+    "sha256": "721aa1324e1debaaf06d4a00fd1e611ba8ddd7b290cc9ae20330dc0b76422079"
+  },
+  {
+    "path": "history/work/spherical-sketches-mobile.png",
+    "bytes": 65470,
+    "sha256": "d0c84111808013fa8ce8a85595d252fa84485e523b400a97cb553df8568b3186"
+  },
+  {
+    "path": "history/work/spherical-sketches-tall.png",
+    "bytes": 45567,
+    "sha256": "81389e6aaeb3de5b78e8e02ad84a7cd01301d8aae163d4e70714b291349027ac"
+  },
+  {
+    "path": "history/work/spherical-sketches.png",
+    "bytes": 67379,
+    "sha256": "f1abeaa537c2f9ba7968a86f411b44011023fc85682ba86ed651f3ffe2af3f90"
+  },
+  {
+    "path": "history/work/tool-free-cabinet-design-basis.json",
+    "bytes": 2505,
+    "sha256": "a181725e6ffa48e8df938dfb0ae50d0da007e894a31a7b327ff1bfa146dfa731"
+  },
+  {
+    "path": "history/previews/cabinet-after-references.html",
+    "bytes": 17605,
+    "sha256": "e909b1b33cef9759b80dd3b952cd87e9dc4516e90a3fb11f67acda181aacc682"
+  },
+  {
+    "path": "history/previews/cambusa-fly-direction.html",
+    "bytes": 588969,
+    "sha256": "15a56c74dc2e451bab824ae532c810d968ea90a19edbfb492f30e6d30790bc61"
+  },
+  {
+    "path": "history/previews/cambusa-pegboard.html",
+    "bytes": 496962,
+    "sha256": "22818fefa68b568c6c0c6af719a306ad31c4d3eee808ab437d1c98e41813caf3"
+  },
+  {
+    "path": "history/previews/cambusa-proportions-v08.html",
+    "bytes": 367876,
+    "sha256": "eae92ae39979371a676cb7795bd26b988d3108dd3ba8de7891847e4b21a060fa"
+  },
+  {
+    "path": "history/previews/mobile-cabinet-options.html",
+    "bytes": 249755,
+    "sha256": "46282ea3b5dbd3ecbd80855cbe1c483874e502084c2ffc23714c27dbe852f531"
+  },
+  {
+    "path": "history/previews/round-cabinet.html",
+    "bytes": 108035,
+    "sha256": "836c1f6dec432507c5e715d2927dc4ba840d8f8b409b522a1555bf11d8ff616c"
+  },
+  {
+    "path": "history/previews/spherical-cabinet-sketches.html",
+    "bytes": 13698,
+    "sha256": "e7e20d61f69b18daedfc180ead9b69116caba94f164e22ed765e00e3e3940593"
+  },
+  {
+    "path": "history/tools/activate_version.py",
+    "bytes": 1864,
+    "sha256": "ab57a6efab229650d0e1d35ca5cad83adb560b55d54c50cf4d1defb2d568ff77"
+  },
+  {
+    "path": "history/outputs/assembly-method-v11/МЕТОДОЛОГИЯ.md",
+    "bytes": 23651,
+    "sha256": "74cec04cba9952809859cacd7d2e97902a07d6e6470d8a1fe4cb3a9a63f74d34"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/READ-ME-RU.txt",
+    "bytes": 15243,
+    "sha256": "8e48b8a717944bc24b64ca0d8dbf126895fd347b510538e89fe5d56171f80eb0"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",
+    "bytes": 5673,
+    "sha256": "0d6ddfb66715500b154bbf88bf5be4133405e26819b0abb8d1c2221d895b6c77"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/assembled.png",
+    "bytes": 157724,
+    "sha256": "6b4ea2024bf39cc2458ace00350649f8d0b01b4355b2017be2f54c1ee06e0376"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/back-stop-detail.png",
+    "bytes": 33191,
+    "sha256": "b345b480e70d16aff2ee987cea168ca84085a86da1c6c8a59158648aecf82879"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/exploded.png",
+    "bytes": 162157,
+    "sha256": "708b50b42a2935673b68bc626ffed5539edfc0ea47b914c3a933f27459948e54"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/open.png",
+    "bytes": 159151,
+    "sha256": "47763c89b8706bae0b6e3eb7cad90f2d911baaab20a17739d2e1da7e381cdd26"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/01-side-corner/frame-left-assembly-mm.stl",
+    "bytes": 17184,
+    "sha256": "7b032ebce81bc3e10a1f8aaa1e3495a632079607e1c925ccb9668cede43634f5"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/01-side-corner/key-side-left-0-0-assembly-mm.stl",
+    "bytes": 47984,
+    "sha256": "b972f5d2afb77d49d484b8285e6d2519dffeea2b4d11c95d13e0c5aabb4200fa"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/01-side-corner/key-side-left-0-0-print-mm.stl",
+    "bytes": 47984,
+    "sha256": "3ca9e7811ccce89ab19b783a14467bee73073fe9aabce92ecd4653f43bfc65b7"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/01-side-corner/parts.json",
+    "bytes": 1284,
+    "sha256": "f7def049582c8f422b904a759cda12b1c9877dd2a8b14c6e27906f7ae2fdc113"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/01-side-corner/sample-assembled.glb",
+    "bytes": 181168,
+    "sha256": "cc7230ac2e884d7880f11eec1a49020bf96ac28c6b5b5d729fe3b8f6bd4ac0e4"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/01-side-corner/shelf-0-assembly-mm.stl",
+    "bytes": 14884,
+    "sha256": "4cb5a74e1a5ce0a99f8571b53cad2b1c16d419b1616d5b24caa036d770ca9d6d"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/01-side-corner/sphere-side-left-0-assembly-mm.stl",
+    "bytes": 364584,
+    "sha256": "39a456ab5f5885f66fca0f8b2fc73b53d3b2c447259e8d71d587518a61d3b138"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/01-side-corner/sphere-side-left-0-print-mm.stl",
+    "bytes": 364584,
+    "sha256": "3027581ab5f8066ca316629f8c489b8c786239740817339873f1c69a12d97654"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/02-back-stop/back-panel-assembly-mm.stl",
+    "bytes": 684,
+    "sha256": "24b82acec62c2c816bdf87f78ded63ab7eba112e748459153ecd88caba54cbb9"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/02-back-stop/back-stop-left-assembly-mm.stl",
+    "bytes": 18784,
+    "sha256": "b76f2afed764dd933ef97f50be9c57c5b99570e4de44bf0f07294e317cc04556"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/02-back-stop/back-stop-left-print-mm.stl",
+    "bytes": 18784,
+    "sha256": "0de295d9039ff1e70173cd4dd2707126bc31ebb6ce59f3cbd2b1962f6364f57b"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/02-back-stop/frame-left-assembly-mm.stl",
+    "bytes": 107384,
+    "sha256": "4de45deeb898d61723092604ef1c0ebfcee59059329dc8fed91bff01b4f2c003"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/02-back-stop/parts.json",
+    "bytes": 962,
+    "sha256": "20b78e721e611976ef3f0d227a4f6a75544add9a5785dd92932e93c41338c1d7"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/02-back-stop/sample-assembled.glb",
+    "bytes": 53188,
+    "sha256": "914089eedd89cbafd3bac24e555119daea5a615f378d3be5d1a30eb4571a076a"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/03-inner-T/key-inner-x600-0-front-0-assembly-mm.stl",
+    "bytes": 47984,
+    "sha256": "b972f5d2afb77d49d484b8285e6d2519dffeea2b4d11c95d13e0c5aabb4200fa"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/03-inner-T/key-inner-x600-0-front-0-print-mm.stl",
+    "bytes": 47984,
+    "sha256": "3ca9e7811ccce89ab19b783a14467bee73073fe9aabce92ecd4653f43bfc65b7"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/03-inner-T/partition-0-assembly-mm.stl",
+    "bytes": 28284,
+    "sha256": "280c3fb894545c406d75a3f61814fc4eb338af84800862952b153aa8f21bfbde"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/03-inner-T/parts.json",
+    "bytes": 1297,
+    "sha256": "e81c6a3d59184c67791638cb5087804c819bde57c0b9fb436a493ed88b6adb06"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/03-inner-T/sample-assembled.glb",
+    "bytes": 193900,
+    "sha256": "dbb027d2609a41735755b9b501cb622d594b519469fbd52c22b9554731b06867"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/03-inner-T/shelf-0-assembly-mm.stl",
+    "bytes": 29384,
+    "sha256": "3d1643c2a543f82eeb182d7b2da913c985f9b2e54bff482e4ffb201282e007ea"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/03-inner-T/sphere-inner-x600-0-front-assembly-mm.stl",
+    "bytes": 370984,
+    "sha256": "b32a6d9fce7b6972f01d7eab683b85c493174c25fd756982e717a6acdc32fa92"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/03-inner-T/sphere-inner-x600-0-front-print-mm.stl",
+    "bytes": 370984,
+    "sha256": "dba914435bac55a53f3cfc69bdb445bd17552e5d2782f7a4788d9f4c1853e82d"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/04-inner-X/key-inner-x600-1-front-0-assembly-mm.stl",
+    "bytes": 47984,
+    "sha256": "b972f5d2afb77d49d484b8285e6d2519dffeea2b4d11c95d13e0c5aabb4200fa"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/04-inner-X/key-inner-x600-1-front-0-print-mm.stl",
+    "bytes": 47984,
+    "sha256": "3ca9e7811ccce89ab19b783a14467bee73073fe9aabce92ecd4653f43bfc65b7"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/04-inner-X/key-inner-x600-1-front-1-assembly-mm.stl",
+    "bytes": 47984,
+    "sha256": "3716bcadfadf56f17ea926c09b3fa8f0760d97079140910441766007fe3f7f84"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/04-inner-X/key-inner-x600-1-front-1-print-mm.stl",
+    "bytes": 47984,
+    "sha256": "84d64e736c02fda82a62a72a397e52ed1e05ce953f0b67c219a28be4b2b85433"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/04-inner-X/partition-0-assembly-mm.stl",
+    "bytes": 14484,
+    "sha256": "3cc7d2745ea8314a5091a45ed9f57d8e38aa15ce1f41d9e3ba18ee15a6f6502d"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/04-inner-X/partition-1-assembly-mm.stl",
+    "bytes": 14484,
+    "sha256": "b29cac55b2e0099a4471cb07ab0e5860ffe4de6e6c8e3e4a681ca61bc95611b5"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/04-inner-X/parts.json",
+    "bytes": 1897,
+    "sha256": "2073b727bbd6e0f0ed84e0c9279c300c8742171f69435877089760378ebd6ec4"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/04-inner-X/sample-assembled.glb",
+    "bytes": 251168,
+    "sha256": "d7f2463b92063794172ace361c6af53d1ca5c14c5e50dc86fc6eaddb1675a0ba"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/04-inner-X/shelf-1-assembly-mm.stl",
+    "bytes": 30284,
+    "sha256": "f4f3a193c86187871ae430aa059adb07671994721cc45691d25902de7646031c"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/04-inner-X/sphere-inner-x600-1-front-assembly-mm.stl",
+    "bytes": 496984,
+    "sha256": "10f48f9241318c4a08e4762b43d26a9ca85cfdc99e05cabd58417d99698eb11a"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/pilot-samples/04-inner-X/sphere-inner-x600-1-front-print-mm.stl",
+    "bytes": 496984,
+    "sha256": "33be84f24550f2961535f549aa42754a3743fe2df4f8cbdfc09d64277c2815f2"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/assembled.glb",
+    "bytes": 1838248,
+    "sha256": "a9950ee472b1c2cdc06c97aad5f3f3ee1c32b8fc6f9bd919893c71a744502ccb"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/back-panel.stl",
+    "bytes": 1084,
+    "sha256": "06edb0491876754451db5b836d70b76a76eb3caa9fe482c51defe53dc4ac169b"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/back-stop-left.stl",
+    "bytes": 18784,
+    "sha256": "cac095ea2c451ecf42a320a4b876208eba502a6dd1630cb1f90f3274b5ea1de9"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/back-stop-right.stl",
+    "bytes": 18784,
+    "sha256": "44db39f615fc468a933f334b88b257e6ed97e6ba3e102290f20947ecb1eb9776"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/door-0.stl",
+    "bytes": 49484,
+    "sha256": "a0522b3d8ef25f5bdde139b972ef769125784028e15c1f2043152a672ce1a8ea"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/door-1.stl",
+    "bytes": 52084,
+    "sha256": "d3d77a68e99b56600cd2300066c74b685263b6f8091ce1848695b2c0448429a6"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/exploded.glb",
+    "bytes": 1838260,
+    "sha256": "c28105bf77e28ed19ee71bad84838b4597e9325a688009d44e490f12c352a761"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/frame-left.stl",
+    "bytes": 212484,
+    "sha256": "bf90dc02d9c72d2394d8a216e8223371467947625705bd59d9944a7de9f96022"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/frame-right.stl",
+    "bytes": 212684,
+    "sha256": "98ce082d6ff099191b99fa95d19ce323dafe25560d105cdbf5bba14e2d8868a3"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-inner-x350-1-front-0.stl",
+    "bytes": 47984,
+    "sha256": "dd1ae2e7fa80d16a68c51db0cd58cd1a967fc3874190fd4a89164cda9ba2767a"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-inner-x350-1-rear-0.stl",
+    "bytes": 47984,
+    "sha256": "8221b30e081c7009ad203ab6efc0269d8c971a4f434b1bf4a56cd76d3d577907"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-inner-x350-2-front-0.stl",
+    "bytes": 47984,
+    "sha256": "450f24457b95fffe1654c1822330c668cc781d07665a93ab00e733533d355b5b"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-inner-x350-2-rear-0.stl",
+    "bytes": 47984,
+    "sha256": "ab110c45aea05a2bc9b7323e4d807c4bb62d92bb49c47fae9154def7764a4aea"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-inner-x600-0-front-0.stl",
+    "bytes": 47984,
+    "sha256": "b9d4ea8127f71d38f70427ab26c62c4601432a578c626bca89a16d6b0bff1d16"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-inner-x600-0-rear-0.stl",
+    "bytes": 47984,
+    "sha256": "d53b516df1c855ad69f2afc280fd2628590b322eb7578e90889348850db5e4b7"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-inner-x600-1-front-0.stl",
+    "bytes": 47984,
+    "sha256": "ac1a99d2a8d64ca3c824ea1494bba62f8143ac2d2da7482de07df873fdfb2cb2"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-inner-x600-1-rear-0.stl",
+    "bytes": 47984,
+    "sha256": "f7756bbb9cc73022179ff9a70c25110052517fbfb3c5e197ee121f40f770e35a"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-inner-x700-2-front-0.stl",
+    "bytes": 47984,
+    "sha256": "8d3b5bbf37eee34bfc160abc9b4b7510554713947f5ca54f81978df8edf207cb"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-inner-x700-2-rear-0.stl",
+    "bytes": 47984,
+    "sha256": "167c7ff3dbe786438b1e92f60fe41c3359e506a6eed87c88b7db01f8583b3a73"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-inner-x700-3-front-0.stl",
+    "bytes": 47984,
+    "sha256": "0181b6fb603de95440c0d61f84b7a4752db0fdf75a50c32798d7a1ae5d820da5"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-inner-x700-3-rear-0.stl",
+    "bytes": 47984,
+    "sha256": "6e48e419d19136dd19910a63196fe29d9bfdd89257ee875c26b808e9829014a7"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-side-left-0-0.stl",
+    "bytes": 47984,
+    "sha256": "af0e93254ebe2d7f8e33a2d0f686e4cd3a54f60c9b0b8e32386de9b510ff7f75"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-side-left-1-0.stl",
+    "bytes": 47984,
+    "sha256": "fda0d7e410eafe16f8c2e7305f0b5a414dc855e97fed40a7f671b242d3aaddba"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-side-left-2-0.stl",
+    "bytes": 47984,
+    "sha256": "df178bd74a31973aa44859f6b91d2e10b5b32438b982b1cc3605e887eb613d2f"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-side-left-3-0.stl",
+    "bytes": 47984,
+    "sha256": "70f933c7725aa56056c5d9a9c40073320daf12171923b6200f484875965f3702"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-side-right-0-0.stl",
+    "bytes": 47984,
+    "sha256": "5e607b36ea22b3d777b23f22490b7ed0357baca3dcb4caefa2f381215fcee5c9"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-side-right-1-0.stl",
+    "bytes": 47984,
+    "sha256": "a4071ddd8170f9d7727fcb8633f5975ad6629e879dfb45c8b0c010160a0e0785"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-side-right-2-0.stl",
+    "bytes": 47984,
+    "sha256": "5c3f7e20f4a5739e2478b3212a495ec0ccdcc7535a40f3ae6d31626898d25355"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/key-side-right-3-0.stl",
+    "bytes": 47984,
+    "sha256": "c3fc9ddc9587e0e300f74041d2b67437e133f552287b8afae6f43800d5c84d24"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/parameters.json",
+    "bytes": 710,
+    "sha256": "9d4aabe21679c89f490bf43b6356801768dc9fd37510043d4a8b6afd980bbb71"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/partition-0.stl",
+    "bytes": 55884,
+    "sha256": "6a07cc1f522eeee791b567b768e05dd8687fd42b047a28cef1f01e3781dbec21"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/partition-1.stl",
+    "bytes": 55884,
+    "sha256": "fb794df82392065b717ccf69120abc41acc73eb337afa3aa0f44cf338348989d"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/partition-2.stl",
+    "bytes": 55884,
+    "sha256": "86813da89f4359af7dcb6fe894d4d668d7056a4836e7fca29f3ccbf1adc7953d"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/parts.csv",
+    "bytes": 2525,
+    "sha256": "fbacccf9431dd61b77a4845bb551f9be4dc1b6c22cc770351070fe53bcf792ad"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/shelf-0.stl",
+    "bytes": 57584,
+    "sha256": "251b8fb064a35972a36cfc48bf561ff843daa1f5da6596bb4719b490d5c119d9"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/shelf-1.stl",
+    "bytes": 86184,
+    "sha256": "2deb57b59c1289ffaf90f8bfc65a75608a84af1ae9f86fd0b5ddb6a40f34fcd5"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/shelf-2.stl",
+    "bytes": 86084,
+    "sha256": "67eacb322d14d41fa9ec046a4035a91e263f321303af8038b6bd656a200d06ea"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/shelf-3.stl",
+    "bytes": 57584,
+    "sha256": "a0a5d20fdff885647c8cf0f8df8201689d8c7adfd0cf83359ebb4bb5d38fdd37"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-inner-x350-1-front.stl",
+    "bytes": 370984,
+    "sha256": "ff54a5ee9ec8d4eb018d9085149b6065f1edbaa300912337fb7629565564baff"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-inner-x350-1-rear.stl",
+    "bytes": 370984,
+    "sha256": "a0a82c0b802a26c39cd6a738b56b2d5d2bbf8508ff34131173169c75f083e840"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-inner-x350-2-front.stl",
+    "bytes": 370984,
+    "sha256": "8931cfd0d23f3b29a05956af24f4752e793e3babb6274fcbbd908aa591d6c1da"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-inner-x350-2-rear.stl",
+    "bytes": 370984,
+    "sha256": "b369a634a7e888d76bbf259e72199d97edd4526c625565fded34f4de1de5e016"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-inner-x600-0-front.stl",
+    "bytes": 370984,
+    "sha256": "4f0ffd2c601461568ceade9d247d73543d243091447cf8a67faf8d6b5c42d184"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-inner-x600-0-rear.stl",
+    "bytes": 370984,
+    "sha256": "2e4a0d3b8256227abae4e89ef34cb3b9cbefb8876d85617b84e1cea096c7ee62"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-inner-x600-1-front.stl",
+    "bytes": 370984,
+    "sha256": "3d7701b9bf0e66023db7bafe443684138fead9fa779d9794c3bf0aa0c20b1544"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-inner-x600-1-rear.stl",
+    "bytes": 370984,
+    "sha256": "651cd4f2a115ff4ef8979f8c8e556793f49af7a32d0559b9e6edf8a129ffb3a0"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-inner-x700-2-front.stl",
+    "bytes": 370984,
+    "sha256": "d79cc40cf74e6679b1cec7fa3bc1607807dcf108f01c6ff718990184462b8c69"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-inner-x700-2-rear.stl",
+    "bytes": 370984,
+    "sha256": "2a4f3bcb4d94256bdf10b3ecdc213a79422fc88de365cddeaf77b6779cde5b6b"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-inner-x700-3-front.stl",
+    "bytes": 370984,
+    "sha256": "7ef533427cc6db2764aa0ab7369b1ddac31bd711a39a7632a7c8bd326bd099bc"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-inner-x700-3-rear.stl",
+    "bytes": 370984,
+    "sha256": "a5823b5a277058d679802eb8dc5ae564dd4175bd708376597ff3c18d5b50fccf"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-side-left-0.stl",
+    "bytes": 364584,
+    "sha256": "2a621c9a8a8dc6540ac068fa704cb65d18d7ef753db344f054c198456fa0975e"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-side-left-1.stl",
+    "bytes": 364584,
+    "sha256": "7f227b15790eb231465138a871d7c17e6c922f7b8ec7d3df9307e65b93088696"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-side-left-2.stl",
+    "bytes": 364584,
+    "sha256": "8fc0d55efc9b0bb7b1ac1e492ce0951205d5c8202ef505ba7e3ee530596dc8cd"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-side-left-3.stl",
+    "bytes": 364584,
+    "sha256": "c71acd4c6185868c8ad46e08a5d5719093dfad2694e016eb9f897e887ad00893"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-side-right-0.stl",
+    "bytes": 364584,
+    "sha256": "c62beeb45579261d92c7fcd422def972c35945bc36bea31dbad55ea9a4f90e89"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-side-right-1.stl",
+    "bytes": 364584,
+    "sha256": "44daf1e57f90b29ddc5ad1c38073cd916134df8d0b4d95628189c37006d089f6"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-side-right-2.stl",
+    "bytes": 364584,
+    "sha256": "2d40557701a88bef4123aeef6f17f5f1c1a06c5473288a37ee0261ae6622e55e"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/sphere-side-right-3.stl",
+    "bytes": 364584,
+    "sha256": "af6c49e5a30d700a59401db4621d59312ce783b79763c785021df36550269924"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-03/verification.json",
+    "bytes": 15286,
+    "sha256": "51b538e4c9523c6ffed4b4850c8c51af861d986c93db248bc2677b235a2115b6"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/assembled.glb",
+    "bytes": 1911444,
+    "sha256": "d8586c555e4a1438813e1a467507669adb807ba831669b0c19ad2691a1b0b567"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/back-panel.stl",
+    "bytes": 1484,
+    "sha256": "3b90417beb222ce384a6caa75f00dca5b01eddc50f2310837ee5221976381b8f"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/back-stop-left.stl",
+    "bytes": 18784,
+    "sha256": "00e92c6655f413709dfcb7c33810ad0ce4586cb59cb9bd24cffce4d4ffdb621b"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/back-stop-right.stl",
+    "bytes": 18784,
+    "sha256": "44db39f615fc468a933f334b88b257e6ed97e6ba3e102290f20947ecb1eb9776"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/door-0.stl",
+    "bytes": 49284,
+    "sha256": "3547d85f7dd8543be3788c203e4cb342a6623b450a37656a88899ab9bf920aed"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/door-1.stl",
+    "bytes": 51284,
+    "sha256": "465447b2b1f8f583a92bb691136658e21ee5218b27563293bdcd98694e9c0458"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/exploded.glb",
+    "bytes": 1911460,
+    "sha256": "1292037be1c2db0c4052cea3b9c22a6a473bd557b1ff7c68c5020ce608a1a812"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/frame-left.stl",
+    "bytes": 191484,
+    "sha256": "4c1beec21864c0f316e0b5b6757ed540849b494e99b6371facc95c27514aa4c2"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/frame-right.stl",
+    "bytes": 212684,
+    "sha256": "98ce082d6ff099191b99fa95d19ce323dafe25560d105cdbf5bba14e2d8868a3"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-inner-x600-0-front-0.stl",
+    "bytes": 47984,
+    "sha256": "b9d4ea8127f71d38f70427ab26c62c4601432a578c626bca89a16d6b0bff1d16"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-inner-x600-0-rear-0.stl",
+    "bytes": 47984,
+    "sha256": "d53b516df1c855ad69f2afc280fd2628590b322eb7578e90889348850db5e4b7"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-inner-x600-1-front-0.stl",
+    "bytes": 47984,
+    "sha256": "c8da19675ef8ae6b12e665b3375be483a8b47817287cecc8607131262ae1ca0c"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-inner-x600-1-front-1.stl",
+    "bytes": 47984,
+    "sha256": "a64d3c2d00175933c52db7cb4b312348bfb892e5d9ced9d2c8c69f77c3690514"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-inner-x600-1-rear-0.stl",
+    "bytes": 47984,
+    "sha256": "c85fcbef9032213eba16362fa5321eefbafd0d8fadb5e023ab00b26ae6719a36"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-inner-x600-1-rear-1.stl",
+    "bytes": 47984,
+    "sha256": "5e71e639e0a0f8309e2882e209ed5226c4de6be83c376ff6a4df8f29185ea171"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-inner-x600-2-front-0.stl",
+    "bytes": 47984,
+    "sha256": "be59f342e73c03fa11f09709a6ca1e9b0cc25028dd936ee25e5e21f049a0cb61"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-inner-x600-2-front-1.stl",
+    "bytes": 47984,
+    "sha256": "1e6b1966394719582449ebfd0cc63a0e38b67f09baf5e49ac0e972d13d435d1c"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-inner-x600-2-rear-0.stl",
+    "bytes": 47984,
+    "sha256": "45749e36b26734fd0de1506a859885968217d0e9b2ba5d88f034d048b63254c5"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-inner-x600-2-rear-1.stl",
+    "bytes": 47984,
+    "sha256": "735fd7b81e3a196effc0bd9edbff99359eb3fe76cd1d3ccf6b4cebb391617f55"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-inner-x600-3-front-0.stl",
+    "bytes": 47984,
+    "sha256": "991bc1315f28ab10339a40a0b0259629f69d375385f7060c09484357500eaa51"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-inner-x600-3-rear-0.stl",
+    "bytes": 47984,
+    "sha256": "7a8271a25cd08178ae2c460c1b24bdbdd4390f45a342ccd56a5cbf963ac74131"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-side-left-0-0.stl",
+    "bytes": 47984,
+    "sha256": "af0e93254ebe2d7f8e33a2d0f686e4cd3a54f60c9b0b8e32386de9b510ff7f75"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-side-left-1-0.stl",
+    "bytes": 47984,
+    "sha256": "31b4b088c8cdf64b0e5b15a8755c681942dbac6e8b79779fc1d6f6f0143533bb"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-side-left-2-0.stl",
+    "bytes": 47984,
+    "sha256": "5934fedaedc1797516f7b30f60e85f283757dc0eefe9b026e684996bf166581b"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-side-right-0-0.stl",
+    "bytes": 47984,
+    "sha256": "5e607b36ea22b3d777b23f22490b7ed0357baca3dcb4caefa2f381215fcee5c9"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-side-right-1-0.stl",
+    "bytes": 47984,
+    "sha256": "a4071ddd8170f9d7727fcb8633f5975ad6629e879dfb45c8b0c010160a0e0785"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-side-right-2-0.stl",
+    "bytes": 47984,
+    "sha256": "5c3f7e20f4a5739e2478b3212a495ec0ccdcc7535a40f3ae6d31626898d25355"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/key-side-right-3-0.stl",
+    "bytes": 47984,
+    "sha256": "c3fc9ddc9587e0e300f74041d2b67437e133f552287b8afae6f43800d5c84d24"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/parameters.json",
+    "bytes": 710,
+    "sha256": "46825726f66f1a1c988f4e9d99bf1bd65fb7106527dcf001028e83202401870d"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/partition-0.stl",
+    "bytes": 55884,
+    "sha256": "a9acfa61b92a83b559c0d872e7822c81877fa418d67019a9f69155d538343b98"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/partition-1.stl",
+    "bytes": 55884,
+    "sha256": "3879fe11acb1c768e0d525885701dee17e3f64049bdc77cd27d51068efda171f"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/partition-2.stl",
+    "bytes": 55884,
+    "sha256": "a7974e1db349dfefa9581e71a0febfd1aa78d43ff5c35ebedfb03c919a0f67c6"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/parts.csv",
+    "bytes": 2220,
+    "sha256": "37ef1e6caa4c800019ce82fd73072b27e072a101f9cc06348a5b42be63b21bed"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/shelf-0.stl",
+    "bytes": 57584,
+    "sha256": "251b8fb064a35972a36cfc48bf561ff843daa1f5da6596bb4719b490d5c119d9"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/shelf-1.stl",
+    "bytes": 86284,
+    "sha256": "98baaf8e6b0453c7bfc198d0b7c1547e00dca222f4d086f5fad228e023850b70"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/shelf-2.stl",
+    "bytes": 86284,
+    "sha256": "c1566fbba0078bb6ae97cb40ddf2d894192a362949e6eb41b13609de5651d713"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/shelf-3.stl",
+    "bytes": 42984,
+    "sha256": "56e48d7f416167c26effdc98db486eaaf35fa8752c43f5bb11eb89242159e2f4"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/sphere-inner-x600-0-front.stl",
+    "bytes": 370984,
+    "sha256": "4f0ffd2c601461568ceade9d247d73543d243091447cf8a67faf8d6b5c42d184"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/sphere-inner-x600-0-rear.stl",
+    "bytes": 370984,
+    "sha256": "2e4a0d3b8256227abae4e89ef34cb3b9cbefb8876d85617b84e1cea096c7ee62"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/sphere-inner-x600-1-front.stl",
+    "bytes": 496984,
+    "sha256": "a545337071bffb926f9712a94aea5cb60469dd67020b7a64259f08262215f027"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/sphere-inner-x600-1-rear.stl",
+    "bytes": 496984,
+    "sha256": "b07c1514e647e152539bbb7422a1ff2b4419ccf877f1d6536b1ebbfaf5a39008"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/sphere-inner-x600-2-front.stl",
+    "bytes": 496984,
+    "sha256": "081282eec91d659f45aac1a8d9955117c157589ef34278a3c2b18fec581ecf1d"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/sphere-inner-x600-2-rear.stl",
+    "bytes": 496984,
+    "sha256": "6ed74f85d078484bdddc45dfb3ff0d0e0401a9e099b44f781e14defb6e168b63"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/sphere-inner-x600-3-front.stl",
+    "bytes": 370984,
+    "sha256": "e7e55f5dd8a179cd6346aa7b97871df7c177682bed60988826242d03799158a3"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/sphere-inner-x600-3-rear.stl",
+    "bytes": 370984,
+    "sha256": "997f542155ec2bc6189b1a69d571f3a08c1a20743d19e1ce3c76e81ff4b8c64a"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/sphere-side-left-0.stl",
+    "bytes": 364584,
+    "sha256": "2a621c9a8a8dc6540ac068fa704cb65d18d7ef753db344f054c198456fa0975e"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/sphere-side-left-1.stl",
+    "bytes": 364584,
+    "sha256": "722c3be6c8b100d9e0992d3318021c8636ab292ec34b92793a71a103d260625d"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/sphere-side-left-2.stl",
+    "bytes": 364584,
+    "sha256": "6de9198322540eddfc30d95770dfddb349e2dd852f499c54f00ab2232a0fb35c"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/sphere-side-right-0.stl",
+    "bytes": 364584,
+    "sha256": "c62beeb45579261d92c7fcd422def972c35945bc36bea31dbad55ea9a4f90e89"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/sphere-side-right-1.stl",
+    "bytes": 364584,
+    "sha256": "44daf1e57f90b29ddc5ad1c38073cd916134df8d0b4d95628189c37006d089f6"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/sphere-side-right-2.stl",
+    "bytes": 364584,
+    "sha256": "2d40557701a88bef4123aeef6f17f5f1c1a06c5473288a37ee0261ae6622e55e"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/sphere-side-right-3.stl",
+    "bytes": 364584,
+    "sha256": "af6c49e5a30d700a59401db4621d59312ce783b79763c785021df36550269924"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/variant-04/verification.json",
+    "bytes": 13322,
+    "sha256": "90e5de322225013f5b21702b8234831a6180de74a803804bbd933dde5ca810a7"
+  },
+  {
+    "path": "history/outputs/boltfree-cabinet-v03/verification-summary.json",
+    "bytes": 31036,
+    "sha256": "4bcb5860247f19020a17dbb9aff6cf503fad8ffa85df87288cfa915f4f01a1ea"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/READ-ME-RU.txt",
+    "bytes": 15243,
+    "sha256": "8e48b8a717944bc24b64ca0d8dbf126895fd347b510538e89fe5d56171f80eb0"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/SUPPLIERS-SPB.txt",
+    "bytes": 5673,
+    "sha256": "0d6ddfb66715500b154bbf88bf5be4133405e26819b0abb8d1c2221d895b6c77"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/back-stop-detail.png",
+    "bytes": 33191,
+    "sha256": "b345b480e70d16aff2ee987cea168ca84085a86da1c6c8a59158648aecf82879"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/01-side-corner/frame-left-assembly-mm.stl",
+    "bytes": 17184,
+    "sha256": "7b032ebce81bc3e10a1f8aaa1e3495a632079607e1c925ccb9668cede43634f5"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/01-side-corner/key-side-left-0-0-assembly-mm.stl",
+    "bytes": 47984,
+    "sha256": "b972f5d2afb77d49d484b8285e6d2519dffeea2b4d11c95d13e0c5aabb4200fa"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/01-side-corner/key-side-left-0-0-print-mm.stl",
+    "bytes": 47984,
+    "sha256": "3ca9e7811ccce89ab19b783a14467bee73073fe9aabce92ecd4653f43bfc65b7"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/01-side-corner/parts.json",
+    "bytes": 1284,
+    "sha256": "f7def049582c8f422b904a759cda12b1c9877dd2a8b14c6e27906f7ae2fdc113"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/01-side-corner/sample-assembled.glb",
+    "bytes": 181168,
+    "sha256": "cc7230ac2e884d7880f11eec1a49020bf96ac28c6b5b5d729fe3b8f6bd4ac0e4"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/01-side-corner/shelf-0-assembly-mm.stl",
+    "bytes": 14884,
+    "sha256": "4cb5a74e1a5ce0a99f8571b53cad2b1c16d419b1616d5b24caa036d770ca9d6d"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/01-side-corner/sphere-side-left-0-assembly-mm.stl",
+    "bytes": 364584,
+    "sha256": "39a456ab5f5885f66fca0f8b2fc73b53d3b2c447259e8d71d587518a61d3b138"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/01-side-corner/sphere-side-left-0-print-mm.stl",
+    "bytes": 364584,
+    "sha256": "3027581ab5f8066ca316629f8c489b8c786239740817339873f1c69a12d97654"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/02-back-stop/back-panel-assembly-mm.stl",
+    "bytes": 684,
+    "sha256": "24b82acec62c2c816bdf87f78ded63ab7eba112e748459153ecd88caba54cbb9"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/02-back-stop/back-stop-left-assembly-mm.stl",
+    "bytes": 18784,
+    "sha256": "b76f2afed764dd933ef97f50be9c57c5b99570e4de44bf0f07294e317cc04556"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/02-back-stop/back-stop-left-print-mm.stl",
+    "bytes": 18784,
+    "sha256": "0de295d9039ff1e70173cd4dd2707126bc31ebb6ce59f3cbd2b1962f6364f57b"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/02-back-stop/frame-left-assembly-mm.stl",
+    "bytes": 107384,
+    "sha256": "4de45deeb898d61723092604ef1c0ebfcee59059329dc8fed91bff01b4f2c003"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/02-back-stop/parts.json",
+    "bytes": 962,
+    "sha256": "20b78e721e611976ef3f0d227a4f6a75544add9a5785dd92932e93c41338c1d7"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/02-back-stop/sample-assembled.glb",
+    "bytes": 53188,
+    "sha256": "914089eedd89cbafd3bac24e555119daea5a615f378d3be5d1a30eb4571a076a"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/03-inner-T/key-inner-x600-0-front-0-assembly-mm.stl",
+    "bytes": 47984,
+    "sha256": "b972f5d2afb77d49d484b8285e6d2519dffeea2b4d11c95d13e0c5aabb4200fa"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/03-inner-T/key-inner-x600-0-front-0-print-mm.stl",
+    "bytes": 47984,
+    "sha256": "3ca9e7811ccce89ab19b783a14467bee73073fe9aabce92ecd4653f43bfc65b7"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/03-inner-T/partition-0-assembly-mm.stl",
+    "bytes": 28284,
+    "sha256": "280c3fb894545c406d75a3f61814fc4eb338af84800862952b153aa8f21bfbde"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/03-inner-T/parts.json",
+    "bytes": 1297,
+    "sha256": "e81c6a3d59184c67791638cb5087804c819bde57c0b9fb436a493ed88b6adb06"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/03-inner-T/sample-assembled.glb",
+    "bytes": 193900,
+    "sha256": "dbb027d2609a41735755b9b501cb622d594b519469fbd52c22b9554731b06867"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/03-inner-T/shelf-0-assembly-mm.stl",
+    "bytes": 29384,
+    "sha256": "3d1643c2a543f82eeb182d7b2da913c985f9b2e54bff482e4ffb201282e007ea"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/03-inner-T/sphere-inner-x600-0-front-assembly-mm.stl",
+    "bytes": 370984,
+    "sha256": "b32a6d9fce7b6972f01d7eab683b85c493174c25fd756982e717a6acdc32fa92"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/03-inner-T/sphere-inner-x600-0-front-print-mm.stl",
+    "bytes": 370984,
+    "sha256": "dba914435bac55a53f3cfc69bdb445bd17552e5d2782f7a4788d9f4c1853e82d"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/04-inner-X/key-inner-x600-1-front-0-assembly-mm.stl",
+    "bytes": 47984,
+    "sha256": "b972f5d2afb77d49d484b8285e6d2519dffeea2b4d11c95d13e0c5aabb4200fa"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/04-inner-X/key-inner-x600-1-front-0-print-mm.stl",
+    "bytes": 47984,
+    "sha256": "3ca9e7811ccce89ab19b783a14467bee73073fe9aabce92ecd4653f43bfc65b7"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/04-inner-X/key-inner-x600-1-front-1-assembly-mm.stl",
+    "bytes": 47984,
+    "sha256": "3716bcadfadf56f17ea926c09b3fa8f0760d97079140910441766007fe3f7f84"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/04-inner-X/key-inner-x600-1-front-1-print-mm.stl",
+    "bytes": 47984,
+    "sha256": "84d64e736c02fda82a62a72a397e52ed1e05ce953f0b67c219a28be4b2b85433"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/04-inner-X/partition-0-assembly-mm.stl",
+    "bytes": 14484,
+    "sha256": "3cc7d2745ea8314a5091a45ed9f57d8e38aa15ce1f41d9e3ba18ee15a6f6502d"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/04-inner-X/partition-1-assembly-mm.stl",
+    "bytes": 14484,
+    "sha256": "b29cac55b2e0099a4471cb07ab0e5860ffe4de6e6c8e3e4a681ca61bc95611b5"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/04-inner-X/parts.json",
+    "bytes": 1897,
+    "sha256": "2073b727bbd6e0f0ed84e0c9279c300c8742171f69435877089760378ebd6ec4"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/04-inner-X/sample-assembled.glb",
+    "bytes": 251168,
+    "sha256": "d7f2463b92063794172ace361c6af53d1ca5c14c5e50dc86fc6eaddb1675a0ba"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/04-inner-X/shelf-1-assembly-mm.stl",
+    "bytes": 30284,
+    "sha256": "f4f3a193c86187871ae430aa059adb07671994721cc45691d25902de7646031c"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/04-inner-X/sphere-inner-x600-1-front-assembly-mm.stl",
+    "bytes": 496984,
+    "sha256": "10f48f9241318c4a08e4762b43d26a9ca85cfdc99e05cabd58417d99698eb11a"
+  },
+  {
+    "path": "history/outputs/boltfree-pilot-v03/pilot-samples/04-inner-X/sphere-inner-x600-1-front-print-mm.stl",
+    "bytes": 496984,
+    "sha256": "33be84f24550f2961535f549aa42754a3743fe2df4f8cbdfc09d64277c2815f2"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/READ-ME-RU.txt",
+    "bytes": 12118,
+    "sha256": "1c396c71d4fe8bdaaeac3b7c88cda82bb4c582c9ae8fdb807df9558f9ee1b4f1"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/SUPPLIERS-SPB.txt",
+    "bytes": 5673,
+    "sha256": "0d6ddfb66715500b154bbf88bf5be4133405e26819b0abb8d1c2221d895b6c77"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/assembled.png",
+    "bytes": 73323,
+    "sha256": "a964a1e4724a6859ce86cace12ca5f287119c0c53f44d5f52ccc25a0b783ec9b"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/exploded.png",
+    "bytes": 76211,
+    "sha256": "857435b101dde0b189a9afa00ad4906148ca702994ec0cc96b5ffe2a52477d42"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/joint-prototype/finger-grip-for-M5x60.stl",
+    "bytes": 18884,
+    "sha256": "7ae0d068bca4feb342aa3853b8e278af2e138063255e71d68d8068d581cb3c20"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/joint-prototype/fit-coupon-slots-18p2-18p6-19p0.stl",
+    "bytes": 3084,
+    "sha256": "b1b881f3f640fcaa943531163de446e0d8f7c27bf2436014dba4b0425225e29c"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/joint-prototype/geometry.json",
+    "bytes": 85,
+    "sha256": "9f851227fa4a559043b671bb8977b322ebced82caffe92e50db6353d41eef2bd"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/joint-prototype/plywood-divider-coupon.stl",
+    "bytes": 5684,
+    "sha256": "651afa0f60d1b295a1d34a61568a720b200d22fcacc3d49ea1166aa48fca005b"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/joint-prototype/plywood-shelf-coupon.stl",
+    "bytes": 6484,
+    "sha256": "5c270b8a008822c88338c2f11b01632fb8661817794267388c7ed3a534a68eb5"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/joint-prototype/sphere-T-up-18mm-gap06.stl",
+    "bytes": 106584,
+    "sha256": "5dbdccbc6b31df0085bae963434353e122e5ba145315fdd5c0f57cce9aed1606"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/joint-prototype/test-joint.glb",
+    "bytes": 77532,
+    "sha256": "856ad3681d8cb005cd74b4969d16b92e1e90adfeccaafef1c40add1fb0fdd844"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/joint-prototype.png",
+    "bytes": 44247,
+    "sha256": "732c0bca3f569ceb1254996ec60e747071a521bccc40cc84dc4070fad2538add"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/open.png",
+    "bytes": 71708,
+    "sha256": "dffc351b0dd382155884c020a5c19fa254afb6d271fbda5f81e8878694208c74"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/assembled.glb",
+    "bytes": 819432,
+    "sha256": "a8a9d4460aeb36e4ae0efcc977d718fdf6801a4697f6d093311b5a7a77c723c9"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/back-panel.stl",
+    "bytes": 684,
+    "sha256": "5215d64dbacb9ffd37e8eb7ed33bcec91ccd77fca849caeacf25c99a3e3fdbb2"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/door-0.stl",
+    "bytes": 46684,
+    "sha256": "9f042b40323baceb3823af0cb761bdf3f9f7439711369167c29aa61a4c158753"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/door-1.stl",
+    "bytes": 46684,
+    "sha256": "b0dade295e685711b227472303aa58a7ebcf95a657083fc5bcfa68375c639896"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/exploded.glb",
+    "bytes": 819400,
+    "sha256": "e3a0dbe91dddec4ee1e5e43fdb5406aae1a0f976fce35e184daab33f495129f1"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/frame-left.stl",
+    "bytes": 65384,
+    "sha256": "8d8d721ae825e615fd32496ff4edc4f3120b88a2904b34ba25c5aac7ee8df8e4"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/frame-right.stl",
+    "bytes": 65384,
+    "sha256": "9c7cbc9be05d4fac4806744d2a65470e9a8c36c3718881350e9ef234c37a8455"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/node-x350-l1-front.stl",
+    "bytes": 106584,
+    "sha256": "10eaebc1c1b862e33031ed2f7c1337aa67eea43fe24c1fedeba9bfde0938103c"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/node-x350-l1-rear.stl",
+    "bytes": 106584,
+    "sha256": "4c5a6f1aa4961d3981708ede4c419a848b75fd1c81e7ff6966747723e041b68e"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/node-x350-l2-front.stl",
+    "bytes": 106784,
+    "sha256": "695c0737e3e25e2da41d48baf31e0688452370bd77759e0daf0a9b6dd6a0d2ba"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/node-x350-l2-rear.stl",
+    "bytes": 106784,
+    "sha256": "689870a9a650e6ab1a3b8e11b2dee54933416e3367a268e5da43a64fb635595c"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/node-x600-l0-front.stl",
+    "bytes": 106584,
+    "sha256": "3a5e33338293957f9ceea9057cfcbc7b3c41b77ad436f9bd856f148f8a60104b"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/node-x600-l0-rear.stl",
+    "bytes": 106584,
+    "sha256": "d378bf188126ca15075a2110f7f48b5f955bf8bb3bc22ff730cf8f93df079465"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/node-x600-l1-front.stl",
+    "bytes": 106784,
+    "sha256": "c672b8f40727a5ba15e7972838db87b5dd9fe33956927df4f6038350082aa60e"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/node-x600-l1-rear.stl",
+    "bytes": 106784,
+    "sha256": "b51d8d09dc0a889de9dd7eb21232e967113585330847788d590b03ad1440dcfa"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/node-x700-l2-front.stl",
+    "bytes": 106584,
+    "sha256": "dd544d1ba71530dab68bb890d1670ca91fb1b3af78948dc57fe00b2ece90ffe1"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/node-x700-l2-rear.stl",
+    "bytes": 106584,
+    "sha256": "19ad679bcc599458db9659058bcc464287dbea8ba91d70c85376639534390dec"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/node-x700-l3-front.stl",
+    "bytes": 106784,
+    "sha256": "09ef70f0779d44409b14f8065d1272d874c3920c5850fca19b41562b7cb24f48"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/node-x700-l3-rear.stl",
+    "bytes": 106784,
+    "sha256": "d19cae982d366e66bc4a53c9f1df1207b0109e36c6d0dda56ddc0174106c5d46"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/parameters.json",
+    "bytes": 496,
+    "sha256": "d80ee52b2d3ce6c55811aef14d9e02cb723b77e82c93fc12858fa0a7a618c213"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/partition-0.stl",
+    "bytes": 20684,
+    "sha256": "4102980a94509fe80a107e60e4c40d78f4fed98a09032f0dcc20958627f064e5"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/partition-1.stl",
+    "bytes": 20684,
+    "sha256": "4c51806be63b6483d875c9fc3a53c256ea14f8f7749a9aa4b45c5ae7222332b8"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/partition-2.stl",
+    "bytes": 20684,
+    "sha256": "7dd846e78ee0e8599b7358b04d7f987b0ce41287c2833a15493d25def2553b19"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/parts.csv",
+    "bytes": 465,
+    "sha256": "4420b5a6dbb170af936a1ccf710ac737deba90639afe19335fd67ea9204f61f0"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/shelf-0.stl",
+    "bytes": 77184,
+    "sha256": "f0066b6868f9f551672dfd3d826e2e9faef85f2617bfd7fc08aa2014c47c693f"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/shelf-1.stl",
+    "bytes": 88184,
+    "sha256": "24cd3c4742c684345664dd6a67e831394d54ead9db28301bc70f0094a37cd7d0"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/shelf-2.stl",
+    "bytes": 88184,
+    "sha256": "817c6c5d3e53fb119ba9b3837e045b1686df6fa9639cf0e4df131d82b3cd46c1"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/shelf-3.stl",
+    "bytes": 77184,
+    "sha256": "9f5fc08c6567f818cbf62e2a83c3357d8f950e977a04e60b6ef1db95d85aab5c"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-03/verification.json",
+    "bytes": 43158,
+    "sha256": "97cb487864e1b609cab00ba5acf6878dcc965828bace8c2d23518f9ec4d97ef3"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/assembled.glb",
+    "bytes": 740568,
+    "sha256": "b795efa05307873b459967d6ccfbe001b3c23c74f94728aa4cb1e4e8934ea6fe"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/back-panel.stl",
+    "bytes": 1084,
+    "sha256": "4f9419aed635547b1babf13d96534a40276e99acd4790ec21f530179722bf8da"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/door-0.stl",
+    "bytes": 46684,
+    "sha256": "9f042b40323baceb3823af0cb761bdf3f9f7439711369167c29aa61a4c158753"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/door-1.stl",
+    "bytes": 46684,
+    "sha256": "0f9dcc1265273f2230b7b98e2d497914ad61213b6335de41c65684fe67742eee"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/exploded.glb",
+    "bytes": 740540,
+    "sha256": "686b9692ba8dca18e132d82e7b69824bee4b1d3682c4cb97b7a212a3d439c16e"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/frame-left.stl",
+    "bytes": 54484,
+    "sha256": "b882f0ca252ed420645bef38a0ad4cdf95ebfc49124708af33cb486e304ca88f"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/frame-right.stl",
+    "bytes": 65384,
+    "sha256": "9c7cbc9be05d4fac4806744d2a65470e9a8c36c3718881350e9ef234c37a8455"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/node-x600-l0-front.stl",
+    "bytes": 106584,
+    "sha256": "3a5e33338293957f9ceea9057cfcbc7b3c41b77ad436f9bd856f148f8a60104b"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/node-x600-l0-rear.stl",
+    "bytes": 106584,
+    "sha256": "d378bf188126ca15075a2110f7f48b5f955bf8bb3bc22ff730cf8f93df079465"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/node-x600-l1-front.stl",
+    "bytes": 125284,
+    "sha256": "6937635afcaa50745dec2f7bf1f8c45cd227ba911067dc514b2ff9c80aa2d8b9"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/node-x600-l1-rear.stl",
+    "bytes": 125284,
+    "sha256": "6d6b86dd074c4e3185fdbb56a70776210d0cdf296fbec2ac87e87b0f4e8844e2"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/node-x600-l2-front.stl",
+    "bytes": 125284,
+    "sha256": "314ffe24f8a12e2cb03371ba876cdd55ffc7da16587754d194401a33df37fe60"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/node-x600-l2-rear.stl",
+    "bytes": 125284,
+    "sha256": "30d961ee1e5cdc732aa4cdaa02dc0c17083de3e04f94052eb9bf7f973bc70f27"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/node-x600-l3-front.stl",
+    "bytes": 106784,
+    "sha256": "5cee1f72e819a804e3e3b554a8f6304696407e64c775b8eaa48b37ca74ae910b"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/node-x600-l3-rear.stl",
+    "bytes": 106784,
+    "sha256": "a1d8e0478cdd84033b771563df3ea8ccc5d4d06cd3a05844a6777abc7af72ddb"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/parameters.json",
+    "bytes": 495,
+    "sha256": "a4cf7f61870437c9b68109c662392db59caeb3bece45bc42ea14d801fd3efdf8"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/partition-0.stl",
+    "bytes": 20684,
+    "sha256": "4102980a94509fe80a107e60e4c40d78f4fed98a09032f0dcc20958627f064e5"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/partition-1.stl",
+    "bytes": 20684,
+    "sha256": "9657fa19b6195a2856e77b50aa9c1b872f8acc7b4d032211f8ddbce19c70d440"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/partition-2.stl",
+    "bytes": 20684,
+    "sha256": "bbf0442584e14869ecaa34d84d370f4ffa65ad8b83e068d882e861ffcc31ada7"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/parts.csv",
+    "bytes": 464,
+    "sha256": "c0edbec71bbf10a0d3195b0b19c52bc983bf5742118b48c21d89cf4d4a8b3fe0"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/shelf-0.stl",
+    "bytes": 77184,
+    "sha256": "f0066b6868f9f551672dfd3d826e2e9faef85f2617bfd7fc08aa2014c47c693f"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/shelf-1.stl",
+    "bytes": 78084,
+    "sha256": "2b93d4b9b3dd1bfa47a893793a55a2b6fbd9450933a62beb60205dfdc630f774"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/shelf-2.stl",
+    "bytes": 78084,
+    "sha256": "f8bdefe2d8312a70219de4184000ecf65d29609f903ceab324d925c8048d6856"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/shelf-3.stl",
+    "bytes": 44084,
+    "sha256": "7d08bf56bc2a9f4b90f44c301f5a0434e9d5cfd9d951501b08f1ed102d49a2fb"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/variant-04/verification.json",
+    "bytes": 36285,
+    "sha256": "68fdbc2ae97abe4dbcbcb37e7ac2a3498638e8a5e2720e92d7c564662f1ea4b7"
+  },
+  {
+    "path": "history/outputs/cabinet-03-04-engineering-v1/verification-summary.json",
+    "bytes": 87955,
+    "sha256": "d23b1f527bbdd09706e0245f654b291ef28ce2b86956030b25e0d494127e886f"
+  },
+  {
+    "path": "history/outputs/cabinet-six-concepts/01-portal.png",
+    "bytes": 1986638,
+    "sha256": "6ddb36a4f44db1de0175ef45d41d0fa1e9c17c59516eb19198f6f64d78b18ad0"
+  },
+  {
+    "path": "history/outputs/cabinet-six-concepts/02-vertical.png",
+    "bytes": 1984699,
+    "sha256": "7d4cf953cc2a906cdf403a834523dc6d6ef8f7aa964fdf92adb447da7a5b34c3"
+  },
+  {
+    "path": "history/outputs/cabinet-six-concepts/03-offset.png",
+    "bytes": 1959699,
+    "sha256": "6fd39e07d6b8de612eacbfd3d5ea69317ce223ca4761e99b01857978bf679141"
+  },
+  {
+    "path": "history/outputs/cabinet-six-concepts/04-step.png",
+    "bytes": 1947295,
+    "sha256": "97e7f189a91d71ddd56f215597b21be463f8b69e18d62bf79a805c0124cdffdf"
+  },
+  {
+    "path": "history/outputs/cabinet-six-concepts/05-ladder.png",
+    "bytes": 1996442,
+    "sha256": "c259814c5c91da85dd1a890ec34dfc18816b29fd85150c9668d2442d61a7d945"
+  },
+  {
+    "path": "history/outputs/cabinet-six-concepts/06-gallery.png",
+    "bytes": 2067237,
+    "sha256": "a70572a884761f5c58a15a37b335530c48f53eb3fba01001da0e3d5f4d91dd68"
+  },
+  {
+    "path": "history/outputs/cabinet-six-concepts/manifest.json",
+    "bytes": 1272,
+    "sha256": "e41684458e0a7454f61ca434f2df1fc2efa3287da0fa6bc60a46d9e31919faca"
+  },
+  {
+    "path": "history/outputs/cabinet-six-concepts/prompts-and-parameters.json",
+    "bytes": 9465,
+    "sha256": "9b6bff20577d3171674a0394edfa514f37126de15db7d4e9d48594952498890b"
+  },
+  {
+    "path": "history/outputs/cambusa-direction-v07/READ-ME-RU.txt",
+    "bytes": 6111,
+    "sha256": "ce1515476062dcca03c2f35c9964e005060fb2a99c71cb7d1e252ac2127fd1ac"
+  },
+  {
+    "path": "history/outputs/cambusa-direction-v07/base-profile-concept-blanks.csv",
+    "bytes": 736,
+    "sha256": "8719104bfc792be915402406254dd228f270001bfdb1cfdf01e05bf021fde6e2"
+  },
+  {
+    "path": "history/outputs/cambusa-direction-v07/caster-adapter-concept-blanks.csv",
+    "bytes": 371,
+    "sha256": "e70ce1cd3d67110c4368e30e0f58d9649e4a6493ad389585be9b8d8cdd4603a3"
+  },
+  {
+    "path": "history/outputs/cambusa-direction-v07/closed.glb",
+    "bytes": 445392,
+    "sha256": "789e1f95d60c48aec815e1e88ee7bac6052b2ef901738c455e2c2bd79a22a880"
+  },
+  {
+    "path": "history/outputs/cambusa-direction-v07/closed.png",
+    "bytes": 24783,
+    "sha256": "c5a0791a041bdc458ed20aad09c3426165ae3a8e9df2277ae0759a2d6a7d9374"
+  },
+  {
+    "path": "history/outputs/cambusa-direction-v07/exploded.glb",
+    "bytes": 445448,
+    "sha256": "f5813e53caf6ac82c5684077697af6907a274178e4a8cc59e6ba0749528f8eb6"
+  },
+  {
+    "path": "history/outputs/cambusa-direction-v07/exploded.png",
+    "bytes": 32167,
+    "sha256": "f5c333bc8adb96606e9415b88509932250a59044bd52fc5b60b2fa34b9ef2fbd"
+  },
+  {
+    "path": "history/outputs/cambusa-direction-v07/geometry-checks.json",
+    "bytes": 532,
+    "sha256": "d6b2ef424182812c2ea11113fe0c165d480f432eb8f7eebbaa1570086b6ce7db"
+  },
+  {
+    "path": "history/outputs/cambusa-direction-v07/open.glb",
+    "bytes": 445312,
+    "sha256": "6c67210719b6b585001bbf4d62c5cf38e1b855023e605738b36a6208fe055251"
+  },
+  {
+    "path": "history/outputs/cambusa-direction-v07/open.png",
+    "bytes": 25815,
+    "sha256": "bb74b618f5632f96f71ac8e59f72d86e4af4df8824dcd98bb4724fb32a5ebc44"
+  },
+  {
+    "path": "history/outputs/cambusa-direction-v07/plywood-concept-blanks.csv",
+    "bytes": 3500,
+    "sha256": "38f34d76342fb119f78256ea6e534d356ccccd505e07beb160b565b458c9b348"
+  },
+  {
+    "path": "history/outputs/cambusa-pegboard-v05/READ-ME-RU.txt",
+    "bytes": 11541,
+    "sha256": "c65bf0d7a5ce9aab72dea85d1eda51a301b882339433da8edb7355b58ca21e38"
+  },
+  {
+    "path": "history/outputs/cambusa-pegboard-v05/comparison.png",
+    "bytes": 83818,
+    "sha256": "e1d7b7287d342e911310d3ba6178e98474d2336b6fb54026535a5659e6644c27"
+  },
+  {
+    "path": "history/outputs/cambusa-pegboard-v05/geometry-checks.json",
+    "bytes": 457,
+    "sha256": "ac2793efd6bb482d79ccf4f1f0e891c0677dec36f32749a26aee3898fcc64844"
+  },
+  {
+    "path": "history/outputs/cambusa-pegboard-v05/inside-closed.glb",
+    "bytes": 347288,
+    "sha256": "775a492cc9d98686c649063a5eead63a7f23172796282e5fc9e114568b476103"
+  },
+  {
+    "path": "history/outputs/cambusa-pegboard-v05/inside-closed.png",
+    "bytes": 29549,
+    "sha256": "080e8b1b1921e5d05afd2e491be9da9274844c5352bb3967a9b886114241a4e6"
+  },
+  {
+    "path": "history/outputs/cambusa-pegboard-v05/inside-open.glb",
+    "bytes": 347252,
+    "sha256": "6eb6edfe386084ba21caa9fa2ab52016d7a9694216045f8e0c5f06c8a6038ba5"
+  },
+  {
+    "path": "history/outputs/cambusa-pegboard-v05/inside-open.png",
+    "bytes": 28171,
+    "sha256": "5c62005c89a599ab78e614f4401e600766c7c034b206ebd51a9c2b3aad4446c9"
+  },
+  {
+    "path": "history/outputs/cambusa-pegboard-v05/outside-closed.glb",
+    "bytes": 345448,
+    "sha256": "42659f864165967c5e9fa5e88b0aeae1520c1f9b8d26f9f32914ff300b691bf1"
+  },
+  {
+    "path": "history/outputs/cambusa-pegboard-v05/outside-closed.png",
+    "bytes": 29900,
+    "sha256": "276add0bd372f9fba0cbd3d23de2b7a824c0628a512e6aebb2d0120b7a1d2c38"
+  },
+  {
+    "path": "history/outputs/cambusa-pegboard-v05/outside-open.glb",
+    "bytes": 345368,
+    "sha256": "4dbb9a805a920646e74f353b65940265b294c8efb28bb302e8b9f029aa897272"
+  },
+  {
+    "path": "history/outputs/cambusa-pegboard-v05/outside-open.png",
+    "bytes": 31804,
+    "sha256": "1e03ed84606d95cdbdc2804f01304754f826783e2d9d392a7c2216b3ab374c7e"
+  },
+  {
+    "path": "history/outputs/cambusa-pegboard-v05/pegboard-hole-centres-mm.csv",
+    "bytes": 2140,
+    "sha256": "0b5ae4b41be6c75c0ec4dd5d84f87f702b040461f828902cafb78a6ba8c643b7"
+  },
+  {
+    "path": "history/outputs/cambusa-pegboard-v05/sampled-motion-checks.json",
+    "bytes": 389,
+    "sha256": "8d7464d04bc5719c20473d5ca01e1b2dc077997c50567c5cb64770bf8bddc4ff"
+  },
+  {
+    "path": "history/outputs/cambusa-proportions-v08/READ-ME-RU.txt",
+    "bytes": 4824,
+    "sha256": "877bf561f692cda31cf625a3265cb37e7a36fcbc4769c700815d864fef1badbc"
+  },
+  {
+    "path": "history/outputs/cambusa-proportions-v08/base-profile-concept-blanks.csv",
+    "bytes": 691,
+    "sha256": "38dda2ca4de03a2a455bc00a018c38bc3066355786cc12fd6135b14076bf1322"
+  },
+  {
+    "path": "history/outputs/cambusa-proportions-v08/closed.glb",
+    "bytes": 279384,
+    "sha256": "4f176cd9061069d4feb96b79a925bc21a52d74b898457762b37955114aae588e"
+  },
+  {
+    "path": "history/outputs/cambusa-proportions-v08/closed.png",
+    "bytes": 17262,
+    "sha256": "4f1f4dc0a8c3d174157a7d1d601283d2fddb05e1a751d469fa1ea071ab99b789"
+  },
+  {
+    "path": "history/outputs/cambusa-proportions-v08/exploded.glb",
+    "bytes": 279344,
+    "sha256": "80d1a2b69ed2f97698f53499d20bc1a9533c88a28a0f731ae9404454094f5510"
+  },
+  {
+    "path": "history/outputs/cambusa-proportions-v08/exploded.png",
+    "bytes": 25785,
+    "sha256": "da9bcd41d8e2c5eb849caf24ad35acae3427a56ee54601c0754bcf597bf7961d"
+  },
+  {
+    "path": "history/outputs/cambusa-proportions-v08/geometry-checks.json",
+    "bytes": 598,
+    "sha256": "9d3b4abcc7e3ba8ffd6a2f14526a3b543c4a66d03ec2243731dac3c6f3c1c52b"
+  },
+  {
+    "path": "history/outputs/cambusa-proportions-v08/open.glb",
+    "bytes": 279304,
+    "sha256": "baef6cbe43326a5822f1902da5fd073208ec3a90ab2c0c5060e5f5c64d9b6ff7"
+  },
+  {
+    "path": "history/outputs/cambusa-proportions-v08/open.png",
+    "bytes": 22616,
+    "sha256": "64b74bc94e1ebeafd77cf780ed80521019c5f555de8d7017bb73f690a9d9d9ba"
+  },
+  {
+    "path": "history/outputs/cambusa-proportions-v08/plywood-concept-blanks.csv",
+    "bytes": 3345,
+    "sha256": "86530c5d8a035a95d5e946f6d18026766b7a999dd1b6375a3a1bc1ec1ade305d"
+  },
+  {
+    "path": "history/outputs/drawer-proof-v13/assembled.glb",
+    "bytes": 249648,
+    "sha256": "09c1738a831d5603d310d822b8a096e437ff5bbc9b70f571ecaf14d500d36024"
+  },
+  {
+    "path": "history/outputs/drawer-proof-v13/assembled.png",
+    "bytes": 14697,
+    "sha256": "a133c60673741deb15d44e87ce8223f0b50b518faaa13dc3c8cfe9f5dd5553ac"
+  },
+  {
+    "path": "history/outputs/drawer-proof-v13/exploded.glb",
+    "bytes": 249680,
+    "sha256": "68f74e050d7b9e0e3b3f585bffd83d216be2c6192b4419d4e8c202380bfe1d39"
+  },
+  {
+    "path": "history/outputs/drawer-proof-v13/exploded.png",
+    "bytes": 18840,
+    "sha256": "fc4576068595ab29e0b6676f0e02a90448c52bbb07381a6edcac6cb793458b01"
+  },
+  {
+    "path": "history/outputs/drawer-proof-v13/МОДЕЛЬ-И-ОПЕРАЦИИ.json",
+    "bytes": 67443,
+    "sha256": "23474617fbcedbb09fc42cbbea952d81fe6d62f4ab2b44595522ce2ea4eee2cd"
+  },
+  {
+    "path": "history/outputs/drawer-proof-v13/ПРОВЕРКИ-3D.json",
+    "bytes": 15182,
+    "sha256": "fe161f4d52512002970a1a6fd2ab60362985fd4403fd4f5b1d24ebb0feac99e7"
+  },
+  {
+    "path": "history/outputs/drawer-proof-v13/ПРОСМОТР-3D.html",
+    "bytes": 3304510,
+    "sha256": "b312ff5ebca3ac567ae8cbe6605f8015c588fc05d073142aa0d5b513708946ad"
+  },
+  {
+    "path": "history/outputs/drawer-proof-v13/ПРОЧИТАТЬ-СНАЧАЛА.md",
+    "bytes": 6663,
+    "sha256": "9289ab448dceb8c453da44baa6a3bb5ee8e03b606dda5c13bafa3f3668be07d8"
+  },
+  {
+    "path": "history/outputs/drawer-proof-v13/Просмотр-3D.png",
+    "bytes": 51147,
+    "sha256": "1536262da79a8378f1848d28548a882b458b3c6c749c5fc96391ae37f38fc2ef"
+  },
+  {
+    "path": "history/outputs/drawer-proof-v13/Размерные-привязки-v13.pdf",
+    "bytes": 136177,
+    "sha256": "910d2ab3959c797045cc464b5e299525fb70e459e04c3aef3820ccd0b298b8c4"
+  },
+  {
+    "path": "history/outputs/early-visual-sketches/sloped-cabinet-concept-v01-prompt.txt",
+    "bytes": 5077,
+    "sha256": "f5bd305d866095655432ce73aae96a3069345f73b9cc9dd38f3f9a725291e45d"
+  },
+  {
+    "path": "history/outputs/early-visual-sketches/sloped-cabinet-concept-v01.png",
+    "bytes": 1962302,
+    "sha256": "a46839f7f0419df4f5e5c045c0fdfe7293fa8db3fc87ab3f923ac88c9b2c9c86"
+  },
+  {
+    "path": "history/outputs/early-visual-sketches/spherical-cabinet-riva-concept-v01-prompt.txt",
+    "bytes": 4292,
+    "sha256": "aab19bc427500fac2af1fc966c69700c2bb222402fc745d3d1fcb39f20fa439a"
+  },
+  {
+    "path": "history/outputs/early-visual-sketches/spherical-cabinet-riva-concept-v01.png",
+    "bytes": 1867682,
+    "sha256": "d8ca17a0ea7e3982d59d6a0c3adecae7933e72f3145ffebdbb55e117c19cf0dd"
+  },
+  {
+    "path": "history/outputs/joinery-review-v12/drawer-drilled.glb",
+    "bytes": 127844,
+    "sha256": "cf42c9a776f558b636cf8399a49cdaa9b0c0f3b5017ba5df0857f8e5508296e9"
+  },
+  {
+    "path": "history/outputs/joinery-review-v12/drawer-exploded.glb",
+    "bytes": 127876,
+    "sha256": "c17bef3950315a121a5d568bf425f58c9ef5771ac6980aaee508e7090bf5ebd2"
+  },
+  {
+    "path": "history/outputs/joinery-review-v12/operations.json",
+    "bytes": 50178,
+    "sha256": "e3826c48a0302ebab7592acf2423fb7110ea8f96efeccfb681a3fd9f200c7692"
+  },
+  {
+    "path": "history/outputs/joinery-review-v12/ПРИСАДКА.md",
+    "bytes": 5484,
+    "sha256": "bfc679a6fa12ae7736e70cadfdeb686adeb9014474be0043538da083c58d9a37"
+  },
+  {
+    "path": "history/outputs/joinery-review-v12/ПРОВЕРКИ.json",
+    "bytes": 2309,
+    "sha256": "acb50956e7aeb338045011ce3d7bf882061acbce312b36123b486fd7c795e30a"
+  },
+  {
+    "path": "history/outputs/joinery-review-v12/Пазы-и-отверстия-ящика-v12.pdf",
+    "bytes": 97688,
+    "sha256": "baed351ff3f7e0d5cae69931b0eda0924f8f6a45351721ebcc508aab1d914ff8"
+  },
+  {
+    "path": "history/outputs/joinery-review-v12/РЕФЕРЕНСЫ.md",
+    "bytes": 4961,
+    "sha256": "ba8bf0be000e6baf85b364be7d07e9a1967e1ca5ed4502ee66f530bb476a00c3"
+  },
+  {
+    "path": "history/outputs/layout-cost-v10/S12-1.svg",
+    "bytes": 2536,
+    "sha256": "31e7b3984c1154b27a07732264543c6e1ff1abe451e43339487f755325999a3c"
+  },
+  {
+    "path": "history/outputs/layout-cost-v10/S18-1.svg",
+    "bytes": 1509,
+    "sha256": "1cfc8b8e97a7e6b97ec54d802c2036366298e9851e206efd601a3b00769b29c3"
+  },
+  {
+    "path": "history/outputs/layout-cost-v10/S18-2.svg",
+    "bytes": 897,
+    "sha256": "e3c96ecec9e611aecec24fa003648ecda0596cafd0699f6cea0cead9bf4197ef"
+  },
+  {
+    "path": "history/outputs/layout-cost-v10/S18-3.svg",
+    "bytes": 690,
+    "sha256": "0f5c6710d7e66d2b3158c57be4cd87e12d0637ea8d4c82fe31363cf564d1f459"
+  },
+  {
+    "path": "history/outputs/layout-cost-v10/S9-1.svg",
+    "bytes": 6386,
+    "sha256": "4f225678209400fa1376dcf1f5300e23d5efe8a45f88c4fad02b75f0ea5eab03"
+  },
+  {
+    "path": "history/outputs/layout-cost-v10/cost-data.json",
+    "bytes": 21595,
+    "sha256": "f6ecd7a0f44cde8100714c2705b036885a1da3d40f0a6af7587279ed42932a0a"
+  },
+  {
+    "path": "history/outputs/layout-cost-v10/layout.json",
+    "bytes": 32140,
+    "sha256": "eaae0756299afcfd55cf1bc0a29bf7a92cf03f418f510c42259946b97af0f17f"
+  },
+  {
+    "path": "history/outputs/layout-cost-v10/wood-parts.json",
+    "bytes": 23025,
+    "sha256": "7fd23201f6eb5e4a30024226fa82118ed14b581a2a1f7d0f882fa277aa90b8e7"
+  },
+  {
+    "path": "history/outputs/layout-cost-v10/Детали-18мм.png",
+    "bytes": 59844,
+    "sha256": "cce850cc3231fcf22f8aab623dc17016e7742a0a38a7f4c89e345bdf85047607"
+  },
+  {
+    "path": "history/outputs/layout-cost-v10/ОСНОВАНИЕ.md",
+    "bytes": 5880,
+    "sha256": "e9ab7ada5de6f2c04161123f3432572b1bd2af3edfe254d854f4742fc0718ece"
+  },
+  {
+    "path": "history/outputs/layout-cost-v10/ПРОВЕРКИ.json",
+    "bytes": 991,
+    "sha256": "9225bba92790418338e196116c96e32909522ef8f26cbc53ea31a33756baf387"
+  },
+  {
+    "path": "history/outputs/layout-cost-v10/РАСЧЁТ.md",
+    "bytes": 5569,
+    "sha256": "8221558f9cdef196324c4cffa7044582cbdbee1a88fb67a1ab78bdc4e79ebab6"
+  },
+  {
+    "path": "history/outputs/layout-cost-v10/Смета-и-детали-v10.xlsx",
+    "bytes": 18300,
+    "sha256": "5dc54c5389b7103fccc3a796e7d80a15f3e83455bbce42ccb02b80fbeb9b9c46"
+  },
+  {
+    "path": "history/outputs/layout-cost-v10/Чертежи-и-раскладка-v10.pdf",
+    "bytes": 117810,
+    "sha256": "aadb104ff72d0d86f0227e57fcb128ac0ada83f92c59d162bb8324dbcddcc51f"
+  },
+  {
+    "path": "history/outputs/mobile-cabinet-options-v04/READ-ME-RU.txt",
+    "bytes": 11990,
+    "sha256": "039ea80094d9070c02c0b73ea3a140d91df73b791d3c311e809a380334a4489d"
+  },
+  {
+    "path": "history/outputs/mobile-cabinet-options-v04/aluminium.glb",
+    "bytes": 68604,
+    "sha256": "84bfb043a740ae8d025f39c596be276b5761429181ae48907369990df5cb50ab"
+  },
+  {
+    "path": "history/outputs/mobile-cabinet-options-v04/aluminium.png",
+    "bytes": 17051,
+    "sha256": "902dcf3661b9a6c771b4dcdaa2ebc02722dbed9b9c803d62c1e1e1f66e4e4155"
+  },
+  {
+    "path": "history/outputs/mobile-cabinet-options-v04/clean-panel-blanks.csv",
+    "bytes": 264,
+    "sha256": "cd37d4ee3df35328b0373b1d29384a10f271fb30c4b89bf87b43237b5bb99888"
+  },
+  {
+    "path": "history/outputs/mobile-cabinet-options-v04/clean.glb",
+    "bytes": 61500,
+    "sha256": "74dd394d1ac849cda3269b5b5bd7334e0fe80ab89c1024c42fedb6a359c2a937"
+  },
+  {
+    "path": "history/outputs/mobile-cabinet-options-v04/clean.png",
+    "bytes": 15049,
+    "sha256": "6f349f54c702eeceef33747d2bd6216d2e78383d247a2924f3cacc1f5879598f"
+  },
+  {
+    "path": "history/outputs/mobile-cabinet-options-v04/comparison.png",
+    "bytes": 175508,
+    "sha256": "2a14de374bfeee54080a68ddbb9dfe2e6749f7540f93bf8cb2638400f2ba36dd"
+  },
+  {
+    "path": "history/outputs/mobile-cabinet-options-v04/cut-plan-large.json",
+    "bytes": 1533,
+    "sha256": "8c49885d71cc2c273d354429a927844273ff054e0362c048f857a912d5b27fb9"
+  },
+  {
+    "path": "history/outputs/mobile-cabinet-options-v04/cut-plan-square.json",
+    "bytes": 1531,
+    "sha256": "33d81e272597d5d76463c891c1bcd012eb11855b21df9734b91ad6d3136f7c62"
+  },
+  {
+    "path": "history/outputs/mobile-cabinet-options-v04/cut-plan.png",
+    "bytes": 74713,
+    "sha256": "c88028dbb2fd4294efd22bdffa5c91417c3c96d5b7f789a2e3fa2cd7b1ec4ee3"
+  },
+  {
+    "path": "history/outputs/mobile-cabinet-options-v04/geometry-checks.json",
+    "bytes": 833,
+    "sha256": "0c3ccb7b23ef1c5fa18725431a50301d6a85aac057c1e12bd3d792082b0b5d55"
+  },
+  {
+    "path": "history/outputs/mobile-cabinet-options-v04/wedge.glb",
+    "bytes": 83012,
+    "sha256": "208b8cd5f427beeb3f4bdd3daf35aeaf35ddac4108626d9631ea7e2c4923a193"
+  },
+  {
+    "path": "history/outputs/mobile-cabinet-options-v04/wedge.png",
+    "bytes": 16985,
+    "sha256": "3ae58fddee64e52812e1f1a42b431c4e28a89e96d9be6a59d6b07112124e62c7"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/READ-ME-RU.txt",
+    "bytes": 10247,
+    "sha256": "56af198d8bcf770deed1e6b6a640e956a5cc8092ff447a5693be3eec5d7fda77"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/REQUEST-FOR-QUOTE-RU.txt",
+    "bytes": 5493,
+    "sha256": "41d44f4d73371881b5b481463b9d602398d970e9a8472aff32a7cfe9062936cd"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/assembled.glb",
+    "bytes": 327440,
+    "sha256": "e55ff4b5d9a8664e5dd552e551610c63d0c10bd39c4befca0e10c140645d0b54"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/assembled.png",
+    "bytes": 30707,
+    "sha256": "7e39b8a33f2498e95842d44418ea197eee439219462ada6d550d0b3ecfdc9dc0"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/exploded.glb",
+    "bytes": 327512,
+    "sha256": "57dc6d49a52ffb2cf7f88da9c9e4edcc26ab19c37b46f1af0a0aaec465cca35e"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/exploded.png",
+    "bytes": 35626,
+    "sha256": "b4f28971f81c0864c8ea33c960e67aada17f9a2f5ca4b9dc3066b8080a7e2038"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/hardware-candidates.json",
+    "bytes": 4111,
+    "sha256": "58c5f072ad2e22190f1d7aa14a72f1a99f7a9523f1486635a04aebf0c48aa55e"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/open.glb",
+    "bytes": 327400,
+    "sha256": "da34c8945f8fcc731acde584934e153100881caff95a3360ac7ad91e9e7ed8af"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/open.png",
+    "bytes": 34848,
+    "sha256": "b6a6da779bb467bfdc53e363f39769b15fe78175b2a240fd9adf19d7499e34b2"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/plywood-blanks.csv",
+    "bytes": 1305,
+    "sha256": "aa883c026c2494502fc1995362c8a6bc7ecedd14b4bb027db4d579e63a84e34a"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/profile-blanks.csv",
+    "bytes": 1870,
+    "sha256": "d10d28daa6a114fe4cb04a962a2a78deed24e4dc7809d13d695674d1e8f7ae09"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B00-base.dxf",
+    "bytes": 267,
+    "sha256": "f14bcd48bd95655dd3cac969c3c4410453c53fccdec6a5ce0751f2529503b9ff"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B00-base.svg",
+    "bytes": 256,
+    "sha256": "5a1389ef856728a1959a19f39ede7cc1ecb90eaadbb237121a4440a70080ffa5"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B01-shelf.dxf",
+    "bytes": 265,
+    "sha256": "80d1fc4c84e8d8377f8fe6c6cb613453f3ce535b2878e9d257929e81145d8cad"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B01-shelf.svg",
+    "bytes": 251,
+    "sha256": "fa36bc749d4986874da6816e20e648f02d9883ed63c80a5c0ad4dbe13051d40f"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B02-shelf.dxf",
+    "bytes": 311,
+    "sha256": "c80dc409ba9f27a402ba67ff96aed08150f1952415315dd270a3452726c3468e"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B02-shelf.svg",
+    "bytes": 285,
+    "sha256": "4513da0b8e27407864e9e947d084691613743d43992bf99e455518a0aa38607b"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B03-shelf.dxf",
+    "bytes": 265,
+    "sha256": "80d1fc4c84e8d8377f8fe6c6cb613453f3ce535b2878e9d257929e81145d8cad"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B03-shelf.svg",
+    "bytes": 251,
+    "sha256": "fa36bc749d4986874da6816e20e648f02d9883ed63c80a5c0ad4dbe13051d40f"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B04-top.dxf",
+    "bytes": 267,
+    "sha256": "f14bcd48bd95655dd3cac969c3c4410453c53fccdec6a5ce0751f2529503b9ff"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B04-top.svg",
+    "bytes": 256,
+    "sha256": "5a1389ef856728a1959a19f39ede7cc1ecb90eaadbb237121a4440a70080ffa5"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B10-partition.dxf",
+    "bytes": 265,
+    "sha256": "628c02fb975d531797a27289a709d51201bdfcd6699781828b695687e2e6b0b9"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B10-partition.svg",
+    "bytes": 251,
+    "sha256": "48b8378c90ae3eb09012ed3b5ec45790197230c3bd0192291dbadbbb2818cab3"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B11-partition.dxf",
+    "bytes": 265,
+    "sha256": "c4d41a101e838a03018a0e468d80fa9f052e0a3d8b010811fb68638e312c478c"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B11-partition.svg",
+    "bytes": 251,
+    "sha256": "a2dca597beb966ddfe90f28ba9d104a012f343530c50e444292470867be67ba6"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B12-partition.dxf",
+    "bytes": 265,
+    "sha256": "761dfcd0a331e7d552be79e17ebcd399edb3327e99b912f78405e4f2f91eacc4"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B12-partition.svg",
+    "bytes": 251,
+    "sha256": "a5afa08f9d9a96ac5ea535c1c634308cc145a22a0ea14040fa556f754f71b92b"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B20-left-side.dxf",
+    "bytes": 265,
+    "sha256": "f39a71f4920baafe8cbce5452e1ac2f800578ccbb706394fedcd514e2d34c672"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B20-left-side.svg",
+    "bytes": 251,
+    "sha256": "bb9fafdd8df8e8265a550a78ffe1aba86232e10364f72b52a777fad8fd1ef3fe"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B21-left-side.dxf",
+    "bytes": 265,
+    "sha256": "617b01a8cb057468f60778f1aed5a15c76a688998309a50c86c51aa0b2631eb8"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B21-left-side.svg",
+    "bytes": 251,
+    "sha256": "e4da9f68c4c0556ae9930613e99c794fdae2bb255495648a67b8cc7049eeb008"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B22-left-side.dxf",
+    "bytes": 265,
+    "sha256": "59a0ced349341fa71609493551cc5e1e109f677557644129f60d8f94bfed7627"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B22-left-side.svg",
+    "bytes": 251,
+    "sha256": "a2e9c05fb01ae9602beda73906e14c1f3ad1c7120a37bc51315e3881dd5d2030"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B30-right-side.dxf",
+    "bytes": 265,
+    "sha256": "f39a71f4920baafe8cbce5452e1ac2f800578ccbb706394fedcd514e2d34c672"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B30-right-side.svg",
+    "bytes": 251,
+    "sha256": "bb9fafdd8df8e8265a550a78ffe1aba86232e10364f72b52a777fad8fd1ef3fe"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B31-right-side.dxf",
+    "bytes": 265,
+    "sha256": "617b01a8cb057468f60778f1aed5a15c76a688998309a50c86c51aa0b2631eb8"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B31-right-side.svg",
+    "bytes": 251,
+    "sha256": "e4da9f68c4c0556ae9930613e99c794fdae2bb255495648a67b8cc7049eeb008"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B32-right-side.dxf",
+    "bytes": 265,
+    "sha256": "59a0ced349341fa71609493551cc5e1e109f677557644129f60d8f94bfed7627"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B32-right-side.svg",
+    "bytes": 251,
+    "sha256": "a2e9c05fb01ae9602beda73906e14c1f3ad1c7120a37bc51315e3881dd5d2030"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B40-back.dxf",
+    "bytes": 267,
+    "sha256": "4a22b22c42fa3fd8f2d7c98f7fd6d0541359e2f1ab97ddb6ebda16bf8428de7f"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B40-back.svg",
+    "bytes": 255,
+    "sha256": "d4174ea054da3cf16b70b2ae8d3d85f98f18ecc300194b4ca6044b9a33862837"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B50-pegboard.dxf",
+    "bytes": 82788,
+    "sha256": "eeb11bcced9c4744f83214dbcb2b8fa7c9b611e5048e507c6f77fb84342b7df9"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B50-pegboard.svg",
+    "bytes": 57437,
+    "sha256": "f24629ba8c4ff5c9c8b96ee7585945d2c26b7871d7a556891fd8f6d84265eab2"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B60-left-door.dxf",
+    "bytes": 618,
+    "sha256": "8c00eabea2a447bd949f7d727b84e5d4e8bc9c8733f187c96cc34f6cf82195a1"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B60-left-door.svg",
+    "bytes": 507,
+    "sha256": "d9b46f697180d48516bcb44f7de162fa7121a3c6b16a52aee6ff0334a20a3f3a"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B61-right-door.dxf",
+    "bytes": 618,
+    "sha256": "2c9d6cf0a499d53527ad0e488677e8f2699d4c922122a9399787ad01eccfbb40"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B61-right-door.svg",
+    "bytes": 507,
+    "sha256": "bb9f3e768259e3d344d66df8940668fe92acae5e46996a065704edc3e059ff55"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B70-bottom.dxf",
+    "bytes": 263,
+    "sha256": "1d8d17a6d31cf21aaec1a6e801952e43577bf22b7637f35c400804dc3d3780bb"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B70-bottom.svg",
+    "bytes": 247,
+    "sha256": "b8f437fb8efd039c9c2957adfc2db65597ed3d07a5f7b9a302da3b14e70d7370"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B70-left.dxf",
+    "bytes": 261,
+    "sha256": "3ecac669ba70180c040432f75c80f9b36fceb9fd3c159d5ae2303731053167f4"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B70-left.svg",
+    "bytes": 242,
+    "sha256": "cf9642be3da70a1e2371873037b1cd9cc4269b5443e8eb4a4f6112209fe918ad"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B70-lip.dxf",
+    "bytes": 263,
+    "sha256": "6178ee5da6c2664aaba87683cd6f2babcdfb61bddabe6259353148ea092813a4"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B70-lip.svg",
+    "bytes": 247,
+    "sha256": "ad356afbfdf4d03de0aae6cf8ec733d04de6e393b473da784beedd05139d7ee5"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B70-right.dxf",
+    "bytes": 261,
+    "sha256": "3ecac669ba70180c040432f75c80f9b36fceb9fd3c159d5ae2303731053167f4"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B70-right.svg",
+    "bytes": 242,
+    "sha256": "cf9642be3da70a1e2371873037b1cd9cc4269b5443e8eb4a4f6112209fe918ad"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B71-bottom.dxf",
+    "bytes": 263,
+    "sha256": "1d8d17a6d31cf21aaec1a6e801952e43577bf22b7637f35c400804dc3d3780bb"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B71-bottom.svg",
+    "bytes": 247,
+    "sha256": "b8f437fb8efd039c9c2957adfc2db65597ed3d07a5f7b9a302da3b14e70d7370"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B71-left.dxf",
+    "bytes": 261,
+    "sha256": "3ecac669ba70180c040432f75c80f9b36fceb9fd3c159d5ae2303731053167f4"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B71-left.svg",
+    "bytes": 242,
+    "sha256": "cf9642be3da70a1e2371873037b1cd9cc4269b5443e8eb4a4f6112209fe918ad"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B71-lip.dxf",
+    "bytes": 263,
+    "sha256": "6178ee5da6c2664aaba87683cd6f2babcdfb61bddabe6259353148ea092813a4"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B71-lip.svg",
+    "bytes": 247,
+    "sha256": "ad356afbfdf4d03de0aae6cf8ec733d04de6e393b473da784beedd05139d7ee5"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B71-right.dxf",
+    "bytes": 261,
+    "sha256": "3ecac669ba70180c040432f75c80f9b36fceb9fd3c159d5ae2303731053167f4"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/B71-right.svg",
+    "bytes": 242,
+    "sha256": "cf9642be3da70a1e2371873037b1cd9cc4269b5443e8eb4a4f6112209fe918ad"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D0-bottom.dxf",
+    "bytes": 265,
+    "sha256": "b161a4225c5800439fd8493eaa37350f1d8ae342cd7a2eb45727a4bc82663df7"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D0-bottom.svg",
+    "bytes": 251,
+    "sha256": "2b08e990dc27905c3b3f39fbe76cc99742b7df07ac1e19a8fb1ee8756d7a8c2a"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D0-face.dxf",
+    "bytes": 618,
+    "sha256": "fc819db5131aef1f0c24e06ea6dc43a24d4d2496eb355b9cfaed28f97ac2fae2"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D0-face.svg",
+    "bytes": 507,
+    "sha256": "a145ffc83c74e01d0d2b933d9c6a8438c5bf047f1975cdd32edc03a19ad21240"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D0-front.dxf",
+    "bytes": 265,
+    "sha256": "4485e2b62a65d3307d49e782cc58d99bdae0d8cc990f5880c26c9eeb72f1aae4"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D0-front.svg",
+    "bytes": 251,
+    "sha256": "2267feb739651b271548559eebf09c776b7ab36cc84b94c3c65be07f7e323983"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D0-left.dxf",
+    "bytes": 265,
+    "sha256": "0db09ca119492b7466ad4a2309d5652f3bc51881c57f3c96aa552534612d3a60"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D0-left.svg",
+    "bytes": 251,
+    "sha256": "082cef8c8b5539daa1864372c88652bd48aa6ecdf7c85d063f9546568d6828fc"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D0-rear.dxf",
+    "bytes": 265,
+    "sha256": "4485e2b62a65d3307d49e782cc58d99bdae0d8cc990f5880c26c9eeb72f1aae4"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D0-rear.svg",
+    "bytes": 251,
+    "sha256": "2267feb739651b271548559eebf09c776b7ab36cc84b94c3c65be07f7e323983"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D0-right.dxf",
+    "bytes": 265,
+    "sha256": "0db09ca119492b7466ad4a2309d5652f3bc51881c57f3c96aa552534612d3a60"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D0-right.svg",
+    "bytes": 251,
+    "sha256": "082cef8c8b5539daa1864372c88652bd48aa6ecdf7c85d063f9546568d6828fc"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D1-bottom.dxf",
+    "bytes": 265,
+    "sha256": "b161a4225c5800439fd8493eaa37350f1d8ae342cd7a2eb45727a4bc82663df7"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D1-bottom.svg",
+    "bytes": 251,
+    "sha256": "2b08e990dc27905c3b3f39fbe76cc99742b7df07ac1e19a8fb1ee8756d7a8c2a"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D1-face.dxf",
+    "bytes": 618,
+    "sha256": "fc819db5131aef1f0c24e06ea6dc43a24d4d2496eb355b9cfaed28f97ac2fae2"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D1-face.svg",
+    "bytes": 507,
+    "sha256": "a145ffc83c74e01d0d2b933d9c6a8438c5bf047f1975cdd32edc03a19ad21240"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D1-front.dxf",
+    "bytes": 265,
+    "sha256": "4485e2b62a65d3307d49e782cc58d99bdae0d8cc990f5880c26c9eeb72f1aae4"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D1-front.svg",
+    "bytes": 251,
+    "sha256": "2267feb739651b271548559eebf09c776b7ab36cc84b94c3c65be07f7e323983"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D1-left.dxf",
+    "bytes": 265,
+    "sha256": "0db09ca119492b7466ad4a2309d5652f3bc51881c57f3c96aa552534612d3a60"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D1-left.svg",
+    "bytes": 251,
+    "sha256": "082cef8c8b5539daa1864372c88652bd48aa6ecdf7c85d063f9546568d6828fc"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D1-rear.dxf",
+    "bytes": 265,
+    "sha256": "4485e2b62a65d3307d49e782cc58d99bdae0d8cc990f5880c26c9eeb72f1aae4"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D1-rear.svg",
+    "bytes": 251,
+    "sha256": "2267feb739651b271548559eebf09c776b7ab36cc84b94c3c65be07f7e323983"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D1-right.dxf",
+    "bytes": 265,
+    "sha256": "0db09ca119492b7466ad4a2309d5652f3bc51881c57f3c96aa552534612d3a60"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/quote-outlines/D1-right.svg",
+    "bytes": 251,
+    "sha256": "082cef8c8b5539daa1864372c88652bd48aa6ecdf7c85d063f9546568d6828fc"
+  },
+  {
+    "path": "history/outputs/order-preparation-v06/verification.json",
+    "bytes": 318,
+    "sha256": "4012193f4497e39f867d2626545f72a4a797eddf28c5e6afb7b49cec73c8c742"
+  },
+  {
+    "path": "history/outputs/parts-spec-v09/material-summary.json",
+    "bytes": 161,
+    "sha256": "78b29455db04a501adb3b96ac6b70f07cd64bc3310acde6fdc40fcccb936cd68"
+  },
+  {
+    "path": "history/outputs/parts-spec-v09/parts.json",
+    "bytes": 26074,
+    "sha256": "097cdd933d46c7a23e3c08986add1c1d53a9e404058b549bd4ef15ab4cb320f1"
+  },
+  {
+    "path": "history/outputs/parts-spec-v09/wood-parts-proposal.json",
+    "bytes": 14557,
+    "sha256": "da64ba2d595b3be0749cad6f53dcb6fdf2efbb0acfab8b657434e896b2fd8314"
+  },
+  {
+    "path": "history/outputs/parts-spec-v09/ДЕТАЛИ.md",
+    "bytes": 15634,
+    "sha256": "276dea57a0d61e05e8b9f762de98cc832a1622ee6bd457c0deb132a4155a7675"
+  },
+  {
+    "path": "history/outputs/parts-spec-v09/ПРИМЕЧАНИЯ.md",
+    "bytes": 17604,
+    "sha256": "263d2fedcbfb33b382d1cf40a622ab8289eff9f0df3b7b99961406d9f6851178"
+  },
+  {
+    "path": "history/outputs/parts-spec-v09/ФАНЕРА.md",
+    "bytes": 5792,
+    "sha256": "aad29d8e64d309d3753b51dd1f8cc09d527a71888f12e1aabc3c33ec85ce2daa"
+  },
+  {
+    "path": "history/outputs/round-cabinet/README.md",
+    "bytes": 8653,
+    "sha256": "26eb54e841720dfd7ff7f3d959d9cc204152908f7e4e5aaa0be2ca9214f83a7b"
+  },
+  {
+    "path": "history/outputs/round-cabinet/assembly-checks.json",
+    "bytes": 246,
+    "sha256": "703ab2f18a814fb3656135fd9cbc41fee79f5b312d8c028480314de5de1cf53f"
+  },
+  {
+    "path": "history/outputs/round-cabinet/cabinet-concept.glb",
+    "bytes": 68256,
+    "sha256": "09e41d0f8e58613a77b52382fc58057f047e24dadb4bab3b7d574f4bbe88173a"
+  },
+  {
+    "path": "history/outputs/round-cabinet/fit-test-015-030-045.stl",
+    "bytes": 3084,
+    "sha256": "62dce03b6fe7e51b6fd2c5331e611e4e93a350a4265188c4325ca0ecc4694ec4"
+  },
+  {
+    "path": "history/outputs/round-cabinet/geometry-checks.json",
+    "bytes": 534,
+    "sha256": "89f2eec37cc3deb7bf0dcac775af15ac4fe2af64ab9beb43951b2a9ef4dcb9cd"
+  },
+  {
+    "path": "history/outputs/round-cabinet/round-cabinet.scad",
+    "bytes": 5107,
+    "sha256": "bb31d054861547f75cd27046abfd1f947e51aebf67df698e4fbd423bc5942e29"
+  },
+  {
+    "path": "history/outputs/round-cabinet/round-l-15mm-gap03.stl",
+    "bytes": 26984,
+    "sha256": "c220410c8d520a514a4b711af18d469e7a89389bc7e30b7eb6f850d696513b08"
+  },
+  {
+    "path": "history/outputs/round-cabinet/round-t-15mm-gap03.stl",
+    "bytes": 27184,
+    "sha256": "8aea65be7d68cbdcfad5bf38e9b14cd99b4d5f44c5fea44e5f93fce8971ad85d"
+  },
+  {
+    "path": "history/outputs/sphere-bayonet-v02/READ-ME-RU.txt",
+    "bytes": 9687,
+    "sha256": "ea6feaa8290497131a3a4132a0823c9d6e917d1a77db975385d76aea22608ac4"
+  },
+  {
+    "path": "history/outputs/sphere-bayonet-v02/assembled.glb",
+    "bytes": 183392,
+    "sha256": "4d8ea6b7e75c5de9e890fd29196afd1892621be7121ee67ca483a47fa7423f3f"
+  },
+  {
+    "path": "history/outputs/sphere-bayonet-v02/assembled.png",
+    "bytes": 29867,
+    "sha256": "85a766e8dd6072047155b66f3c42d5b66b29716fad810264f8fb3f346d6ae5cc"
+  },
+  {
+    "path": "history/outputs/sphere-bayonet-v02/body-prototype-mm.stl",
+    "bytes": 372584,
+    "sha256": "03e8d2ac038823ca6cee05dcf007a8c7bf20be232d4f6edf4d711c9c25cca8ac"
+  },
+  {
+    "path": "history/outputs/sphere-bayonet-v02/divider-prototype-mm.stl",
+    "bytes": 14484,
+    "sha256": "25d2119a3c023db708a4cbf0e18e4df7be13250c48dfc6133f0a25c368c6d344"
+  },
+  {
+    "path": "history/outputs/sphere-bayonet-v02/geometry-checks.json",
+    "bytes": 1352,
+    "sha256": "f1008e33f12c89df15b773402126d3d3b1e05137e51ada9e950d886ffdc27e3c"
+  },
+  {
+    "path": "history/outputs/sphere-bayonet-v02/key-prototype-mm.stl",
+    "bytes": 47984,
+    "sha256": "02e74cc1726bb88f201c5c525d6c62806b619c4df1ebc5f961b26c825feaff1a"
+  },
+  {
+    "path": "history/outputs/sphere-bayonet-v02/key-removed.glb",
+    "bytes": 183404,
+    "sha256": "4e0bcc5d29bfaa88dad90b8aab2ee8848f8df12231a32ed7a79cda48b676ca02"
+  },
+  {
+    "path": "history/outputs/sphere-bayonet-v02/mechanism-overview.png",
+    "bytes": 145156,
+    "sha256": "c4092a5219215b0f0309d167ff77241cee4e6b00579337dd1dfaa7918785b479"
+  },
+  {
+    "path": "history/outputs/sphere-bayonet-v02/removed.png",
+    "bytes": 33918,
+    "sha256": "c6b19dba5429f991e1a36ca69c8982b784832d93242f1fe97dbe9d589e81697a"
+  },
+  {
+    "path": "history/outputs/sphere-bayonet-v02/section.glb",
+    "bytes": 93440,
+    "sha256": "c5a8115b38a6466ca81a0ce91104ccf6f53a268b37e888b7c004e54a57568f20"
+  },
+  {
+    "path": "history/outputs/sphere-bayonet-v02/section.png",
+    "bytes": 20679,
+    "sha256": "4192fb29c7b8233acf2bb94803bfa0e97670b175ef628fac005f25499b6c5011"
+  },
+  {
+    "path": "history/outputs/sphere-bayonet-v02/shelf-prototype-mm.stl",
+    "bytes": 15284,
+    "sha256": "e494ef69d7dc9ccdd2a4edf75f828ef4af6ca2996b0d27696682bb9b6d1ac84d"
+  },
+  {
+    "path": "history/outputs/tandem-review-v14/ПРОВЕРКА-ГЛУБИНЫ.png",
+    "bytes": 68511,
+    "sha256": "17a48c8e0d9564c1f6312eb5aa91d19cca30099ef87a4c059956aa309b2dda75"
+  },
+  {
+    "path": "history/outputs/tandem-review-v14/ПРОВЕРКА.json",
+    "bytes": 13438,
+    "sha256": "7e66db78afc8787d1b296abf52ede146b795414215b4a61718d1a62d710ccaea"
+  },
+  {
+    "path": "history/outputs/tandem-review-v14/ПРОЧИТАТЬ-СНАЧАЛА.md",
+    "bytes": 7447,
+    "sha256": "e24d907946bf2e07747c34cbc12e2383c8899ae8f4cac00d7f736da85ba1e30d"
+  },
+  {
+    "path": "history/outputs/tandem-review-v14/ЯЩИК-И-НАПРАВЛЯЮЩИЕ.glb",
+    "bytes": 688728,
+    "sha256": "6ba33563ce030f679d6203ac9a49455390685f70060d64c23cc6d7655544695e"
+  }
+]

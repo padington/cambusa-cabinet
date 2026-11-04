@@ -1,0 +1,22 @@
+{
+  "reviewed_date": "2026-11-03",
+  "category": "https://www.riva1920.it/ru/produkty/mebel-dlya-dnevnoj-zony/mebel-dlya-khraneniya",
+  "method": "Opened category and nine product pages, read official descriptions and visually inspected main product photographs in browser. No claim that entire catalog was visually reviewed.",
+  "products": [
+    {"slug":"revo-open","observation":"Open tall cabinet, glass shelves, prominent vertical wood strip, wood back. Official description mentions Fresart decoration and LED lighting."},
+    {"slug":"revo-high","observation":"Tall closed cabinet, two vertically textured Fresart doors, wood frame and push-pull opening."},
+    {"slug":"sospiro-high","observation":"Tall two-door cabinet, rounded outer edges, integrated handle, recessed plinth. Official description mentions two shelves and three internal drawers."},
+    {"slug":"move-high","observation":"Wood doors with sculptural relief, dark thin frame and raised legs."},
+    {"slug":"rialto-6","observation":"Narrow tall cabinet, contrasting dark frame, stacked wood drawer fronts and upper flap."},
+    {"slug":"rialto-tower-1-2","observation":"Two tall narrow tower variants, dark outer frame, horizontal wood fronts."},
+    {"slug":"colonia-2013","observation":"Wood framed display cabinet, transparent glass doors, lower drawers."},
+    {"slug":"rialto-modulo-4-05","observation":"Dark continuous frame and asymmetrical division of wood doors/drawers; no open niche shown in main photograph."},
+    {"slug":"aparadox","observation":"Three volumes, dark central module and wooden side drawer blocks projecting sideways."}
+  ],
+  "suggested_translation_to_our_design": {
+    "dimensions_mm": {"width":1000,"height":1200,"depth":350},
+    "layout":"Two lower doors and upper open shelf compartment, with central divider as required by structural design.",
+    "appearance":"Natural wood surfaces, softened edges, graphite spherical connectors, optional vertical slat relief on a facade.",
+    "status":"Research and concept recommendation; previous interactive sketches were not changed. Manufacturing details remain to be designed."
+  }
+}

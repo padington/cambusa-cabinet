@@ -1,0 +1,38 @@
+[
+  {
+    "id": "clean",
+    "parts": 61,
+    "extents_mm": [
+      1000.0,
+      350.0,
+      1200.0
+    ],
+    "invalid_meshes": [],
+    "major_panel_intersections": [],
+    "status": "Schematic appearance model; hardware, assembly path and strength are not validated."
+  },
+  {
+    "id": "aluminium",
+    "parts": 83,
+    "extents_mm": [
+      1000.0,
+      350.0,
+      1200.0
+    ],
+    "invalid_meshes": [],
+    "major_panel_intersections": [],
+    "status": "Schematic appearance model; hardware, assembly path and strength are not validated."
+  },
+  {
+    "id": "wedge",
+    "parts": 73,
+    "extents_mm": [
+      1000.0,
+      350.0,
+      1200.0
+    ],
+    "invalid_meshes": [],
+    "major_panel_intersections": null,
+    "status": "Schematic appearance model; hardware, assembly path and strength are not validated."
+  }
+]

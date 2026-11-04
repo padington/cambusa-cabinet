@@ -1,0 +1,180 @@
+<div id="cabinet-after-references">
+  <div class="viz-row cr-size"><span>100 × <span data-h-label>120</span> × 35 см</span><span class="text-small">Ширина × высота × глубина · фанера 15 мм</span></div>
+  <div class="viz-controls">
+    <label class="form-label">Ракурс<select class="form-select" data-view><option value="perspective">Три четверти</option><option value="front">Спереди</option><option value="side">Сбоку</option></select></label>
+    <label class="form-label">Высота<select class="form-select" data-height><option value="1200">120 см</option><option value="1500">150 см</option><option value="1800">180 см</option></select></label>
+    <label class="form-check"><input class="form-check-input" type="checkbox" data-open><span class="form-check-label">Открыть фасады</span></label>
+  </div>
+  <div class="cr-variants">
+    <section aria-labelledby="cr-cassette-title"><h3 id="cr-cassette-title">Цветные секции</h3><canvas data-model="cassette" role="img" aria-label="Тумба из шести секций: сверху две открытые ниши, внизу четыре отделения с голубыми и деревянными дверцами. Терракотовые шаровые соединители и овальные ручки-вырезы."></canvas><div class="text-small">Четыре дверцы · две верхние ниши</div></section>
+    <section aria-labelledby="cr-gallery-title"><h3 id="cr-gallery-title">Боковая галерея</h3><canvas data-model="gallery" role="img" aria-label="Асимметричная тумба: слева широкое отделение с двумя дверцами и нишей сверху, справа колонна открытых полок. Лавандовый фасад, зелёные шаровые соединители."></canvas><div class="text-small">Две дверцы · полки справа и сверху</div></section>
+    <section aria-labelledby="cr-workshop-title"><h3 id="cr-workshop-title">Домашняя мастерская</h3><canvas data-model="workshop" role="img" aria-label="Фанерная тумба: слева четыре выдвижных ящика, справа дверца и открытая ниша. Жёлтые фасады и графитовые шаровые соединители."></canvas><div class="text-small">Четыре ящика · дверца · открытая ниша</div></section>
+  </div>
+  <div class="cr-caption text-small" aria-live="polite">Шаровые узлы Ø64 мм · эскизы компоновки</div>
+  <style>
+    #cabinet-after-references{--cr-wood:light-dark(#ddbd8e,#d3b181);--cr-back:light-dark(#c4a06c,#b49261);--cr-terracotta:light-dark(#b85b3d,#d78463);--cr-blue:light-dark(#82b8d6,#91bed4);--cr-lilac:light-dark(#b0a0c9,#b9abd0);--cr-green:light-dark(#416d57,#7ba18b);--cr-yellow:light-dark(#d3ae35,#d4b44d);--cr-graphite:light-dark(#494b4a,#828583);--cr-book:light-dark(#ece4d3,#d8d0bf)}
+    #cabinet-after-references .cr-size{justify-content:space-between;gap:8px;padding-bottom:12px;padding-right:90px}
+    #cabinet-after-references .cr-variants{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding-top:16px}
+    #cabinet-after-references section{min-width:0}
+    #cabinet-after-references h3{margin:0 0 6px}
+    #cabinet-after-references canvas{display:block;width:100%;aspect-ratio:.72}
+    #cabinet-after-references .cr-caption{margin-top:20px}
+    @media(max-width:600px){#cabinet-after-references .cr-variants{grid-template-columns:1fr;gap:28px}#cabinet-after-references canvas{aspect-ratio:1;max-height:480px}#cabinet-after-references .cr-size{padding-right:0}}
+  </style>
+  <script>
+  (()=>{
+    const root=document.getElementById('cabinet-after-references');
+    const viewInput=root.querySelector('[data-view]'),heightInput=root.querySelector('[data-height]'),openInput=root.querySelector('[data-open]');
+    const state={height:1200,view:'perspective',open:false},renderers=[];
+    const probe=document.createElement('span');probe.hidden=true;root.append(probe);
+    function color(name){probe.style.color='var('+name+')';const m=getComputedStyle(probe).color.match(/[\d.]+/g);return m?m.slice(0,3).map(Number).map(v=>v/255):[.5,.5,.5];}
+    function geometry(){return {position:[],normal:[],color:[],material:[]};}
+    function triangle(g,a,b,c,n,col,mat=0,transform=null){
+      for(let p of [a,b,c]){let normal=n;if(transform){p=transform(p,false);normal=transform(n,true);}g.position.push(...p);g.normal.push(...normal);g.color.push(...col);g.material.push(mat);}
+    }
+    function quad(g,a,b,c,d,n,col,mat=0,transform=null){triangle(g,a,b,c,n,col,mat,transform);triangle(g,a,c,d,n,col,mat,transform);}
+    function box(g,x,y,z,w,d,h,col,wood=false,transform=null){
+      const a=[x-w/2,x+w/2],b=[y-d/2,y+d/2],c=[z-h/2,z+h/2],thin=Math.min(w,d,h);
+      const faces=[
+        [[a[0],b[0],c[0]],[a[0],b[0],c[1]],[a[0],b[1],c[1]],[a[0],b[1],c[0]],[-1,0,0],w],
+        [[a[1],b[0],c[0]],[a[1],b[1],c[0]],[a[1],b[1],c[1]],[a[1],b[0],c[1]],[1,0,0],w],
+        [[a[0],b[0],c[0]],[a[1],b[0],c[0]],[a[1],b[0],c[1]],[a[0],b[0],c[1]],[0,-1,0],d],
+        [[a[0],b[1],c[0]],[a[0],b[1],c[1]],[a[1],b[1],c[1]],[a[1],b[1],c[0]],[0,1,0],d],
+        [[a[0],b[0],c[0]],[a[0],b[1],c[0]],[a[1],b[1],c[0]],[a[1],b[0],c[0]],[0,0,-1],h],
+        [[a[0],b[0],c[1]],[a[1],b[0],c[1]],[a[1],b[1],c[1]],[a[0],b[1],c[1]],[0,0,1],h]
+      ];
+      for(const f of faces)quad(g,...f.slice(0,4),f[4],col,wood?(f[5]===thin?1:2):0,transform);
+    }
+    function sphere(g,x,y,z,r,col){
+      const rows=18,cols=28;
+      const unit=(i,j)=>{const a=Math.PI*i/rows,b=2*Math.PI*j/cols;return [Math.sin(a)*Math.cos(b),Math.sin(a)*Math.sin(b),Math.cos(a)];};
+      for(let i=0;i<rows;i++)for(let j=0;j<cols;j++){
+        const pts=[unit(i,j),unit(i+1,j),unit(i+1,j+1),unit(i,j+1)];
+        for(const k of [0,1,2,0,2,3]){const p=pts[k];g.position.push(x+r*p[0],y+r*p[1],z+r*p[2]);g.normal.push(...p);g.color.push(...col);g.material.push(3);}
+      }
+    }
+    // A through-opening is modelled as a ring, with the plywood edge visible inside it.
+    function facade(g,x0,x1,z0,z1,y,col,wood,opening,hingeRight=false,drawer=false){
+      const thickness=15,hx=drawer?(x0+x1)/2:(hingeRight?x0+40:x1-40),hz=drawer?z1-38:(z0+z1)/2;
+      const rx=drawer?38:12,rz=drawer?11:32;
+      const angles=Array.from({length:48},(_,i)=>2*Math.PI*i/48);
+      for(const x of [x0,x1])for(const z of [z0,z1])angles.push((Math.atan2(z-hz,x-hx)+2*Math.PI)%(2*Math.PI));
+      angles.sort((a,b)=>a-b);
+      let tr=null;
+      if(opening){
+        if(drawer)tr=(p,n)=>n?p:[p[0],p[1]-120,p[2]];
+        else{const angle=(hingeRight?1:-1)*Math.PI*.32,cs=Math.cos(angle),sn=Math.sin(angle),hinge=hingeRight?x1:x0;
+          tr=(p,n)=>{if(n)return [cs*p[0]-sn*p[1],sn*p[0]+cs*p[1],p[2]];const xx=p[0]-hinge,yy=p[1]-y;return [hinge+cs*xx-sn*yy,y+sn*xx+cs*yy,p[2]];};}
+      }
+      const inner=a=>[hx+rx*Math.cos(a),hz+rz*Math.sin(a)];
+      const outer=a=>{const dx=Math.cos(a),dz=Math.sin(a),s=Math.min(dx>0?(x1-hx)/dx:dx<0?(x0-hx)/dx:Infinity,dz>0?(z1-hz)/dz:dz<0?(z0-hz)/dz:Infinity);return [hx+s*dx,hz+s*dz];};
+      for(let i=0;i<angles.length;i++){
+        const a=angles[i],b=angles[(i+1)%angles.length],ia=inner(a),ib=inner(b),oa=outer(a),ob=outer(b);
+        for(const yy of [y-thickness/2,y+thickness/2])quad(g,[ia[0],yy,ia[1]],[oa[0],yy,oa[1]],[ob[0],yy,ob[1]],[ib[0],yy,ib[1]],[0,yy<y?-1:1,0],col,wood?1:0,tr);
+        const mid=(a+b)/2,n=[-Math.cos(mid),0,-Math.sin(mid)];
+        quad(g,[ia[0],y-thickness/2,ia[1]],[ib[0],y-thickness/2,ib[1]],[ib[0],y+thickness/2,ib[1]],[ia[0],y+thickness/2,ia[1]],n,color('--cr-wood'),2,tr);
+      }
+      for(const zz of [z0,z1])quad(g,[x0,y-thickness/2,zz],[x1,y-thickness/2,zz],[x1,y+thickness/2,zz],[x0,y+thickness/2,zz],[0,0,zz===z0?-1:1],color('--cr-wood'),2,tr);
+      for(const xx of [x0,x1])quad(g,[xx,y-thickness/2,z0],[xx,y+thickness/2,z0],[xx,y+thickness/2,z1],[xx,y-thickness/2,z1],[xx===x0?-1:1,0,0],color('--cr-wood'),2,tr);
+    }
+    function build(kind,H){
+      const g=geometry(),r=32,t=15,W=1000,D=350,lo=32,hi=H-32,front=32,back=318;
+      const wood=color('--cr-wood'),backCol=color('--cr-back'),blue=color('--cr-blue'),lilac=color('--cr-lilac'),yellow=color('--cr-yellow');
+      const nodeCol=color(kind==='cassette'?'--cr-terracotta':kind==='gallery'?'--cr-green':'--cr-graphite');
+      const cub=(x,y,z,w,d,h,col=wood,isWood=true)=>box(g,x,y,z,w,d,h,col,isWood);
+      const shelf=(x0,x1,z,y0=front,y1=back)=>cub((x0+x1)/2,(y0+y1)/2,z,x1-x0,y1-y0,t);
+      const vertical=(x,z0=lo,z1=hi)=>cub(x,(front+back)/2,(z0+z1)/2,t,back-front,z1-z0);
+      const rear=(x0,x1,z0,z1)=>cub((x0+x1)/2,back-5,(z0+z1)/2,x1-x0,6,z1-z0,backCol);
+      const nodes=new Set();
+      const node=(x,z)=>{const key=x+','+z;if(nodes.has(key))return;nodes.add(key);for(const y of [front,back])sphere(g,x,y,z,r,nodeCol);};
+      const door=(x0,x1,z0,z1,col=wood,isWood=true,right=false)=>facade(g,x0+30,x1-30,z0+30,z1-30,front+2,col,isWood,state.open,right);
+      const books=(x,z,col=blue)=>{for(let i=0;i<3;i++)cub(x+i*24,front+105,z+70+i*6,19,140,140+i*12,i===1?color('--cr-book'):col,false);};
+      vertical(r);vertical(W-r);shelf(r,W-r,lo);shelf(r,W-r,hi);
+      if(kind==='cassette'){
+        const mid=500,z1=lo+(hi-lo)*.34,z2=H-330;vertical(mid);
+        for(const z of [z1,z2])shelf(r,W-r,z);
+        rear(r,W-r,lo,hi);
+        door(r,mid,lo,z1,blue,false);door(mid,W-r,lo,z1,wood,true,true);
+        door(r,mid,z1,z2,wood,true);door(mid,W-r,z1,z2,blue,false,true);
+        books(105,z2+8);cub(733,front+140,z2+75,170,180,130,lilac,false);
+        for(const x of [r,mid,W-r])for(const z of [lo,z1,z2,hi])node(x,z);
+      }else if(kind==='gallery'){
+        const mid=650,doorMid=(r+mid)/2,split=H-340;vertical(mid);vertical(doorMid,lo,split);shelf(r,mid,split);
+        rear(r,mid,lo,hi);rear(mid,W-r,lo,hi);
+        door(r,doorMid,lo,split,lilac,false);door(doorMid,mid,lo,split,wood,true,true);
+        shelf(r,mid,lo+(split-lo)*.5,front+20);
+        for(let j=1;j<4;j++){const z=lo+(hi-lo)*j/4;shelf(mid,W-r,z);node(mid,z);node(W-r,z);}
+        books(mid+50,lo+9,lilac);books(mid+50,lo+(hi-lo)*.5+9,lilac);books(100,split+9,lilac);
+        for(const x of [r,mid,W-r])for(const z of [lo,hi])node(x,z);
+        node(r,split);node(mid,split);node(doorMid,lo);node(doorMid,split);
+      }else{
+        const mid=470,split=H-370;vertical(mid);rear(r,W-r,lo,hi);shelf(mid,W-r,split);
+        const step=(hi-lo)/4;
+        for(let j=0;j<4;j++){
+          const z0=lo+j*step,z1=lo+(j+1)*step;
+          if(j)shelf(r,mid,z0);
+          const shift=state.open?-120:0;
+          cub((r+mid)/2,front+145+shift,z0+24,mid-r-65,230,12);
+          cub(r+36,front+145+shift,(z0+z1)/2,12,230,step-60);
+          cub(mid-36,front+145+shift,(z0+z1)/2,12,230,step-60);
+          facade(g,r+30,mid-30,z0+30,z1-30,front+2,j===1||j===3?yellow:wood,j!==1&&j!==3,state.open,false,true);
+          node(r,z0);node(mid,z0);
+        }
+        door(mid,W-r,lo,split,yellow,false,true);shelf(mid,W-r,lo+(split-lo)*.52,front+22);
+        books(mid+70,split+9,yellow);
+        for(const x of [r,mid,W-r])for(const z of [lo,hi])node(x,z);
+        node(mid,split);node(W-r,split);
+      }
+      return g;
+    }
+    function makeRenderer(canvas){
+      const gl=canvas.getContext('webgl',{alpha:true,antialias:true,preserveDrawingBuffer:true});
+      if(!gl){canvas.setAttribute('aria-label','3D-просмотр недоступен в этом браузере');return null;}
+      const compile=(type,src)=>{const shader=gl.createShader(type);gl.shaderSource(shader,src);gl.compileShader(shader);if(!gl.getShaderParameter(shader,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(shader));return shader;};
+      const program=gl.createProgram();
+      gl.attachShader(program,compile(gl.VERTEX_SHADER,`
+        attribute vec3 position;attribute vec3 normal;attribute vec3 color;attribute float material;
+        uniform vec3 right;uniform vec3 up;uniform vec3 camera;uniform vec3 center;uniform vec3 scale;
+        varying vec3 vColor;varying vec3 vNormal;varying vec3 vPos;varying float vMat;
+        void main(){vec3 p=position-center;gl_Position=vec4(dot(p,right)*scale.x,dot(p,up)*scale.y,-dot(p,camera)*scale.z,1.0);vColor=color;vNormal=normal;vPos=position;vMat=material;}
+      `));
+      gl.attachShader(program,compile(gl.FRAGMENT_SHADER,`
+        precision highp float;varying vec3 vColor;varying vec3 vNormal;varying vec3 vPos;varying float vMat;uniform vec3 camera;
+        void main(){
+          vec3 n=normalize(vNormal);vec3 light=normalize(vec3(-.65,-.85,1.2));
+          float diffuse=max(0.0,dot(n,light));float modulation=1.0;
+          if(vMat>.5&&vMat<1.5){float a=abs(n.x)>.8?vPos.y:vPos.x;float b=abs(n.z)>.8?vPos.y:vPos.z;float line=sin(a*.19+sin(b*.018)*1.7+sin(b*.005)*3.0);modulation=.96+.035*line+.02*sin(a*.74+b*.009);}
+          if(vMat>1.5&&vMat<2.5){float q=abs(n.z)>.8?vPos.x:vPos.z;modulation=.86+.10*sin(q*2.5);}
+          float spec=vMat>2.5?pow(max(0.0,dot(n,normalize(light+camera))),32.0)*.18:0.0;
+          gl_FragColor=vec4(vColor*modulation*(.48+.55*diffuse)+vec3(spec),1.0);
+        }
+      `));
+      gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(program));gl.useProgram(program);gl.enable(gl.DEPTH_TEST);gl.clearColor(0,0,0,0);
+      const buffers={};for(const [name,width] of [['position',3],['normal',3],['color',3],['material',1]]){const loc=gl.getAttribLocation(program,name),buffer=gl.createBuffer();gl.enableVertexAttribArray(loc);buffers[name]={loc,buffer,width};}
+      const u={};for(const name of ['right','up','camera','center','scale'])u[name]=gl.getUniformLocation(program,name);
+      let count=0;
+      function rebuild(){const mesh=build(canvas.dataset.model,state.height);for(const name in buffers){const b=buffers[name];gl.bindBuffer(gl.ARRAY_BUFFER,b.buffer);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(mesh[name]),gl.STATIC_DRAW);gl.vertexAttribPointer(b.loc,b.width,gl.FLOAT,false,0,0);}count=mesh.position.length/3;draw();}
+      function draw(){
+        const w=canvas.clientWidth,h=canvas.clientHeight;if(!w||!h)return;
+        const dpr=Math.min(window.devicePixelRatio||1,2);canvas.width=Math.round(w*dpr);canvas.height=Math.round(h*dpr);gl.viewport(0,0,canvas.width,canvas.height);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);
+        const yaw=(state.view==='front'?0:state.view==='side'?72:27)*Math.PI/180,pitch=(state.view==='front'?0:13)*Math.PI/180;
+        const right=[Math.cos(yaw),Math.sin(yaw),0],up=[-Math.sin(yaw)*Math.sin(pitch),Math.cos(yaw)*Math.sin(pitch),Math.cos(pitch)],camera=[Math.sin(yaw)*Math.cos(pitch),-Math.cos(yaw)*Math.cos(pitch),Math.sin(pitch)];
+        const cy=state.open?0:175;
+        const dot=(a,b)=>a[0]*b[0]+a[1]*b[1]+a[2]*b[2];let minX=Infinity,maxX=-Infinity,minY=Infinity,maxY=-Infinity;
+        for(const x of [0,1000])for(const y of [state.open?-350:0,350])for(const z of [0,state.height]){const q=[x-500,y-cy,z-state.height/2],a=dot(q,right),b=dot(q,up);minX=Math.min(minX,a);maxX=Math.max(maxX,a);minY=Math.min(minY,b);maxY=Math.max(maxY,b);}
+        const k=Math.min((w-12)/(maxX-minX),(h-16)/(maxY-minY));
+        gl.uniform3fv(u.right,right);gl.uniform3fv(u.up,up);gl.uniform3fv(u.camera,camera);gl.uniform3fv(u.center,[500,cy,state.height/2]);gl.uniform3fv(u.scale,[2*k/w,2*k/h,1/2400]);gl.drawArrays(gl.TRIANGLES,0,count);
+        canvas.dataset.rendered='true';canvas.dataset.vertices=String(count);canvas.dataset.height=state.height;canvas.dataset.open=state.open;canvas.dataset.view=state.view;
+      }
+      new ResizeObserver(draw).observe(canvas);return {draw,rebuild};
+    }
+    root.querySelectorAll('canvas').forEach(c=>{const renderer=makeRenderer(c);if(renderer)renderers.push(renderer);});
+    function refresh(rebuild=true){viewInput.value=state.view;heightInput.value=String(state.height);openInput.checked=state.open;root.querySelector('[data-h-label]').textContent=state.height/10;renderers.forEach(r=>rebuild?r.rebuild():r.draw());}
+    function remember(){window.openai?.setWidgetState?.({modelContent:{widthCm:100,heightCm:state.height/10,depthCm:35,plywoodMm:15,variants:['Цветные секции','Боковая галерея','Домашняя мастерская']},privateContent:{view:state.view,open:state.open}}).catch(()=>{});}
+    function restore(saved){if(!saved)return;const h=Number(saved.modelContent?.heightCm)*10;if([1200,1500,1800].includes(h))state.height=h;const v=saved.privateContent?.view;if(['perspective','front','side'].includes(v))state.view=v;state.open=saved.privateContent?.open===true;refresh();}
+    viewInput.addEventListener('change',()=>{state.view=viewInput.value;refresh(false);remember();});heightInput.addEventListener('change',()=>{state.height=Number(heightInput.value);refresh();remember();});openInput.addEventListener('change',()=>{state.open=openInput.checked;refresh();remember();});
+    new MutationObserver(()=>refresh()).observe(document.documentElement,{attributes:true,attributeFilter:['class','style','data-theme']});matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>refresh());
+    window.addEventListener('openai:set_globals',e=>{if(e.detail?.globals?.widgetState)restore(e.detail.globals.widgetState);});refresh();restore(window.openai?.widgetState);
+  })();
+  </script>
+</div>

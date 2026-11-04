@@ -1,0 +1,78 @@
+{
+  "parts": {
+    "frame-left": {
+      "material": "wood",
+      "group": "wood",
+      "bounds_mm": [
+        [
+          -9.0,
+          -20.005,
+          -60.0
+        ],
+        [
+          9.0,
+          100.0,
+          70.0
+        ]
+      ],
+      "watertight": true,
+      "components": 1
+    },
+    "shelf-0": {
+      "material": "wood",
+      "group": "wood",
+      "bounds_mm": [
+        [
+          3.0,
+          -20.0,
+          -9.0
+        ],
+        [
+          105.0,
+          100.0,
+          9.0
+        ]
+      ],
+      "watertight": true,
+      "components": 1
+    },
+    "sphere-side-left-0": {
+      "material": "node",
+      "group": "node",
+      "bounds_mm": [
+        [
+          -44.028,
+          -45.0,
+          -43.984
+        ],
+        [
+          44.028,
+          43.006,
+          43.984
+        ]
+      ],
+      "watertight": true,
+      "components": 1
+    },
+    "key-side-left-0-0": {
+      "material": "key",
+      "group": "key",
+      "bounds_mm": [
+        [
+          -5.854,
+          -8.5,
+          -30.016
+        ],
+        [
+          42.76,
+          8.5,
+          36.458
+        ]
+      ],
+      "watertight": true,
+      "components": 1
+    }
+  },
+  "unintended_overlaps": [],
+  "status": "physical prototype not tested"
+}
