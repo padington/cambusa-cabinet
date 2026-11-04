@@ -27,9 +27,9 @@ def drill_x(x,y,z,start,end,radius):
     return cylinder(0,min(x+start,x+end),max(x+start,x+end),y,z,radius)
 
 
-def pegboard(shelf_mounts):
+def pegboard(shelf_mounts, pattern=PEGBOARD_HOLES):
     outline=box(53.5,800,469.5,1769).difference(unary_union([
-        Point(y,z).buffer(6,quad_segs=5) for y,z in PEGBOARD_HOLES
+        Point(y,z).buffer(6,quad_segs=5) for y,z in pattern
     ]))
     wood=panel(outline,0,10,18)
     holes=list(shelf_mounts)
@@ -87,7 +87,7 @@ def right_beam_fasteners(parts,index,z):
         add(parts,f'Right-flat-plate-{suffix}',cut(plate,seats),'frame')
 
 
-def cabinet():
+def cabinet(pegboard_pattern=PEGBOARD_HOLES):
     fixed,old,left,rows=v25_cabinet()
     parts = [p for p in fixed+old if p['name'] not in ('Center-18','Back-infill-8','Right-infill-8') and
         not p['name'].startswith(('Left-glass-','Glazing-','Glass-pad-','Front-sill-','Shelf-',
@@ -117,7 +117,7 @@ def cabinet():
                                  drill_x(edge,y,z,-10*side_sign,10*side_sign,3)))
                     holes=pegboard_holes if receiver=='pegboard' else divider_holes
                     if receiver=='pegboard':
-                        assert all((y-py)**2+(z-pz)**2>(6+3.03)**2 for py,pz in PEGBOARD_HOLES)
+                        assert all((y-py)**2+(z-pz)**2>(6+3.03)**2 for py,pz in pegboard_pattern)
                     holes.append(drill_x(edge,y,z,-10.3*side_sign,.1*side_sign,3.03))
                     seats.append(drill_x(edge,y,z,-.1*side_sign,10.35*side_sign,3.1))
             add(parts,f'Shelf-{side}-{index}',cut(body,seats),'wood')
@@ -126,7 +126,7 @@ def cabinet():
     for name,mesh in pins:
         add(parts,name,mesh,'fastener')
 
-    wood,hardware,beam_mortises=pegboard(pegboard_holes)
+    wood,hardware,beam_mortises=pegboard(pegboard_holes, pegboard_pattern)
     for p in parts:
         if p['name'] in beam_mortises:
             p['mesh']=cut(p['mesh'],beam_mortises[p['name']])

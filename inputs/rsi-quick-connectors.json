@@ -1,0 +1,18 @@
+{
+  "5211": {
+    "sha256": "3771b460459b694ab99ccc85a86e0c8a15718c82132b72aef584ac0053760019",
+    "step": "https://www.rsi-llc.ru/catalog/bystrye-soediniteli/5211.STEP",
+    "parts": 3,
+    "rotation_axis": "local y",
+    "beam_axis": "local z",
+    "access_offset_mm": 16
+  },
+  "5212": {
+    "sha256": "504dbf5aa0727711ebe33d5fc54351b824c2140777daa723f2ca00c3e24494ea",
+    "step": "https://www.rsi-llc.ru/catalog/bystrye-soediniteli/5212.STEP",
+    "parts": 2,
+    "rotation_axis": "local y",
+    "beam_axis": "local z",
+    "access_offset_mm": 16
+  }
+}
