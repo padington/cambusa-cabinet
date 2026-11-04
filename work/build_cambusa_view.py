@@ -38,6 +38,7 @@ end = """
   <a href="open.glb">Открытый шкаф · GLB</a>
   <a href="frame.glb">Каркас · GLB</a>
   <a href="cut-plan.svg">Раскладка на листах</a>
+  <a href="variants/v18/">Сравнить облегчённую v18</a>
   <a href="https://github.com/padington/cambusa-cabinet/tree/main/outputs/cambusa-frame-v17/storage">Коллажи хранения</a>
 </footer>
 </main>

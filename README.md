@@ -6,6 +6,10 @@
 
 В просмотре можно вращать шкаф и выбирать закрытый вид, открытые двери и отдельный каркас. Локально откройте [docs/index.html](docs/index.html) в браузере. Для скачивания доступны [закрытая сборка](docs/closed.glb), [открытая сборка](docs/open.glb) и [рама](docs/frame.glb).
 
+## Облегчённая версия
+
+[3D v18 онлайн](https://padington.github.io/cambusa-cabinet/variants/v18/) · [Расчёт и сравнение](https://github.com/padington/cambusa-cabinet/blob/cambusa-v18/outputs/cambusa-frame-v18/ОБЛЕГЧЕНИЕ.md). Панели и полки 12 мм, восемь алюминиевых опор. v17 остаётся базовой моделью.
+
 ## Карта проекта
 
 | Где | Что лежит |
@@ -23,6 +27,7 @@
 - [cambusa-v15](https://github.com/padington/cambusa-cabinet/tree/cambusa-v15) — деревянный корпус на отдельном основании и двери с полками.
 - [cambusa-v16](https://github.com/padington/cambusa-cabinet/tree/cambusa-v16) — четыре цельные стойки от опор до крышки.
 - [cambusa-v17](https://github.com/padington/cambusa-cabinet/tree/cambusa-v17) — пегборд слева, аудит 3D и эскизы хранения.
+- [cambusa-v18](https://github.com/padington/cambusa-cabinet/tree/cambusa-v18) — отдельный вариант облегчения.
 - `main` — текущая версия для просмотра. Для эксперимента создайте ветку от нужного тега. Выбор старой версии не требует сброса истории.
 
 ```sh
