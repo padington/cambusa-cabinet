@@ -9,7 +9,12 @@ fragment = (work / 'cambusa-frame-v18-view.html').read_text().replace(
 )
 assert len(fragment.encode()) < 1_000_000 and '__MODEL_DATA__' not in fragment
 if len(sys.argv) > 1:
-    Path(sys.argv[1]).write_text(fragment)
+    inline = fragment.replace(
+        'id="cambusa-frame-v18"',
+        'id="cambusa-frame-v18" data-default-view="parked"',
+        1,
+    )
+    Path(sys.argv[1]).write_text(inline)
 docs = root / 'docs'
 docs.mkdir(exist_ok=True)
 start = """<!doctype html>
@@ -37,6 +42,7 @@ end = """
   <a href="closed.glb">Закрытый шкаф · GLB</a>
   <a href="open.glb">Открытый шкаф · GLB</a>
   <a href="frame.glb">Каркас · GLB</a>
+  <a href="?view=270">Сразу открыть вид на 270°</a>
   <a href="cut-plan.svg">Раскладка на листах</a>
   <a href="https://github.com/padington/cambusa-cabinet/tree/main/outputs/cambusa-frame-v17/storage">Коллажи хранения</a>
 </footer>

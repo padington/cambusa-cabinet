@@ -11,6 +11,12 @@ const { resolve } = require('node:path');
     page.on('pageerror',error => errors.push(error.message));
     await page.goto(target);
     const status = page.locator('#v18-status');
+    if (new URL(target).searchParams.get('view') === '270') {
+      await status.getByText('270° · створки вдоль боковин',{exact:false}).waitFor();
+      assert.equal(await page.locator('#v18-mode').inputValue(),'parked');
+      if (process.argv[3]) await page.screenshot({path:process.argv[3],fullPage:true});
+      await page.locator('#v18-mode').selectOption('closed');
+    }
     await status.getByText('1000 × 1800 × 500 мм',{exact:false}).waitFor();
     const canvas = page.locator('#v18-canvas');
     const fingerprint = () => canvas.evaluate(canvas => {
@@ -29,6 +35,10 @@ const { resolve } = require('node:path');
     assert.match(await status.innerText(), /180°/);
     const opened = await fingerprint();
     assert.ok(opened.filled > 20000 && opened.score !== closed.score);
+    await page.locator('#v18-mode').selectOption('parked');
+    assert.match(await status.innerText(), /270°/);
+    const parked = await fingerprint();
+    assert.ok(parked.filled > 20000 && parked.score !== closed.score && parked.score !== opened.score);
     await page.locator('#v18-mode').selectOption('frame');
     const frame = await fingerprint();
     assert.ok(frame.filled > 1000 && frame.filled < opened.filled);
@@ -40,8 +50,7 @@ const { resolve } = require('node:path');
     assert.ok((await fingerprint()).filled > 12000);
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth),true);
     assert.deepEqual(errors,[]);
-    if (process.argv[3]) await page.screenshot({path:process.argv[3],fullPage:true});
-    console.log('3 вида, поворот, тёмная тема и 320 px проверены:',target);
+    console.log('4 вида, прямой переход к 270°, поворот, тёмная тема и 320 px проверены:',target);
   } finally {
     await browser.close();
   }

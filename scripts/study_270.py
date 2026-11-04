@@ -1,4 +1,5 @@
 """Plan-view envelope study. The axis is idealized and has no hardware attached."""
+from argparse import ArgumentParser
 from html import escape
 import json
 import math
@@ -9,7 +10,10 @@ from shapely.ops import unary_union
 
 from audit_assembly import ROOT, load_parts
 
-MODEL = ROOT / 'outputs/cambusa-frame-v17'
+parser = ArgumentParser(description=__doc__)
+parser.add_argument('--version', choices=('v17', 'v18'), default='v17')
+version = parser.parse_args().version
+MODEL = ROOT / f'outputs/cambusa-frame-{version}'
 
 AXIS = (0., -5.)
 parts = load_parts(MODEL/'closed.glb')
@@ -44,7 +48,7 @@ parked = affinity.rotate(shape,-270,origin=AXIS)
 park_min_x, park_min_y, park_max_x, park_max_y = parked.bounds
 full_radius = max(math.hypot(x-AXIS[0],y-AXIS[1]) for mesh in left.values() for x,y,z in mesh.vertices)
 report = {
-    'model':'cambusa-v17','axis_left_xy_mm':AXIS,'axis_right_xy_mm':[1000-AXIS[0],AXIS[1]],
+    'model':f'cambusa-{version}','axis_left_xy_mm':AXIS,'axis_right_xy_mm':[1000-AXIS[0],AXIS[1]],
     'scope':'2D conservative projection against box envelopes by part height, sampled every 0.5 degrees',
     'body_overlap_samples':conflicts,
     'leaf_separation_lower_bound_mm':round(1000-2*full_radius,2),
