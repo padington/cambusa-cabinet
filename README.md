@@ -16,7 +16,7 @@
 | [outputs/](outputs/) | Модели v15/v16, результаты расчётов, отчёты и карты раскроя |
 | [docs/](docs/) | Просмотр для GitHub Pages и файлы для скачивания |
 | [history/](history/README.md) | Снимки v01–v14, старые генераторы, входные данные и чертежи |
-| [references/](references/README.md) | Источники по форме, петлям, профилю, направляющим и поставщикам |
+| [references/](references/README.md) | Источники по форме и фурнитуре, [фотогалерея](references/photos/README.md) |
 
 ## Версии и ветки
 
