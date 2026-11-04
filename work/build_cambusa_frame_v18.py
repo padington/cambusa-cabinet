@@ -1,4 +1,4 @@
-"""Build a full-height aluminum-frame variant from the preserved v15 door meshes."""
+"""Build a lightweight full-height aluminum-frame variant with 12 mm infill."""
 from collections import Counter
 import hashlib
 import itertools
@@ -15,19 +15,21 @@ from shapely.ops import unary_union
 import trimesh as tm
 from geometry import COLORS, add, cube, panel, render, scene
 
-VERSION = 'cambusa-v17'
-OUT = ROOT / 'outputs/cambusa-frame-v17'
+VERSION = 'cambusa-v18'
+OUT = ROOT / 'outputs/cambusa-frame-v18'
 SOURCE = ROOT / 'outputs/cambusa-doors-v15/closed.glb'
 OUT.mkdir(exist_ok=True)
 WIDTH, HEIGHT, DEPTH = 1000, 1800, 500
 POST = 30
+INFILL = 12
+SETBACK = 18 - INFILL
 JAMB_SHIFT = POST + 1
 TOP_RAIL_BOTTOM = 1770
 FOOT = 12
 PROFILE = 'https://www.boschrexroth.com/en/de/p/strut-profile-3842990723/'
 COLORS.update(
     wood=[104, 74, 52, 255], back=[78, 54, 39, 255], frame=[48, 52, 53, 255],
-    rubber=[35, 38, 38, 255], door=[98, 67, 46, 255], skin=[127, 92, 64, 255],
+    rail=[66, 70, 71, 255], rubber=[35, 38, 38, 255], door=[98, 67, 46, 255], skin=[127, 92, 64, 255],
     tray=[136, 97, 68, 255],
 )
 
@@ -74,18 +76,31 @@ bottom = box(18, 0, 982, 500).difference(unary_union([
     for (x0, x1), (y0, y1) in itertools.product(((17, 31), (969, 983)), ((-1, 31), (469, 501)))
 ]))
 add(parts, 'B00-bottom-notched', panel(bottom, 2, 800, 18), 'wood')
-add(parts, 'B01-top-inset', cube([31, 31, 1782], [969, 469, 1800]), 'wood')
-add(parts, 'B03-right-side', cube([982, 31, 800], [1000, 469, 1769]), 'wood')
+add(parts, 'B01-top-inset', cube([31, 31, 1782], [969, 469, 1782 + INFILL]), 'wood')
+add(parts, 'B03-right-side', cube([982, 31, 800], [982 + INFILL, 469, 1769]), 'wood')
 holes = [(y, z) for y in range(50, 451, 50) for z in range(840, 1741, 50)]
 pegboard = box(31, 800, 469, 1769).difference(unary_union([
     Point(y, z).buffer(6, quad_segs=6) for y, z in holes
 ]))
-add(parts, 'B02-left-pegboard', panel(pegboard, 0, 0, 18), 'wood')
+add(parts, 'B02-left-pegboard', panel(pegboard, 0, SETBACK, INFILL), 'wood')
 back = box(18, 818, 982, 1769).union(box(31, 1769, 969, 1782))
-add(parts, 'B04-back', panel(back, 1, 461, 8), 'back')
+add(parts, 'B04-back', panel(back, 1, 461, 9), 'back')
 for name in ('B05-divider', 'B10-left-shelf', 'B11-left-shelf', 'B20-right-shelf', 'B21-right-shelf'):
     lo, hi = old[name].bounds.copy()
     hi[1] = 461
+    if name != 'B05-divider':
+        # Keep the usable shelf level. Add an angle under each long side.
+        lo[2] = hi[2] - INFILL
+        left = name.startswith('B1')
+        z = lo[2]
+        for position, edge, sign, start, length in (
+            ('outer', 18 if left else 982, 1 if left else -1, 39, 422),
+            ('inner', 491 if left else 509, -1 if left else 1, 104, 357),
+        ):
+            toe0, toe1 = sorted((edge, edge + 20 * sign))
+            stem0, stem1 = sorted((edge, edge + 2 * sign))
+            section = box(toe0, z - 2, toe1, z).union(box(stem0, z - 20, stem1, z - 2))
+            add(frame, f'ShelfAngle-{name[:3]}-{position}', panel(section, 1, start, length), 'rail', 'profile')
     add(parts, name, cube(lo, hi), 'wood')
 
 
@@ -160,7 +175,8 @@ for cut in source_mortises:
 report = {
     'version': VERSION, 'basis': 'cambusa-v15', 'status': 'geometry study',
     'profile_reference': PROFILE, 'envelope_mm': [WIDTH, HEIGHT, DEPTH],
-    'profile_section_mm': [POST, POST], 'profile_lengths_mm': dict(sorted(lengths.items(), reverse=True)),
+    'profile_section_mm': [POST, POST], 'infill_mm': INFILL, 'reveal_mm': SETBACK,
+    'shelf_angle_section_mm': [20, 20, 2], 'shelf_angle_counts': {'422': 4, '357': 4}, 'profile_lengths_mm': dict(sorted(lengths.items(), reverse=True)),
     'foot_height_allowance_mm': FOOT, 'cabinet_bottom_at_mm': 800,
     'door_each_mm': [426.5, 946, 85], 'pegboard_side': 'left', 'pegboard_holes': len(holes),
     'shelf_clearance_at_closed_doors_mm': 17, 'drawer_clear_opening_mm': 424,
@@ -189,7 +205,7 @@ def preview_font(size, bold=False):
     return ImageFont.load_default(size=size)
 font = preview_font(32, bold=True)
 small = preview_font(23)
-draw.text((30, 25), 'Cambusa v17 · пегборд на левой боковине', font=font, fill='#25352b')
+draw.text((30, 25), 'Cambusa v18 · облицовка и полки 12 мм', font=font, fill='#25352b')
 for offset, width, label, model, yaw in [
     (0, 465, 'Закрыто', closed, -26), (465, 650, 'Расчётный вид на 180°', wide, -20),
     (1115, 421, 'Каркас', frame, 27),
@@ -211,5 +227,5 @@ for part in closed:
         item['a'] = left_offset if part['side'] == 'L' else 2 * WIDTH - left_offset
     inline['parts'].append(item)
 (OUT / 'ПРОВЕРКА.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
-(ROOT / 'work/cambusa-frame-v17-meshes.json').write_text(json.dumps(inline, separators=(',', ':')))
+(ROOT / 'work/cambusa-frame-v18-meshes.json').write_text(json.dumps(inline, separators=(',', ':')))
 print(json.dumps({key: report[key] for key in ('envelope_mm', 'door_each_mm', 'tests', 'profile_lengths_mm')}))

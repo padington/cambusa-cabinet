@@ -1,48 +1,49 @@
-<div id="cambusa-frame-v17">
-  <h2>Cambusa v17</h2>
+<div id="cambusa-frame-v18">
+  <h2>Cambusa v18</h2>
   <div class="viz-controls">
     <label class="form-label">Вид
-      <select class="form-select" id="v17-mode">
+      <select class="form-select" id="v18-mode">
         <option value="closed">Двери закрыты</option>
         <option value="open">Двери открыты на 180°</option>
         <option value="frame">Только каркас</option>
       </select>
     </label>
-    <label class="form-label">Поворот <span id="v17-angle">−27°</span>
-      <input class="form-range" id="v17-yaw" type="range" min="-180" max="180" value="-27">
+    <label class="form-label">Поворот <span id="v18-angle">−27°</span>
+      <input class="form-range" id="v18-yaw" type="range" min="-180" max="180" value="-27">
     </label>
   </div>
-  <canvas id="v17-canvas" class="cursor-interaction" role="img" aria-label="Вращаемая модель шкафа с четырьмя алюминиевыми стойками во весь рост, деревянными дверями с полками и левой перфорированной боковиной"></canvas>
-  <p id="v17-status" class="text-small" role="status"></p>
-  <span id="v17-color" class="sr-only" aria-hidden="true"></span>
+  <canvas id="v18-canvas" class="cursor-interaction" role="img" aria-label="Вращаемая модель шкафа с четырьмя алюминиевыми стойками во весь рост, деревянными дверями с полками и левой перфорированной боковиной"></canvas>
+  <p id="v18-status" class="text-small" role="status"></p>
+  <span id="v18-color" class="sr-only" aria-hidden="true"></span>
 </div>
 <style>
-#cambusa-frame-v17 {
+#cambusa-frame-v18 {
   display:grid; gap:calc(var(--font-size-base) * .6); color-scheme:light dark;
-  --v17-frame:light-dark(rgb(48,52,53),rgb(110,117,117));
-  --v17-rubber:light-dark(rgb(35,38,38),rgb(80,85,84));
-  --v17-wood:light-dark(rgb(113,79,55),rgb(148,104,74));
-  --v17-back:light-dark(rgb(89,62,44),rgb(119,82,59));
-  --v17-door:light-dark(rgb(110,75,52),rgb(139,96,68));
-  --v17-skin:light-dark(rgb(132,95,68),rgb(164,121,88));
-  --v17-tray:light-dark(rgb(143,102,72),rgb(175,129,94));
+  --v18-rail:light-dark(rgb(66,70,71),rgb(119,126,125));
+  --v18-frame:light-dark(rgb(48,52,53),rgb(110,117,117));
+  --v18-rubber:light-dark(rgb(35,38,38),rgb(80,85,84));
+  --v18-wood:light-dark(rgb(113,79,55),rgb(148,104,74));
+  --v18-back:light-dark(rgb(89,62,44),rgb(119,82,59));
+  --v18-door:light-dark(rgb(110,75,52),rgb(139,96,68));
+  --v18-skin:light-dark(rgb(132,95,68),rgb(164,121,88));
+  --v18-tray:light-dark(rgb(143,102,72),rgb(175,129,94));
 }
-#v17-canvas {display:block; width:100%; height:500px; touch-action:pan-y; cursor:grab}
-#v17-canvas:active {cursor:grabbing}
-@media(max-width:500px) {#v17-canvas {height:380px}}
+#v18-canvas {display:block; width:100%; height:500px; touch-action:pan-y; cursor:grab}
+#v18-canvas:active {cursor:grabbing}
+@media(max-width:500px) {#v18-canvas {height:380px}}
 </style>
-<script type="application/json" id="v17-data">__MODEL_DATA__</script>
+<script type="application/json" id="v18-data">__MODEL_DATA__</script>
 <script>
 (() => {
-  const root = document.getElementById('cambusa-frame-v17');
-  const get = id => root.querySelector('#v17-' + id);
-  const model = JSON.parse(document.getElementById('v17-data').textContent);
+  const root = document.getElementById('cambusa-frame-v18');
+  const get = id => root.querySelector('#v18-' + id);
+  const model = JSON.parse(document.getElementById('v18-data').textContent);
   const canvas = get('canvas'), mode = get('mode'), yaw = get('yaw'), status = get('status');
   const gl = canvas.getContext('webgl', {antialias:true, alpha:true, preserveDrawingBuffer:true});
   const labels = {
-    closed:'1000 × 1800 × 500 мм · профиль 30 × 30 мм',
+    closed:'1000 × 1800 × 500 мм · облицовка и полки 12 мм',
     open:'Расчётное положение 180° · ход петли проверяется отдельно',
-    frame:'4 цельные стойки · 3 уровня поперечин'
+    frame:'4 стойки · 8 опор под полками'
   };
   if (!gl) {
     status.textContent = 'Для вращения модели нужен браузер с WebGL.';
@@ -116,7 +117,7 @@
   const palette = {};
   function colors() {
     for (const key of new Set(closed.map(part => part.material))) {
-      probe.style.color = 'var(--v17-' + key + ')';
+      probe.style.color = 'var(--v18-' + key + ')';
       palette[key] = getComputedStyle(probe).color.match(/[\d.]+/g).slice(0,3).map(value => Number(value)/255);
     }
   }
@@ -166,7 +167,7 @@
     draw();
   }
   function restore(saved) {
-    if (saved?.modelContent?.version === 'cambusa-v17') {
+    if (saved?.modelContent?.version === 'cambusa-v18') {
       const view = saved.modelContent.view;
       if (Object.hasOwn(models,view)) state.view = view;
       for (const [key,min,max] of [['yaw',-180,180],['pitch',-10,65]]) {
@@ -178,7 +179,7 @@
   }
   function save() {
     window.openai?.setWidgetState?.({
-      modelContent:{version:'cambusa-v17',view:state.view},
+      modelContent:{version:'cambusa-v18',view:state.view},
       privateContent:{yaw:state.yaw,pitch:state.pitch}
     })?.catch(() => {});
   }

@@ -1,4 +1,4 @@
-"""Independently inspect exported GLBs against the v17 part list and assembly pose."""
+"""Independently inspect exported GLBs against the v18 part list and assembly pose."""
 from collections import Counter
 from itertools import combinations, product
 import json
@@ -8,7 +8,7 @@ import numpy as np
 import trimesh
 
 ROOT = Path(__file__).resolve().parents[1]
-MODEL = ROOT / 'outputs/cambusa-frame-v17'
+MODEL = ROOT / 'outputs/cambusa-frame-v18'
 
 
 def load_parts(path):
@@ -35,7 +35,8 @@ def expected_ids():
         'jamb','hinge-stile','meeting-stile','top-rail','bottom-rail','front-panel',
         'shelf-1','shelf-2','shelf-3','lip-1','lip-2','lip-3',
     ))]
-    return set(corners + beams + body + doors)
+    angles = [f'ShelfAngle-{shelf}-{side}' for shelf,side in product(('B10','B11','B20','B21'),('inner','outer'))]
+    return set(corners + beams + body + doors + angles)
 
 
 def intersections(parts):
@@ -78,14 +79,23 @@ def main():
         assert np.allclose(vertices,opened[name].vertices,atol=.002), name
     pegboard = closed['B02-left-pegboard']
     right = closed['B03-right-side']
-    assert np.allclose(pegboard.bounds,[[0,31,800],[18,469,1769]])
-    assert np.allclose(right.bounds,[[982,31,800],[1000,469,1769]])
+    assert np.allclose(pegboard.bounds,[[6,31,800],[18,469,1769]])
+    assert np.allclose(right.bounds,[[982,31,800],[994,469,1769]])
     # An extruded panel's genus equals its number of through holes.
     hole_count = (2 - pegboard.euler_number)//2
     assert hole_count == 171 and right.euler_number == 2
     checks['positions'] = {'all_exported_ids_and_sizes_match_plan':True,
                            'unchanged_cabinet_and_correct_door_endpoint':True,
                            'pegboard_side':'left','pegboard_through_holes':hole_count}
+    for shelf in ('B10','B11','B20','B21'):
+        board = next(mesh for name,mesh in closed.items() if name.startswith(shelf+'-'))
+        assert abs(board.extents[2] - 12) < .002
+        for position in ('inner','outer'):
+            angle = closed[f'ShelfAngle-{shelf}-{position}']
+            assert abs(angle.bounds[1,2] - board.bounds[0,2]) < .002
+            overlap = np.minimum(angle.bounds[1,:2],board.bounds[1,:2])-np.maximum(angle.bounds[0,:2],board.bounds[0,:2])
+            assert min(overlap) > 19.99
+    checks['positions']['each_shelf_bears_on_two_modeled_angles'] = True
     checks['part_count'] = len(expected)
     for name,model in [('closed',closed),('open_180_schematic',opened)]:
         checks['poses'][name] = intersections(model)

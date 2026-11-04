@@ -1,0 +1,103 @@
+{
+  "compares": [
+    "cambusa-v17",
+    "cambusa-v18"
+  ],
+  "changed_plywood": [
+    {
+      "id": "B01-top-inset",
+      "v17_kg": 5.029,
+      "v18_kg": 3.352,
+      "saved_kg": 1.676
+    },
+    {
+      "id": "B02-left-pegboard",
+      "v17_kg": 4.961,
+      "v18_kg": 3.307,
+      "saved_kg": 1.654
+    },
+    {
+      "id": "B03-right-side",
+      "v17_kg": 5.195,
+      "v18_kg": 3.463,
+      "saved_kg": 1.732
+    },
+    {
+      "id": "B04-back",
+      "v17_kg": 5.054,
+      "v18_kg": 5.685,
+      "saved_kg": -0.632
+    },
+    {
+      "id": "B10-left-shelf",
+      "v17_kg": 2.067,
+      "v18_kg": 1.378,
+      "saved_kg": 0.689
+    },
+    {
+      "id": "B11-left-shelf",
+      "v17_kg": 2.067,
+      "v18_kg": 1.378,
+      "saved_kg": 0.689
+    },
+    {
+      "id": "B20-right-shelf",
+      "v17_kg": 2.067,
+      "v18_kg": 1.378,
+      "saved_kg": 0.689
+    },
+    {
+      "id": "B21-right-shelf",
+      "v17_kg": 2.067,
+      "v18_kg": 1.378,
+      "saved_kg": 0.689
+    }
+  ],
+  "plywood_removed_kg": 7.19,
+  "aluminum_added_kg": 0.64,
+  "net_mass_removed_kg": 6.55,
+  "shelf_span_mm": 473.0,
+  "shelf_depth_mm": 357.0,
+  "shelf_bending": [
+    {
+      "thickness_mm": 12,
+      "payload_kg": 10,
+      "deflection_mm": 0.441
+    },
+    {
+      "thickness_mm": 12,
+      "payload_kg": 15,
+      "deflection_mm": 0.635
+    },
+    {
+      "thickness_mm": 12,
+      "payload_kg": 20,
+      "deflection_mm": 0.829
+    },
+    {
+      "thickness_mm": 18,
+      "payload_kg": 10,
+      "deflection_mm": 0.126
+    },
+    {
+      "thickness_mm": 18,
+      "payload_kg": 15,
+      "deflection_mm": 0.178
+    },
+    {
+      "thickness_mm": 18,
+      "payload_kg": 20,
+      "deflection_mm": 0.231
+    }
+  ],
+  "scope": "Nominal solid geometry; mass excludes pending fasteners; simply supported rectangular shelf under uniform short-term load including self-weight",
+  "limitations": [
+    "Deflection is not a load rating",
+    "Shelf brackets and center divider attachment require validation",
+    "Long-term creep, impact, concentrated objects and cabinet stability are outside this estimate"
+  ],
+  "references": [
+    "https://www.metsagroup.com/contentassets/8a5519dc6e534fcfa99c06759fbb8bad/metsa_wood_birch_plywood_product_datasheets_en.pdf",
+    "https://www.metsagroup.com/contentassets/2e9ddda886f04453825068d3b37afcdc/uk_doc_metsawood_birch_plywood_pf_2022-11-07.pdf"
+  ]
+}

@@ -4,8 +4,8 @@ import sys
 
 root = Path(__file__).resolve().parents[1]
 work = root / 'work'
-fragment = (work / 'cambusa-frame-v17-view.html').read_text().replace(
-    '__MODEL_DATA__', (work / 'cambusa-frame-v17-meshes.json').read_text()
+fragment = (work / 'cambusa-frame-v18-view.html').read_text().replace(
+    '__MODEL_DATA__', (work / 'cambusa-frame-v18-meshes.json').read_text()
 )
 assert len(fragment.encode()) < 1_000_000 and '__MODEL_DATA__' not in fragment
 if len(sys.argv) > 1:
@@ -16,7 +16,7 @@ start = """<!doctype html>
 <html lang="ru">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Интерактивная 3D-модель шкафа Cambusa v17 с алюминиевым каркасом.">
+<meta name="description" content="Интерактивная 3D-модель шкафа Cambusa v18 с алюминиевым каркасом.">
 <title>Cambusa · 3D-модель шкафа</title>
 <style>
 :root {color-scheme:light dark;--font-size-base:16px;font:16px/1.45 system-ui,sans-serif}
@@ -45,4 +45,4 @@ end = """
 (docs / 'index.html').write_text(start + fragment + end)
 (docs / '.nojekyll').touch()
 for name in ('closed.glb', 'open.glb', 'frame.glb'):
-    (docs / name).write_bytes((root / 'outputs/cambusa-frame-v17' / name).read_bytes())
+    (docs / name).write_bytes((root / 'outputs/cambusa-frame-v18' / name).read_bytes())

@@ -1,7 +1,6 @@
 {
   "currency": "RUB",
   "unit_prices": {
-    "plywood-8": null,
     "plywood-9": null,
     "plywood-12": null,
     "plywood-18": null,
@@ -17,6 +16,8 @@
     "anti-tip": null,
     "machining": null,
     "finish": null,
-    "delivery": null
+    "delivery": null,
+    "shelf-angle": null,
+    "shelf-angle-joints": null
   }
 }

@@ -1,8 +1,8 @@
 # Cambusa · модульный шкаф
 
-Высокий шкаф 1000 × 1800 × 500 мм с рамочными дверями, полками в створках и левым пегбордом и алюминиевым каркасом во всю высоту. Текущая версия v17.
+Высокий шкаф 1000 × 1800 × 500 мм с рамочными дверями, полками в створках и левым пегбордом и алюминиевым каркасом во всю высоту. В этой ветке — облегчённая v18 с основными панелями и полками 12 мм.
 
-**[Открыть 3D в браузере](https://padington.github.io/cambusa-cabinet/)** · [Ведомость и смета](outputs/cambusa-frame-v17/planning/BOM.md) · [Раскладка фанеры](outputs/cambusa-frame-v17/planning/cut-plan.svg) · [Статус проверок](outputs/cambusa-frame-v17/КОНСТРУКЦИЯ.md)
+**[Открыть 3D v18 в браузере](https://padington.github.io/cambusa-cabinet/variants/v18/)** · [Ведомость и смета](outputs/cambusa-frame-v18/planning/BOM.md) · [Раскладка фанеры](outputs/cambusa-frame-v18/planning/cut-plan.svg) · [Сравнение v17 и v18](outputs/cambusa-frame-v18/ОБЛЕГЧЕНИЕ.md)
 
 В просмотре можно вращать шкаф и выбирать закрытый вид, открытые двери и отдельный каркас. Локально откройте [docs/index.html](docs/index.html) в браузере. Для скачивания доступны [закрытая сборка](docs/closed.glb), [открытая сборка](docs/open.glb) и [рама](docs/frame.glb).
 
@@ -10,10 +10,10 @@
 
 | Где | Что лежит |
 |---|---|
-| [work/](work/) | Исходники геометрии v17, функции построения и исходник 3D-просмотра |
+| [work/](work/) | Исходники геометрии v18, функции построения и исходник 3D-просмотра |
 | [scripts/](scripts/) | Команды пересборки модели, раскладки и сметы |
 | [inputs/](inputs/) | Форматы заготовок, фурнитура и шаблон цен |
-| [outputs/](outputs/) | Модели v15–v17, результаты расчётов, отчёты и карты раскроя |
+| [outputs/](outputs/) | Модели v15–v18, результаты расчётов, отчёты и карты раскроя |
 | [docs/](docs/) | Просмотр для GitHub Pages и файлы для скачивания |
 | [history/](history/README.md) | Снимки v01–v14, старые генераторы, входные данные и чертежи |
 | [references/](references/README.md) | Источники по форме и фурнитуре, [фотогалерея](references/photos/README.md) |
@@ -23,7 +23,8 @@
 - [cambusa-v15](https://github.com/padington/cambusa-cabinet/tree/cambusa-v15) — деревянный корпус на отдельном основании и двери с полками.
 - [cambusa-v16](https://github.com/padington/cambusa-cabinet/tree/cambusa-v16) — четыре цельные стойки от опор до крышки.
 - [cambusa-v17](https://github.com/padington/cambusa-cabinet/tree/cambusa-v17) — пегборд слева, аудит 3D и эскизы хранения.
-- `main` — текущая версия для просмотра. Для эксперимента создайте ветку от нужного тега. Выбор старой версии не требует сброса истории.
+- [cambusa-v18](https://github.com/padington/cambusa-cabinet/tree/cambusa-v18) — вариант с фанерой 12 мм и уголками под полками.
+- `main` — базовая версия v17. Для эксперимента создайте ветку от нужного тега. Выбор старой версии не требует сброса истории.
 
 ```sh
 git switch -c experiment/rear-brace cambusa-v17
@@ -42,7 +43,7 @@ python -m pip install -r requirements.txt
 python scripts/build.py
 ```
 
-Сборка проверяет геометрию и записывает GLB, карту раскроя и ведомость в `outputs/cambusa-frame-v17/`. Просмотр в `docs/` строится из той же геометрии. GitHub Pages публикует `main:/docs`.
+Сборка проверяет геометрию и записывает GLB, карту раскроя и ведомость в `outputs/cambusa-frame-v18/`. Просмотр в `docs/` строится из той же геометрии. GitHub Pages публикует `main:/docs`.
 
 ## Раскладка и смета
 

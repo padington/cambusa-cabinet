@@ -995,6 +995,20 @@
     ]
   },
   {
+    "url": "https://www.metsagroup.com/contentassets/2e9ddda886f04453825068d3b37afcdc/uk_doc_metsawood_birch_plywood_pf_2022-11-07.pdf",
+    "recorded_in": [
+      "outputs/cambusa-frame-v18/МАССА-И-ПОЛКИ.json",
+      "outputs/cambusa-frame-v18/ОБЛЕГЧЕНИЕ.md"
+    ]
+  },
+  {
+    "url": "https://www.metsagroup.com/contentassets/8a5519dc6e534fcfa99c06759fbb8bad/metsa_wood_birch_plywood_product_datasheets_en.pdf",
+    "recorded_in": [
+      "outputs/cambusa-frame-v18/МАССА-И-ПОЛКИ.json",
+      "outputs/cambusa-frame-v18/ОБЛЕГЧЕНИЕ.md"
+    ]
+  },
+  {
     "url": "https://www.olimp3d.ru/ceny/",
     "recorded_in": [
       "history/outputs/boltfree-cabinet-v03/SUPPLIERS-SPB.txt",

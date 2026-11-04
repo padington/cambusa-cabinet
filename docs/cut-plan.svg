@@ -1,55 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 778" role="img">
-<title>Раскладка фанеры Cambusa v17</title>
+<title>Раскладка фанеры Cambusa v18</title>
 <rect width="100%" height="100%" fill="#f7f6f2"/>
-<text x="16" y="29" font-family="sans-serif" font-size="20">Cambusa v17 · фанера · заготовки с припуском</text>
+<text x="16" y="29" font-family="sans-serif" font-size="20">Cambusa v18 · фанера · заготовки с припуском</text>
 <text x="16" y="60" font-family="sans-serif" font-size="14">Фанера 12 мм · лист 1 · 1525 × 1525</text>
 <rect x="16" y="72" width="306.00" height="306.00" fill="white" stroke="#444"/>
-<rect x="18.01" y="74.01" width="72.26" height="184.92" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>R-front-panel · 360.1 × 921.6 мм</title></rect>
-<text x="21.01" y="85.01" font-size="8" font-family="sans-serif">R-front-panel</text>
-<rect x="91.47" y="74.01" width="72.26" height="184.92" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>L-front-panel · 360.1 × 921.6 мм</title></rect>
-<text x="94.47" y="85.01" font-size="8" font-family="sans-serif">L-front-panel</text>
-<rect x="18.01" y="260.13" width="12.48" height="72.26" fill="#ced8dc" stroke="#685d4d" stroke-width=".45"><title>R-shelf-3 · 62.2 × 360.1 мм</title></rect>
-<rect x="164.93" y="74.01" width="12.48" height="72.26" fill="#e3c9b9" stroke="#685d4d" stroke-width=".45"><title>R-shelf-2 · 62.2 × 360.1 мм</title></rect>
-<rect x="31.69" y="260.13" width="12.48" height="72.26" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>R-shelf-1 · 62.2 × 360.1 мм</title></rect>
-<rect x="178.61" y="74.01" width="12.48" height="72.26" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>L-shelf-3 · 62.2 × 360.1 мм</title></rect>
-<rect x="164.93" y="147.47" width="12.48" height="72.26" fill="#ced8dc" stroke="#685d4d" stroke-width=".45"><title>L-shelf-2 · 62.2 × 360.1 мм</title></rect>
-<rect x="45.38" y="260.13" width="12.48" height="72.26" fill="#e3c9b9" stroke="#685d4d" stroke-width=".45"><title>L-shelf-1 · 62.2 × 360.1 мм</title></rect>
-<text x="356" y="60" font-family="sans-serif" font-size="14">Фанера 18 мм · лист 1 · 1525 × 1525</text>
+<rect x="18.01" y="74.01" width="88.69" height="195.24" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>B03-right-side · 442 × 973 мм</title></rect>
+<text x="21.01" y="85.01" font-size="8" font-family="sans-serif">B03-right-side</text>
+<rect x="107.90" y="74.01" width="88.69" height="195.24" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>B02-left-pegboard · 442 × 973 мм</title></rect>
+<text x="110.90" y="85.01" font-size="8" font-family="sans-serif">B02-left-pegboard</text>
+<rect x="197.79" y="74.01" width="88.69" height="189.02" fill="#ced8dc" stroke="#685d4d" stroke-width=".45"><title>B01-top-inset · 442 × 942 мм</title></rect>
+<text x="200.79" y="85.01" font-size="8" font-family="sans-serif">B01-top-inset</text>
+<rect x="18.01" y="270.45" width="72.44" height="95.71" fill="#e3c9b9" stroke="#685d4d" stroke-width=".45"><title>B21-right-shelf · 361 × 477 мм</title></rect>
+<text x="21.01" y="281.45" font-size="8" font-family="sans-serif">B21-right-shelf</text>
+<rect x="91.65" y="270.45" width="72.44" height="95.71" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>B20-right-shelf · 361 × 477 мм</title></rect>
+<text x="94.65" y="281.45" font-size="8" font-family="sans-serif">B20-right-shelf</text>
+<rect x="165.29" y="270.45" width="72.44" height="95.71" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>B11-left-shelf · 361 × 477 мм</title></rect>
+<text x="168.29" y="281.45" font-size="8" font-family="sans-serif">B11-left-shelf</text>
+<rect x="238.93" y="270.45" width="72.44" height="95.71" fill="#ced8dc" stroke="#685d4d" stroke-width=".45"><title>B10-left-shelf · 361 × 477 мм</title></rect>
+<text x="241.93" y="281.45" font-size="8" font-family="sans-serif">B10-left-shelf</text>
+<rect x="287.69" y="74.01" width="12.48" height="72.26" fill="#e3c9b9" stroke="#685d4d" stroke-width=".45"><title>R-shelf-3 · 62.2 × 360.1 мм</title></rect>
+<rect x="301.37" y="74.01" width="12.48" height="72.26" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>R-shelf-2 · 62.2 × 360.1 мм</title></rect>
+<rect x="287.69" y="147.47" width="12.48" height="72.26" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>R-shelf-1 · 62.2 × 360.1 мм</title></rect>
+<rect x="301.37" y="147.47" width="12.48" height="72.26" fill="#ced8dc" stroke="#685d4d" stroke-width=".45"><title>L-shelf-3 · 62.2 × 360.1 мм</title></rect>
+<text x="356" y="60" font-family="sans-serif" font-size="14">Фанера 12 мм · лист 2 · 1525 × 1525</text>
 <rect x="356" y="72" width="306.00" height="306.00" fill="white" stroke="#444"/>
-<rect x="358.01" y="74.01" width="101.13" height="194.23" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>B00-bottom-notched · 504 × 968 мм</title></rect>
-<text x="361.01" y="85.01" font-size="8" font-family="sans-serif">B00-bottom-notched</text>
-<rect x="460.34" y="74.01" width="88.69" height="189.02" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>B01-top-inset · 442 × 942 мм</title></rect>
-<text x="463.34" y="85.01" font-size="8" font-family="sans-serif">B01-top-inset</text>
-<rect x="358.01" y="269.45" width="72.44" height="95.71" fill="#ced8dc" stroke="#685d4d" stroke-width=".45"><title>B21-right-shelf · 361 × 477 мм</title></rect>
-<text x="361.01" y="280.45" font-size="8" font-family="sans-serif">B21-right-shelf</text>
-<rect x="550.23" y="74.01" width="72.44" height="95.71" fill="#e3c9b9" stroke="#685d4d" stroke-width=".45"><title>B20-right-shelf · 361 × 477 мм</title></rect>
-<text x="553.23" y="85.01" font-size="8" font-family="sans-serif">B20-right-shelf</text>
-<rect x="431.65" y="269.45" width="72.44" height="95.71" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>B11-left-shelf · 361 × 477 мм</title></rect>
-<text x="434.65" y="280.45" font-size="8" font-family="sans-serif">B11-left-shelf</text>
-<rect x="505.29" y="269.45" width="72.44" height="95.71" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>B10-left-shelf · 361 × 477 мм</title></rect>
-<text x="508.29" y="280.45" font-size="8" font-family="sans-serif">B10-left-shelf</text>
-<rect x="623.88" y="74.01" width="17.86" height="70.73" fill="#ced8dc" stroke="#685d4d" stroke-width=".45"><title>R-top-rail · 89 × 352.5 мм</title></rect>
-<rect x="550.23" y="170.92" width="17.86" height="70.73" fill="#e3c9b9" stroke="#685d4d" stroke-width=".45"><title>R-bottom-rail · 89 × 352.5 мм</title></rect>
-<rect x="578.93" y="269.45" width="17.86" height="70.73" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>L-top-rail · 89 × 352.5 мм</title></rect>
-<rect x="569.30" y="170.92" width="17.86" height="70.73" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>L-bottom-rail · 89 × 352.5 мм</title></rect>
-<text x="696" y="60" font-family="sans-serif" font-size="14">Фанера 18 мм · лист 2 · 1525 × 1525</text>
+<rect x="358.01" y="74.01" width="72.26" height="184.92" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>R-front-panel · 360.1 × 921.6 мм</title></rect>
+<text x="361.01" y="85.01" font-size="8" font-family="sans-serif">R-front-panel</text>
+<rect x="431.47" y="74.01" width="72.26" height="184.92" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>L-front-panel · 360.1 × 921.6 мм</title></rect>
+<text x="434.47" y="85.01" font-size="8" font-family="sans-serif">L-front-panel</text>
+<rect x="358.01" y="260.13" width="12.48" height="72.26" fill="#ced8dc" stroke="#685d4d" stroke-width=".45"><title>L-shelf-2 · 62.2 × 360.1 мм</title></rect>
+<rect x="504.93" y="74.01" width="12.48" height="72.26" fill="#e3c9b9" stroke="#685d4d" stroke-width=".45"><title>L-shelf-1 · 62.2 × 360.1 мм</title></rect>
+<text x="696" y="60" font-family="sans-serif" font-size="14">Фанера 18 мм · лист 1 · 1525 × 1525</text>
 <rect x="696" y="72" width="306.00" height="306.00" fill="white" stroke="#444"/>
-<rect x="698.01" y="74.01" width="88.69" height="195.24" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>B03-right-side · 442 × 973 мм</title></rect>
-<text x="701.01" y="85.01" font-size="8" font-family="sans-serif">B03-right-side</text>
-<rect x="787.90" y="74.01" width="88.69" height="195.24" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>B02-left-pegboard · 442 × 973 мм</title></rect>
-<text x="790.90" y="85.01" font-size="8" font-family="sans-serif">B02-left-pegboard</text>
-<rect x="877.79" y="74.01" width="72.44" height="194.23" fill="#ced8dc" stroke="#685d4d" stroke-width=".45"><title>B05-divider · 361 × 968 мм</title></rect>
-<text x="880.79" y="85.01" font-size="8" font-family="sans-serif">B05-divider</text>
-<text x="16" y="425" font-family="sans-serif" font-size="14">Фанера 8 мм · лист 1 · 1525 × 1525</text>
+<rect x="698.01" y="74.01" width="101.13" height="194.23" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>B00-bottom-notched · 504 × 968 мм</title></rect>
+<text x="701.01" y="85.01" font-size="8" font-family="sans-serif">B00-bottom-notched</text>
+<rect x="800.34" y="74.01" width="72.44" height="194.23" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>B05-divider · 361 × 968 мм</title></rect>
+<text x="803.34" y="85.01" font-size="8" font-family="sans-serif">B05-divider</text>
+<rect x="698.01" y="269.45" width="17.86" height="70.73" fill="#ced8dc" stroke="#685d4d" stroke-width=".45"><title>R-top-rail · 89 × 352.5 мм</title></rect>
+<rect x="873.98" y="74.01" width="17.86" height="70.73" fill="#e3c9b9" stroke="#685d4d" stroke-width=".45"><title>R-bottom-rail · 89 × 352.5 мм</title></rect>
+<rect x="717.07" y="269.45" width="17.86" height="70.73" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>L-top-rail · 89 × 352.5 мм</title></rect>
+<rect x="893.04" y="74.01" width="17.86" height="70.73" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>L-bottom-rail · 89 × 352.5 мм</title></rect>
+<text x="16" y="425" font-family="sans-serif" font-size="14">Фанера 9 мм · лист 1 · 1525 × 1525</text>
 <rect x="16" y="437" width="306.00" height="306.00" fill="white" stroke="#444"/>
 <rect x="18.01" y="439.01" width="194.23" height="194.23" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>B04-back · 968 × 968 мм</title></rect>
 <text x="21.01" y="450.01" font-size="8" font-family="sans-serif">B04-back</text>
-<text x="356" y="425" font-family="sans-serif" font-size="14">Фанера 9 мм · лист 1 · 1525 × 1525</text>
-<rect x="356" y="437" width="306.00" height="306.00" fill="white" stroke="#444"/>
-<rect x="358.01" y="439.01" width="8.43" height="72.26" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>R-lip-3 · 42 × 360.1 мм</title></rect>
-<rect x="367.64" y="439.01" width="8.43" height="72.26" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>R-lip-2 · 42 × 360.1 мм</title></rect>
-<rect x="358.01" y="512.47" width="8.43" height="72.26" fill="#ced8dc" stroke="#685d4d" stroke-width=".45"><title>R-lip-1 · 42 × 360.1 мм</title></rect>
-<rect x="377.27" y="439.01" width="8.43" height="72.26" fill="#e3c9b9" stroke="#685d4d" stroke-width=".45"><title>L-lip-3 · 42 × 360.1 мм</title></rect>
-<rect x="367.64" y="512.47" width="8.43" height="72.26" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>L-lip-2 · 42 × 360.1 мм</title></rect>
-<rect x="358.01" y="585.93" width="8.43" height="72.26" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>L-lip-1 · 42 × 360.1 мм</title></rect>
+<rect x="213.45" y="439.01" width="8.43" height="72.26" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>R-lip-3 · 42 × 360.1 мм</title></rect>
+<rect x="18.01" y="634.45" width="8.43" height="72.26" fill="#ced8dc" stroke="#685d4d" stroke-width=".45"><title>R-lip-2 · 42 × 360.1 мм</title></rect>
+<rect x="223.08" y="439.01" width="8.43" height="72.26" fill="#e3c9b9" stroke="#685d4d" stroke-width=".45"><title>R-lip-1 · 42 × 360.1 мм</title></rect>
+<rect x="213.45" y="512.47" width="8.43" height="72.26" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>L-lip-3 · 42 × 360.1 мм</title></rect>
+<rect x="27.64" y="634.45" width="8.43" height="72.26" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>L-lip-2 · 42 × 360.1 мм</title></rect>
+<rect x="232.71" y="439.01" width="8.43" height="72.26" fill="#ced8dc" stroke="#685d4d" stroke-width=".45"><title>L-lip-1 · 42 × 360.1 мм</title></rect>
 </svg>

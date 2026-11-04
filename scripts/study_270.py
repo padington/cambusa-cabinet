@@ -7,7 +7,9 @@ from shapely import affinity
 from shapely.geometry import Polygon, box
 from shapely.ops import unary_union
 
-from audit_assembly import MODEL, load_parts
+from audit_assembly import ROOT, load_parts
+
+MODEL = ROOT / 'outputs/cambusa-frame-v17'
 
 AXIS = (0., -5.)
 parts = load_parts(MODEL/'closed.glb')
