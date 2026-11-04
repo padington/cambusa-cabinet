@@ -1,0 +1,58 @@
+{
+  "iteration": "cambusa-v19-hybrid-corner",
+  "hardware": "DIRAK 267-9004.00-00000",
+  "source": "https://www.dirak.at/uploads/4aaYA9mc/DIRAKHingesc.pdf#page=27",
+  "mounting_face_offset_mm_assumed": 9.5,
+  "axis_xy_mm": [
+    -3.5,
+    -19.0
+  ],
+  "hinge_centers_z_mm": [
+    960.0,
+    1640.0
+  ],
+  "hinge_bore_diameter_mm": 6.6,
+  "fixed_side_mount_x_mm": 6,
+  "fixed_face_rebate_mm": 6,
+  "wood_behind_rebate_mm": 12.0,
+  "fixed_row_from_front_mm": 8.0,
+  "door_holes_x_mm": [
+    28.5,
+    28.5,
+    98.5
+  ],
+  "door_near_hole_center_from_edge_mm": 7.0,
+  "minimum_wood_ligament_to_near_door_bore_mm": 3.7,
+  "door_body_mm": [
+    475.5,
+    946,
+    85.0
+  ],
+  "nominal_plywood_mm": [
+    12,
+    18
+  ],
+  "external_adapter_plates_in_this_model": 0,
+  "aligned_bore_channels": 10,
+  "wooden_door_mass_kg_assumed_density_680": 7.87,
+  "test_scenario": {
+    "payload_at_outer_shelf_edge_kg": 3,
+    "static_weight_moment_nm_excluding_hardware": 34.23
+  },
+  "endpoint_solid_intersections_mm3": {
+    "0": [],
+    "90": [],
+    "180": [],
+    "270": []
+  },
+  "sample_step_deg": 0.125,
+  "minimum_sample_clearance_mm": 1.5,
+  "continuous_clearance_lower_bound_mm": 0.953,
+  "opposite_door_separation_lower_bound_mm": 4.49,
+  "not_checked": [
+    "Exact hinge CAD, pin and screw heads",
+    "Fastener strength at the edge",
+    "Loaded door, carcass and wall attachment"
+  ],
+  "release_for_machining": false
+}

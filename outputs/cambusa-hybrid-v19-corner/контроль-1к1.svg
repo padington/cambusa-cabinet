@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297" role="img">
+<title>Шаблон сверки отверстий DIRAK 267-9004 в масштабе 1:1</title>
+<rect width="210" height="297" fill="white"/>
+<g font-family="sans-serif" fill="#23312d" font-size="3.7">
+<text x="14" y="17" font-size="6" font-weight="bold">Cambusa v19 · проверка петли</text>
+<text x="14" y="26">DIRAK 267-9004.00-00000 · масштаб 1:1 · печать 100%</text>
+<text x="14" y="34">Шаблон для сверки. Присадка к заказу не выпущена.</text>
+<text x="14" y="47" font-size="4.5" font-weight="bold">Створка · снаружи</text>
+<line x1="25" y1="52" x2="25" y2="114" stroke="#23312d" stroke-width=".35"/>
+<line x1="21" y1="83" x2="134" y2="83" stroke="#74827c" stroke-dasharray="1.5 1"/>
+<circle cx="32" cy="108.5" r="3.3" fill="white" stroke="#31483f" stroke-width=".35"/>
+<path d="M 31,108.5 h 2 m -1,-1 v 2" fill="none" stroke="#31483f" stroke-width=".22"/>
+<circle cx="32" cy="57.5" r="3.3" fill="white" stroke="#31483f" stroke-width=".35"/>
+<path d="M 31,57.5 h 2 m -1,-1 v 2" fill="none" stroke="#31483f" stroke-width=".22"/>
+<circle cx="102" cy="83" r="3.3" fill="white" stroke="#31483f" stroke-width=".35"/>
+<path d="M 101,83 h 2 m -1,-1 v 2" fill="none" stroke="#31483f" stroke-width=".22"/>
+<text x="139" y="77">От кромки 7 / 77 мм</text>
+<text x="139" y="85">Разнос крайних 51 мм</text>
+<text x="139" y="93">Отверстия Ø6,6 мм</text>
+<text x="14" y="141" font-size="4.5" font-weight="bold">Боковина · снаружи</text>
+<line x1="25" y1="146" x2="25" y2="208" stroke="#23312d" stroke-width=".35"/>
+<line x1="21" y1="177" x2="134" y2="177" stroke="#74827c" stroke-dasharray="1.5 1"/>
+<circle cx="33" cy="202.5" r="3.3" fill="white" stroke="#31483f" stroke-width=".35"/>
+<path d="M 32,202.5 h 2 m -1,-1 v 2" fill="none" stroke="#31483f" stroke-width=".22"/>
+<circle cx="33" cy="151.5" r="3.3" fill="white" stroke="#31483f" stroke-width=".35"/>
+<path d="M 32,151.5 h 2 m -1,-1 v 2" fill="none" stroke="#31483f" stroke-width=".22"/>
+<text x="139" y="171">От кромки 8 мм</text>
+<text x="139" y="179">Разнос крайних 51 мм</text>
+<text x="139" y="187">Отверстия Ø6,6 мм</text>
+<rect x="141" y="224" width="50" height="50" fill="none" stroke="#23312d" stroke-width=".3"/>
+<text x="166" y="251" text-anchor="middle">50 × 50 мм</text>
+<text x="14" y="231">Измерьте квадрат после печати.</text>
+<text x="14" y="241">Один рисунок на каждую петлю.</text>
+<text x="14" y="251">Высоты осей 960 и 1640 мм от пола.</text>
+</g></svg>
