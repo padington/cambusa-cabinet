@@ -1,0 +1,66 @@
+{
+  "section": "866460e05e5c7ed4a5d72149efedb582d216bd7a03ee1443e66076f16ccca0e7",
+  "panel_stock_thickness_mm": 8.0,
+  "panel_insertion_each_edge_mm": 7.5,
+  "endpoint_overlaps": {
+    "closed": [],
+    "open": [],
+    "right-raised": []
+  },
+  "left_sweep": [
+    [
+      1.5,
+      0.0,
+      "DIRAK-moving-flat-2",
+      "Bracket-2"
+    ],
+    0.125,
+    0.9532157248637999
+  ],
+  "right_sweep": [
+    [
+      [
+        0.5,
+        1.0338983050847457,
+        "Stile-L",
+        "Runner-L-1"
+      ],
+      0.2716867460637954
+    ],
+    [
+      [
+        0.5,
+        1.0338983050847457,
+        "Stile-L",
+        "Runner-L-2"
+      ],
+      0.2716867460637954
+    ],
+    [
+      [
+        0.5,
+        1.0338983050847457,
+        "Stile-L",
+        "Runner-L-3"
+      ],
+      0.2716867460637954
+    ]
+  ],
+  "assembly_sample_overlaps_mm3": {
+    "feed-back": 0.0,
+    "close-back-right": 0.0,
+    "close-back-right-nut-1-3": 0.0,
+    "close-back-right-nut-1-4": 0.0,
+    "close-back-right-nut-2-3": 0.0,
+    "close-back-right-nut-2-4": 0.0,
+    "feed-right-side": 0.0,
+    "feed-floor-Left": 0.0,
+    "feed-floor-Right": 0.0,
+    "close-floor-front": 0.0,
+    "close-right-front": 0.0,
+    "lower-rear-beam": 0.0,
+    "lower-right-beam": 0.0
+  },
+  "lower_beams_clearance_mm": 140,
+  "fabrication_release": false
+}

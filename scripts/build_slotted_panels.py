@@ -1,4 +1,4 @@
-"""Cambusa v24. Profile sections from STEP, slotted infill and shelf hardware."""
+"""Cambusa v25. Profile sections from STEP, slotted infill and shelf hardware."""
 import csv
 import json
 
@@ -13,7 +13,7 @@ from build_aluminum_corner import swept_clearance
 from build_right_lift import AXIS_LEFT, ROOT, SECTIONS, audit_leaf, export, full_fixed, leaf_parts, named, pose
 from geometry import COLORS
 
-OUT = ROOT / 'outputs/cambusa-v24-slotted-panels'
+OUT = ROOT / 'outputs/cambusa-v25-two-panel-floor'
 SOURCE = json.loads((ROOT / 'inputs/ob3030-cad-sections.json').read_text())
 PROFILE = Polygon(SOURCE['profile']['outer'], SOURCE['profile']['holes'])
 NUT = Polygon(SOURCE['nut']['outer'])
@@ -130,21 +130,18 @@ def cabinet():
     add(new,'Right-infill-8',panel_blank(side,0,981),'panel8')
     center_beam = cube([485,53,770],[515,470,800])
     add(new,'Beam-body-center',profile_mesh(*center_beam.bounds),'frame')
-    floor_bays=(('Front',53,246.5),('Rear',276.5,470))
+    floor_front,floor_rear=53-ENGAGE,470+ENGAGE
     for label,a,b,sill_a,sill_b in [('Left',34,485,34,491),('Right',515,966,509,966)]:
-        mid=cube([a,246.5,770],[b,276.5,800])
-        add(new,f'Beam-body-mid-{label}',profile_mesh(*mid.bounds),'frame')
+        floor=box(a-ENGAGE,floor_front,b+ENGAGE,floor_rear)
         outer_x0,outer_x1=(a-ENGAGE,a+1) if label=='Left' else (b-1,b+ENGAGE)
-        for segment,front,rear in floor_bays:
-            floor=box(a-ENGAGE,front-ENGAGE,b+ENGAGE,rear+ENGAGE)
-            y0,y1=(53-ENGAGE,54) if segment=='Front' else (469,470+ENGAGE)
+        for y0,y1 in ((floor_front,54),(469,floor_rear)):
             floor=floor.difference(box(outer_x0,y0,outer_x1,y1))
-            add(new,f'Floor-{label}-{segment}-8',panel_blank(floor,2,785),'panel8')
+        add(new,f'Floor-{label}-8',panel_blank(floor,2,785),'panel8')
         add(new,f'Front-sill-{label}-18',cube([sill_a,23,800],[sill_b,53,818]),'wood')
     panel_cuts[0:0]=[
         ['Back-infill-8',back.bounds[2]-back.bounds[0],back.bounds[3]-back.bounds[1],8,1],
         ['Right-infill-8',side.bounds[2]-side.bounds[0],side.bounds[3]-side.bounds[1],8,1],
-        ['Floor-8',485-34+2*ENGAGE,246.5-53+2*ENGAGE,8,4],['Front-sill-18',457,30,18,2],
+        ['Floor-8',485-34+2*ENGAGE,floor_rear-floor_front,8,2],['Front-sill-18',457,30,18,2],
         ['Center-18',435,970,18,1], ['Top-18',932,417,18,1], ['Right-roof',457,405,12,1],
     ]
     return fixed,new,left,panel_cuts
@@ -180,16 +177,11 @@ def assembly_paths(parts):
         *[(f'close-back-right-nut-{i}-{j}', f'RSI-5048-Right-{i}-{j}',
            [1,0,0], ['Back-infill-8'], 12) for i in (1,2) for j in (3,4)],
         ('feed-right-side', 'Right-infill-8', [0,-1,0], ['Beam-body-side-966','Post-966-470'], 435),
-        *[(f'feed-floor-rear-{side}', f'Floor-{side}-Rear-8', [0,-1,0],
+        *[(f'feed-floor-{side}', f'Floor-{side}-8', [0,-1,0],
            [f'Beam-body-side-{post}', 'Beam-body-center','Beam-body-rear', f'Post-{post}-470'], 435)
           for side,post in [('Left',4),('Right',966)]],
-        *[(f'close-mid-{side}',f'Beam-body-mid-{side}',[0,-1,0],[f'Floor-{side}-Rear-8'],12)
-          for side in ('Left','Right')],
-        *[(f'feed-floor-front-{side}', f'Floor-{side}-Front-8', [0,-1,0],
-           [f'Beam-body-side-{post}', 'Beam-body-center', f'Beam-body-mid-{side}'], 245)
-          for side,post in [('Left',4),('Right',966)]],
         ('close-floor-front', 'Beam-body-front', [0,-1,0],
-         ['Floor-Left-Front-8','Floor-Right-Front-8'], 12),
+         ['Floor-Left-8','Floor-Right-8'], 12),
         ('close-right-front', 'Post-966-23', [0,-1,0], ['Right-infill-8'], 12),
         ('lower-rear-beam', 'Beam-top-rear', [0,0,1], ['Back-infill-8'], 12),
         ('lower-right-beam', 'Beam-top-side-966', [0,0,1], ['Right-infill-8'], 12),

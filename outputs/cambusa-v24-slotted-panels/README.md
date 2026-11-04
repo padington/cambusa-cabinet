@@ -29,10 +29,10 @@
 
 [OB-3030 и исходный STEP](https://www.rsi-llc.ru/catalog/69/368/) · [OB-3030-BLACK](https://www.rsi-llc.ru/catalog/69/1945/) · [Сухарь 5048 и STEP](https://www.rsi-llc.ru/catalog/162/985/) · [Уголок 40 × 30 × 3](https://spb.31al.ru/catalog/ugolok_alyuminievyy/674/) · [Т-пластины Р.С.И.](https://www.rsi-llc.ru/catalog/143/) · [Допуски фанеры «Свеза»](https://www.sveza.com/upload/iblock/b8c/n011onawadwj4lfkrmkitbaj74b32gq6.pdf)
 
-Пересборка из корня репозитория с зависимостями проекта
+Пересборка из корня репозитория с зависимостями проекта в теге `cambusa-v24-slotted-panels`
 
 ```sh
 python3 scripts/build_slotted_panels.py
 ```
 
-[Сечения и контрольные суммы исходных STEP](../../inputs/ob3030-cad-sections.json) · [Генератор](../../scripts/build_slotted_panels.py) · [Предыдущая версия v23](../cambusa-v23-display-ledge/README.md)
+[Сечения и контрольные суммы исходных STEP](../../inputs/ob3030-cad-sections.json) · [Генератор v24](https://github.com/padington/cambusa-cabinet/blob/cambusa-v24-slotted-panels/scripts/build_slotted_panels.py) · [Предыдущая версия v23](../cambusa-v23-display-ledge/README.md)
