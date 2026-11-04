@@ -1,0 +1,12 @@
+part,width_or_depth_mm,height_or_depth_mm,stock_mm,count
+Back-infill-8,947.0,985.0,8,1
+Right-infill-8,432.0,985.0,8,1
+Floor-8,466.0,208.5,8,4
+Front-sill-18,457,30,18,2
+Center-18,435,970,18,1
+Top-18,932,417,18,1
+Right-roof,457,405,12,1
+Shelf-Left-1,455,355,18,1
+Shelf-Left-2,455,355,18,1
+Shelf-Right-1,457,435,12,1
+Shelf-Right-2,457,435,12,1
