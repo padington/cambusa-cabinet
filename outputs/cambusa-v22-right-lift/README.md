@@ -28,6 +28,8 @@
 
 ## Повторить
 
+Используйте исходники из тега `cambusa-v22-right-lift`.
+
 ```sh
 python3 scripts/build_right_lift.py
 ```

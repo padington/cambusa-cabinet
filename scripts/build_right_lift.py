@@ -13,16 +13,20 @@ from build_aluminum_corner import ROOT, add, collision_pairs, cube, cut, cylinde
 from build_glass_corner import glass_infill
 from geometry import COLORS
 
-OUT = ROOT / 'outputs/cambusa-v22-right-lift'
+OUT = ROOT / 'outputs/cambusa-v23-display-ledge'
 REFERENCE = ROOT / 'outputs/cambusa-v21-glass'
 SECTIONS = [(818,1127), (1139,1448), (1460,1770)]
 PIVOT_Y = 51
-PIVOT_BELOW_TOP = 22
+PIVOT_BELOW_TOP = 52
 PIN_RADIUS = 3
 SLOT_RADIUS = 3.65
-SLOT_START, SLOT_END = 16,282
+SLOT_START, SLOT_END = 46,282
+RUNNER_START = 105
 CLOSED_TILT = 6
 DOOR_WIDTH, DOOR_HEIGHT = 448,300
+LEDGE_LIP_HEIGHT = 10
+LEDGE_FRONT = -36
+LEDGE_WALL = 2
 X0 = 514
 AXIS_LEFT = [-3.5,-19.]
 COLORS.update(panel6=[151,113,80,255], handle=[184,190,193,255], pin=[205,153,63,255],
@@ -39,8 +43,14 @@ def leaf_parts():
     add(parts,'Top-rail',cube([X0+22,-9,-14],[x1-22,9,0]),'door')
     add(parts,'Bottom-rail',cube([X0+22,-9,-300],[x1-22,9,-284]),'door')
     add(parts,'Plywood-infill-6',cube([X0+22,-9,-284],[x1-22,-3,-14]),'panel6')
-    handle = box(-15,-301,-9,-289).union(box(-9,-301,9,-300))
-    add(parts,'Edge-pull',panel(handle,0,X0+2,DOOR_WIDTH-4),'handle')
+    # Level the ledge in the closed pose. The two-dimensional profile below
+    # uses the lower outside corner of the door as its datum.
+    ledge = box(LEDGE_FRONT,0,0,LEDGE_WALL).union(
+        box(LEDGE_FRONT,LEDGE_WALL,LEDGE_FRONT+LEDGE_WALL,LEDGE_WALL+LEDGE_LIP_HEIGHT)
+    )
+    ledge = affinity.translate(affinity.rotate(ledge,CLOSED_TILT,origin=(0,0)), -9,-DOOR_HEIGHT)
+    mounting_flange = box(-11,-DOOR_HEIGHT,-9,-DOOR_HEIGHT+24)
+    add(parts,'Display-ledge',panel(ledge.union(mounting_flange),0,X0+2,DOOR_WIDTH-4),'handle')
     return parts
 
 
@@ -51,7 +61,7 @@ def mechanism(bottom, ceiling):
         add(parts,f'Pin-carrier-{label}',cube([a,44,z-9],[b,76,z+9]),'guide')
         add(parts,f'Pin-{label}',cylinder(0,pin_lo,pin_hi,PIVOT_Y,z,PIN_RADIUS),'pin')
     for label,a,b in [('L',509,526),('R',950,966)]:
-        add(parts,f'Runner-{label}',cube([a,76,z-17.5],[b,365,z-9.5]),'guide')
+        add(parts,f'Runner-{label}',cube([a,RUNNER_START,z-17.5],[b,365,z-9.5]),'guide')
     return parts
 
 
@@ -118,7 +128,7 @@ def full_fixed():
             outline = box(509,23,966,458).union(box(966,53,982,458))
             add(parts,f'Right-floor-{index}',panel(outline,2,ceiling,12),'wood')
         # At the outer side the rear part of the runner is backed by this cheek.
-        add(parts,f'Right-cheek-{index}',cube([966,76,ceiling-44],[982,365,ceiling-12]),'wood')
+        add(parts,f'Right-cheek-{index}',cube([966,RUNNER_START,ceiling-PIVOT_BELOW_TOP-22],[982,365,ceiling-PIVOT_BELOW_TOP+10]),'wood')
         parts += [dict(p,name=f'{p["name"]}-{index}') for p in mechanism(bottom,ceiling)]
     return parts,left
 
@@ -154,7 +164,7 @@ def audit_leaf(leaf,fixed,ceiling):
             candidates.append((part['name'],yz(part['mesh']),matching))
     best=(math.inf,None,None,None)
     # Nearest sample is at most 0.05 degrees / 0.05 mm away.
-    steps=(840,2660)
+    steps=(math.ceil((90-CLOSED_TILT)*10),math.ceil((SLOT_END-SLOT_START)*10))
     for segment,n in enumerate(steps):
         for i in range(n+1):
             progress=segment+i/n
@@ -167,7 +177,9 @@ def audit_leaf(leaf,fixed,ceiling):
                     gap=shape.distance(obstacle)
                     if gap<best[0]:
                         best=(gap,progress,part,name)
-    max_shift=max(2*math.hypot(DOOR_HEIGHT-SLOT_START+1,15)*math.sin(math.radians(.025)),.05)
+    reach = max(np.linalg.norm([y,z+SLOT_START])
+                for part in leaf for _,y,z in part['mesh'].vertices)
+    max_shift=max(2*reach*math.sin(math.radians(.025)),.05)
     return best,float(best[0]-max_shift)
 
 
@@ -210,6 +222,12 @@ def main():
     assert all(bound>0 for _,bound in clearance),clearance
     left_min,_,left_bound=swept_clearance(fixed,left,np.asarray(AXIS_LEFT))
     assert left_bound>0,(left_min,left_bound)
+    display = next(part for part in leaf if part['name']=='Display-ledge')
+    level = pose(display,ceiling,0)['mesh']
+    stowed = pose(display,ceiling,2)['mesh']
+    inside_lip = LEDGE_FRONT+LEDGE_WALL
+    # Near the shelf surface the flange intrudes by at most 2 mm.
+    display_depth = abs(inside_lip)-2
     record={
         'section_clear_height_mm':[hi-lo for lo,hi in SECTIONS],
         'door_width_height_mm':[DOOR_WIDTH,DOOR_HEIGHT],
@@ -221,8 +239,13 @@ def main():
         'pivot_depth_from_cabinet_front_mm':PIVOT_Y,
         'pivot_below_section_roof_mm':PIVOT_BELOW_TOP,
         'slide_mm':SLOT_END-SLOT_START,
+        'display_ledge_usable_depth_mm':display_depth,
+        'display_ledge_front_lip_height_mm':LEDGE_LIP_HEIGHT,
+        'display_ledge_stock_thickness_mm':LEDGE_WALL,
+        'display_ledge_projection_past_front_closed_mm':round(max(0,-float(level.bounds[0,1])),2),
+        'display_ledge_roof_clearance_stowed_mm':round(ceiling-float(stowed.bounds[1,2]),2),
         'closed_tilt_from_vertical_deg':CLOSED_TILT,
-        'projection_from_cabinet_front_raised_mm':DOOR_HEIGHT-SLOT_START-PIVOT_Y,
+        'projection_from_cabinet_front_raised_mm':round(max(-float(pose(p,ceiling,1)['mesh'].bounds[0,1]) for p in leaf),2),
         'all_cabinet_endpoint_collisions':result,
         'closest_sample_mm_by_compartment':[round(closest[0],3) for closest,_ in clearance],
         'body_clearance_bound_mm_by_compartment':[round(bound,3) for _,bound in clearance],
