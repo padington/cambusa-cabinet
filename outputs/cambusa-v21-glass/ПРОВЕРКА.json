@@ -1,0 +1,28 @@
+{
+  "model": "cambusa-v21-glass",
+  "basis": "cambusa-v20-aluminum-corner",
+  "scope": "Geometric comparison of the left corner, not a full frame assembly",
+  "glass_depth_height_thickness_mm": [
+    429.0,
+    956.0,
+    6.0
+  ],
+  "glazing_support_pads": 2,
+  "gasket_contact_perimeter_mm_per_face": 2770.0,
+  "endpoint_overlapping_volumes": {
+    "0": [],
+    "90": [],
+    "180": [],
+    "270": []
+  },
+  "glazing_sample_step_deg": 0.125,
+  "glazing_closest_sample_mm_deg_moving_fixed": [
+    9.0,
+    270.0,
+    "Door-head-2-3",
+    "Glazing-stop-outer"
+  ],
+  "glazing_continuous_clearance_lower_bound_mm": 8.453,
+  "whole_corner_lower_bound_mm": 0.953,
+  "release_for_machining": false
+}
