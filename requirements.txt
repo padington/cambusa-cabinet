@@ -1,0 +1,6 @@
+numpy>=1.26,<3
+Pillow>=10.1,<13
+trimesh>=4.7,<6
+shapely>=2,<3
+manifold3d>=3.2,<4
+mapbox-earcut>=1,<3

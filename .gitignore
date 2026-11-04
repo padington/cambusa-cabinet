@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+.DS_Store
+work/cambusa-frame-v16-meshes.json
+work/vendor/
+inputs/*.local.json
+local-estimate/

@@ -1,0 +1,1276 @@
+{
+  "model": "cambusa-v16",
+  "currency": "RUB",
+  "parts": [
+    {
+      "id": "B00-bottom-notched",
+      "dimensions_mm": [
+        964.0,
+        500.0,
+        18.0
+      ],
+      "stock": "plywood-18",
+      "blank_mm": [
+        504.0,
+        968.0
+      ]
+    },
+    {
+      "id": "B01-top-inset",
+      "dimensions_mm": [
+        938.0,
+        438.0,
+        18.0
+      ],
+      "stock": "plywood-18",
+      "blank_mm": [
+        442.0,
+        942.0
+      ]
+    },
+    {
+      "id": "B02-left-side",
+      "dimensions_mm": [
+        18.0,
+        438.0,
+        969.0
+      ],
+      "stock": "plywood-18",
+      "blank_mm": [
+        442.0,
+        973.0
+      ]
+    },
+    {
+      "id": "B03-right-pegboard",
+      "dimensions_mm": [
+        18.0,
+        438.0,
+        969.0
+      ],
+      "stock": "plywood-18",
+      "blank_mm": [
+        442.0,
+        973.0
+      ]
+    },
+    {
+      "id": "B04-back",
+      "dimensions_mm": [
+        964.0,
+        8.0,
+        964.0
+      ],
+      "stock": "plywood-8",
+      "blank_mm": [
+        968.0,
+        968.0
+      ]
+    },
+    {
+      "id": "B05-divider",
+      "dimensions_mm": [
+        18.0,
+        357.0,
+        964.0
+      ],
+      "stock": "plywood-18",
+      "blank_mm": [
+        361.0,
+        968.0
+      ]
+    },
+    {
+      "id": "B10-left-shelf",
+      "dimensions_mm": [
+        473.0,
+        357.0,
+        18.0
+      ],
+      "stock": "plywood-18",
+      "blank_mm": [
+        361.0,
+        477.0
+      ]
+    },
+    {
+      "id": "B11-left-shelf",
+      "dimensions_mm": [
+        473.0,
+        357.0,
+        18.0
+      ],
+      "stock": "plywood-18",
+      "blank_mm": [
+        361.0,
+        477.0
+      ]
+    },
+    {
+      "id": "B20-right-shelf",
+      "dimensions_mm": [
+        473.0,
+        357.0,
+        18.0
+      ],
+      "stock": "plywood-18",
+      "blank_mm": [
+        361.0,
+        477.0
+      ]
+    },
+    {
+      "id": "B21-right-shelf",
+      "dimensions_mm": [
+        473.0,
+        357.0,
+        18.0
+      ],
+      "stock": "plywood-18",
+      "blank_mm": [
+        361.0,
+        477.0
+      ]
+    },
+    {
+      "id": "Beam-body-front",
+      "dimensions_mm": [
+        940.0,
+        30.0,
+        30.0
+      ],
+      "stock": "profile-30",
+      "cut_mm": 940.0
+    },
+    {
+      "id": "Beam-body-rear",
+      "dimensions_mm": [
+        940.0,
+        30.0,
+        30.0
+      ],
+      "stock": "profile-30",
+      "cut_mm": 940.0
+    },
+    {
+      "id": "Beam-body-side-0",
+      "dimensions_mm": [
+        30.0,
+        440.0,
+        30.0
+      ],
+      "stock": "profile-30",
+      "cut_mm": 440.0
+    },
+    {
+      "id": "Beam-body-side-970",
+      "dimensions_mm": [
+        30.0,
+        440.0,
+        30.0
+      ],
+      "stock": "profile-30",
+      "cut_mm": 440.0
+    },
+    {
+      "id": "Beam-lower-rear",
+      "dimensions_mm": [
+        940.0,
+        30.0,
+        30.0
+      ],
+      "stock": "profile-30",
+      "cut_mm": 940.0
+    },
+    {
+      "id": "Beam-lower-side-0",
+      "dimensions_mm": [
+        30.0,
+        440.0,
+        30.0
+      ],
+      "stock": "profile-30",
+      "cut_mm": 440.0
+    },
+    {
+      "id": "Beam-lower-side-970",
+      "dimensions_mm": [
+        30.0,
+        440.0,
+        30.0
+      ],
+      "stock": "profile-30",
+      "cut_mm": 440.0
+    },
+    {
+      "id": "Beam-top-front",
+      "dimensions_mm": [
+        940.0,
+        30.0,
+        30.0
+      ],
+      "stock": "profile-30",
+      "cut_mm": 940.0
+    },
+    {
+      "id": "Beam-top-rear",
+      "dimensions_mm": [
+        940.0,
+        30.0,
+        30.0
+      ],
+      "stock": "profile-30",
+      "cut_mm": 940.0
+    },
+    {
+      "id": "Beam-top-side-0",
+      "dimensions_mm": [
+        30.0,
+        440.0,
+        30.0
+      ],
+      "stock": "profile-30",
+      "cut_mm": 440.0
+    },
+    {
+      "id": "Beam-top-side-970",
+      "dimensions_mm": [
+        30.0,
+        440.0,
+        30.0
+      ],
+      "stock": "profile-30",
+      "cut_mm": 440.0
+    },
+    {
+      "id": "Foot-0-0",
+      "dimensions_mm": [
+        28.0,
+        28.0,
+        12.0
+      ],
+      "stock": "foot",
+      "unit": "piece"
+    },
+    {
+      "id": "Foot-0-470",
+      "dimensions_mm": [
+        28.0,
+        28.0,
+        12.0
+      ],
+      "stock": "foot",
+      "unit": "piece"
+    },
+    {
+      "id": "Foot-970-0",
+      "dimensions_mm": [
+        28.0,
+        28.0,
+        12.0
+      ],
+      "stock": "foot",
+      "unit": "piece"
+    },
+    {
+      "id": "Foot-970-470",
+      "dimensions_mm": [
+        28.0,
+        28.0,
+        12.0
+      ],
+      "stock": "foot",
+      "unit": "piece"
+    },
+    {
+      "id": "L-bottom-rail",
+      "dimensions_mm": [
+        348.5,
+        85.0,
+        18.0
+      ],
+      "stock": "plywood-18",
+      "blank_mm": [
+        89.0,
+        352.5
+      ]
+    },
+    {
+      "id": "L-front-panel",
+      "dimensions_mm": [
+        356.1,
+        12.0,
+        917.6
+      ],
+      "stock": "plywood-12",
+      "blank_mm": [
+        360.1,
+        921.6
+      ]
+    },
+    {
+      "id": "L-hinge-stile",
+      "dimensions_mm": [
+        40.0,
+        85.0,
+        946.0
+      ],
+      "stock": "wood-45x90",
+      "cut_mm": 952.0
+    },
+    {
+      "id": "L-jamb",
+      "dimensions_mm": [
+        36.0,
+        38.0,
+        952.0
+      ],
+      "stock": "wood-40x45",
+      "cut_mm": 958.0
+    },
+    {
+      "id": "L-lip-1",
+      "dimensions_mm": [
+        356.1,
+        9.0,
+        38.0
+      ],
+      "stock": "plywood-9",
+      "blank_mm": [
+        42.0,
+        360.1
+      ]
+    },
+    {
+      "id": "L-lip-2",
+      "dimensions_mm": [
+        356.1,
+        9.0,
+        38.0
+      ],
+      "stock": "plywood-9",
+      "blank_mm": [
+        42.0,
+        360.1
+      ]
+    },
+    {
+      "id": "L-lip-3",
+      "dimensions_mm": [
+        356.1,
+        9.0,
+        38.0
+      ],
+      "stock": "plywood-9",
+      "blank_mm": [
+        42.0,
+        360.1
+      ]
+    },
+    {
+      "id": "L-meeting-stile",
+      "dimensions_mm": [
+        38.0,
+        85.0,
+        946.0
+      ],
+      "stock": "wood-45x90",
+      "cut_mm": 952.0
+    },
+    {
+      "id": "L-shelf-1",
+      "dimensions_mm": [
+        356.1,
+        58.2,
+        12.0
+      ],
+      "stock": "plywood-12",
+      "blank_mm": [
+        62.2,
+        360.1
+      ]
+    },
+    {
+      "id": "L-shelf-2",
+      "dimensions_mm": [
+        356.1,
+        58.2,
+        12.0
+      ],
+      "stock": "plywood-12",
+      "blank_mm": [
+        62.2,
+        360.1
+      ]
+    },
+    {
+      "id": "L-shelf-3",
+      "dimensions_mm": [
+        356.1,
+        58.2,
+        12.0
+      ],
+      "stock": "plywood-12",
+      "blank_mm": [
+        62.2,
+        360.1
+      ]
+    },
+    {
+      "id": "L-top-rail",
+      "dimensions_mm": [
+        348.5,
+        85.0,
+        18.0
+      ],
+      "stock": "plywood-18",
+      "blank_mm": [
+        89.0,
+        352.5
+      ]
+    },
+    {
+      "id": "Post-0-0",
+      "dimensions_mm": [
+        30.0,
+        30.0,
+        1788.0
+      ],
+      "stock": "profile-30",
+      "cut_mm": 1788.0
+    },
+    {
+      "id": "Post-0-470",
+      "dimensions_mm": [
+        30.0,
+        30.0,
+        1788.0
+      ],
+      "stock": "profile-30",
+      "cut_mm": 1788.0
+    },
+    {
+      "id": "Post-970-0",
+      "dimensions_mm": [
+        30.0,
+        30.0,
+        1788.0
+      ],
+      "stock": "profile-30",
+      "cut_mm": 1788.0
+    },
+    {
+      "id": "Post-970-470",
+      "dimensions_mm": [
+        30.0,
+        30.0,
+        1788.0
+      ],
+      "stock": "profile-30",
+      "cut_mm": 1788.0
+    },
+    {
+      "id": "R-bottom-rail",
+      "dimensions_mm": [
+        348.5,
+        85.0,
+        18.0
+      ],
+      "stock": "plywood-18",
+      "blank_mm": [
+        89.0,
+        352.5
+      ]
+    },
+    {
+      "id": "R-front-panel",
+      "dimensions_mm": [
+        356.1,
+        12.0,
+        917.6
+      ],
+      "stock": "plywood-12",
+      "blank_mm": [
+        360.1,
+        921.6
+      ]
+    },
+    {
+      "id": "R-hinge-stile",
+      "dimensions_mm": [
+        40.0,
+        85.0,
+        946.0
+      ],
+      "stock": "wood-45x90",
+      "cut_mm": 952.0
+    },
+    {
+      "id": "R-jamb",
+      "dimensions_mm": [
+        36.0,
+        38.0,
+        952.0
+      ],
+      "stock": "wood-40x45",
+      "cut_mm": 958.0
+    },
+    {
+      "id": "R-lip-1",
+      "dimensions_mm": [
+        356.1,
+        9.0,
+        38.0
+      ],
+      "stock": "plywood-9",
+      "blank_mm": [
+        42.0,
+        360.1
+      ]
+    },
+    {
+      "id": "R-lip-2",
+      "dimensions_mm": [
+        356.1,
+        9.0,
+        38.0
+      ],
+      "stock": "plywood-9",
+      "blank_mm": [
+        42.0,
+        360.1
+      ]
+    },
+    {
+      "id": "R-lip-3",
+      "dimensions_mm": [
+        356.1,
+        9.0,
+        38.0
+      ],
+      "stock": "plywood-9",
+      "blank_mm": [
+        42.0,
+        360.1
+      ]
+    },
+    {
+      "id": "R-meeting-stile",
+      "dimensions_mm": [
+        38.0,
+        85.0,
+        946.0
+      ],
+      "stock": "wood-45x90",
+      "cut_mm": 952.0
+    },
+    {
+      "id": "R-shelf-1",
+      "dimensions_mm": [
+        356.1,
+        58.2,
+        12.0
+      ],
+      "stock": "plywood-12",
+      "blank_mm": [
+        62.2,
+        360.1
+      ]
+    },
+    {
+      "id": "R-shelf-2",
+      "dimensions_mm": [
+        356.1,
+        58.2,
+        12.0
+      ],
+      "stock": "plywood-12",
+      "blank_mm": [
+        62.2,
+        360.1
+      ]
+    },
+    {
+      "id": "R-shelf-3",
+      "dimensions_mm": [
+        356.1,
+        58.2,
+        12.0
+      ],
+      "stock": "plywood-12",
+      "blank_mm": [
+        62.2,
+        360.1
+      ]
+    },
+    {
+      "id": "R-top-rail",
+      "dimensions_mm": [
+        348.5,
+        85.0,
+        18.0
+      ],
+      "stock": "plywood-18",
+      "blank_mm": [
+        89.0,
+        352.5
+      ]
+    }
+  ],
+  "sheets": [
+    {
+      "stock": "plywood-12",
+      "sheet": 1,
+      "size_mm": [
+        1525,
+        1525
+      ],
+      "pieces": [
+        {
+          "id": "R-front-panel",
+          "xy_mm": [
+            10,
+            10
+          ],
+          "size_mm": [
+            360.1,
+            921.6
+          ]
+        },
+        {
+          "id": "L-front-panel",
+          "xy_mm": [
+            376.1,
+            10
+          ],
+          "size_mm": [
+            360.1,
+            921.6
+          ]
+        },
+        {
+          "id": "R-shelf-3",
+          "xy_mm": [
+            10,
+            937.6
+          ],
+          "size_mm": [
+            62.2,
+            360.1
+          ]
+        },
+        {
+          "id": "R-shelf-2",
+          "xy_mm": [
+            742.2,
+            10
+          ],
+          "size_mm": [
+            62.2,
+            360.1
+          ]
+        },
+        {
+          "id": "R-shelf-1",
+          "xy_mm": [
+            78.2,
+            937.6
+          ],
+          "size_mm": [
+            62.2,
+            360.1
+          ]
+        },
+        {
+          "id": "L-shelf-3",
+          "xy_mm": [
+            810.4000000000001,
+            10
+          ],
+          "size_mm": [
+            62.2,
+            360.1
+          ]
+        },
+        {
+          "id": "L-shelf-2",
+          "xy_mm": [
+            742.2,
+            376.1
+          ],
+          "size_mm": [
+            62.2,
+            360.1
+          ]
+        },
+        {
+          "id": "L-shelf-1",
+          "xy_mm": [
+            146.4,
+            937.6
+          ],
+          "size_mm": [
+            62.2,
+            360.1
+          ]
+        }
+      ]
+    },
+    {
+      "stock": "plywood-18",
+      "sheet": 1,
+      "size_mm": [
+        1525,
+        1525
+      ],
+      "pieces": [
+        {
+          "id": "B00-bottom-notched",
+          "xy_mm": [
+            10,
+            10
+          ],
+          "size_mm": [
+            504.0,
+            968.0
+          ]
+        },
+        {
+          "id": "B01-top-inset",
+          "xy_mm": [
+            520.0,
+            10
+          ],
+          "size_mm": [
+            442.0,
+            942.0
+          ]
+        },
+        {
+          "id": "B21-right-shelf",
+          "xy_mm": [
+            10,
+            984.0
+          ],
+          "size_mm": [
+            361.0,
+            477.0
+          ]
+        },
+        {
+          "id": "B20-right-shelf",
+          "xy_mm": [
+            968.0,
+            10
+          ],
+          "size_mm": [
+            361.0,
+            477.0
+          ]
+        },
+        {
+          "id": "B11-left-shelf",
+          "xy_mm": [
+            377.0,
+            984.0
+          ],
+          "size_mm": [
+            361.0,
+            477.0
+          ]
+        },
+        {
+          "id": "B10-left-shelf",
+          "xy_mm": [
+            744.0,
+            984.0
+          ],
+          "size_mm": [
+            361.0,
+            477.0
+          ]
+        },
+        {
+          "id": "R-top-rail",
+          "xy_mm": [
+            1335.0,
+            10
+          ],
+          "size_mm": [
+            89.0,
+            352.5
+          ]
+        },
+        {
+          "id": "R-bottom-rail",
+          "xy_mm": [
+            968.0,
+            493.0
+          ],
+          "size_mm": [
+            89.0,
+            352.5
+          ]
+        },
+        {
+          "id": "L-top-rail",
+          "xy_mm": [
+            1111.0,
+            984.0
+          ],
+          "size_mm": [
+            89.0,
+            352.5
+          ]
+        },
+        {
+          "id": "L-bottom-rail",
+          "xy_mm": [
+            1063.0,
+            493.0
+          ],
+          "size_mm": [
+            89.0,
+            352.5
+          ]
+        }
+      ]
+    },
+    {
+      "stock": "plywood-18",
+      "sheet": 2,
+      "size_mm": [
+        1525,
+        1525
+      ],
+      "pieces": [
+        {
+          "id": "B03-right-pegboard",
+          "xy_mm": [
+            10,
+            10
+          ],
+          "size_mm": [
+            442.0,
+            973.0
+          ]
+        },
+        {
+          "id": "B02-left-side",
+          "xy_mm": [
+            458.0,
+            10
+          ],
+          "size_mm": [
+            442.0,
+            973.0
+          ]
+        },
+        {
+          "id": "B05-divider",
+          "xy_mm": [
+            906.0,
+            10
+          ],
+          "size_mm": [
+            361.0,
+            968.0
+          ]
+        }
+      ]
+    },
+    {
+      "stock": "plywood-8",
+      "sheet": 1,
+      "size_mm": [
+        1525,
+        1525
+      ],
+      "pieces": [
+        {
+          "id": "B04-back",
+          "xy_mm": [
+            10,
+            10
+          ],
+          "size_mm": [
+            968.0,
+            968.0
+          ]
+        }
+      ]
+    },
+    {
+      "stock": "plywood-9",
+      "sheet": 1,
+      "size_mm": [
+        1525,
+        1525
+      ],
+      "pieces": [
+        {
+          "id": "R-lip-3",
+          "xy_mm": [
+            10,
+            10
+          ],
+          "size_mm": [
+            42.0,
+            360.1
+          ]
+        },
+        {
+          "id": "R-lip-2",
+          "xy_mm": [
+            58.0,
+            10
+          ],
+          "size_mm": [
+            42.0,
+            360.1
+          ]
+        },
+        {
+          "id": "R-lip-1",
+          "xy_mm": [
+            10,
+            376.1
+          ],
+          "size_mm": [
+            42.0,
+            360.1
+          ]
+        },
+        {
+          "id": "L-lip-3",
+          "xy_mm": [
+            106.0,
+            10
+          ],
+          "size_mm": [
+            42.0,
+            360.1
+          ]
+        },
+        {
+          "id": "L-lip-2",
+          "xy_mm": [
+            58.0,
+            376.1
+          ],
+          "size_mm": [
+            42.0,
+            360.1
+          ]
+        },
+        {
+          "id": "L-lip-1",
+          "xy_mm": [
+            10,
+            742.2
+          ],
+          "size_mm": [
+            42.0,
+            360.1
+          ]
+        }
+      ]
+    }
+  ],
+  "bars": [
+    {
+      "stock": "profile-30",
+      "bar": 1,
+      "stock_mm": 6000,
+      "remainder_mm": 164.0,
+      "pieces": [
+        {
+          "id": "Post-970-470",
+          "start_mm": 10,
+          "cut_mm": 1788.0
+        },
+        {
+          "id": "Post-970-0",
+          "start_mm": 1801.0,
+          "cut_mm": 1788.0
+        },
+        {
+          "id": "Post-0-470",
+          "start_mm": 3592.0,
+          "cut_mm": 1788.0
+        },
+        {
+          "id": "Beam-top-side-970",
+          "start_mm": 5383.0,
+          "cut_mm": 440.0
+        }
+      ]
+    },
+    {
+      "stock": "profile-30",
+      "bar": 2,
+      "stock_mm": 6000,
+      "remainder_mm": 417.0,
+      "pieces": [
+        {
+          "id": "Post-0-0",
+          "start_mm": 10,
+          "cut_mm": 1788.0
+        },
+        {
+          "id": "Beam-top-rear",
+          "start_mm": 1801.0,
+          "cut_mm": 940.0
+        },
+        {
+          "id": "Beam-top-front",
+          "start_mm": 2744.0,
+          "cut_mm": 940.0
+        },
+        {
+          "id": "Beam-lower-rear",
+          "start_mm": 3687.0,
+          "cut_mm": 940.0
+        },
+        {
+          "id": "Beam-body-rear",
+          "start_mm": 4630.0,
+          "cut_mm": 940.0
+        }
+      ]
+    },
+    {
+      "stock": "profile-30",
+      "bar": 3,
+      "stock_mm": 6000,
+      "remainder_mm": 2822.0,
+      "pieces": [
+        {
+          "id": "Beam-body-front",
+          "start_mm": 10,
+          "cut_mm": 940.0
+        },
+        {
+          "id": "Beam-top-side-0",
+          "start_mm": 953.0,
+          "cut_mm": 440.0
+        },
+        {
+          "id": "Beam-lower-side-970",
+          "start_mm": 1396.0,
+          "cut_mm": 440.0
+        },
+        {
+          "id": "Beam-lower-side-0",
+          "start_mm": 1839.0,
+          "cut_mm": 440.0
+        },
+        {
+          "id": "Beam-body-side-970",
+          "start_mm": 2282.0,
+          "cut_mm": 440.0
+        },
+        {
+          "id": "Beam-body-side-0",
+          "start_mm": 2725.0,
+          "cut_mm": 440.0
+        }
+      ]
+    },
+    {
+      "stock": "wood-40x45",
+      "bar": 1,
+      "stock_mm": 2400,
+      "remainder_mm": 468.0,
+      "pieces": [
+        {
+          "id": "R-jamb",
+          "start_mm": 5,
+          "cut_mm": 958.0
+        },
+        {
+          "id": "L-jamb",
+          "start_mm": 966.0,
+          "cut_mm": 958.0
+        }
+      ]
+    },
+    {
+      "stock": "wood-45x90",
+      "bar": 1,
+      "stock_mm": 2400,
+      "remainder_mm": 480.0,
+      "pieces": [
+        {
+          "id": "R-meeting-stile",
+          "start_mm": 5,
+          "cut_mm": 952.0
+        },
+        {
+          "id": "R-hinge-stile",
+          "start_mm": 960.0,
+          "cut_mm": 952.0
+        }
+      ]
+    },
+    {
+      "stock": "wood-45x90",
+      "bar": 2,
+      "stock_mm": 2400,
+      "remainder_mm": 480.0,
+      "pieces": [
+        {
+          "id": "L-meeting-stile",
+          "start_mm": 5,
+          "cut_mm": 952.0
+        },
+        {
+          "id": "L-hinge-stile",
+          "start_mm": 960.0,
+          "cut_mm": 952.0
+        }
+      ]
+    }
+  ],
+  "estimate": [
+    {
+      "id": "plywood-12",
+      "description": "Фанера 12 мм",
+      "quantity": 1,
+      "unit": "лист",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "id": "plywood-18",
+      "description": "Фанера 18 мм",
+      "quantity": 2,
+      "unit": "лист",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "id": "plywood-8",
+      "description": "Фанера 8 мм",
+      "quantity": 1,
+      "unit": "лист",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "id": "plywood-9",
+      "description": "Фанера 9 мм",
+      "quantity": 1,
+      "unit": "лист",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "id": "profile-30",
+      "description": "Профиль 30 × 30, заготовка 6000 мм",
+      "quantity": 3,
+      "unit": "хлыст",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "id": "wood-40x45",
+      "description": "Брусок 40 × 45, заготовка 2400 мм",
+      "quantity": 1,
+      "unit": "заготовка",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "id": "wood-45x90",
+      "description": "Брусок 45 × 90, заготовка 2400 мм",
+      "quantity": 2,
+      "unit": "заготовка",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "id": "hinge",
+      "description": "Врезная петля HES3D-120BL, кандидат",
+      "quantity": 4,
+      "unit": "шт.",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "id": "foot",
+      "description": "Опоры, подбор по профилю",
+      "quantity": 4,
+      "unit": "шт.",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "id": "frame-joints",
+      "description": "Соединения профилей, подбор узла",
+      "quantity": null,
+      "unit": "компл.",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "id": "jamb-joints",
+      "description": "Крепление деревянных стоек к профилю",
+      "quantity": null,
+      "unit": "компл.",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "id": "carcass-joints",
+      "description": "Крепление панелей, полок и задника",
+      "quantity": null,
+      "unit": "компл.",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "id": "tray-retainers",
+      "description": "Фиксаторы полок и бортиков в дверях",
+      "quantity": null,
+      "unit": "компл.",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "id": "anti-tip",
+      "description": "Крепление шкафа от опрокидывания",
+      "quantity": null,
+      "unit": "компл.",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "id": "machining",
+      "description": "Раскрой и обработка деталей",
+      "quantity": 1,
+      "unit": "заказ",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "id": "finish",
+      "description": "Отделка",
+      "quantity": 1,
+      "unit": "заказ",
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "id": "delivery",
+      "description": "Доставка",
+      "quantity": 1,
+      "unit": "заказ",
+      "unit_price": null,
+      "amount": null
+    }
+  ],
+  "priced_rows": 0,
+  "subtotal_known": null,
+  "total_complete": false
+}

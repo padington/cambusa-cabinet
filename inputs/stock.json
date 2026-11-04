@@ -1,0 +1,27 @@
+{
+  "wood_blank_trim_each_edge_mm": 2,
+  "wood_blank_trim_each_end_mm": 3,
+  "sheets": {
+    "plywood-8": {"name":"Фанера 8 мм","thickness_mm":8,"size_mm":[1525,1525],"edge_trim_mm":10,"gap_mm":6,"unit":"лист"},
+    "plywood-9": {"name":"Фанера 9 мм","thickness_mm":9,"size_mm":[1525,1525],"edge_trim_mm":10,"gap_mm":6,"unit":"лист"},
+    "plywood-12": {"name":"Фанера 12 мм","thickness_mm":12,"size_mm":[1525,1525],"edge_trim_mm":10,"gap_mm":6,"unit":"лист"},
+    "plywood-18": {"name":"Фанера 18 мм","thickness_mm":18,"size_mm":[1525,1525],"edge_trim_mm":10,"gap_mm":6,"unit":"лист"}
+  },
+  "bars": {
+    "profile-30": {"name":"Профиль 30 × 30, заготовка 6000 мм","length_mm":6000,"edge_trim_mm":10,"kerf_mm":3,"unit":"хлыст"},
+    "wood-40x45": {"name":"Брусок 40 × 45, заготовка 2400 мм","length_mm":2400,"edge_trim_mm":5,"kerf_mm":3,"unit":"заготовка"},
+    "wood-45x90": {"name":"Брусок 45 × 90, заготовка 2400 мм","length_mm":2400,"edge_trim_mm":5,"kerf_mm":3,"unit":"заготовка"}
+  },
+  "hardware": [
+    {"id":"hinge","description":"Врезная петля HES3D-120BL, кандидат","quantity":4,"unit":"шт."},
+    {"id":"foot","description":"Опоры, подбор по профилю","quantity":4,"unit":"шт."},
+    {"id":"frame-joints","description":"Соединения профилей, подбор узла","quantity":null,"unit":"компл."},
+    {"id":"jamb-joints","description":"Крепление деревянных стоек к профилю","quantity":null,"unit":"компл."},
+    {"id":"carcass-joints","description":"Крепление панелей, полок и задника","quantity":null,"unit":"компл."},
+    {"id":"tray-retainers","description":"Фиксаторы полок и бортиков в дверях","quantity":null,"unit":"компл."},
+    {"id":"anti-tip","description":"Крепление шкафа от опрокидывания","quantity":null,"unit":"компл."},
+    {"id":"machining","description":"Раскрой и обработка деталей","quantity":1,"unit":"заказ"},
+    {"id":"finish","description":"Отделка","quantity":1,"unit":"заказ"},
+    {"id":"delivery","description":"Доставка","quantity":1,"unit":"заказ"}
+  ]
+}
