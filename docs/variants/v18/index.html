@@ -24,6 +24,7 @@ footer {display:flex;gap:10px 18px;flex-wrap:wrap;margin-top:20px}
       <select class="form-select" id="v18-mode">
         <option value="closed">Двери закрыты</option>
         <option value="open">Двери открыты на 180°</option>
+        <option value="parked">Двери на 270° · выносная ось</option>
         <option value="frame">Только каркас</option>
       </select>
     </label>
@@ -62,6 +63,7 @@ footer {display:flex;gap:10px 18px;flex-wrap:wrap;margin-top:20px}
   const labels = {
     closed:'1000 × 1800 × 500 мм · облицовка и полки 12 мм',
     open:'Расчётное положение 180° · ход петли проверяется отдельно',
+    parked:'270° · створки вдоль боковин · расчётная выносная ось',
     frame:'4 стойки · 8 опор под полками'
   };
   if (!gl) {
@@ -107,8 +109,8 @@ footer {display:flex;gap:10px 18px;flex-wrap:wrap;margin-top:20px}
   const radians = Math.PI / 180;
   const dot = (a,b) => a[0]*b[0]+a[1]*b[1]+a[2]*b[2];
 
-  function prepare(part, open) {
-    const vertices = open && part.g === 'door' ? part.v.map(([x,y,z]) => [part.a-x,-5-y,z]) : part.v;
+  function prepare(part, transform) {
+    const vertices = transform ? part.v.map(transform) : part.v;
     const floats = new Float32Array(part.f.length * 18);
     let offset = 0;
     for (const [i,j,k] of part.f) {
@@ -130,8 +132,16 @@ footer {display:flex;gap:10px 18px;flex-wrap:wrap;margin-top:20px}
   }
 
   const closed = model.parts.map(part => prepare(part,false));
-  const opened = model.parts.map((part,i) => part.g === 'door' ? prepare(part,true) : closed[i]);
-  const models = {closed,open:opened,frame:closed.filter(part => ['profile','foot'].includes(part.group))};
+  const opened = model.parts.map((part,i) => part.g === 'door'
+    ? prepare(part, ([x,y,z]) => [part.a-x,-5-y,z])
+    : closed[i]);
+  // At 270° the two leaves wrap around the front corners. Axes match study_270.py.
+  const parked = model.parts.map((part,i) => {
+    if (part.g !== 'door') return closed[i];
+    const left = part.a < 1000;
+    return prepare(part, ([x,y,z]) => left ? [-5-y,x-5,z] : [1005+y,995-x,z]);
+  });
+  const models = {closed,open:opened,parked,frame:closed.filter(part => ['profile','foot'].includes(part.group))};
   const probe = get('color');
   const palette = {};
   function colors() {
@@ -140,7 +150,10 @@ footer {display:flex;gap:10px 18px;flex-wrap:wrap;margin-top:20px}
       palette[key] = getComputedStyle(probe).color.match(/[\d.]+/g).slice(0,3).map(value => Number(value)/255);
     }
   }
-  let state = {view:'closed',yaw:-27,pitch:13}, drag = null;
+  const startParked = root.dataset.defaultView === 'parked' ||
+    new URLSearchParams(window.location.search).get('view') === '270';
+  let state = startParked ? {view:'parked',yaw:-43,pitch:24} : {view:'closed',yaw:-27,pitch:13};
+  let drag = null;
   function draw() {
     const width = canvas.clientWidth, height = canvas.clientHeight;
     if (!width || !height) return;
@@ -202,7 +215,15 @@ footer {display:flex;gap:10px 18px;flex-wrap:wrap;margin-top:20px}
       privateContent:{yaw:state.yaw,pitch:state.pitch}
     })?.catch(() => {});
   }
-  mode.addEventListener('change',() => {state.view=mode.value; sync(); save();});
+  mode.addEventListener('change',() => {
+    state.view=mode.value;
+    if (state.view === 'parked') {
+      state.yaw=-43;
+      state.pitch=24;
+    }
+    sync();
+    save();
+  });
   yaw.addEventListener('input',() => {state.yaw=Number(yaw.value); sync();});
   yaw.addEventListener('change',save);
   canvas.addEventListener('pointerdown',event => {
@@ -232,6 +253,7 @@ footer {display:flex;gap:10px 18px;flex-wrap:wrap;margin-top:20px}
   <a href="closed.glb">Закрытый шкаф · GLB</a>
   <a href="open.glb">Открытый шкаф · GLB</a>
   <a href="frame.glb">Каркас · GLB</a>
+  <a href="?view=270">Сразу открыть вид на 270°</a>
   <a href="cut-plan.svg">Раскладка на листах</a>
   <a href="https://github.com/padington/cambusa-cabinet/tree/main/outputs/cambusa-frame-v17/storage">Коллажи хранения</a>
 </footer>
