@@ -33,23 +33,23 @@ COLORS.update(panel6=[151,113,80,255], handle=[184,190,193,255], pin=[205,153,63
               guide=[117,145,152,255])
 
 
-def leaf_parts():
+def leaf_parts(height=DOOR_HEIGHT, slot_end=SLOT_END):
     x1 = X0 + DOOR_WIDTH
     parts = []
-    slot = LineString([(0,-SLOT_START),(0,-SLOT_END)]).buffer(SLOT_RADIUS,quad_segs=16)
+    slot = LineString([(0,-SLOT_START),(0,-slot_end)]).buffer(SLOT_RADIUS,quad_segs=16)
     for label, start, cutter_x in [('L',X0,X0-.1),('R',x1-22,x1-6.5)]:
-        stile = cube([start,-9,-DOOR_HEIGHT],[start+22,9,0])
+        stile = cube([start,-9,-height],[start+22,9,0])
         add(parts,f'Stile-{label}',cut(stile,[panel(slot,0,cutter_x,6.6)]),'door')
     add(parts,'Top-rail',cube([X0+22,-9,-14],[x1-22,9,0]),'door')
-    add(parts,'Bottom-rail',cube([X0+22,-9,-300],[x1-22,9,-284]),'door')
-    add(parts,'Plywood-infill-6',cube([X0+22,-9,-284],[x1-22,-3,-14]),'panel6')
+    add(parts,'Bottom-rail',cube([X0+22,-9,-height],[x1-22,9,16-height]),'door')
+    add(parts,'Plywood-infill-6',cube([X0+22,-9,16-height],[x1-22,-3,-14]),'panel6')
     # Level the ledge in the closed pose. The two-dimensional profile below
     # uses the lower outside corner of the door as its datum.
     ledge = box(LEDGE_FRONT,0,0,LEDGE_WALL).union(
         box(LEDGE_FRONT,LEDGE_WALL,LEDGE_FRONT+LEDGE_WALL,LEDGE_WALL+LEDGE_LIP_HEIGHT)
     )
-    ledge = affinity.translate(affinity.rotate(ledge,CLOSED_TILT,origin=(0,0)), -9,-DOOR_HEIGHT)
-    mounting_flange = box(-11,-DOOR_HEIGHT,-9,-DOOR_HEIGHT+24)
+    ledge = affinity.translate(affinity.rotate(ledge,CLOSED_TILT,origin=(0,0)), -9,-height)
+    mounting_flange = box(-11,-height,-9,-height+24)
     add(parts,'Display-ledge',panel(ledge.union(mounting_flange),0,X0+2,DOOR_WIDTH-4),'handle')
     return parts
 
@@ -65,15 +65,15 @@ def mechanism(bottom, ceiling):
     return parts
 
 
-def state(progress):
+def state(progress, slot_end=SLOT_END):
     # First the door pivots about the front end of its slot, then it translates.
     angle = CLOSED_TILT+(90-CLOSED_TILT)*min(progress,1)
-    pin_s = SLOT_START+(SLOT_END-SLOT_START)*max(0,progress-1)
+    pin_s = SLOT_START+(slot_end-SLOT_START)*max(0,progress-1)
     return angle,pin_s
 
 
-def pose(part, ceiling, progress):
-    angle,pin_s = state(progress)
+def pose(part, ceiling, progress, slot_end=SLOT_END):
+    angle,pin_s = state(progress, slot_end)
     transform = tm.transformations.rotation_matrix(math.radians(-angle),[1,0,0])
     mesh = part['mesh'].copy().apply_translation([0,0,pin_s])
     mesh.apply_transform(transform).apply_translation([0,PIVOT_Y,ceiling-PIVOT_BELOW_TOP])
@@ -148,7 +148,7 @@ def yz(mesh):
     return unary_union([p for p in triangles if p.area>1e-5])
 
 
-def audit_leaf(leaf,fixed,ceiling):
+def audit_leaf(leaf,fixed,ceiling,slot_end=SLOT_END):
     obstacles=[]
     for part in fixed:
         if part['name'].startswith(('Pin-L','Pin-R')):
@@ -164,11 +164,11 @@ def audit_leaf(leaf,fixed,ceiling):
             candidates.append((part['name'],yz(part['mesh']),matching))
     best=(math.inf,None,None,None)
     # Nearest sample is at most 0.05 degrees / 0.05 mm away.
-    steps=(math.ceil((90-CLOSED_TILT)*10),math.ceil((SLOT_END-SLOT_START)*10))
+    steps=(math.ceil((90-CLOSED_TILT)*10),math.ceil((slot_end-SLOT_START)*10))
     for segment,n in enumerate(steps):
         for i in range(n+1):
             progress=segment+i/n
-            angle,pin_s=state(progress)
+            angle,pin_s=state(progress,slot_end)
             c,s=math.cos(math.radians(angle)),math.sin(math.radians(angle))
             matrix=(c,s,-s,c,PIVOT_Y+s*pin_s,ceiling-PIVOT_BELOW_TOP+c*pin_s)
             for part,footprint,targets in candidates:

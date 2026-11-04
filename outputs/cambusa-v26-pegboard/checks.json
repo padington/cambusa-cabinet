@@ -1,0 +1,67 @@
+{
+  "endpoint_overlaps": {
+    "closed": [],
+    "right-raised": [],
+    "open": [],
+    "left-270": []
+  },
+  "left_sweep": [
+    [
+      1.5,
+      0.0,
+      "DIRAK-moving-flat-2",
+      "Bracket-2"
+    ],
+    0.125,
+    0.9532157248637999
+  ],
+  "right_sweep": [
+    [
+      [
+        0.5,
+        1.031496062992126,
+        "Stile-L",
+        "Runner-L-1"
+      ],
+      0.2561959777951288
+    ],
+    [
+      [
+        0.5,
+        1.0338983050847457,
+        "Stile-L",
+        "Runner-L-2"
+      ],
+      0.2716867460637954
+    ],
+    [
+      [
+        0.5,
+        1.0338983050847457,
+        "Stile-L",
+        "Runner-L-3"
+      ],
+      0.2716867460637954
+    ]
+  ],
+  "installation_sample_overlaps_mm3": {
+    "pegboard-insert": 0.0,
+    "close-front-with-floors": 0.0,
+    "back-feed": 0.0,
+    "right-feed-1": 0.0,
+    "right-feed-2": 0.0,
+    "right-feed-3": 0.0,
+    "right-shelf-feed-1": 0.0,
+    "right-shelf-feed-2": 0.0,
+    "left-shelf-feed-1": 0.0,
+    "left-shelf-feed-2": 0.0
+  },
+  "pegboard_holes": 152,
+  "lowest_right_facade_height_mm": 318,
+  "lower_beam_clearance_mm": 140,
+  "closed_facade_gap_to_front_beam_mm": [
+    3.0,
+    3.549
+  ],
+  "fabrication_release": false
+}
