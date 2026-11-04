@@ -24,7 +24,7 @@ footer {display:flex;gap:10px 18px;flex-wrap:wrap;margin-top:20px}
       <select class="form-select" id="v18-mode">
         <option value="closed">Двери закрыты</option>
         <option value="open">Двери открыты на 180°</option>
-        <option value="parked">Двери на 270° · выносная ось</option>
+        <option value="parked">Схема габарита на 270°</option>
         <option value="frame">Только каркас</option>
       </select>
     </label>
@@ -63,7 +63,7 @@ footer {display:flex;gap:10px 18px;flex-wrap:wrap;margin-top:20px}
   const labels = {
     closed:'1000 × 1800 × 500 мм · облицовка и полки 12 мм',
     open:'Расчётное положение 180° · ход петли проверяется отдельно',
-    parked:'270° · створки вдоль боковин · расчётная выносная ось',
+    parked:'270° · створки вдоль боковин · петля для этой схемы не подтверждена',
     frame:'4 стойки · 8 опор под полками'
   };
   if (!gl) {
@@ -253,7 +253,8 @@ footer {display:flex;gap:10px 18px;flex-wrap:wrap;margin-top:20px}
   <a href="closed.glb">Закрытый шкаф · GLB</a>
   <a href="open.glb">Открытый шкаф · GLB</a>
   <a href="frame.glb">Каркас · GLB</a>
-  <a href="?view=270">Сразу открыть вид на 270°</a>
+  <a href="?view=270">Открыть схему 270°</a>
+  <a href="https://github.com/padington/cambusa-cabinet/tree/design/cambusa-v18-light/outputs/hinge-frame-review">Проверка петель и каркаса</a>
   <a href="cut-plan.svg">Раскладка на листах</a>
   <a href="https://github.com/padington/cambusa-cabinet/tree/main/outputs/cambusa-frame-v17/storage">Коллажи хранения</a>
 </footer>

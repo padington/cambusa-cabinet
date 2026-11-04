@@ -10,6 +10,8 @@
 
 [3D v18 онлайн](https://padington.github.io/cambusa-cabinet/variants/v18/) · [Расчёт и сравнение](https://github.com/padington/cambusa-cabinet/blob/cambusa-v18/outputs/cambusa-frame-v18/ОБЛЕГЧЕНИЕ.md). Панели и полки 12 мм, восемь алюминиевых опор. v17 остаётся базовой моделью.
 
+[Проверка серийных петель 270° и сравнение каркасов](https://github.com/padington/cambusa-cabinet/tree/design/cambusa-v18-light/outputs/hinge-frame-review). 270° в просмотре показывает схему габарита. Узел петли пока требует проверки.
+
 ## Карта проекта
 
 | Где | Что лежит |
