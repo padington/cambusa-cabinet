@@ -92,6 +92,12 @@
     ]
   },
   {
+    "url": "https://ask.loc.gov/preservation/faq/422211",
+    "recorded_in": [
+      "outputs/cambusa-frame-v17/storage/README.md"
+    ]
+  },
+  {
     "url": "https://booktwo.org/notebook/ai-chair-1-0/",
     "recorded_in": [
       "history/work/ai-furniture-cases.json"
@@ -777,6 +783,12 @@
     ]
   },
   {
+    "url": "https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/photographic-materials.html",
+    "recorded_in": [
+      "outputs/cambusa-frame-v17/storage/README.md"
+    ]
+  },
+  {
     "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/AnchorItgov",
     "recorded_in": [
       "history/outputs/cabinet-03-04-engineering-v1/READ-ME-RU.txt",
@@ -803,6 +815,12 @@
     "url": "https://www.designingoverload.com/posts/2025/table-feet/",
     "recorded_in": [
       "history/work/ai-furniture-cases.json"
+    ]
+  },
+  {
+    "url": "https://www.emka.com/products/1056-u18",
+    "recorded_in": [
+      "outputs/cambusa-frame-v17/КОНСТРУКЦИЯ.md"
     ]
   },
   {
@@ -1173,6 +1191,7 @@
       "history/work/build_cambusa_doors_v15.py",
       "outputs/cambusa-doors-v15/ПРОВЕРКА.json",
       "outputs/cambusa-doors-v15/ПРОЧИТАТЬ-СНАЧАЛА.md",
+      "outputs/cambusa-frame-v17/КОНСТРУКЦИЯ.md",
       "references/README.md"
     ]
   },

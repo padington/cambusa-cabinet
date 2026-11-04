@@ -1,0 +1,240 @@
+{
+  "version": "cambusa-v17",
+  "basis": "cambusa-v15",
+  "status": "geometry study",
+  "profile_reference": "https://www.boschrexroth.com/en/de/p/strut-profile-3842990723/",
+  "envelope_mm": [
+    1000,
+    1800,
+    500
+  ],
+  "profile_section_mm": [
+    30,
+    30
+  ],
+  "profile_lengths_mm": {
+    "1788": 4,
+    "940": 5,
+    "440": 6
+  },
+  "foot_height_allowance_mm": 12,
+  "cabinet_bottom_at_mm": 800,
+  "door_each_mm": [
+    426.5,
+    946,
+    85
+  ],
+  "pegboard_side": "left",
+  "pegboard_holes": 171,
+  "shelf_clearance_at_closed_doors_mm": 17,
+  "drawer_clear_opening_mm": 424,
+  "candidate_hinge": "Sugatsune HES3D-120BL",
+  "mortises": [
+    {
+      "id": "L-jamb-H1-face",
+      "part": "L-jamb",
+      "edge_face_x_mm": 67.0,
+      "from_front_edge_mm": 4,
+      "from_lower_edge_mm": 82.0,
+      "width_mm": 25,
+      "height_mm": 120.0,
+      "depth_mm": 6.5,
+      "radius_mm": 6,
+      "source": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf"
+    },
+    {
+      "id": "L-jamb-H1-body",
+      "part": "L-jamb",
+      "edge_face_x_mm": 67.0,
+      "from_front_edge_mm": 4,
+      "from_lower_edge_mm": 97.0,
+      "width_mm": 25,
+      "height_mm": 90.0,
+      "depth_mm": 21.0,
+      "radius_mm": 6,
+      "source": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf"
+    },
+    {
+      "id": "L-jamb-H2-face",
+      "part": "L-jamb",
+      "edge_face_x_mm": 67.0,
+      "from_front_edge_mm": 4,
+      "from_lower_edge_mm": 762.0,
+      "width_mm": 25,
+      "height_mm": 120.0,
+      "depth_mm": 6.5,
+      "radius_mm": 6,
+      "source": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf"
+    },
+    {
+      "id": "L-jamb-H2-body",
+      "part": "L-jamb",
+      "edge_face_x_mm": 67.0,
+      "from_front_edge_mm": 4,
+      "from_lower_edge_mm": 777.0,
+      "width_mm": 25,
+      "height_mm": 90.0,
+      "depth_mm": 21.0,
+      "radius_mm": 6,
+      "source": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf"
+    },
+    {
+      "id": "R-jamb-H1-face",
+      "part": "R-jamb",
+      "edge_face_x_mm": 933.0,
+      "from_front_edge_mm": 4,
+      "from_lower_edge_mm": 82.0,
+      "width_mm": 25,
+      "height_mm": 120.0,
+      "depth_mm": 6.5,
+      "radius_mm": 6,
+      "source": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf"
+    },
+    {
+      "id": "R-jamb-H1-body",
+      "part": "R-jamb",
+      "edge_face_x_mm": 933.0,
+      "from_front_edge_mm": 4,
+      "from_lower_edge_mm": 97.0,
+      "width_mm": 25,
+      "height_mm": 90.0,
+      "depth_mm": 21.0,
+      "radius_mm": 6,
+      "source": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf"
+    },
+    {
+      "id": "R-jamb-H2-face",
+      "part": "R-jamb",
+      "edge_face_x_mm": 933.0,
+      "from_front_edge_mm": 4,
+      "from_lower_edge_mm": 762.0,
+      "width_mm": 25,
+      "height_mm": 120.0,
+      "depth_mm": 6.5,
+      "radius_mm": 6,
+      "source": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf"
+    },
+    {
+      "id": "R-jamb-H2-body",
+      "part": "R-jamb",
+      "edge_face_x_mm": 933.0,
+      "from_front_edge_mm": 4,
+      "from_lower_edge_mm": 777.0,
+      "width_mm": 25,
+      "height_mm": 90.0,
+      "depth_mm": 21.0,
+      "radius_mm": 6,
+      "source": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf"
+    },
+    {
+      "id": "L-door-H1-face",
+      "part": "L-hinge-stile",
+      "edge_face_x_mm": 70.5,
+      "from_front_edge_mm": 3,
+      "from_lower_edge_mm": 79.0,
+      "width_mm": 23,
+      "height_mm": 120.0,
+      "depth_mm": 6.5,
+      "radius_mm": 6,
+      "source": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf"
+    },
+    {
+      "id": "L-door-H1-body",
+      "part": "L-hinge-stile",
+      "edge_face_x_mm": 70.5,
+      "from_front_edge_mm": 3,
+      "from_lower_edge_mm": 94.0,
+      "width_mm": 23,
+      "height_mm": 90.0,
+      "depth_mm": 21.0,
+      "radius_mm": 6,
+      "source": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf"
+    },
+    {
+      "id": "L-door-H2-face",
+      "part": "L-hinge-stile",
+      "edge_face_x_mm": 70.5,
+      "from_front_edge_mm": 3,
+      "from_lower_edge_mm": 759.0,
+      "width_mm": 23,
+      "height_mm": 120.0,
+      "depth_mm": 6.5,
+      "radius_mm": 6,
+      "source": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf"
+    },
+    {
+      "id": "L-door-H2-body",
+      "part": "L-hinge-stile",
+      "edge_face_x_mm": 70.5,
+      "from_front_edge_mm": 3,
+      "from_lower_edge_mm": 774.0,
+      "width_mm": 23,
+      "height_mm": 90.0,
+      "depth_mm": 21.0,
+      "radius_mm": 6,
+      "source": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf"
+    },
+    {
+      "id": "R-door-H1-face",
+      "part": "R-hinge-stile",
+      "edge_face_x_mm": 929.5,
+      "from_front_edge_mm": 3,
+      "from_lower_edge_mm": 79.0,
+      "width_mm": 23,
+      "height_mm": 120.0,
+      "depth_mm": 6.5,
+      "radius_mm": 6,
+      "source": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf"
+    },
+    {
+      "id": "R-door-H1-body",
+      "part": "R-hinge-stile",
+      "edge_face_x_mm": 929.5,
+      "from_front_edge_mm": 3,
+      "from_lower_edge_mm": 94.0,
+      "width_mm": 23,
+      "height_mm": 90.0,
+      "depth_mm": 21.0,
+      "radius_mm": 6,
+      "source": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf"
+    },
+    {
+      "id": "R-door-H2-face",
+      "part": "R-hinge-stile",
+      "edge_face_x_mm": 929.5,
+      "from_front_edge_mm": 3,
+      "from_lower_edge_mm": 759.0,
+      "width_mm": 23,
+      "height_mm": 120.0,
+      "depth_mm": 6.5,
+      "radius_mm": 6,
+      "source": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf"
+    },
+    {
+      "id": "R-door-H2-body",
+      "part": "R-hinge-stile",
+      "edge_face_x_mm": 929.5,
+      "from_front_edge_mm": 3,
+      "from_lower_edge_mm": 774.0,
+      "width_mm": 23,
+      "height_mm": 90.0,
+      "depth_mm": 21.0,
+      "radius_mm": 6,
+      "source": "https://www.sugatsune.com/content/site-assets/Instructions/0522-7_hes3d120e.pdf"
+    }
+  ],
+  "tests": {
+    "closed_and_open_static_collisions": false,
+    "narrow_phase_pairs": {
+      "closed": 38,
+      "open": 38
+    },
+    "hinge_swing_verified": false,
+    "joint_strength_verified": false
+  },
+  "sha256": {
+    "closed.glb": "94d05e9da12a00709fdd133bfef33932ce515bfd7c18db6657ab9b1e77dc4393",
+    "open.glb": "fd03d53a6c78c3e08d4c9d38d1a7eb623b06878cdcfcbdde1e8e9e380a9bc30b",
+    "frame.glb": "4342fbef14cace46e485e20131674c2d38cdef81fd9b0b9cc54d98af541b5369"
+  }
+}

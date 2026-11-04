@@ -1,0 +1,22 @@
+{
+  "model": "cambusa-v17",
+  "axis_left_xy_mm": [
+    0.0,
+    -5.0
+  ],
+  "axis_right_xy_mm": [
+    1000.0,
+    -5.0
+  ],
+  "scope": "2D conservative projection against box envelopes by part height, sampled every 0.5 degrees",
+  "body_overlap_samples": [],
+  "leaf_separation_lower_bound_mm": 3.54,
+  "parked_lateral_clearance_mm": 92.0,
+  "parked_gap_to_left_side_mm": 7.0,
+  "parked_y_range_mm": [
+    65.5,
+    492.0
+  ],
+  "candidate_hinge": "EMKA 1056-U18, application-specific fit and load unverified",
+  "hardware_verified": false
+}

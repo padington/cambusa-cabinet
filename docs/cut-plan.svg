@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 778" role="img">
-<title>Раскладка фанеры Cambusa v16</title>
+<title>Раскладка фанеры Cambusa v17</title>
 <rect width="100%" height="100%" fill="#f7f6f2"/>
-<text x="16" y="29" font-family="sans-serif" font-size="20">Cambusa v16 · фанера · заготовки с припуском</text>
+<text x="16" y="29" font-family="sans-serif" font-size="20">Cambusa v17 · фанера · заготовки с припуском</text>
 <text x="16" y="60" font-family="sans-serif" font-size="14">Фанера 12 мм · лист 1 · 1525 × 1525</text>
 <rect x="16" y="72" width="306.00" height="306.00" fill="white" stroke="#444"/>
 <rect x="18.01" y="74.01" width="72.26" height="184.92" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>R-front-panel · 360.1 × 921.6 мм</title></rect>
@@ -34,10 +34,10 @@
 <rect x="569.30" y="170.92" width="17.86" height="70.73" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>L-bottom-rail · 89 × 352.5 мм</title></rect>
 <text x="696" y="60" font-family="sans-serif" font-size="14">Фанера 18 мм · лист 2 · 1525 × 1525</text>
 <rect x="696" y="72" width="306.00" height="306.00" fill="white" stroke="#444"/>
-<rect x="698.01" y="74.01" width="88.69" height="195.24" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>B03-right-pegboard · 442 × 973 мм</title></rect>
-<text x="701.01" y="85.01" font-size="8" font-family="sans-serif">B03-right-pegboard</text>
-<rect x="787.90" y="74.01" width="88.69" height="195.24" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>B02-left-side · 442 × 973 мм</title></rect>
-<text x="790.90" y="85.01" font-size="8" font-family="sans-serif">B02-left-side</text>
+<rect x="698.01" y="74.01" width="88.69" height="195.24" fill="#d9bf9b" stroke="#685d4d" stroke-width=".45"><title>B03-right-side · 442 × 973 мм</title></rect>
+<text x="701.01" y="85.01" font-size="8" font-family="sans-serif">B03-right-side</text>
+<rect x="787.90" y="74.01" width="88.69" height="195.24" fill="#c3cbb4" stroke="#685d4d" stroke-width=".45"><title>B02-left-pegboard · 442 × 973 мм</title></rect>
+<text x="790.90" y="85.01" font-size="8" font-family="sans-serif">B02-left-pegboard</text>
 <rect x="877.79" y="74.01" width="72.44" height="194.23" fill="#ced8dc" stroke="#685d4d" stroke-width=".45"><title>B05-divider · 361 × 968 мм</title></rect>
 <text x="880.79" y="85.01" font-size="8" font-family="sans-serif">B05-divider</text>
 <text x="16" y="425" font-family="sans-serif" font-size="14">Фанера 8 мм · лист 1 · 1525 × 1525</text>

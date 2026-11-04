@@ -15,8 +15,8 @@ from shapely.ops import unary_union
 import trimesh as tm
 from geometry import COLORS, add, cube, panel, render, scene
 
-VERSION = 'cambusa-v16'
-OUT = ROOT / 'outputs/cambusa-frame-v16'
+VERSION = 'cambusa-v17'
+OUT = ROOT / 'outputs/cambusa-frame-v17'
 SOURCE = ROOT / 'outputs/cambusa-doors-v15/closed.glb'
 OUT.mkdir(exist_ok=True)
 WIDTH, HEIGHT, DEPTH = 1000, 1800, 500
@@ -75,12 +75,12 @@ bottom = box(18, 0, 982, 500).difference(unary_union([
 ]))
 add(parts, 'B00-bottom-notched', panel(bottom, 2, 800, 18), 'wood')
 add(parts, 'B01-top-inset', cube([31, 31, 1782], [969, 469, 1800]), 'wood')
-add(parts, 'B02-left-side', cube([0, 31, 800], [18, 469, 1769]), 'wood')
+add(parts, 'B03-right-side', cube([982, 31, 800], [1000, 469, 1769]), 'wood')
 holes = [(y, z) for y in range(50, 451, 50) for z in range(840, 1741, 50)]
 pegboard = box(31, 800, 469, 1769).difference(unary_union([
     Point(y, z).buffer(6, quad_segs=6) for y, z in holes
 ]))
-add(parts, 'B03-right-pegboard', panel(pegboard, 0, 982, 18), 'wood')
+add(parts, 'B02-left-pegboard', panel(pegboard, 0, 0, 18), 'wood')
 back = box(18, 818, 982, 1769).union(box(31, 1769, 969, 1782))
 add(parts, 'B04-back', panel(back, 1, 461, 8), 'back')
 for name in ('B05-divider', 'B10-left-shelf', 'B11-left-shelf', 'B20-right-shelf', 'B21-right-shelf'):
@@ -162,7 +162,7 @@ report = {
     'profile_reference': PROFILE, 'envelope_mm': [WIDTH, HEIGHT, DEPTH],
     'profile_section_mm': [POST, POST], 'profile_lengths_mm': dict(sorted(lengths.items(), reverse=True)),
     'foot_height_allowance_mm': FOOT, 'cabinet_bottom_at_mm': 800,
-    'door_each_mm': [426.5, 946, 85], 'pegboard_holes': len(holes),
+    'door_each_mm': [426.5, 946, 85], 'pegboard_side': 'left', 'pegboard_holes': len(holes),
     'shelf_clearance_at_closed_doors_mm': 17, 'drawer_clear_opening_mm': 424,
     'candidate_hinge': 'Sugatsune HES3D-120BL', 'mortises': source_mortises,
     'tests': {'closed_and_open_static_collisions': False, 'narrow_phase_pairs': checks,
@@ -189,9 +189,9 @@ def preview_font(size, bold=False):
     return ImageFont.load_default(size=size)
 font = preview_font(32, bold=True)
 small = preview_font(23)
-draw.text((30, 25), 'Cambusa v16 · алюминиевый каркас во весь рост', font=font, fill='#25352b')
+draw.text((30, 25), 'Cambusa v17 · пегборд на левой боковине', font=font, fill='#25352b')
 for offset, width, label, model, yaw in [
-    (0, 465, 'Закрыто', closed, 26), (465, 650, 'Расчётный вид на 180°', wide, 20),
+    (0, 465, 'Закрыто', closed, -26), (465, 650, 'Расчётный вид на 180°', wide, -20),
     (1115, 421, 'Каркас', frame, 27),
 ]:
     preview.paste(render(model, width, 640, yaw=yaw, pitch=12), (offset, 80))
@@ -211,5 +211,5 @@ for part in closed:
         item['a'] = left_offset if part['side'] == 'L' else 2 * WIDTH - left_offset
     inline['parts'].append(item)
 (OUT / 'ПРОВЕРКА.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
-(ROOT / 'work/cambusa-frame-v16-meshes.json').write_text(json.dumps(inline, separators=(',', ':')))
+(ROOT / 'work/cambusa-frame-v17-meshes.json').write_text(json.dumps(inline, separators=(',', ':')))
 print(json.dumps({key: report[key] for key in ('envelope_mm', 'door_each_mm', 'tests', 'profile_lengths_mm')}))

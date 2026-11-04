@@ -1,4 +1,4 @@
-"""Derive stock, layouts and a transparent estimate from the v16 GLB."""
+"""Derive stock, layouts and a transparent estimate from the v17 GLB."""
 from argparse import ArgumentParser
 from collections import Counter, defaultdict
 from decimal import Decimal, InvalidOperation
@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'work/vendor'))
 import trimesh
 
-MODEL = ROOT / 'outputs/cambusa-frame-v16/closed.glb'
+MODEL = ROOT / 'outputs/cambusa-frame-v17/closed.glb'
 parser = ArgumentParser(description=__doc__)
 parser.add_argument('--stock', type=Path, default=ROOT / 'inputs/stock.json')
 parser.add_argument('--prices', type=Path, default=ROOT / 'inputs/prices.json')
@@ -21,7 +21,7 @@ args = parser.parse_args()
 STOCK_FILE = args.stock
 PRICES_FILE = args.prices
 default = STOCK_FILE == ROOT / 'inputs/stock.json' and PRICES_FILE == ROOT / 'inputs/prices.json'
-OUT = args.output or (ROOT / 'outputs/cambusa-frame-v16/planning' if default else ROOT / 'local-estimate')
+OUT = args.output or (ROOT / 'outputs/cambusa-frame-v17/planning' if default else ROOT / 'local-estimate')
 OUT.mkdir(parents=True, exist_ok=True)
 stock = json.loads(STOCK_FILE.read_text())
 prices = json.loads(PRICES_FILE.read_text())
@@ -180,14 +180,14 @@ for row in rows:
         subtotal += cost
         priced_count += 1
 
-report = {'model':'cambusa-v16', 'currency':prices['currency'], 'parts':parts,
+report = {'model':'cambusa-v17', 'currency':prices['currency'], 'parts':parts,
           'sheets':sheets, 'bars':bar_layout, 'estimate':rows, 'priced_rows':priced_count,
           'subtotal_known':str(subtotal) if priced_count else None,
           'total_complete':priced_count == len(rows)}
 (OUT/'plan.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
 
 md = [
-    '# Ведомость и смета Cambusa v16', '',
+    '# Ведомость и смета Cambusa v17', '',
     'Расчёт по габаритам деталей в closed.glb. Это план закупки и контроль раскладки. '
     'Карты используют прямоугольные заготовки с припуском, а пазы и отверстия задаются отдельно.', '',
     f'Деталей в модели — **{len(parts)}**, фанеры — **{len(sheets)} листов**, '
@@ -217,9 +217,9 @@ columns = 3
 tile_w, tile_h = 340, 365
 height = 48 + math.ceil(len(sheets)/columns)*tile_h
 svg = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {columns*tile_w} {height}" role="img">',
-       '<title>Раскладка фанеры Cambusa v16</title>',
+       '<title>Раскладка фанеры Cambusa v17</title>',
        '<rect width="100%" height="100%" fill="#f7f6f2"/>',
-       '<text x="16" y="29" font-family="sans-serif" font-size="20">Cambusa v16 · фанера · заготовки с припуском</text>']
+       '<text x="16" y="29" font-family="sans-serif" font-size="20">Cambusa v17 · фанера · заготовки с припуском</text>']
 colors = ['#d9bf9b','#c3cbb4','#ced8dc','#e3c9b9']
 for i, layout in enumerate(sheets):
     ox = (i % columns)*tile_w + 16
