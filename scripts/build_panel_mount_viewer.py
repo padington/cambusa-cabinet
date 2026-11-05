@@ -84,12 +84,13 @@ def payload(fixed, left, detail, joints):
         else:
             name = mesh_keys[key]
         material = {'back':'wood','rail':'handle','rubber':'frame'}.get(part['material'],part['material'])
-        hardware = ('panel' if part['name'].startswith(('Pegboard-M6','Pegboard-washer',
+        hardware = ('hinge' if part['name'].startswith('Blum-') else 'panel' if part['name'].startswith(('Pegboard-M6','Pegboard-washer',
                     'Pegboard-cross','Right-wall-M6','Right-wall-washer','Right-wall-cross')) else
                     'hinge' if part['name'].startswith(('Left-hinge','Left-profile','Left-panel')) else
                     'frame' if part['name'].startswith(('RSI-','Cube-','Foot-locknut')) else None)
         return dict(geo=name, origin=origin.tolist(), axes=[1,0,0,0,1,0,0,0,1],m=material,
                     top=top,display=None,left=moving,hardware=hardware,
+                    **({'motion':part['motion']} if part.get('motion') else {}),
                     **({'delta':part['delta']} if part.get('delta') is not None else {}))
 
     support=json.loads(gzip.decompress(base64.b64decode((ROOT/'work/viewer-v28-support-data.txt').read_text())))

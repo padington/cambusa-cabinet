@@ -1,0 +1,124 @@
+{
+  "version": "cambusa-v30-review-fixes",
+  "fabrication_release": false,
+  "pegboard": {
+    "hole_diameter_mm": 12,
+    "grid_mm": 50,
+    "count": 152,
+    "blind_depth_mm": 10,
+    "remaining_inner_skin_mm": 8,
+    "universal_hook_compatibility": false
+  },
+  "right_shelves": {
+    "blank_mm": [
+      461.5,
+      404,
+      12
+    ],
+    "front_y_mm": 54,
+    "wall_front_y_mm": 53.5,
+    "front_recess_mm": 0.5
+  },
+  "hinge": {
+    "sku": "71B3750",
+    "plate": "175H3100",
+    "cup_spacer_sku": "70T3507.21",
+    "cup_spacer_mm": 1.5,
+    "count": 3,
+    "maximum_degrees": 110,
+    "height_adjustment_mm": [
+      -2,
+      2
+    ],
+    "side_adjustment_mm": [
+      -2,
+      2
+    ],
+    "depth_adjustment_mm": [
+      -2,
+      3
+    ],
+    "geometry_scope": "Manufacturer bodies 0, 2 and 3 converted. Cup, housing and mounting plate use dimensional envelopes. Full supplier B-rep conversion remains incomplete."
+  },
+  "poses": {
+    "0": {
+      "unexpected": [],
+      "thread_contacts": 32
+    },
+    "55": {
+      "unexpected": [],
+      "thread_contacts": 32
+    },
+    "90": {
+      "unexpected": [],
+      "thread_contacts": 32
+    },
+    "110": {
+      "unexpected": [],
+      "thread_contacts": 32
+    }
+  },
+  "door_sweep": {
+    "closest_sample": [
+      1.4811435872923961,
+      8.0,
+      "Post-4-23"
+    ],
+    "step_degrees": 0.125,
+    "analytic_speed_bound_mm_per_radian": 463.8681276362232,
+    "between_sample_allowance_mm": 0.5060016326445873,
+    "lower_bound_mm": 0.9751419546478088,
+    "scope": "Door vs cabinet, excluding its commercial hinge internals"
+  },
+  "hinge_sample_step_degrees": 1,
+  "hinge_sample_collisions": [],
+  "right_sweeps": [
+    [
+      [
+        0.5,
+        1.031496062992126,
+        "Stile-L",
+        "Runner-L-1"
+      ],
+      0.2561959777951288
+    ],
+    [
+      [
+        0.5,
+        1.0338983050847457,
+        "Stile-L",
+        "Runner-L-2"
+      ],
+      0.2716867460637954
+    ],
+    [
+      [
+        0.5,
+        1.0338983050847457,
+        "Stile-L",
+        "Runner-L-3"
+      ],
+      0.2716867460637954
+    ]
+  ],
+  "view_dependencies": {
+    "Right-wall-M6x45-Top-97": "Beam-top-side-966",
+    "Right-wall-M6x45-Top-426": "Beam-top-side-966",
+    "Right-wall-M6x45-Bottom-97": "Beam-body-side-966",
+    "Right-wall-M6x45-Bottom-426": "Beam-body-side-966"
+  },
+  "closed_peg_hole_backs": 152,
+  "export_readback": {
+    "0": {
+      "part_count": 236,
+      "maximum_bounds_error_mm": 0.0005450717599160271
+    },
+    "110": {
+      "part_count": 236,
+      "maximum_bounds_error_mm": 0.0005450717599160271
+    }
+  },
+  "viewer_maximum_coordinate_error_mm": 0.03125,
+  "physical_verification": "Not performed; fabrication_release remains false",
+  "adjustment_scope": "Cabinet motion checked at neutral adjustment; manufacturer adjustment ranges are recorded, their extreme combinations are not qualified."
+}

@@ -48,41 +48,41 @@ def native_pose(degrees):
     return matrix, moving_b, moving_a
 
 
-def world_xy(point):
-    return OFFSET + np.asarray(point) * [-1, 1]
+def world_xy(point, offset_y=0):
+    return OFFSET + [0,offset_y] + np.asarray(point) * [-1, 1]
 
 
-def transform_for(kind, degrees):
+def transform_for(kind, degrees, offset_y=0):
     matrix, b, a = native_pose(degrees)
     if kind == 'cup':
         angle = -np.radians(degrees)
-        anchor, position = world_xy(B), world_xy(b)
+        anchor, position = world_xy(B,offset_y), world_xy(b,offset_y)
     else:
         origin, old, new = (P, B, b) if kind == 'link2' else (Q, A, a)
         before, after = (old - origin) * [-1, 1], (new - origin) * [-1, 1]
         angle = np.arctan2(after[1], after[0]) - np.arctan2(before[1], before[0])
-        anchor = position = world_xy(origin)
+        anchor = position = world_xy(origin,offset_y)
     transform = np.eye(4)
     transform[:2, :2] = rotation(angle)
     transform[:2, 3] = position - transform[:2, :2] @ anchor
     return transform
 
 
-def posed(parts, degrees):
+def posed(parts, degrees, offset_y=0):
     result = []
     for part in parts:
         if not part.get('motion'):
             result.append(part)
             continue
-        transform = transform_for(part['motion'], degrees)
+        transform = transform_for(part['motion'], degrees,offset_y)
         result.append(dict(part, mesh=part['mesh'].copy().apply_transform(transform),
                            thread_targets={name:region.copy().apply_transform(transform)
                                            for name,region in part.get('thread_targets', {}).items()}))
     return result
 
 
-def world_mesh(mesh, center):
-    transform = np.array([[-1, 0, 0, OFFSET[0]], [0, 1, 0, OFFSET[1]],
+def world_mesh(mesh, center, offset_y=0):
+    transform = np.array([[-1, 0, 0, OFFSET[0]], [0, 1, 0, OFFSET[1]+offset_y],
                           [0, 0, -1, center], [0, 0, 0, 1]], dtype=float)
     return mesh.copy().apply_transform(transform)
 
@@ -104,28 +104,40 @@ def wood_screw(origin, direction, length):
     return tm.boolean.union([shank, head], engine='manifold')
 
 
-def build(fixed):
+def build(fixed, cup_spacer_mm=0):
     moving, door_tools, pegboard_tools, machining = [], [], [], []
     with np.load(ROOT / 'inputs/blum-71b3750-readable.npz') as data:
         native = {i:tm.Trimesh(vertices=data[f'blum-71b3750-{i}-v'],
                                faces=data[f'blum-71b3750-{i}-f'], process=True)
                   for i in (0, 2, 3)}
     for index, center in enumerate(CENTERS, 1):
-        add(fixed, f'Blum-{index}-factory-clip', world_mesh(native[0], center), 'handle', hinge=index)
+        add(fixed, f'Blum-{index}-factory-clip', world_mesh(native[0], center,cup_spacer_mm), 'handle', hinge=index)
         for number in (2, 3):
             add(moving, f'Blum-{index}-factory-link{number}',
-                world_mesh(native[number], center), 'handle', hinge=index, motion=f'link{number}')
-        add(moving, f'Blum-{index}-cup-envelope', dimensional_cup(center),
+                world_mesh(native[number], center,cup_spacer_mm), 'handle', hinge=index, motion=f'link{number}')
+        add(moving, f'Blum-{index}-cup-envelope', dimensional_cup(center).apply_translation([0,cup_spacer_mm,0]),
             'handle', hinge=index, motion='cup')
+        if cup_spacer_mm:
+            # 70T3507.21 is a non-stackable 1.5 mm factory cup spacer.
+            # The outline is a 58 x 39 dimensional envelope, not its CAD.
+            assert cup_spacer_mm==1.5
+            outline=Point(58.5,center).buffer(18.5,quad_segs=16).union(
+                box(57,center-29,79,center+29))
+            spacer_tools=[bore([58.5,41,center],[0,1,0],-.1,1.6,17.6)]
+            spacer_tools += [bore([68,41,z],[0,1,0],-.1,1.6,1.85)
+                             for z in (center-22.5,center+22.5)]
+            add(moving,f'Blum-{index}-70T3507.21-envelope',
+                cut(panel(outline,1,41,1.5),spacer_tools),
+                'frame',hinge=index,motion='cup')
         path = LineString([tuple(P), tuple(Q), (-7, 4)])
         housing = panel(path.buffer(2.4, quad_segs=8), 2, -8.3, 16.6)
-        add(fixed, f'Blum-{index}-housing-envelope', world_mesh(housing, center), 'handle', hinge=index)
+        add(fixed, f'Blum-{index}-housing-envelope', world_mesh(housing, center,cup_spacer_mm), 'handle', hinge=index)
         # The plate envelope retains the mounting surface and the 32 mm
         # fixing pattern of the factory 175H3100 CAD.
-        plate = cube([34, 57.285, center - 9.325], [35.25, 100.955, center + 9.325])
-        spacer = cube([28, 54, center - 12], [34, 105, center + 12])
+        plate = cube([34, 57.285+cup_spacer_mm, center - 9.325], [35.25, 100.955+cup_spacer_mm, center + 9.325])
+        spacer = cube([28, 54+cup_spacer_mm, center - 12], [34, 105+cup_spacer_mm, center + 12])
         plate_holes, spacer_holes = [], []
-        for y in (62.5, 94.5):
+        for y in (62.5+cup_spacer_mm,94.5+cup_spacer_mm):
             plate_holes.append(bore([34, y, center], [1, 0, 0], -.1, 1.4, 2.8))
             spacer_holes.append(bore([28, y, center], [1, 0, 0], -.1, 6.1, 1.85))
             pegboard_tools.append(bore([28, y, center], [-1, 0, 0], -.1, 12.85, 1.25))
@@ -135,14 +147,14 @@ def build(fixed):
             machining.append(['Left-pegboard-18','pilot from inner face', y-53.5, center-800, 2.5,12.8])
         add(fixed, f'Blum-{index}-plate-envelope', cut(plate, plate_holes), 'handle', hinge=index)
         add(fixed, f'Blum-{index}-spacer-6', cut(spacer, spacer_holes), 'angle')
-        door_tools.append(bore([58.5,41,center], [0,-1,0], -.1,13.05,17.55))
-        machining.append(['Left-door-face-18','cup from back',22.5,center-803,35.1,13.05])
+        door_tools.append(bore([58.5,41,center], [0,-1,0], -.1,13.05-cup_spacer_mm,17.55))
+        machining.append(['Left-door-face-18','cup from back',22.5,center-803,35.1,13.05-cup_spacer_mm])
         for z in (center-22.5,center+22.5):
-            door_tools.append(bore([68,41,z],[0,-1,0],-.1,12.85,1.25))
-            add(moving, f'Blum-{index}-cup-screw-{z}', wood_screw([68,44.2,z],[0,-1,0],16),
+            door_tools.append(bore([68,41,z],[0,-1,0],-.1,12.85-cup_spacer_mm,1.25))
+            add(moving, f'Blum-{index}-cup-screw-{z}', wood_screw([68,44.2+cup_spacer_mm,z],[0,-1,0],16),
                 'fastener', hinge=index, motion='cup', thread_targets={
-                    'Left-door-face-18':bore([68,41,z],[0,-1,0],-.01,12.81,1.8)})
-            machining.append(['Left-door-face-18','pilot from back',32,z-803,2.5,12.8])
+                    'Left-door-face-18':bore([68,41,z],[0,-1,0],-.01,12.81-cup_spacer_mm,1.8)})
+            machining.append(['Left-door-face-18','pilot from back',32,z-803,2.5,12.8-cup_spacer_mm])
     grip = panel(LineString([(470,1250),(470,1322)]).buffer(9,quad_segs=16),1,22.9,12.1)
     add(moving,'Left-door-face-18',cut(cube([36,23,803],[488,41,1767]),door_tools+[grip]),
         'door',motion='cup')

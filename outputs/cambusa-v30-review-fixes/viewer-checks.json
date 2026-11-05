@@ -1,0 +1,25 @@
+{
+  "version": "cambusa-v30-review-fixes",
+  "passed": true,
+  "checked_at": "2026-11-05T14:40:09.764Z",
+  "views": 10,
+  "checks": [
+    "initial rendered mesh",
+    "8 full-assembly mount markers",
+    "left facade range 0–110",
+    "right facade control",
+    "right shelf 404 mm caption",
+    "5 mount/section labels",
+    "exploded section geometry",
+    "152 blind-hole caption",
+    "peg insertion/pullout",
+    "four-bar hinge motion",
+    "frame/corner/foot rendering",
+    "250 percent zoom",
+    "320 px dark layout without horizontal overflow",
+    "no JavaScript exceptions"
+  ],
+  "viewer_sha256": "da43d198e1a5ee38d86ff9ca06f59a1ccfc571f96f9c1c4c48ec0dc8d3344965",
+  "viewer_bytes": 743550,
+  "script_sha256": "16449bf8d221b449876a60b510fef4ef48358951a0d57411372effd49932b638"
+}

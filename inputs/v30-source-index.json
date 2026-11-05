@@ -1,0 +1,40 @@
+{
+  "observed_on": "2026-11-05",
+  "documents": [
+    {
+      "local": "inputs/supplier-cad/blum-110-technical.pdf",
+      "sha256": "ac6d3f9b6861f509eda4b00fe879d9bc7573152933570f363fec99ed87302837",
+      "url": "https://d2.blum.com/services/BEC003/clp0001-td-032_td_dok_bau_%24sen_%24aof_%24v4.pdf",
+      "scope": "71B3750 / 110 degree technical data"
+    },
+    {
+      "url": "https://www.blum.com/us/en/products/hingesystems/clip-top-blumotion/assembly/",
+      "scope": "Three-dimensional adjustment, manufacturer assembly guide"
+    },
+    {
+      "url": "https://d2.blum.com/services/BEC003/concealedhinges_ep_dok_bus_%24sen-us_%24aof_%24v17.pdf",
+      "scope": "175H3100 height adjustment +/-2; 70T3507.21 cup spacer1.5; manufacturer PDF read from web cache",
+      "download_status": "Original direct URL returned404; no local copy"
+    },
+    {
+      "url": "https://s1.img-b.com/build.com/mediabase/specifications/blum/312071/blum-70t3507.21-specification-sheet.pdf",
+      "scope": "Manufacturer product sheet70T3507.21, thickness1.5,58x39, non-stackable",
+      "download_status": "Direct download returned403; manufacturer excerpt read via web"
+    },
+    {
+      "url": "https://s1.img-b.com/pullsdirect.com/mediabase/specifications/blum/1061411/blum-175h3100-specification-sheet.pdf",
+      "scope": "Manufacturer product sheet175H3100, cam +/-2, height8.5,spacing0",
+      "local_copy": false
+    }
+  ],
+  "local_catalogue_pages": [
+    "https://fkmspb.ru/product-category/furnitura-blum/mebelnye-petli-blum/clip-top-blumotion/",
+    "https://fkmspb.ru/forma-otvetnoj-planki/prjamaja/",
+    "https://fkmspb.ru/product/podkladka-pod-petlju-clip-top-blumotion/"
+  ],
+  "availability": "Catalogue listings only, stock and prices of complete kit not confirmed",
+  "pegboard_examples": [
+    "https://kreisdesign.com/products/peg-it-all-wall-mounted-storage-panel-in-natural-birch-plywood",
+    "https://sowatt.com.au/collections/pegboard/products/free-standing-pegboard"
+  ]
+}

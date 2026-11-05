@@ -1,0 +1,13 @@
+part,a_mm,b_mm,stock_mm,count
+Back-infill-8,947.0,985.0,8,1
+Floor-8,466.0,432.0,8,2
+Center-18,435,970,18,1
+Top-18,932,417,18,1
+Right-roof,457,405,12,1
+Shelf-Left-1,461,355,18,1
+Shelf-Left-2,461,355,18,1
+Left-pegboard-18,416,969,18,1
+Right-wall-18,416,969,18,1
+Left-door-face-18,452,964,18,1
+Shelf-Right-1,461.5,404,12,1
+Shelf-Right-2,461.5,404,12,1
