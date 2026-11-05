@@ -1,0 +1,13 @@
+{
+  "units": "mm",
+  "dxf_validation": "read back and audited",
+  "files": {
+    "side-bottom-edge.dxf": "f9221caeb08e87781cf59b89e1b7b590d6ac40dcf66f05bc5fcefbc689afc155",
+    "side-outer.dxf": "28f97bd47e7c092205cfa9eff98f33752da04cff6438efd235080b5070962c6a",
+    "door-front.dxf": "22d775bb68edf92bdd106c4e80cff723abe0b379aac68212bb047a5ef1a1f903",
+    "side-inner.dxf": "7b7625da8ab2941abeebcc4a1ccf178947c1e6a945b654590cd2711d321311a2",
+    "side-top-edge.dxf": "f964e1906bb3182ec8a7c0d0820ea3f295bf90d04634b6a1ec195487c2c62ea6",
+    "door-back.dxf": "fe48bffad97b3bc060034f6416aff81b0ae2588218c52fe5cfcc43eba4052978"
+  },
+  "operations": 183
+}

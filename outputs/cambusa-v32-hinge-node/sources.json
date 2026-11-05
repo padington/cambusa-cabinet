@@ -1,0 +1,143 @@
+{
+  "prepared_date": "2026-11-06",
+  "source_files": [
+    {
+      "file": "inputs/supplier-cad/blum-71t6650.dxf",
+      "sha256": "4c30e842150d0cda512f20935252ebb9248758414c5a233c76af43db2e66fef8",
+      "source_url": "https://www.bullerltd.co.uk/index.php?dispatch=attachments.getfile&attachment_id=3637",
+      "bytes": 982768
+    },
+    {
+      "file": "inputs/supplier-cad/blum-71t6650-technical.pdf",
+      "sha256": "8e53ac823c9dce2c5678153d668f1baa2333d99cf694d6dc0a91f628d897df6e",
+      "source_url": "https://www.bullerltd.co.uk/index.php?dispatch=attachments.getfile&attachment_id=3198",
+      "bytes": 43290
+    },
+    {
+      "file": "inputs/supplier-cad/blum-175h7190.dxf",
+      "sha256": "6a0588c06bc615a1305e87911ff766c11fea489c4f329475dc3b414365ac7a80",
+      "source_url": "https://www.bullerltd.co.uk/index.php?dispatch=attachments.getfile&attachment_id=4415",
+      "bytes": 370223
+    },
+    {
+      "file": "inputs/supplier-cad/blum-175h7190-technical.pdf",
+      "sha256": "076a1bdbe4c50a768e77941223e13b5d2d19af036b1266e4bd4ccc490f7ab0dd",
+      "source_url": "https://www.bullerltd.co.uk/index.php?dispatch=attachments.getfile&attachment_id=4414",
+      "bytes": 41346
+    },
+    {
+      "file": "inputs/supplier-cad/blum-170-planning.pdf",
+      "sha256": "95f201aea28e34d098f3e077ca113fab300b5632e106158dce8394d42735972e",
+      "bytes": 689143,
+      "source_url": "https://publications.blum.com/2026/catalogue/en/83/",
+      "retrieved_date": "2026-11-05",
+      "description": "Official downloaded single-page planning PDF; printed page 83"
+    }
+  ],
+  "manufacturer_pages": [
+    "https://publications.blum.com/2026/catalogue/en/82/",
+    "https://publications.blum.com/2026/catalogue/en/83/",
+    "https://publications.blum.com/2026/catalogue/en/154/",
+    "https://ea.blum.com/en/number-of-hinges/"
+  ],
+  "supplier_pages": [
+    "https://blum-market.ru/clip-top-polunakladnaya-petlya-170-71t6650",
+    "https://blum-market.ru/montazhnaya-planka-clip-9mm-samorez-175h7190",
+    "https://blum-rus.ru/samorez-35-h-15mm"
+  ],
+  "conversion_engine": {
+    "project": "https://github.com/monozukuri-ai/cq-acis",
+    "package_version": "0.3.12",
+    "inspected_source_commit": "e05a8f470d2f6799277f7b7df467d2fc35625889",
+    "local_adapter": "scripts/blum_acis208.py",
+    "dependencies": "requirements-cad.txt"
+  },
+  "failed_independent_check": "ShareCAD remote URL attempt showed the default demo instead of the DXF; no independent validation obtained.",
+  "generated": [
+    {
+      "file": "outputs/wide-hinge-verification/blum-175h7190-0.step",
+      "sha256": "77349d912f813a4d0b504b8576b28b9ae5b7d739e3f487142ee1d6e299759d0b",
+      "bytes": 459226
+    },
+    {
+      "file": "outputs/wide-hinge-verification/blum-71t6650-0.step",
+      "sha256": "cf274b74daa4802b44cdb81485f7ae08d7125da02e00df696ad8c3dc82edb680",
+      "bytes": 214389
+    },
+    {
+      "file": "outputs/wide-hinge-verification/blum-71t6650-1.step",
+      "sha256": "012e217de25de962409b170c5cf8b4c467a0e29f7b6c5123f0514868049ffeb3",
+      "bytes": 69771
+    },
+    {
+      "file": "outputs/wide-hinge-verification/blum-71t6650-2.step",
+      "sha256": "cadb1b43240269a87ebffb53476fedf89c9ae0b498eb826e94e22cf3e6ce7441",
+      "bytes": 301166
+    },
+    {
+      "file": "outputs/wide-hinge-verification/blum-71t6650-3.step",
+      "sha256": "986139b365a904489b3313ee47aaffba6c1690832923a7325ccba5f42f6c2177",
+      "bytes": 614168
+    },
+    {
+      "file": "outputs/wide-hinge-verification/blum-71t6650-4.step",
+      "sha256": "d0d3bc19555cd2274c6bd6fd85f7288e00804a0c166a1950249423ada8991a8d",
+      "bytes": 92155
+    },
+    {
+      "file": "outputs/wide-hinge-verification/blum-71t6650-5.step",
+      "sha256": "affed1d726595fef4084bbe14e0610b88bcb5e4116ae6acdb58ee1979b5f33f4",
+      "bytes": 370017
+    },
+    {
+      "file": "outputs/wide-hinge-verification/blum-71t6650-6.step",
+      "sha256": "7216439df3a1997e761beb93b4aec3c7bdb69b17a911e130209d8ee5122566d4",
+      "bytes": 122959
+    },
+    {
+      "file": "outputs/wide-hinge-verification/screw-cup.step",
+      "sha256": "9d4110a7fcba089c8acda5ef48ea643afd456b0e58c5b3f4fc605a5eab666b42",
+      "bytes": 11872
+    },
+    {
+      "file": "outputs/wide-hinge-verification/screw-plate.step",
+      "sha256": "e5674b472b5b5837e483e6c8c714bad09916fb55a65c3c0c2f73569220eb19bf",
+      "bytes": 11889
+    },
+    {
+      "file": "outputs/wide-hinge-verification/explicit-conversion.json",
+      "sha256": "d19b731d2ff17192c38e71855ed8362bec4b4556a5357a6e627abd7c1e220ff8",
+      "bytes": 282033
+    },
+    {
+      "file": "outputs/wide-hinge-verification/exact-fit.json",
+      "sha256": "8fd1c53e78951575e6cc49e18d32d8de50cc2a789483907dc7079fc575e7c6a8",
+      "bytes": 1336
+    },
+    {
+      "file": "outputs/wide-hinge-verification/screw-seats.json",
+      "sha256": "752ebe0f12e42d3733d386ccf65a5cc407f4351f83ba97bd14267c1095a77d80",
+      "bytes": 781
+    },
+    {
+      "file": "outputs/cambusa-v32-hinge-node/model-checks.json",
+      "sha256": "a07f2bce99eda3726ef2ac755d0dc4c2487260aa1a4dc5dcfe0c1c6b9b5ea965",
+      "bytes": 835
+    },
+    {
+      "file": "outputs/cambusa-v32-hinge-node/viewer-checks.json",
+      "sha256": "b6aa74b4757712d10d09dbc73db9e26993e22548a406a9020867041e20c4f153",
+      "bytes": 357
+    },
+    {
+      "file": "outputs/cambusa-v32-hinge-node/hinge-bom.csv",
+      "sha256": "7128ceb2ec7702482d271b0cd7c0aab1c58e00374f6b8cdf8964ab590c2b1c64",
+      "bytes": 593
+    },
+    {
+      "file": "outputs/cambusa-v32-hinge-node/readiness.json",
+      "sha256": "452e908b06171f5b4550b3352dd87c59291549e6cce9680b132959931d7bbfaf",
+      "bytes": 868
+    }
+  ]
+}

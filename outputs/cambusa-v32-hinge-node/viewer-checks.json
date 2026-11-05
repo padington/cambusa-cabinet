@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-05T21:07:26.407Z",
+  "views": 5,
+  "checks": [
+    "complete exterior supplier hardware at 170",
+    "0–170 hinge motion",
+    "wood-only rear relief view",
+    "full cabinet and right door",
+    "frame and blind pegboard",
+    "250 percent zoom",
+    "320px dark layout",
+    "no JavaScript exceptions"
+  ]
+}

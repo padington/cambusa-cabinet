@@ -1,0 +1,20 @@
+{
+  "version": "cambusa-v32-hinge-node",
+  "status": "candidate_for_review",
+  "external_nominal_cad_fit_passed": true,
+  "exact_sample_count": 681,
+  "internal_mechanism_independently_verified": false,
+  "internal_overlap_origin_independently_confirmed": false,
+  "physical_fit_and_load_test_performed": false,
+  "machining_tolerances_and_final_material_confirmed": false,
+  "release_for_full_cabinet_manufacture": false,
+  "next_acceptance": "One purchased hinge + plate and a machined sample corner in final material, or independently validated native CAD; agree final material and machining tolerances before full cutting.",
+  "tested_assembly": "71T6650 + 175H7190 without cup or plate spacers; nominal adjustment only",
+  "hardware_installed_cost_rub": 4658.13,
+  "exclusions": [
+    "delivery",
+    "wood",
+    "machining",
+    "optional damper 973A6000"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "hinge": "71T6650",
+  "plate": "175H7190",
+  "source_solids": 8,
+  "exact_brep": true,
+  "pocket_mm": [
+    9.5,
+    25,
+    3.2
+  ],
+  "pocket_internal_radius_mm": 3,
+  "cup_bore_mm": [
+    35.2,
+    11.2
+  ],
+  "pilot_mm": [
+    2.7,
+    8
+  ],
+  "sample_step_degrees": 0.25,
+  "collision_volume_threshold_mm3": 0.001,
+  "unexpected": [],
+  "scope": "external fit of commercial product envelopes; not internal mechanism or load certification",
+  "old_door_contact_170_mm3": 11.947242210742427,
+  "cup_wood_overlap_mm3": 0.0,
+  "sample_count": 681,
+  "external_nominal_fit_passed": true,
+  "physical_load_test_performed": false,
+  "converted_internal_intersections": [
+    [
+      0,
+      1,
+      406.82207637505417
+    ],
+    [
+      0,
+      2,
+      11691.067032215562
+    ],
+    [
+      0,
+      3,
+      337.01082890377785
+    ],
+    [
+      0,
+      6,
+      4637.159208724761
+    ],
+    [
+      1,
+      2,
+      488.62507263622183
+    ],
+    [
+      2,
+      3,
+      2806.4558616584654
+    ],
+    [
+      2,
+      4,
+      30.819656611149068
+    ],
+    [
+      2,
+      5,
+      22.542308652120887
+    ],
+    [
+      2,
+      6,
+      48.6611420155906
+    ],
+    [
+      3,
+      4,
+      3808.396478369975
+    ]
+  ],
+  "internal_mechanism_certified": false,
+  "internal_overlap_origin_independently_confirmed": false
+}

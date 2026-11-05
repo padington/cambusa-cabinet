@@ -4,6 +4,7 @@ __pycache__/
 work/cambusa-frame-v*-meshes.json
 work/vendor/
 work/hinge-cad-vendor/
+work/hinge-verification/
 inputs/*.local.json
 local-estimate/
 outputs/cambusa-v30-costs-rf/*.inspect.ndjson

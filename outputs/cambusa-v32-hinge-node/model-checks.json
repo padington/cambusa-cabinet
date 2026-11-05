@@ -1,0 +1,27 @@
+{
+  "version": "cambusa-v32-hinge-node",
+  "geometry_source": "all 7 hinge bodies + real mounting plate",
+  "actual_factory_body_count": 24,
+  "cup_spacers": 0,
+  "side_backers": 0,
+  "supplier_internal_collision_qualification": false,
+  "physical_load_test": false,
+  "complete_cabinet_release": false,
+  "exports": {
+    "0": {
+      "parts": 236,
+      "bounds_error_mm": 0.0005450717599160271,
+      "sha256": "b8423037234ad9f8d91839e6fb8fabbd0afae7c3d54ed33ca7975dda36fcce5e"
+    },
+    "110": {
+      "parts": 236,
+      "bounds_error_mm": 0.0005450717599160271,
+      "sha256": "05268710f96f71ca1334e8c50c33428e78cfcccf1891515a8b13d0f7d9ee6bc7"
+    },
+    "170": {
+      "parts": 236,
+      "bounds_error_mm": 0.0005450717599160271,
+      "sha256": "81a96095b60a988420a14b1db2b2cc281d16948c7dc05a0fb62decb99bf72310"
+    }
+  }
+}
