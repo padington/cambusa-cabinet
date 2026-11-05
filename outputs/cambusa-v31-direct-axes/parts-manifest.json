@@ -1,0 +1,502 @@
+[
+  {
+    "id": "Blum-1-spacer-6",
+    "group": "hinge-backers",
+    "title": "Проставки петель",
+    "dimensions_mm": [
+      51.0,
+      24.0,
+      6.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Blum-1-spacer-6.glb",
+    "stl": "custom-parts/Blum-1-spacer-6.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Есть отверстия и положение в сборке. Материал, допуски и обработка ещё не утверждены."
+  },
+  {
+    "id": "Blum-2-spacer-6",
+    "group": "hinge-backers",
+    "title": "Проставки петель",
+    "dimensions_mm": [
+      51.0,
+      24.0,
+      6.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Blum-2-spacer-6.glb",
+    "stl": "custom-parts/Blum-2-spacer-6.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Есть отверстия и положение в сборке. Материал, допуски и обработка ещё не утверждены."
+  },
+  {
+    "id": "Blum-3-spacer-6",
+    "group": "hinge-backers",
+    "title": "Проставки петель",
+    "dimensions_mm": [
+      51.0,
+      24.0,
+      6.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Blum-3-spacer-6.glb",
+    "stl": "custom-parts/Blum-3-spacer-6.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Есть отверстия и положение в сборке. Материал, допуски и обработка ещё не утверждены."
+  },
+  {
+    "id": "Right-runner-spacer-6-1",
+    "group": "runner-backers",
+    "title": "Проставки направляющих",
+    "dimensions_mm": [
+      260.0,
+      32.0,
+      6.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Right-runner-spacer-6-1.glb",
+    "stl": "custom-parts/Right-runner-spacer-6-1.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "В модели гнёзда глубиной 5,5 мм, с дном 0,5 мм. Подготовка под настоящую резьбу М5 не определена."
+  },
+  {
+    "id": "Right-runner-spacer-6-2",
+    "group": "runner-backers",
+    "title": "Проставки направляющих",
+    "dimensions_mm": [
+      260.0,
+      32.0,
+      6.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Right-runner-spacer-6-2.glb",
+    "stl": "custom-parts/Right-runner-spacer-6-2.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "В модели гнёзда глубиной 5,5 мм, с дном 0,5 мм. Подготовка под настоящую резьбу М5 не определена."
+  },
+  {
+    "id": "Right-runner-spacer-6-3",
+    "group": "runner-backers",
+    "title": "Проставки направляющих",
+    "dimensions_mm": [
+      260.0,
+      32.0,
+      6.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Right-runner-spacer-6-3.glb",
+    "stl": "custom-parts/Right-runner-spacer-6-3.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "В модели гнёзда глубиной 5,5 мм, с дном 0,5 мм. Подготовка под настоящую резьбу М5 не определена."
+  },
+  {
+    "id": "Runner-L-1",
+    "group": "runners",
+    "title": "Опоры скольжения фасадов",
+    "dimensions_mm": [
+      260.0,
+      17.0,
+      8.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Runner-L-1.glb",
+    "stl": "custom-parts/Runner-L-1.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Прямоугольные тела без крепёжных отверстий. Материал, износ и полный крепёж не определены."
+  },
+  {
+    "id": "Runner-L-2",
+    "group": "runners",
+    "title": "Опоры скольжения фасадов",
+    "dimensions_mm": [
+      260.0,
+      17.0,
+      8.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Runner-L-2.glb",
+    "stl": "custom-parts/Runner-L-2.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Прямоугольные тела без крепёжных отверстий. Материал, износ и полный крепёж не определены."
+  },
+  {
+    "id": "Runner-L-3",
+    "group": "runners",
+    "title": "Опоры скольжения фасадов",
+    "dimensions_mm": [
+      260.0,
+      17.0,
+      8.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Runner-L-3.glb",
+    "stl": "custom-parts/Runner-L-3.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Прямоугольные тела без крепёжных отверстий. Материал, износ и полный крепёж не определены."
+  },
+  {
+    "id": "Runner-R-1",
+    "group": "runners",
+    "title": "Опоры скольжения фасадов",
+    "dimensions_mm": [
+      260.0,
+      16.0,
+      8.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Runner-R-1.glb",
+    "stl": "custom-parts/Runner-R-1.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Прямоугольные тела без крепёжных отверстий. Материал, износ и полный крепёж не определены."
+  },
+  {
+    "id": "Runner-R-2",
+    "group": "runners",
+    "title": "Опоры скольжения фасадов",
+    "dimensions_mm": [
+      260.0,
+      16.0,
+      8.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Runner-R-2.glb",
+    "stl": "custom-parts/Runner-R-2.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Прямоугольные тела без крепёжных отверстий. Материал, износ и полный крепёж не определены."
+  },
+  {
+    "id": "Runner-R-3",
+    "group": "runners",
+    "title": "Опоры скольжения фасадов",
+    "dimensions_mm": [
+      260.0,
+      16.0,
+      8.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Runner-R-3.glb",
+    "stl": "custom-parts/Runner-R-3.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Прямоугольные тела без крепёжных отверстий. Материал, износ и полный крепёж не определены."
+  },
+  {
+    "id": "Pin-L-1",
+    "group": "pivot-pins",
+    "title": "Оси фасадов",
+    "dimensions_mm": [
+      6.0,
+      6.0,
+      17.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Pin-L-1.glb",
+    "stl": "custom-parts/Pin-L-1.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Заказная ось: гладкая часть Ø6, вылет 10 мм слева / 15 мм справа, хвостовик М5x0,8 длиной 7 мм, торцевой шлиц 1 × 1,2. Резьба показана номинальным цилиндром. Нужны допуски, фаски, технологический выход резьбы и испытание образца."
+  },
+  {
+    "id": "Pin-L-2",
+    "group": "pivot-pins",
+    "title": "Оси фасадов",
+    "dimensions_mm": [
+      6.0,
+      6.0,
+      17.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Pin-L-2.glb",
+    "stl": "custom-parts/Pin-L-2.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Заказная ось: гладкая часть Ø6, вылет 10 мм слева / 15 мм справа, хвостовик М5x0,8 длиной 7 мм, торцевой шлиц 1 × 1,2. Резьба показана номинальным цилиндром. Нужны допуски, фаски, технологический выход резьбы и испытание образца."
+  },
+  {
+    "id": "Pin-L-3",
+    "group": "pivot-pins",
+    "title": "Оси фасадов",
+    "dimensions_mm": [
+      6.0,
+      6.0,
+      17.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Pin-L-3.glb",
+    "stl": "custom-parts/Pin-L-3.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Заказная ось: гладкая часть Ø6, вылет 10 мм слева / 15 мм справа, хвостовик М5x0,8 длиной 7 мм, торцевой шлиц 1 × 1,2. Резьба показана номинальным цилиндром. Нужны допуски, фаски, технологический выход резьбы и испытание образца."
+  },
+  {
+    "id": "Pin-R-1",
+    "group": "pivot-pins",
+    "title": "Оси фасадов",
+    "dimensions_mm": [
+      6.0,
+      6.0,
+      22.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Pin-R-1.glb",
+    "stl": "custom-parts/Pin-R-1.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Заказная ось: гладкая часть Ø6, вылет 10 мм слева / 15 мм справа, хвостовик М5x0,8 длиной 7 мм, торцевой шлиц 1 × 1,2. Резьба показана номинальным цилиндром. Нужны допуски, фаски, технологический выход резьбы и испытание образца."
+  },
+  {
+    "id": "Pin-R-2",
+    "group": "pivot-pins",
+    "title": "Оси фасадов",
+    "dimensions_mm": [
+      6.0,
+      6.0,
+      22.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Pin-R-2.glb",
+    "stl": "custom-parts/Pin-R-2.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Заказная ось: гладкая часть Ø6, вылет 10 мм слева / 15 мм справа, хвостовик М5x0,8 длиной 7 мм, торцевой шлиц 1 × 1,2. Резьба показана номинальным цилиндром. Нужны допуски, фаски, технологический выход резьбы и испытание образца."
+  },
+  {
+    "id": "Pin-R-3",
+    "group": "pivot-pins",
+    "title": "Оси фасадов",
+    "dimensions_mm": [
+      6.0,
+      6.0,
+      22.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Pin-R-3.glb",
+    "stl": "custom-parts/Pin-R-3.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Заказная ось: гладкая часть Ø6, вылет 10 мм слева / 15 мм справа, хвостовик М5x0,8 длиной 7 мм, торцевой шлиц 1 × 1,2. Резьба показана номинальным цилиндром. Нужны допуски, фаски, технологический выход резьбы и испытание образца."
+  },
+  {
+    "id": "Display-ledge-1",
+    "group": "display-ledges",
+    "title": "Ручки-полочки",
+    "dimensions_mm": [
+      444.0,
+      37.0571,
+      27.763
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Display-ledge-1.glb",
+    "stl": "custom-parts/Display-ledge-1.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Есть форма сечения. Крепление к фасаду, материал и производственные радиусы не заданы."
+  },
+  {
+    "id": "Display-ledge-2",
+    "group": "display-ledges",
+    "title": "Ручки-полочки",
+    "dimensions_mm": [
+      444.0,
+      37.0571,
+      27.763
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Display-ledge-2.glb",
+    "stl": "custom-parts/Display-ledge-2.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Есть форма сечения. Крепление к фасаду, материал и производственные радиусы не заданы."
+  },
+  {
+    "id": "Display-ledge-3",
+    "group": "display-ledges",
+    "title": "Ручки-полочки",
+    "dimensions_mm": [
+      444.0,
+      37.0571,
+      27.763
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Display-ledge-3.glb",
+    "stl": "custom-parts/Display-ledge-3.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Есть форма сечения. Крепление к фасаду, материал и производственные радиусы не заданы."
+  },
+  {
+    "id": "Pegboard-top-shim-426",
+    "group": "panel-shims",
+    "title": "Прокладки под панели",
+    "dimensions_mm": [
+      18.0,
+      20.0,
+      1.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Pegboard-top-shim-426.glb",
+    "stl": "custom-parts/Pegboard-top-shim-426.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Есть проходное отверстие и посадка в сборке. Требуется выбор материала и способа изготовления."
+  },
+  {
+    "id": "Pegboard-top-shim-97",
+    "group": "panel-shims",
+    "title": "Прокладки под панели",
+    "dimensions_mm": [
+      18.0,
+      20.0,
+      1.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Pegboard-top-shim-97.glb",
+    "stl": "custom-parts/Pegboard-top-shim-97.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Есть проходное отверстие и посадка в сборке. Требуется выбор материала и способа изготовления."
+  },
+  {
+    "id": "Right-wall-top-shim-426",
+    "group": "panel-shims",
+    "title": "Прокладки под панели",
+    "dimensions_mm": [
+      18.0,
+      20.0,
+      1.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Right-wall-top-shim-426.glb",
+    "stl": "custom-parts/Right-wall-top-shim-426.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Есть проходное отверстие и посадка в сборке. Требуется выбор материала и способа изготовления."
+  },
+  {
+    "id": "Right-wall-top-shim-97",
+    "group": "panel-shims",
+    "title": "Прокладки под панели",
+    "dimensions_mm": [
+      18.0,
+      20.0,
+      1.0
+    ],
+    "supplier_cad": false,
+    "model_kind": "project triangle mesh",
+    "native_units": "mm",
+    "glb_units": "m",
+    "stl_units_convention": "mm",
+    "glb": "custom-parts/Right-wall-top-shim-97.glb",
+    "stl": "custom-parts/Right-wall-top-shim-97.stl",
+    "manufacturer_drawing": false,
+    "fabrication_release": false,
+    "unfinished": "Есть проходное отверстие и посадка в сборке. Требуется выбор материала и способа изготовления."
+  }
+]

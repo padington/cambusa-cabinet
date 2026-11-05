@@ -1,0 +1,22 @@
+{
+  "version": "cambusa-v31-direct-axes",
+  "passed": true,
+  "checked_at": "2026-11-05T18:24:11.990Z",
+  "views": 12,
+  "checks": [
+    "initial rendered mesh",
+    "8 full-assembly mount markers",
+    "left facade range 0–110",
+    "right facade control",
+    "right shelf 404 mm caption",
+    "5 mount/section labels",
+    "exploded section geometry",
+    "152 blind-hole caption",
+    "peg insertion/pullout",
+    "four-bar hinge motion",
+    "frame/corner/foot rendering",
+    "250 percent zoom",
+    "320 px dark layout without horizontal overflow",
+    "no JavaScript exceptions"
+  ]
+}

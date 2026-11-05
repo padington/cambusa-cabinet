@@ -1,0 +1,7 @@
+side_panel,axis,u_from_panel_front_mm,v_from_panel_bottom_mm,pilot_candidate_diameter_mm,pilot_depth_mm,pilot_needs_sample
+Center-18,Pin-L-1,47.0,275.0,8,10.5,True
+Right-wall-18,Pin-R-1,16.5,275.0,8,10.5,True
+Center-18,Pin-L-2,47.0,596.0,8,10.5,True
+Right-wall-18,Pin-R-2,16.5,596.0,8,10.5,True
+Center-18,Pin-L-3,47.0,918.0,8,10.5,True
+Right-wall-18,Pin-R-3,16.5,918.0,8,10.5,True

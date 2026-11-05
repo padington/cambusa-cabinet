@@ -1,0 +1,198 @@
+{
+  "version": "cambusa-v31-direct-axes",
+  "removed_parts": [
+    "Pin-carrier-L-1",
+    "Pin-carrier-L-2",
+    "Pin-carrier-L-3",
+    "Pin-carrier-R-1",
+    "Pin-carrier-R-2",
+    "Pin-carrier-R-3"
+  ],
+  "mechanism_shift_y_mm": 19.0,
+  "interfaces": [
+    {
+      "axis": "Pin-L-1",
+      "insert": "Axle-insert-L-1-M5x10",
+      "side_panel": "Center-18",
+      "x_face_mm": 509,
+      "pivot_y_mm": 70.0,
+      "pivot_z_mm": 1075,
+      "support_face_gap_mm": 0.0,
+      "plain_diameter_mm": 6,
+      "plain_projection_mm": 10,
+      "threaded_stem": "M5x0.8",
+      "threaded_stem_length_mm": 7,
+      "insert_length_mm": 10,
+      "pilot_candidate_diameter_mm": 8,
+      "pilot_depth_mm": 10.5,
+      "pilot_needs_sample": true,
+      "panel_rear_skin_mm": 7.5,
+      "u_from_panel_front_mm": 47.0,
+      "v_from_panel_bottom_mm": 275.0
+    },
+    {
+      "axis": "Pin-R-1",
+      "insert": "Axle-insert-R-1-M5x10",
+      "side_panel": "Right-wall-18",
+      "x_face_mm": 972,
+      "pivot_y_mm": 70.0,
+      "pivot_z_mm": 1075,
+      "support_face_gap_mm": 0.0,
+      "plain_diameter_mm": 6,
+      "plain_projection_mm": 15,
+      "threaded_stem": "M5x0.8",
+      "threaded_stem_length_mm": 7,
+      "insert_length_mm": 10,
+      "pilot_candidate_diameter_mm": 8,
+      "pilot_depth_mm": 10.5,
+      "pilot_needs_sample": true,
+      "panel_rear_skin_mm": 7.5,
+      "u_from_panel_front_mm": 16.5,
+      "v_from_panel_bottom_mm": 275.0
+    },
+    {
+      "axis": "Pin-L-2",
+      "insert": "Axle-insert-L-2-M5x10",
+      "side_panel": "Center-18",
+      "x_face_mm": 509,
+      "pivot_y_mm": 70.0,
+      "pivot_z_mm": 1396,
+      "support_face_gap_mm": 0.0,
+      "plain_diameter_mm": 6,
+      "plain_projection_mm": 10,
+      "threaded_stem": "M5x0.8",
+      "threaded_stem_length_mm": 7,
+      "insert_length_mm": 10,
+      "pilot_candidate_diameter_mm": 8,
+      "pilot_depth_mm": 10.5,
+      "pilot_needs_sample": true,
+      "panel_rear_skin_mm": 7.5,
+      "u_from_panel_front_mm": 47.0,
+      "v_from_panel_bottom_mm": 596.0
+    },
+    {
+      "axis": "Pin-R-2",
+      "insert": "Axle-insert-R-2-M5x10",
+      "side_panel": "Right-wall-18",
+      "x_face_mm": 972,
+      "pivot_y_mm": 70.0,
+      "pivot_z_mm": 1396,
+      "support_face_gap_mm": 0.0,
+      "plain_diameter_mm": 6,
+      "plain_projection_mm": 15,
+      "threaded_stem": "M5x0.8",
+      "threaded_stem_length_mm": 7,
+      "insert_length_mm": 10,
+      "pilot_candidate_diameter_mm": 8,
+      "pilot_depth_mm": 10.5,
+      "pilot_needs_sample": true,
+      "panel_rear_skin_mm": 7.5,
+      "u_from_panel_front_mm": 16.5,
+      "v_from_panel_bottom_mm": 596.0
+    },
+    {
+      "axis": "Pin-L-3",
+      "insert": "Axle-insert-L-3-M5x10",
+      "side_panel": "Center-18",
+      "x_face_mm": 509,
+      "pivot_y_mm": 70.0,
+      "pivot_z_mm": 1718,
+      "support_face_gap_mm": 0.0,
+      "plain_diameter_mm": 6,
+      "plain_projection_mm": 10,
+      "threaded_stem": "M5x0.8",
+      "threaded_stem_length_mm": 7,
+      "insert_length_mm": 10,
+      "pilot_candidate_diameter_mm": 8,
+      "pilot_depth_mm": 10.5,
+      "pilot_needs_sample": true,
+      "panel_rear_skin_mm": 7.5,
+      "u_from_panel_front_mm": 47.0,
+      "v_from_panel_bottom_mm": 918.0
+    },
+    {
+      "axis": "Pin-R-3",
+      "insert": "Axle-insert-R-3-M5x10",
+      "side_panel": "Right-wall-18",
+      "x_face_mm": 972,
+      "pivot_y_mm": 70.0,
+      "pivot_z_mm": 1718,
+      "support_face_gap_mm": 0.0,
+      "plain_diameter_mm": 6,
+      "plain_projection_mm": 15,
+      "threaded_stem": "M5x0.8",
+      "threaded_stem_length_mm": 7,
+      "insert_length_mm": 10,
+      "pilot_candidate_diameter_mm": 8,
+      "pilot_depth_mm": 10.5,
+      "pilot_needs_sample": true,
+      "panel_rear_skin_mm": 7.5,
+      "u_from_panel_front_mm": 16.5,
+      "v_from_panel_bottom_mm": 918.0
+    }
+  ],
+  "fabrication_release": false,
+  "poses": {
+    "0": {
+      "unexpected": [],
+      "thread_contacts": 38,
+      "part_count": 236,
+      "maximum_bounds_error_mm": 0.0005450717599160271
+    },
+    "110": {
+      "unexpected": [],
+      "thread_contacts": 38,
+      "part_count": 236,
+      "maximum_bounds_error_mm": 0.0005450717599160271
+    }
+  },
+  "right_sweeps": [
+    [
+      [
+        0.5,
+        1.031496062992126,
+        "Stile-L",
+        "Runner-L-1"
+      ],
+      0.2561959777951288
+    ],
+    [
+      [
+        0.5,
+        1.0338983050847457,
+        "Stile-L",
+        "Runner-L-2"
+      ],
+      0.2716867460637954
+    ],
+    [
+      [
+        0.5,
+        1.0338983050847457,
+        "Stile-L",
+        "Runner-L-3"
+      ],
+      0.2716867460637954
+    ]
+  ],
+  "left_door_sweep": {
+    "closest_sample": [
+      1.4811435872923961,
+      8.0,
+      "Post-4-23"
+    ],
+    "step_degrees": 0.125,
+    "analytic_speed_bound_mm_per_radian": 463.8681276362232,
+    "between_sample_allowance_mm": 0.5060016326445873,
+    "lower_bound_mm": 0.9751419546478088,
+    "scope": "Door vs cabinet, excluding its commercial hinge internals"
+  },
+  "pin_slot_sampled_collisions": [],
+  "pin_slot_progress_step": 0.025,
+  "pin_slot_nominal_diametral_clearance_mm": 1.3,
+  "thread_geometry": "Nominal diameters, no helical surfaces; insert outer threads overlap wood only inside declared thread regions.",
+  "custom_parts_count": 25,
+  "purchased_axle_inserts_count": 6,
+  "source_v30_unchanged": true,
+  "remaining_qualification": "Thread envelopes are nominal. Pilot needs a sample; shaft end chamfers, thread relief and tolerances require manufacturing drawing. No physical load or wear test performed."
+}

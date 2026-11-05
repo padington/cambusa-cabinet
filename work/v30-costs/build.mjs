@@ -5,7 +5,9 @@ import {fileURLToPath} from 'node:url';
 import {Workbook,SpreadsheetFile} from '@oai/artifact-tool';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
-const out=path.join(root,'outputs/cambusa-v30-costs-rf');
+const version=process.argv[2]||'v30';
+assert.ok(/^v\d+$/.test(version),'Use a version such as v30 or v31');
+const out=path.join(root,`outputs/cambusa-${version}-costs-rf`);
 const plan=JSON.parse(await fs.readFile(path.join(out,'plan.json'),'utf8'));
 const cost=JSON.parse(await fs.readFile(path.join(out,'estimate.json'),'utf8'));
 const wb=Workbook.create();
@@ -31,7 +33,7 @@ function head(s,r){
 function width(s,col,n,last=100){s.getRange(`${col}1:${col}${last}`).format.columnWidth=n;}
 function money(s,r){s.getRange(r).setNumberFormat(num);}
 
-base(wood,42,'N');values(wood,'A2',[['Деревянные детали v30']]);
+base(wood,42,'N');values(wood,'A2',[[`Деревянные детали ${version}`]]);
 values(wood,'A3',[['28 деталей. Размеры относятся к сохранённой модели; изменение размеров требует новой раскладки.']]);
 values(wood,'A4',[['мм','Листов','Деталей','Площадь, м²','Контур, м']]);head(wood,'A4:E4');
 for(const [i,t] of [6,8,12,18].entries()){
@@ -91,7 +93,7 @@ profile.getRange('C14:G29').setNumberFormat('0.0');profile.freezePanes.freezeRow
 const start=7,last=start+cost.items.length-1;
 const unknownStart=last+6,unknownEnd=unknownStart+cost.unpriced_hardware.length;
 base(calc,unknownEnd+2,'L');
-values(calc,'A2',[['Закупка и работы v30']]);
+values(calc,'A2',[[`Закупка и работы ${version}`]]);
 values(calc,'A3',[['Только продавцы и цеха РФ. Сборка дома. Цены в рублях на 05.11.2026.']]);
 values(calc,'A4',[['Синие цены можно изменить. Жёлтые — плановые допущения, коммерческих предложений пока нет.']]);
 values(calc,'A6',[['Код','Статья','Позиция','Количество','Ед.','Цена, ₽','Сумма, ₽','Основание',null,'Поставщик','Источник','Примечание']]);
@@ -134,7 +136,7 @@ for(const [i,p] of cost.items.entries()){
 calc.freezePanes.freezeRows(6);calc.freezePanes.freezeColumns(3);
 
 base(summary,31,'E');summary.tabColor=header;
-values(summary,'A2',[['Cambusa v30. Бюджет готовых деталей']]);
+values(summary,'A2',[[`Cambusa ${version}. Бюджет готовых деталей`]]);
 values(summary,'A3',[['05.11.2026, рубли. Фанера ФК 1/2 Ш2, тёмная тонировка и матовый лак.']]);
 values(summary,'A5',[['Статья','Товары','По тарифам','Допущения','Всего, ₽']]);head(summary,'A5:E5');
 const categories=Object.keys(cost.category_totals);
@@ -163,7 +165,7 @@ values(summary,'A21',[
  ['Отделка: обе стороны и наружные торцы, около 10 м²; метод тарификации уточнить.'],
  ['Ящики и аксессуары пегборда в этот бюджет не включены.'],
  ['Это планирование закупки. Заказные механизмы и крепления ещё не готовы к заказу.'],
- ['Геометрия шкафа и его сохранённая версия v30 не изменены.']
+ [version==='v30'?'Геометрия шкафа и его сохранённая версия v30 не изменены.':'v31: пластины под оси удалены; 6 муфт в допущении на крепёж. Заготовки прежних размеров.']
 ]);
 for(const [c,w] of [['A',49],['B',17],['C',18],['D',18],['E',22]])width(summary,c,w,31);
 summary.getRange('A14:E14').format.borders={bottom:{style:'thin',color:'#9BA4AC'}};
@@ -195,5 +197,5 @@ for(const [sheetName,range,name] of [
  await fs.writeFile(path.join(out,`preview-${name}.png`),new Uint8Array(await img.arrayBuffer()));
 }
 const xlsx=await SpreadsheetFile.exportXlsx(wb);
-await xlsx.save(path.join(out,'estimate-v30.xlsx'));
+await xlsx.save(path.join(out,`estimate-${version}.xlsx`));
 console.log('Workbook exported, all line amounts and price-change behavior verified.');

@@ -1,0 +1,38 @@
+{
+  "version": "cambusa-v31-direct-axes",
+  "checked_on": "2026-11-05",
+  "purchased_insert_candidate": {
+    "supplier": "Оникс, РФ",
+    "sku": "00053119",
+    "description": "DIN 7965, латунная мебельная муфта М5 × 10, наружный Ø10",
+    "quantity": 6,
+    "url": "https://oniks-krep.ru/catalog/mufta_mebelnaya_latunnaya/din_7965_mufta_mebelnaya_rezbovaya_latunnaya_m5x10_vneshnij_10/",
+    "product_card_dimensions_mm": {
+      "length": 10,
+      "outer_thread_major_diameter": 10,
+      "outer_thread_minor_diameter": 7.5,
+      "internal_thread_height": 7,
+      "outer_thread_pitch": 3.5
+    },
+    "catalogue_unit_price_rub": 107.1,
+    "reported_stock": "Региональный склад; резерв и количество в СПб не подтверждены",
+    "geometry": "Project nominal envelopes; manufacturer CAD not available in this package",
+    "discrepancy": "Общая таблица стандарта в карточке приводит для М5 высоту 12 мм, а характеристики конкретного артикула — 10 мм. Перед заказом подтвердить именно артикул 00053119 и его длину.",
+    "pilot": "Ø8 × 10,5 — кандидат для образца в выбранной фанере, не утверждённый режим сверления. Поставщик не задаёт размер отверстия для нашей фанеры."
+  },
+  "custom_axles": {
+    "quantity": 6,
+    "plain_diameter_mm": 6,
+    "plain_projection_left_mm": 10,
+    "plain_projection_right_mm": 15,
+    "thread": "M5 × 0.8",
+    "threaded_stem_length_mm": 7,
+    "overall_left_mm": 17,
+    "overall_right_mm": 22,
+    "tip_slot_width_mm": 1,
+    "tip_slot_depth_mm": 1.2,
+    "candidate_material": "Steel; grade and corrosion protection not yet released",
+    "needs": "Machining drawing with chamfers, thread relief, finish and fits; quote and sample"
+  },
+  "fabrication_release": false
+}

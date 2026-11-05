@@ -112,11 +112,11 @@ def details(fixed,left):
     return result
 
 
-def door_sweep(fixed,left):
+def door_sweep(fixed,left,right=None):
     """Planar door clearance with an analytic between-sample speed bound."""
     face=next(p for p in left if p['name']=='Left-door-face-18')['mesh']
     z0,z1=face.bounds[:,2]
-    obstacles=[(p['name'],footprint(p['mesh'])) for p in fixed+right_parts(0)
+    obstacles=[(p['name'],footprint(p['mesh'])) for p in fixed+(right_parts(0) if right is None else right)
                if not p['name'].startswith('Blum-') and
                min(z1,p['mesh'].bounds[1,2])-max(z0,p['mesh'].bounds[0,2])>.001]
     shape=footprint(face);step=.125;closest=(math.inf,None,None)
