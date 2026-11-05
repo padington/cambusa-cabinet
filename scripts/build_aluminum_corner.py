@@ -72,7 +72,7 @@ def pose(fixed, moving, axis, angle):
     return fixed + [dict(part, mesh=part['mesh'].copy().apply_transform(transform)) for part in moving]
 
 
-def swept_clearance(fixed, moving, axis):
+def swept_clearance(fixed, moving, axis, max_angle=270):
     fixed_shapes = [(part['name'], footprint(part['mesh']), part['mesh'].bounds[:, 2]) for part in fixed]
     checks = []
     for part in moving:
@@ -82,7 +82,7 @@ def swept_clearance(fixed, moving, axis):
         checks.append((part['name'], footprint(part['mesh']), obstacles))
     step = .125
     closest = (math.inf, None, None, None)
-    for index in range(round(270/step)+1):
+    for index in range(round(max_angle/step)+1):
         angle = index * step
         for moving_name, shape, obstacles in checks:
             transformed = affinity.rotate(shape, -angle, origin=tuple(axis))

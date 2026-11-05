@@ -1,0 +1,72 @@
+{
+  "version": "cambusa-v28-simple-left-door",
+  "axis_xy_mm": [
+    34.0,
+    16.5
+  ],
+  "max_opening_deg": 180,
+  "door_blank_mm": [
+    452,
+    964,
+    18
+  ],
+  "hinge_centers_from_bottom_mm": [
+    90.0,
+    482.0,
+    874.0
+  ],
+  "endpoint_overlaps": {
+    "0": [],
+    "90": [],
+    "180": []
+  },
+  "door_sweep": [
+    [
+      2.0,
+      0.0,
+      "Left-door-face-18",
+      "Post-4-23"
+    ],
+    0.125,
+    1.5040422599475747
+  ],
+  "hinge_sweep_step_deg": 5,
+  "hinge_sweep_collisions": [],
+  "right_sweep": [
+    [
+      [
+        0.5,
+        1.031496062992126,
+        "Stile-L",
+        "Runner-L-1"
+      ],
+      0.2561959777951288
+    ],
+    [
+      [
+        0.5,
+        1.0338983050847457,
+        "Stile-L",
+        "Runner-L-2"
+      ],
+      0.2716867460637954
+    ],
+    [
+      [
+        0.5,
+        1.0338983050847457,
+        "Stile-L",
+        "Runner-L-3"
+      ],
+      0.2716867460637954
+    ]
+  ],
+  "hinge_count": 3,
+  "previous_door_wood_volume_mm3": 11844084.846402276,
+  "new_door_wood_volume_mm3": 7820832.067401891,
+  "fabrication_release": false,
+  "pending": [
+    "Confirm hinge load rating and mounting on a sample",
+    "Choose the closing catch and seal for dust protection"
+  ]
+}

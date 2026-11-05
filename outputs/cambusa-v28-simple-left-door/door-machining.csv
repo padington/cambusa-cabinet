@@ -1,0 +1,8 @@
+part,operation,x_from_left_mm,z_from_bottom_mm,diameter_or_width_mm,depth_mm
+Left-door-face-18,through-hole,13,75.0,6.6,18
+Left-door-face-18,through-hole,13,105.0,6.6,18
+Left-door-face-18,through-hole,13,467.0,6.6,18
+Left-door-face-18,through-hole,13,497.0,6.6,18
+Left-door-face-18,through-hole,13,859.0,6.6,18
+Left-door-face-18,through-hole,13,889.0,6.6,18
+Left-door-face-18,blind-grip-pocket,434,483,18,12

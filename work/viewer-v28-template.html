@@ -1,0 +1,470 @@
+<section id="cambusa-v28-simple-left-door">
+  <h2>Cambusa v28 · плоская левая дверь</h2>
+  <div class="viz-controls">
+    <label class="form-label" for="c28-model">Вид
+      <select class="form-select" id="c28-model">
+        <option value="full">Шкаф целиком</option>
+        <option value="rail">Штифт под полкой</option>
+        <option value="center">Крепление пегборда</option>
+        <option value="right">Опоры правых полок</option>
+        <option value="frame">Весь каркас и крепёж</option>
+        <option value="corner">Угол каркаса · Р.С.И. 5212</option>
+        <option value="side">Перемычка · Р.С.И. 5211</option>
+        <option value="hinge">Петля левой двери · Р.С.И. 3025</option>
+        <option value="peg">Сетка пегборда</option>
+      </select>
+    </label>
+    <label class="form-label" for="c28-door" id="c28-door-field">Фасад <output class="tabular-nums" id="c28-opening" for="c28-door">Закрыт</output>
+      <input class="form-range" type="range" id="c28-door" min="0" max="200" step="1" value="0">
+    </label>
+    <label class="form-label" for="c28-yaw">Ракурс <output class="tabular-nums" id="c28-bearing" for="c28-yaw">−24°</output>
+      <input class="form-range" type="range" id="c28-yaw" min="-180" max="180" step="1" value="-24">
+    </label>
+  </div>
+  <div class="viz-controls" id="c28-right-controls">
+    <label class="form-label" for="c28-section" id="c28-section-field">Дверца
+      <select class="form-select" id="c28-section">
+        <option value="1770">Верхняя</option>
+        <option value="1448">Средняя</option>
+        <option value="1127">Нижняя</option>
+      </select>
+    </label>
+    <button class="btn btn-primary" type="button" id="c28-toggle">Открыть</button>
+  </div>
+  <div class="viz-controls" id="c28-left-controls">
+    <label class="form-label" for="c28-left">Левая распашная дверь <output class="tabular-nums" id="c28-left-angle" for="c28-left">0°</output>
+      <input class="form-range" type="range" id="c28-left" min="0" max="180" step="1" value="0">
+    </label>
+    <button class="btn" type="button" id="c28-left-toggle">Открыть левую дверь</button>
+  </div>
+  <div class="viz-controls" id="c28-explode-controls" hidden>
+    <label class="form-label" for="c28-explode">Разнести детали
+      <input class="form-range" type="range" id="c28-explode" min="0" max="100" step="1" value="80">
+    </label>
+  </div>
+  <div class="viz-controls">
+    <label class="form-label" for="c28-zoom">Масштаб <output id="c28-zoom-value" for="c28-zoom">100%</output>
+      <input class="form-range" type="range" id="c28-zoom" min="100" max="600" step="10" value="100">
+    </label>
+    <button class="btn" type="button" aria-pressed="false" id="c28-pan">Сдвигать</button>
+    <label class="form-check" id="c28-reveal-field">
+      <input class="form-check-input" type="checkbox" id="c28-reveal" checked>
+      <span class="form-check-label">Показать скрытый крепёж</span>
+    </label>
+  </div>
+  <canvas id="c28-canvas" role="img" aria-label="Алюминиевый шкаф с пегбордом слева. Три правых фасада поднимаются и сдвигаются вглубь."></canvas>
+  <p class="text-small text-muted" id="c28-caption" aria-live="polite">1000 × 1800 × 500 мм · три секции справа</p>
+  <span id="c28-color" class="sr-only" aria-hidden="true"></span>
+</section>
+<style>
+#cambusa-v28-simple-left-door {
+  display:grid;gap:calc(var(--font-size-base) * .5);color-scheme:light dark;
+  --c28-angle:light-dark(rgb(37,128,137),rgb(91,181,185));
+  --c28-fastener:light-dark(rgb(175,127,42),rgb(222,175,76));
+  --c28-panel8:light-dark(rgb(149,101,72),rgb(165,120,89));
+  --c28-wood:light-dark(rgb(129,91,64),rgb(152,109,80));
+  --c28-door:light-dark(rgb(118,82,56),rgb(145,101,71));
+  --c28-panel6:light-dark(rgb(153,111,79),rgb(175,128,96));
+  --c28-frame:light-dark(rgb(50,60,64),rgb(99,110,114));
+  --c28-glass:light-dark(rgb(109,184,198),rgb(150,216,226));
+  --c28-pin:light-dark(rgb(209,148,42),rgb(237,181,69));
+  --c28-guide:light-dark(rgb(87,133,147),rgb(126,172,185));
+  --c28-handle:light-dark(rgb(183,191,195),rgb(205,213,218));
+  --c28-book:light-dark(rgb(136,156,143),rgb(151,180,162));
+  --c28-frameprop:light-dark(rgb(85,102,104),rgb(120,139,141));
+  --c28-mat:light-dark(rgb(210,197,172),rgb(192,177,151));
+}
+#c28-canvas {display:block;width:100%;height:clamp(330px,64vw,510px);touch-action:pan-y;cursor:grab}
+#c28-canvas:active {cursor:grabbing}
+#c28-section-field[hidden], #c28-left-controls[hidden], #c28-door-field[hidden], #c28-right-controls[hidden], #c28-explode-controls[hidden], #c28-reveal-field[hidden] {display:none}
+</style>
+
+<script type="application/octet-stream" id="c28-data">
+__MODEL_DATA__
+</script>
+<script>
+(async () => {
+  const root = document.getElementById('cambusa-v28-simple-left-door');
+  const byId = key => root.querySelector('#c28-' + key);
+  const canvas = byId('canvas');
+  const controls = {door:byId('door'), yaw:byId('yaw'), explode:byId('explode'), zoom:byId('zoom')};
+  const modelChoice = byId('model'), panButton = byId('pan'), reveal = byId('reveal');
+  const sectionChoice = byId('section'), toggle = byId('toggle');
+  const leftInput = byId('left'), leftToggle = byId('left-toggle');
+  const gl = canvas.getContext('webgl', {antialias:true, alpha:true, preserveDrawingBuffer:true});
+  if (!gl) {
+    byId('caption').textContent = 'Для вращения модели нужен WebGL. Доступны отдельные модели GLB.';
+    for (const control of [...Object.values(controls),modelChoice,sectionChoice,toggle,leftInput,leftToggle,panButton,reveal]) control.disabled = true;
+    return;
+  }
+  const packed=Uint8Array.from(atob(document.getElementById('c28-data').textContent.trim()),
+    character=>character.charCodeAt(0));
+  const stream=new Blob([packed]).stream().pipeThrough(new DecompressionStream('gzip'));
+  const model=await new Response(stream).json();
+  const program = gl.createProgram();
+  function attach(type, source) {
+    const shader = gl.createShader(type);
+    gl.shaderSource(shader, source);
+    gl.compileShader(shader);
+    if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) throw Error(gl.getShaderInfoLog(shader));
+    gl.attachShader(program, shader);
+  }
+  attach(gl.VERTEX_SHADER, `
+    attribute vec3 position, normal;
+    uniform vec2 scale;
+    uniform mat3 transform;
+    uniform vec3 shift;
+    uniform vec3 right, up, forward, center, paint;
+    varying vec3 color;
+    void main() {
+      vec3 p = transform * position + shift - center;
+      vec3 n = transform * normal;
+      gl_Position = vec4(dot(p,right)*scale.x,dot(p,up)*scale.y,-dot(p,forward)/2100.,1.);
+      float shade = .63 + .43 * max(0.,dot(n,normalize(vec3(-.45,-.58,.72))));
+      color = paint*shade;
+    }
+  `);
+  attach(gl.FRAGMENT_SHADER, `
+    precision mediump float;
+    uniform float opacity;
+    varying vec3 color;
+    void main() {gl_FragColor=vec4(color,opacity);}
+  `);
+  gl.linkProgram(program);
+  if (!gl.getProgramParameter(program, gl.LINK_STATUS)) throw Error(gl.getProgramInfoLog(program));
+  gl.useProgram(program);
+  gl.enable(gl.DEPTH_TEST);
+  const uniforms = Object.fromEntries(
+    ['scale','transform','shift','right','up','forward','center','paint','opacity']
+      .map(name => [name,gl.getUniformLocation(program,name)])
+  );
+  const position = gl.getAttribLocation(program,'position');
+  const normal = gl.getAttribLocation(program,'normal');
+  gl.enableVertexAttribArray(position);
+  gl.enableVertexAttribArray(normal);
+
+  function prepare(part) {
+    const bytes = string => Uint8Array.from(atob(string), value => value.charCodeAt(0));
+    const raw = new Int16Array(bytes(part.v).buffer);
+    const indices = new Uint16Array(bytes(part.f).buffer);
+    const v = [], f = [];
+    for (let i=0;i<raw.length;i+=3) v.push([raw[i]/16,raw[i+1]/16,raw[i+2]/16]);
+    for (let i=0;i<indices.length;i+=3) f.push([indices[i],indices[i+1],indices[i+2]]);
+    if (part.axes) {
+      for (const vertex of v) {
+        const [x,y,z]=vertex;
+        for (let row=0;row<3;row++) {
+          const k=row*3;
+          vertex[row]=part.origin[row]+part.axes[k]*x+part.axes[k+1]*y+part.axes[k+2]*z;
+        }
+      }
+    }
+    part = {...part,v,f};
+    const values = new Float32Array(part.f.length * 18);
+    let offset = 0;
+    for (const face of part.f) {
+      const [a,b,c] = face.map(index => part.v[index]);
+      const [x,y,z] = b.map((value,index) => value-a[index]);
+      const [u,v,w] = c.map((value,index) => value-a[index]);
+      const cross = [y*w-z*v,z*u-x*w,x*v-y*u];
+      const length = Math.hypot(...cross) || 1;
+      const unit = cross.map(value => value/length);
+      for (const vertex of [a,b,c]) {
+        values.set(vertex,offset);
+        values.set(unit,offset+3);
+        offset += 6;
+      }
+    }
+    const buffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER,buffer);
+    gl.bufferData(gl.ARRAY_BUFFER,values,gl.STATIC_DRAW);
+    return {...part,buffer,count:part.f.length*3};
+  }
+  const views = Object.fromEntries(['full','rail','center','right','frame','corner','side','hinge','peg'].map(key => [key,model[key].map(p => prepare(
+      p.geo ? {...model.geo[p.geo],...p} : p.ref !== undefined ? {...model.full[p.ref],...p} : p))]));
+  const fasteners = {
+    full: views.frame.filter(part => part.geo),
+    right: views.right.filter(part => part.geo)
+  };
+  views.right = views.right.filter(part => !part.geo);
+  const state = {reveal:true,view:'full',section:1770,door:0,left:0,yaw:-36,pitch:12,explode:80,zoom:100,panX:0,panY:0,pan:false};
+  const rightDoors = {1127:0,1448:0,1770:0};
+  let detailDoor = 0, animation = 0, animationTarget;
+  function currentProgress() { return state.view === 'full' ? rightDoors[state.section] : detailDoor; }
+  function setProgress(value) {
+    state.door = value;
+    if (state.view === 'full') rightDoors[state.section] = value;
+    else detailDoor = value;
+  }
+  function stopAnimation() {
+    cancelAnimationFrame(animation);
+    animationTarget = undefined;
+  }
+  const captions = {
+    full:'1000 × 1800 × 500 мм · левая дверь 452 × 964 × 18 мм · до 180°',
+    rail:'Стальной штифт Ø6 × 20 мм · выборка снизу полки',
+    center:'Фанера 18 мм · винт М6 и мебельная гайка в панели',
+    right:'Две опоры OB-3030 по 417 мм держат полки и кромки трёх вставок боковины',
+    frame:'28 стыков · 22 соединителя Р.С.И. 5212 · 6 соединителей Р.С.И. 5211',
+    corner:'Р.С.И. 5212 · две балки в пазах стойки · доступ снизу',
+    side:'Р.С.И. 5211 · перемычка правой полки · доступ сбоку',
+    hinge:'Р.С.И. 3025 по STEP · слева паз стойки · справа фанера 18 мм',
+    peg:'Ø12 мм · шаг 50 мм · 8 × 19 отверстий · поля до осей 33 и 34,5 мм'
+  };
+  const palette = {};
+  const radians = Math.PI/180;
+  const dot = (a,b) => a[0]*b[0]+a[1]*b[1]+a[2]*b[2];
+  const clamp = (v,min,max) => Math.max(min,Math.min(max,v));
+  let drag, scheduled = false;
+  function theme() {
+    const probe = byId('color');
+    for (const key of new Set(Object.values(views).flat().map(part => part.m))) {
+      probe.style.color = 'var(--c28-' + key + ')';
+      const rgb = getComputedStyle(probe).color.match(/[\d.]+/g);
+      palette[key] = rgb.slice(0,3).map(value => Number(value)/255);
+    }
+    requestDraw();
+  }
+  function draw() {
+    scheduled = false;
+    const w = canvas.clientWidth, h = canvas.clientHeight;
+    if (!w || !h) return;
+    const density = Math.min(devicePixelRatio || 1,2);
+    if (canvas.width !== Math.round(w*density) || canvas.height !== Math.round(h*density)) {
+      canvas.width = Math.round(w*density);
+      canvas.height = Math.round(h*density);
+    }
+    gl.viewport(0,0,canvas.width,canvas.height);
+    gl.clearColor(0,0,0,0);
+    gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+    const angle = state.yaw*radians, pitch = state.pitch*radians;
+    const s = Math.sin(angle), c = Math.cos(angle), sp = Math.sin(pitch), cp = Math.cos(pitch);
+    const right = [c,s,0], up = [-s*sp,c*sp,cp], forward = [s*cp,-c*cp,sp];
+    const progressAt = top => state.view === 'full' ? rightDoors[top] : detailDoor;
+    const parts = views[state.view].filter(part => part.display === null || progressAt(part.display) === 0);
+    const glass = parts.find(part => part.m === 'glass');
+    const identity = [1,0,0,0,1,0,0,0,1];
+    const positions = new Map();
+    const leftAngle = -state.left*radians;
+    const cl=Math.cos(leftAngle), sl=Math.sin(leftAngle);
+    const [ax,ay]=model.leftAxis;
+    for (const part of parts) {
+      if (part.left) {
+        positions.set(part,{
+          matrix:[cl,sl,0,-sl,cl,0,0,0,1],
+          shift:[ax-cl*ax+sl*ay,ay-sl*ax-cl*ay,0]
+        });
+        continue;
+      }
+      if (part.top === null) {
+        positions.set(part,{matrix:identity,shift:part.delta?.map(v => v*state.explode/100) ?? [0,0,0]});
+        continue;
+      }
+      const p = progressAt(part.top)/100;
+      const theta = (model.tilt + (90-model.tilt)*Math.min(p,1))*radians;
+      const travel = model.slotStart + ((model.slotEnds[part.top] ?? model.slotEnd)-model.slotStart)*Math.max(p-1,0);
+      const ca = Math.cos(theta), sa = Math.sin(theta);
+      const shift = [0,model.pivotY+sa*travel,part.top-model.pivotBelow+ca*travel];
+      positions.set(part,{matrix:[1,0,0,0,ca,-sa,0,sa,ca],shift,ca,sa});
+    }
+    let minX=Infinity, minY=Infinity, maxX=-Infinity, maxY=-Infinity;
+    for (const part of parts) {
+      const {shift:[dx,dy,dz],ca,sa} = positions.get(part);
+      for (const point of part.v) {
+        const [x,y,z] = point;
+        const p = part.left ? [cl*x-sl*y+dx,sl*x+cl*y+dy,z]
+          : part.top === null ? [x+dx,y+dy,z+dz] : [x,ca*y+sa*z+dy,-sa*y+ca*z+dz];
+        const u=dot(p,right), v=dot(p,up);
+        minX=Math.min(minX,u); maxX=Math.max(maxX,u);
+        minY=Math.min(minY,v); maxY=Math.max(maxY,v);
+      }
+    }
+    const midX=(minX+maxX)/2, midY=(minY+maxY)/2;
+    const baseScale=Math.min((w-20)/(maxX-minX),(h-18)/(maxY-minY));
+    const scale=baseScale*state.zoom/100;
+    const centerX=midX-state.panX*w/baseScale, centerY=midY+state.panY*h/baseScale;
+    gl.uniform3fv(uniforms.right,right);
+    gl.uniform3fv(uniforms.up,up);
+    gl.uniform3fv(uniforms.forward,forward);
+    gl.uniform3fv(uniforms.center,right.map((v,i) => v*centerX+up[i]*centerY));
+    gl.uniform2f(uniforms.scale,2*scale/w,2*scale/h);
+    function paint(part, opacity) {
+      gl.bindBuffer(gl.ARRAY_BUFFER,part.buffer);
+      gl.vertexAttribPointer(position,3,gl.FLOAT,false,24,0);
+      gl.vertexAttribPointer(normal,3,gl.FLOAT,false,24,12);
+      const {matrix,shift} = positions.get(part);
+      gl.uniformMatrix3fv(uniforms.transform,false,matrix);
+      gl.uniform3fv(uniforms.shift,shift);
+      gl.uniform3fv(uniforms.paint,palette[part.m]);
+      gl.uniform1f(uniforms.opacity,opacity);
+      gl.drawArrays(gl.TRIANGLES,0,part.count);
+    }
+    for (const part of parts) if (part !== glass) paint(part,1);
+    gl.enable(gl.BLEND);
+    gl.enable(gl.CULL_FACE);
+    gl.blendFuncSeparate(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA,gl.ONE,gl.ONE_MINUS_SRC_ALPHA);
+    gl.depthMask(false);
+    if (glass) paint(glass,.27);
+    gl.depthMask(true);
+    gl.disable(gl.CULL_FACE);
+    gl.disable(gl.BLEND);
+    const visibleFasteners = state.reveal ? fasteners[state.view] : undefined;
+    if (visibleFasteners?.length) {
+      gl.clear(gl.DEPTH_BUFFER_BIT);
+      for (const part of visibleFasteners) {
+        positions.set(part,{matrix:identity,shift:[0,0,0]});
+        paint(part,1);
+      }
+    }
+  }
+  function requestDraw() {
+    if (scheduled) return;
+    scheduled = true;
+    requestAnimationFrame(draw);
+  }
+  function sync() {
+    modelChoice.value = state.view;
+    sectionChoice.value = state.section;
+    byId('section-field').hidden = state.view !== 'full';
+    byId('left-controls').hidden = !['full','hinge'].includes(state.view);
+    const detail = state.view !== 'full';
+    byId('door-field').hidden = detail;
+    byId('right-controls').hidden = detail;
+    byId('explode-controls').hidden = !detail || state.view==='peg' || state.view==='right' || state.view==='hinge';
+    controls.explode.value = state.explode;
+    controls.zoom.value = state.zoom;
+    byId('zoom-value').textContent = state.zoom+'%';
+    panButton.setAttribute('aria-pressed',String(state.pan));
+    leftInput.value = state.left;
+    byId('left-angle').textContent = Math.round(state.left)+'°';
+    leftToggle.textContent = state.left>0 ? 'Закрыть левую дверь' : 'Открыть левую дверь';
+    toggle.textContent = (animationTarget ?? state.door) > 0 ? 'Закрыть' : 'Открыть';
+    byId('reveal-field').hidden = !fasteners[state.view];
+    reveal.checked = state.reveal;
+    const count = state.view === 'full' ? 28 : 4;
+    byId('caption').textContent = captions[state.view] +
+      (state.reveal && fasteners[state.view] ? ' · золотым показаны стыки (' + count + ')' : '');
+    controls.door.value = state.door;
+    controls.yaw.value = state.yaw;
+    const p = state.door;
+    const status = p===0 ? 'закрыт' : p<100 ? 'поднимается' : p===100 ? 'горизонтально' : p<200 ? 'задвигается' : 'под крышей';
+    byId('opening').textContent = status;
+    controls.door.setAttribute('aria-valuetext',status);
+    byId('bearing').textContent = Math.round(state.yaw).toString().replace('-','−') + '°';
+    requestDraw();
+  }
+  function restore(saved) {
+    if (saved?.modelContent?.version === 'cambusa-v28-simple-left-door') {
+      const {door_progress:door,view} = saved.modelContent;
+      if (Object.hasOwn(views,view)) state.view = view;
+      const stored = saved.privateContent;
+      state.pan = stored?.pan === true;
+      state.reveal = stored?.reveal !== false;
+      if (Number.isFinite(saved.modelContent.left_degrees)) state.left=clamp(saved.modelContent.left_degrees,0,180);
+      if (Object.hasOwn(rightDoors,stored?.section)) state.section = stored.section;
+      for (const top of Object.keys(rightDoors)) {
+        const value = stored?.rightDoors?.[top];
+        if (Number.isFinite(value)) rightDoors[top] = clamp(value,0,200);
+      }
+      if (Number.isFinite(stored?.detailDoor)) detailDoor = clamp(stored.detailDoor,0,200);
+      if (!stored?.rightDoors && Number.isFinite(door)) setProgress(clamp(door,0,200));
+      state.door = currentProgress();
+      for (const [key,min,max] of [['yaw',-180,180],['pitch',-20,75],['explode',0,100],['zoom',100,600],['panX',-2,2],['panY',-2,2]]) {
+        const value = saved.privateContent?.[key];
+        if (Number.isFinite(value)) state[key] = clamp(value,min,max);
+      }
+    }
+    sync();
+  }
+  function save() {
+    window.openai?.setWidgetState?.({
+      modelContent:{version:'cambusa-v28-simple-left-door',view:state.view,door_progress:state.door,left_degrees:state.left},
+      privateContent:{yaw:state.yaw,pitch:state.pitch,section:state.section,rightDoors,detailDoor,explode:state.explode,zoom:state.zoom,panX:state.panX,panY:state.panY,pan:state.pan,reveal:state.reveal}
+    })?.catch(() => {});
+  }
+  for (const [key,input] of Object.entries(controls)) {
+    input.addEventListener('input',() => {
+      if (key==='door') {
+        stopAnimation();
+        setProgress(Number(input.value));
+      } else {
+        state[key]=Number(input.value);
+        if (key==='zoom' && state.zoom===100) state.panX=state.panY=0;
+      }
+      sync();
+    });
+    input.addEventListener('change',save);
+  }
+  reveal.addEventListener('change',() => {state.reveal=reveal.checked; sync(); save();});
+  panButton.addEventListener('click',() => {state.pan=!state.pan; sync(); save();});
+  modelChoice.addEventListener('change',() => {
+    stopAnimation();
+    state.view=modelChoice.value;
+    state.zoom=100; state.panX=state.panY=0;
+    state.door=currentProgress();
+    const bearings = {full:[-36,12], rail:[45,6], center:[53,20], right:[51,18], frame:[-41,15], corner:[-51,19], side:[61,23], hinge:[-32,12], peg:[-90,0]};
+    [state.yaw,state.pitch]=bearings[state.view];
+    sync();
+    save();
+  });
+  sectionChoice.addEventListener('change',() => {
+    stopAnimation();
+    state.section=Number(sectionChoice.value);
+    state.door=currentProgress();
+    sync();
+    save();
+  });
+  toggle.addEventListener('click',() => {
+    const target=(animationTarget ?? state.door)>0 ? 0 : 200;
+    stopAnimation();
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setProgress(target); sync(); save(); return;
+    }
+    animationTarget=target;
+    const from=state.door, start=performance.now();
+    const duration=Math.max(180,1300*Math.abs(target-from)/200);
+    function tick(now) {
+      const fraction=Math.min(1,(now-start)/duration);
+      setProgress(Math.round(from+(target-from)*fraction));
+      if (fraction===1) {
+        animationTarget=undefined;
+        sync();
+        save();
+      } else {
+        sync();
+        animation=requestAnimationFrame(tick);
+      }
+    }
+    sync();
+    animation=requestAnimationFrame(tick);
+  });
+  leftInput.addEventListener('input',() => {state.left=Number(leftInput.value); sync();});
+  leftInput.addEventListener('change',save);
+  leftToggle.addEventListener('click',() => {state.left=state.left>0 ? 0 : 180; sync(); save();});
+  canvas.addEventListener('pointerdown',event => {
+    if (event.button !== 0) return;
+    drag = {id:event.pointerId,x:event.clientX,y:event.clientY,yaw:state.yaw,pitch:state.pitch,pan:state.pan||event.shiftKey,panX:state.panX,panY:state.panY};
+    canvas.setPointerCapture(event.pointerId);
+  });
+  canvas.addEventListener('pointermove',event => {
+    if (drag?.id !== event.pointerId) return;
+    if (drag.pan) {
+      const zoom=state.zoom/100;
+      state.panX=clamp(drag.panX+(event.clientX-drag.x)/(canvas.clientWidth*zoom),-2,2);
+      state.panY=clamp(drag.panY+(event.clientY-drag.y)/(canvas.clientHeight*zoom),-2,2);
+      sync();
+      return;
+    }
+    state.yaw=((drag.yaw+(event.clientX-drag.x)*.55+540)%360)-180;
+    state.pitch=clamp(drag.pitch+(event.clientY-drag.y)*.25,-20,75);
+    sync();
+  });
+  canvas.addEventListener('lostpointercapture',() => {drag=undefined; save();});
+  new ResizeObserver(requestDraw).observe(canvas);
+  new MutationObserver(theme).observe(document.documentElement,{attributes:true,attributeFilter:['class','style','data-theme']});
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change',theme);
+  window.addEventListener('openai:set_globals',event => restore(event.detail?.globals?.widgetState));
+  theme();
+  restore(window.openai?.widgetState);
+})();
+</script>
