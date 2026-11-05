@@ -1,0 +1,10 @@
+id,supplier,sku,description,quantity,unit_price_rub,line_total_rub,url
+panel-cross-dowel,ТДМ / ФМС,91001201,"Гайка-бочонок М6, Ø10 × 12,5; ось в 7 мм от торца",8,8.77,70.16,https://tdmspb.ru/catalog/products/54232/
+panel-screw,Оникс,00089909,"DIN 912 М6 × 45, А2, неполная резьба",8,12.98,103.84,https://oniks-krep.ru/catalog/din912_vint_nerzha/din_912_vint_s_vnutrennim_shestigrannikom_nepolnaya_rezba_nerzhaveyushchij_a2_m6x45/
+panel-washer,Оникс,00050772,"DIN 9021 М6, А2, 200HV, 6,4 × 18 × 1,6",8,2.3,18.40,https://oniks-krep.ru/catalog/din_9021_nerzha/din_9021_shajba_ploskaya_uvelichennaya_nerzhaveyushchaya_a2_vysokoprochnaya_200hv_m6_6_4/
+frame-90,Р.С.И.,5212,"Быстрый соединитель 8–8, 90°",14,154,2156.00,https://www.rsi-llc.ru/catalog/87/274/
+frame-straight,Р.С.И.,5211,"Быстрый соединитель 8–8, 0°",2,154,308.00,https://www.rsi-llc.ru/catalog/87/272/
+upper-cube,Р.С.И.,2069,"Кубический соединитель, 3 стороны, серия30",4,298,1192.00,https://www.rsi-llc.ru/catalog/127/738/
+cube-screw,Р.С.И.,М8х25-DIN7991,"DIN 7991 М8 × 25, 8.8, оцинкованный",12,10.8,129.60,https://www.rsi-llc.ru/catalog/140/543/
+foot,Р.С.И.,D49M8H30,"Регулируемая опора Ø49, шпилька М8 × 30",4,79,316.00,https://www.rsi-llc.ru/catalog/117/1262/
+foot-locknut,Р.С.И.,М8DIN934,"Гайка М8 DIN934, оцинкованная",4,2.6,10.40,https://www.rsi-llc.ru/catalog/138/826/

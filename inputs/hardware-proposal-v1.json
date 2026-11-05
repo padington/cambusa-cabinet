@@ -1,0 +1,40 @@
+{
+  "status": "proposed_for_user_review",
+  "observed_on": "2026-11-05",
+  "base_version": "cambusa-v29-panel-mount-checkpoint",
+  "currency": "RUB",
+  "price_basis": "Displayed retail prices, quantities without spares; delivery and machining excluded; no inventory reserved",
+  "scope": "Frame, levelling feet and two 18 mm side panels",
+  "items": [
+    {"id":"panel-cross-dowel","sku":"91001201","supplier":"ТДМ / ФМС","description":"Гайка-бочонок М6, Ø10 × 12,5; ось в 7 мм от торца","quantity":8,"unit_price":8.77,"url":"https://tdmspb.ru/catalog/products/54232/","fit":"Proposed geometry checked separately; product dimensions from manufacturer catalogue p66","delivery":"Site lists stock in three stores; particular pickup location and reservation not confirmed"},
+    {"id":"panel-screw","sku":"00089909","supplier":"Оникс","description":"DIN 912 М6 × 45, А2, неполная резьба","quantity":8,"unit_price":12.98,"url":"https://oniks-krep.ru/catalog/din912_vint_nerzha/din_912_vint_s_vnutrennim_shestigrannikom_nepolnaya_rezba_nerzhaveyushchij_a2_m6x45/","fit":"D10 head, head height6, AF5, thread length24; proposed geometry checked","delivery":"Supplier offers SPb pickup; advertised stock is not a confirmed SPb shop count"},
+    {"id":"panel-washer","sku":"00050772","supplier":"Оникс","description":"DIN 9021 М6, А2, 200HV, 6,4 × 18 × 1,6","quantity":8,"unit_price":2.30,"url":"https://oniks-krep.ru/catalog/din_9021_nerzha/din_9021_shajba_ploskaya_uvelichennaya_nerzhaveyushchaya_a2_vysokoprochnaya_200hv_m6_6_4/","fit":"Requires D19 access counterbore instead of v29 D17","delivery":"Supplier offers SPb pickup; shop stock not independently confirmed"},
+    {"id":"frame-90","sku":"5212","supplier":"Р.С.И.","description":"Быстрый соединитель 8–8, 90°","quantity":14,"unit_price":154,"url":"https://www.rsi-llc.ru/catalog/87/274/","fit":"Factory CAD in v29; complete connector, no extra standard bolt counted","delivery":"Chelyabinsk warehouse, transport company to SPb"},
+    {"id":"frame-straight","sku":"5211","supplier":"Р.С.И.","description":"Быстрый соединитель 8–8, 0°","quantity":2,"unit_price":154,"url":"https://www.rsi-llc.ru/catalog/87/272/","fit":"Factory CAD in v29; complete connector","delivery":"Chelyabinsk warehouse, transport company to SPb"},
+    {"id":"upper-cube","sku":"2069","supplier":"Р.С.И.","description":"Кубический соединитель, 3 стороны, серия30","quantity":4,"unit_price":298,"url":"https://www.rsi-llc.ru/catalog/127/738/","fit":"Factory CAD in v29; three caps included per cube; mounting screws separate","delivery":"Chelyabinsk warehouse, transport company to SPb","finish":"Supplier lists aluminium colour; black coating not included"},
+    {"id":"cube-screw","sku":"М8х25-DIN7991","supplier":"Р.С.И.","description":"DIN 7991 М8 × 25, 8.8, оцинкованный","quantity":12,"unit_price":10.80,"url":"https://www.rsi-llc.ru/catalog/140/543/","fit":"Supplier recommends three screws per2069; nominal envelope in v29","delivery":"Chelyabinsk warehouse, transport company to SPb"},
+    {"id":"foot","sku":"D49M8H30","supplier":"Р.С.И.","description":"Регулируемая опора Ø49, шпилька М8 × 30","quantity":4,"unit_price":79,"url":"https://www.rsi-llc.ru/catalog/117/1262/","fit":"Factory CAD in v29; nominal20mm thread engagement","delivery":"Chelyabinsk warehouse, transport company to SPb"},
+    {"id":"foot-locknut","sku":"М8DIN934","supplier":"Р.С.И.","description":"Гайка М8 DIN934, оцинкованная","quantity":4,"unit_price":2.60,"url":"https://www.rsi-llc.ru/catalog/138/826/","fit":"Nominal AF13, height6.5 in v29","delivery":"Chelyabinsk warehouse, transport company to SPb"}
+  ],
+  "included_not_additionally_purchased": [
+    {"sku":"caps-for-2069","quantity":12,"included_in":"upper-cube"}
+  ],
+  "custom_parts_without_price": [
+    {"id":"panel-top-shim","description":"Жёсткая проставка 18 × 20 × 1 мм, отверстие Ø6,6; алюминий","quantity":4}
+  ],
+  "outside_agreement": [
+    {"id":"hinges","reason":"Concealed Blum candidate unresolved. The v29 RSI3025 alternative and its fasteners remain a separate choice."},
+    {"id":"shelf-pins","quantity_in_model":16,"candidate":"DIN7 6×20, e.g. Oniks A1 product; supplier fit tolerances and end geometry to confirm","url":"https://oniks-krep.ru/catalog/din_7_shtift/din_7_shtift_cilindricheskij_nezakalennyj_nerzh_a1_6x20/"},
+    {"id":"runner-fixings","quantity_in_model":6,"reason":"M5×25 screws with washers currently nominal; washer thickness and threaded aluminium spacer interfaces need product-specific review."},
+    {"id":"central-divider-top-retention","reason":"Fasteners/assembly details not fully defined in v29."},
+    {"id":"right-lift-mechanism","reason":"Custom pins/runners and facade connections need their own complete fastener list."},
+    {"id":"closing-and-anti-tip","reason":"Closing catches, dust seals and anti-tip attachment depend on the final door/wall arrangement."}
+  ],
+  "manufacturer_bushing_dimensions": {
+    "url":"https://izmf-fms.ru/upload/FMS_katalog.pdf#page=67",
+    "printed_page":66,
+    "body_diameter_mm":10,
+    "body_length_mm":12.5,
+    "thread_axis_from_slotted_end_mm":7
+  }
+}

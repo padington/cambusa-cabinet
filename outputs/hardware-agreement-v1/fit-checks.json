@@ -1,0 +1,227 @@
+{
+  "status": "PROPOSED; NOT USER-APPROVED",
+  "fabrication_release": false,
+  "base_version": "cambusa-v29-panel-mount-checkpoint",
+  "mounts": [
+    {
+      "side": "left",
+      "end": "Bottom",
+      "y_mm": 97,
+      "barrel_thread_axis_from_slotted_end_mm": 7,
+      "barrel_slotted_end_recess_from_inner_face_mm": 2,
+      "barrel_pocket_diameter_mm": 10.1,
+      "barrel_pocket_flat_depth_mm": 14.6,
+      "remaining_outer_plywood_mm": 3.4,
+      "bolt_axis_from_panel_face_mm": 9,
+      "nut_axis_from_panel_end_mm": 20,
+      "nominal_shank_overlap_with_barrel_mm": 7.4
+    },
+    {
+      "side": "left",
+      "end": "Bottom",
+      "y_mm": 426,
+      "barrel_thread_axis_from_slotted_end_mm": 7,
+      "barrel_slotted_end_recess_from_inner_face_mm": 2,
+      "barrel_pocket_diameter_mm": 10.1,
+      "barrel_pocket_flat_depth_mm": 14.6,
+      "remaining_outer_plywood_mm": 3.4,
+      "bolt_axis_from_panel_face_mm": 9,
+      "nut_axis_from_panel_end_mm": 20,
+      "nominal_shank_overlap_with_barrel_mm": 7.4
+    },
+    {
+      "side": "left",
+      "end": "Top",
+      "y_mm": 97,
+      "barrel_thread_axis_from_slotted_end_mm": 7,
+      "barrel_slotted_end_recess_from_inner_face_mm": 2,
+      "barrel_pocket_diameter_mm": 10.1,
+      "barrel_pocket_flat_depth_mm": 14.6,
+      "remaining_outer_plywood_mm": 3.4,
+      "bolt_axis_from_panel_face_mm": 9,
+      "nut_axis_from_panel_end_mm": 20,
+      "nominal_shank_overlap_with_barrel_mm": 6.4
+    },
+    {
+      "side": "left",
+      "end": "Top",
+      "y_mm": 426,
+      "barrel_thread_axis_from_slotted_end_mm": 7,
+      "barrel_slotted_end_recess_from_inner_face_mm": 2,
+      "barrel_pocket_diameter_mm": 10.1,
+      "barrel_pocket_flat_depth_mm": 14.6,
+      "remaining_outer_plywood_mm": 3.4,
+      "bolt_axis_from_panel_face_mm": 9,
+      "nut_axis_from_panel_end_mm": 20,
+      "nominal_shank_overlap_with_barrel_mm": 6.4
+    },
+    {
+      "side": "right",
+      "end": "Bottom",
+      "y_mm": 97,
+      "barrel_thread_axis_from_slotted_end_mm": 7,
+      "barrel_slotted_end_recess_from_inner_face_mm": 2,
+      "barrel_pocket_diameter_mm": 10.1,
+      "barrel_pocket_flat_depth_mm": 14.6,
+      "remaining_outer_plywood_mm": 3.4,
+      "bolt_axis_from_panel_face_mm": 9,
+      "nut_axis_from_panel_end_mm": 20,
+      "nominal_shank_overlap_with_barrel_mm": 7.4
+    },
+    {
+      "side": "right",
+      "end": "Bottom",
+      "y_mm": 426,
+      "barrel_thread_axis_from_slotted_end_mm": 7,
+      "barrel_slotted_end_recess_from_inner_face_mm": 2,
+      "barrel_pocket_diameter_mm": 10.1,
+      "barrel_pocket_flat_depth_mm": 14.6,
+      "remaining_outer_plywood_mm": 3.4,
+      "bolt_axis_from_panel_face_mm": 9,
+      "nut_axis_from_panel_end_mm": 20,
+      "nominal_shank_overlap_with_barrel_mm": 7.4
+    },
+    {
+      "side": "right",
+      "end": "Top",
+      "y_mm": 97,
+      "barrel_thread_axis_from_slotted_end_mm": 7,
+      "barrel_slotted_end_recess_from_inner_face_mm": 2,
+      "barrel_pocket_diameter_mm": 10.1,
+      "barrel_pocket_flat_depth_mm": 14.6,
+      "remaining_outer_plywood_mm": 3.4,
+      "bolt_axis_from_panel_face_mm": 9,
+      "nut_axis_from_panel_end_mm": 20,
+      "nominal_shank_overlap_with_barrel_mm": 6.4
+    },
+    {
+      "side": "right",
+      "end": "Top",
+      "y_mm": 426,
+      "barrel_thread_axis_from_slotted_end_mm": 7,
+      "barrel_slotted_end_recess_from_inner_face_mm": 2,
+      "barrel_pocket_diameter_mm": 10.1,
+      "barrel_pocket_flat_depth_mm": 14.6,
+      "remaining_outer_plywood_mm": 3.4,
+      "bolt_axis_from_panel_face_mm": 9,
+      "nut_axis_from_panel_end_mm": 20,
+      "nominal_shank_overlap_with_barrel_mm": 6.4
+    }
+  ],
+  "envelopes": "Nominal product dimensions; threads, chamfers and slot details simplified",
+  "poses": {
+    "0": {
+      "unexpected_contacts": [],
+      "localized_thread_pairs": 20
+    },
+    "180": {
+      "unexpected_contacts": [],
+      "localized_thread_pairs": 20
+    }
+  },
+  "tool_access": [
+    {
+      "side": "left",
+      "end": "Bottom",
+      "y": 97,
+      "hits": []
+    },
+    {
+      "side": "left",
+      "end": "Bottom",
+      "y": 426,
+      "hits": []
+    },
+    {
+      "side": "left",
+      "end": "Top",
+      "y": 97,
+      "hits": []
+    },
+    {
+      "side": "left",
+      "end": "Top",
+      "y": 426,
+      "hits": []
+    },
+    {
+      "side": "right",
+      "end": "Bottom",
+      "y": 97,
+      "hits": []
+    },
+    {
+      "side": "right",
+      "end": "Bottom",
+      "y": 426,
+      "hits": []
+    },
+    {
+      "side": "right",
+      "end": "Top",
+      "y": 97,
+      "hits": []
+    },
+    {
+      "side": "right",
+      "end": "Top",
+      "y": 426,
+      "hits": []
+    }
+  ],
+  "washer_bearing": [
+    {
+      "side": "left",
+      "end": "Bottom",
+      "y": 97,
+      "supported_area_mm2": 74.298
+    },
+    {
+      "side": "left",
+      "end": "Bottom",
+      "y": 426,
+      "supported_area_mm2": 74.298
+    },
+    {
+      "side": "left",
+      "end": "Top",
+      "y": 97,
+      "supported_area_mm2": 74.429
+    },
+    {
+      "side": "left",
+      "end": "Top",
+      "y": 426,
+      "supported_area_mm2": 74.429
+    },
+    {
+      "side": "right",
+      "end": "Bottom",
+      "y": 97,
+      "supported_area_mm2": 74.296
+    },
+    {
+      "side": "right",
+      "end": "Bottom",
+      "y": 426,
+      "supported_area_mm2": 74.296
+    },
+    {
+      "side": "right",
+      "end": "Top",
+      "y": 97,
+      "supported_area_mm2": 74.428
+    },
+    {
+      "side": "right",
+      "end": "Top",
+      "y": 426,
+      "supported_area_mm2": 74.428
+    }
+  ],
+  "outside_scope": [
+    "No mechanical strength or tightening torque verification",
+    "No claim that advertised inventory is reserved or in the Saint Petersburg shop",
+    "No change to the released overview model until the proposal is accepted"
+  ]
+}
