@@ -1,0 +1,66 @@
+{
+  "blum-71t6650": [
+    {
+      "part": 0,
+      "error": "CadQueryConversionError: face $26: CadQuery could not trim the cylinder/cone surface"
+    },
+    {
+      "part": 1,
+      "valid": true,
+      "volume": 843.109450585796,
+      "bounds": [
+        [
+          -37.93143472578949,
+          -1.7975791533015164,
+          -9.300000000000002
+        ],
+        [
+          -22.469668198836782,
+          24.19586787288438,
+          9.299999999999999
+        ]
+      ],
+      "triangles": 1212
+    },
+    {
+      "part": 2,
+      "error": "EntityDecodeError: record 397 (coedge) token 3: expected 'coedge' reference, got 'tcoedge-coedge' at $502"
+    },
+    {
+      "part": 3,
+      "error": "EntityDecodeError: record 547 (coedge) token 3: expected 'coedge' reference, got 'tcoedge-coedge' at $754"
+    },
+    {
+      "part": 4,
+      "error": "CadQueryConversionError: face $161: CadQuery could not trim the cylinder/cone surface"
+    },
+    {
+      "part": 5,
+      "error": "EntityDecodeError: record 81 (coedge) token 3: expected 'coedge' reference, got 'tcoedge-coedge' at $127"
+    },
+    {
+      "part": 6,
+      "valid": true,
+      "volume": 5267.755544471718,
+      "bounds": [
+        [
+          -13.49147420098748,
+          -22.49998991276874,
+          -7.550000000000001
+        ],
+        [
+          -1.8999999999999315,
+          29.500000000038575,
+          7.550000000000001
+        ]
+      ],
+      "triangles": 976
+    }
+  ],
+  "blum-175h7190": [
+    {
+      "part": 0,
+      "error": "EntityDecodeError: record 270 (coedge) token 2: expected 'coedge' reference, got 'tcoedge-coedge' at $338"
+    }
+  ]
+}

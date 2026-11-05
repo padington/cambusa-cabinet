@@ -3,6 +3,7 @@ __pycache__/
 .DS_Store
 work/cambusa-frame-v*-meshes.json
 work/vendor/
+work/hinge-cad-vendor/
 inputs/*.local.json
 local-estimate/
 outputs/cambusa-v30-costs-rf/*.inspect.ndjson

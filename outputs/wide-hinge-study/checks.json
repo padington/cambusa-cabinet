@@ -1,0 +1,146 @@
+{
+  "status": "170 degree candidate; not a fabrication release",
+  "hinge": "71T6650",
+  "plate": "175H7190",
+  "plate_spacing_mm": 9,
+  "cup_spacer_mm": 0,
+  "board_backer_mm": 0,
+  "board": {
+    "panel_thickness_mm": 24,
+    "panel_blank_mm": [
+      416,
+      969,
+      24
+    ],
+    "inner_face_x_mm": 34,
+    "plate_mounting_x_mm": 34,
+    "backer_remaining_mm": 0,
+    "peg_diameter_mm": 12,
+    "peg_flat_depth_mm": 16,
+    "peg_remaining_skin_mm": 8,
+    "shelf_length_mm": 455,
+    "hinge_screw_wood_penetration_mm": 12.8,
+    "board_extra_gross_volume_m3": 0.002418624,
+    "board_extra_gross_mass_kg_at_700kg_m3": 1.6930368
+  },
+  "geometry_limit": "Only factory bodies 1 and 6 converted. Other bodies are labelled proxies/schematic links. Full hinge/wood collision qualification remains open.",
+  "link_length_residual_mm": 3.552713678800501e-14,
+  "door_sweep": {
+    "degrees": [
+      0,
+      170
+    ],
+    "input_crank_step_degrees": 0.009999261308552321,
+    "sample_count": 12418,
+    "closest_sample_mm": [
+      1.999999999999997,
+      3.3233550957332444e-14,
+      "Post-4-23"
+    ],
+    "sampled_intersections": [],
+    "velocity_bound": {
+      "first_triangle_sine_lower_bound": 0.3031717463871008,
+      "second_triangle_sine_lower_bound": 0.4163675736758474,
+      "d_speed_mm_per_rad": 183.83958255604702,
+      "e_speed_mm_per_rad": 183.3944879443444,
+      "de_distance_mm": [
+        16.272835089304873,
+        63.883449183879804
+      ],
+      "de_sampling_allowance_mm": 0.03979009145945415,
+      "cup_angular_speed_rad_per_rad": 30.559311550172843,
+      "door_reach_mm": 440.7485564355257,
+      "door_point_speed_mm_per_rad": 13652.812033958215
+    },
+    "between_sample_allowance_mm": 1.1913446006343695,
+    "nominal_clearance_lower_bound_mm": 0.7986553993656273,
+    "scope": "door vs furniture and frame; excludes hinge internals",
+    "continuous_nominal_bound": true,
+    "manufacturing_tolerances_qualified": false
+  },
+  "converted_hinge_bodies": {
+    "sample_step_degrees": 1,
+    "bodies": [
+      1,
+      6
+    ],
+    "collisions": [],
+    "complete_hinge_test": false
+  },
+  "selected_pose_audit": {
+    "0": {
+      "unexpected": [],
+      "thread_contacts": 38
+    },
+    "90": {
+      "unexpected": [],
+      "thread_contacts": 38
+    },
+    "110": {
+      "unexpected": [],
+      "thread_contacts": 38
+    },
+    "170": {
+      "unexpected": [],
+      "thread_contacts": 38
+    }
+  },
+  "cup_drilling": [
+    {
+      "z_mm": 893.0,
+      "x_from_left_mm": 23,
+      "y_back_mm": 41,
+      "diameter_mm": 35,
+      "depth_mm": 11,
+      "remaining_skin_mm": 7,
+      "cup_edge_to_door_edge_mm": 5.5,
+      "fixing_pitch_mm": 45,
+      "fixing_offset_mm": 9.5
+    },
+    {
+      "z_mm": 1285.0,
+      "x_from_left_mm": 23,
+      "y_back_mm": 41,
+      "diameter_mm": 35,
+      "depth_mm": 11,
+      "remaining_skin_mm": 7,
+      "cup_edge_to_door_edge_mm": 5.5,
+      "fixing_pitch_mm": 45,
+      "fixing_offset_mm": 9.5
+    },
+    {
+      "z_mm": 1677.0,
+      "x_from_left_mm": 23,
+      "y_back_mm": 41,
+      "diameter_mm": 35,
+      "depth_mm": 11,
+      "remaining_skin_mm": 7,
+      "cup_edge_to_door_edge_mm": 5.5,
+      "fixing_pitch_mm": 45,
+      "fixing_offset_mm": 9.5
+    }
+  ],
+  "export_readback": {
+    "0": {
+      "parts": 236,
+      "maximum_bounds_error_mm": 0.0005450717599160271
+    },
+    "110": {
+      "parts": 236,
+      "maximum_bounds_error_mm": 0.0005450717599160271
+    },
+    "170": {
+      "parts": 236,
+      "maximum_bounds_error_mm": 0.0005450717599160271
+    }
+  },
+  "fabrication_release": false,
+  "model_sha256": {
+    "cabinet-0.glb": "f1a61bb74e32c25f3460fd09e799986d1c388d44345f5598160ad92977ffd7ac",
+    "hinge-0.glb": "4847029d7db684f391a189ea1618e9e268cf62d529c2bd5bf2e8bd4b5c7006c9",
+    "cabinet-110.glb": "2d4bbda523de06beefe4f846cc531bd7954b1ec4bcf6b087cdb3beaa974b4faf",
+    "hinge-170.glb": "38362b8f3b072b9ece26ec4c7e9aa1d6bd58d34291f40db3ffbbda681fa01778",
+    "cabinet-170.glb": "770e5d592dc14937bfb4673e5675ea38164e0100b09150c0f810ee3603f10f8a"
+  },
+  "viewer_sha256": "4f6d33fd7d459a8102789e6deb3b8dc13116094c6e51a18a02a7d1690fe79111"
+}

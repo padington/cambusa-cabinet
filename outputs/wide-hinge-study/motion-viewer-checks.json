@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "body_poses": 42,
+  "maximum_matrix_or_shift_difference": 6.416200903913705e-12,
+  "scope": "Browser six-bar solver matches the geometry solver for seven bodies at six opening angles"
+}

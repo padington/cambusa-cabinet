@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-05T19:24:03.881Z",
+  "views": 12,
+  "checks": [
+    "initial full model at 170 degrees",
+    "0–170 control and toggle",
+    "six-bar motion visible in hinge detail",
+    "all 12 views render",
+    "right facade control",
+    "24 mm pegboard captions and section",
+    "peg insertion/pullout",
+    "250 percent zoom",
+    "320px dark layout",
+    "no JavaScript exceptions"
+  ]
+}

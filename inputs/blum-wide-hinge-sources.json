@@ -1,0 +1,40 @@
+{
+  "retrieved_date": "2026-11-05",
+  "status": "candidate, incomplete B-rep conversion",
+  "sources": [
+    {
+      "file": "inputs/supplier-cad/blum-71t6650.dxf",
+      "sha256": "4c30e842150d0cda512f20935252ebb9248758414c5a233c76af43db2e66fef8",
+      "source_url": "https://www.bullerltd.co.uk/index.php?dispatch=attachments.getfile&attachment_id=3637",
+      "bytes": 982768
+    },
+    {
+      "file": "inputs/supplier-cad/blum-71t6650-technical.pdf",
+      "sha256": "8e53ac823c9dce2c5678153d668f1baa2333d99cf694d6dc0a91f628d897df6e",
+      "source_url": "https://www.bullerltd.co.uk/index.php?dispatch=attachments.getfile&attachment_id=3198",
+      "bytes": 43290
+    },
+    {
+      "file": "inputs/supplier-cad/blum-175h7190.dxf",
+      "sha256": "6a0588c06bc615a1305e87911ff766c11fea489c4f329475dc3b414365ac7a80",
+      "source_url": "https://www.bullerltd.co.uk/index.php?dispatch=attachments.getfile&attachment_id=4415",
+      "bytes": 370223
+    },
+    {
+      "file": "inputs/supplier-cad/blum-175h7190-technical.pdf",
+      "sha256": "076a1bdbe4c50a768e77941223e13b5d2d19af036b1266e4bd4ccc490f7ab0dd",
+      "source_url": "https://www.bullerltd.co.uk/index.php?dispatch=attachments.getfile&attachment_id=4414",
+      "bytes": 41346
+    }
+  ],
+  "manufacturer_catalogue": [
+    "https://publications.blum.com/2026/catalogue/en/82/",
+    "https://publications.blum.com/2026/catalogue/en/83/"
+  ],
+  "supplier_pages": [
+    "https://www.bullerltd.co.uk/blum-clip-top-half-overlay-170-degree-sprung-hinge-71t6650.html",
+    "https://www.bullerltd.co.uk/blum-clip-hinge-mounting-plate-175h7190.html"
+  ],
+  "cad_conversion_dependencies": "requirements-cad.txt",
+  "manufacturing_release": false
+}

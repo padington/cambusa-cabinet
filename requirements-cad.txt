@@ -1,0 +1,4 @@
+# Optional isolated environment for reading supplier ACIS inside DXF.
+cadquery==2.8.0
+cq-acis==0.3.12
+ezdxf==1.4.5

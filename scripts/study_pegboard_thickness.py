@@ -35,7 +35,7 @@ def export_candidate(name,parts):
     return dict(part_count=len(actual),maximum_bounds_error_mm=error)
 
 
-def candidate(thickness,base):
+def candidate(thickness,base,with_hinge_pilots=True):
     inner=10+thickness;delta=thickness-18;depth=thickness-8
     fixed=[dict(p,mesh=p['mesh'].copy(),thread_targets=dict(p.get('thread_targets',{}))) for p in base]
     by_name={p['name']:p for p in fixed}
@@ -45,9 +45,10 @@ def candidate(thickness,base):
         for y in (97,426):
             tools += [drill_x(inner,y,z,13.4-inner,.1,5.05),
                       drill_z(19,y,edge-sign*.1,z+sign*5,3.3)]
-    for z in blum.CENTERS:
-        for y in (64,96):
-            tools.append(bore([inner,y,z],[-1,0,0],-.1,inner-15.15,1.25))
+    if with_hinge_pilots:
+        for z in blum.CENTERS:
+            for y in (64,96):
+                tools.append(bore([inner,y,z],[-1,0,0],-.1,inner-15.15,1.25))
     board=cut(cube([10,53.5,800],[inner,469.5,1769]),tools)
     by_name['Left-pegboard-18']['mesh']=board
     for p in fixed:
