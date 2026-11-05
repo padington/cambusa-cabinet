@@ -1,0 +1,11 @@
+scenario,sku,description,quantity,unit_price_rub,quantity_basis,status,product_page
+current-frame-completion,4002,Black 30x30 slot-8 upper end cap,4,25,Four exposed upper post ends,Fit and finished height pending,https://www.rsi-llc.ru/catalog/157/214/
+current-frame-completion,D49M8H30,Adjustable foot diameter 49 M8x30,4,79,Four posts,Post lengths and mounting thread pending,https://www.rsi-llc.ru/catalog/117/1262/
+current-frame-completion,DIN934-M8,Foot locking nut,4,,One per foot,Dimensions and price pending,
+current-frame-completion,TAP-M8,Tap lower post end M8,4,,One per post,Engagement depth and fabrication price pending,
+upper-cube-alternative,2069,Three-way 30x30x30 cube,4,298,Four upper corners,Post shortening and infill clearance pending,https://www.rsi-llc.ru/catalog/127/738/
+upper-cube-alternative,DIN7991-M8x25,Cube fixing screw,12,10.8,Three per cube,Thread machining pending,https://www.rsi-llc.ru/catalog/127/738/
+upper-cube-alternative,5212,Quick connector remaining after upper cube replacement,14,,22 existing minus 8 upper beam ends,Alternative only,https://www.rsi-llc.ru/catalog/87/274/
+upper-cube-alternative,5211,Quick connector for center beam and right shelf beams,6,,Current six retained,Alternative only,https://www.rsi-llc.ru/catalog/87/272/
+concealed-door-candidate,71B3750,Blum inset cup hinge 110 degrees,3,,Preliminary selection for current facade,Mounting plate load and CAD fitting pending,https://www.blum.com/us/en/products/hingesystems/clip-top-blumotion/programme/
+concealed-door-candidate,095AI30,FATH internal hinge component,,,Component quantity depends on assembled hinge,Assembly CAD opening angle and local supply pending,https://www.fath24.com/en/Concealed-Hinge-Component/095AI30

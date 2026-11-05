@@ -1,0 +1,105 @@
+{
+  "baseline": "cambusa-v28-simple-left-door",
+  "cube_2069_probes": {
+    "note": "Position probes preserve native CAD orientation. Fastener routing and assembly are pending.",
+    "top_corner_count": 4,
+    "shorten_post_top_by_mm": 30,
+    "placements": [
+      {
+        "corner_xy_mm": [
+          4,
+          23
+        ],
+        "current_post_overlap_mm3": 5341.766,
+        "shortened_post_overlap_mm3": 0.0,
+        "affected_panels": []
+      },
+      {
+        "corner_xy_mm": [
+          4,
+          470
+        ],
+        "current_post_overlap_mm3": 5341.783,
+        "shortened_post_overlap_mm3": 0.0,
+        "affected_panels": [
+          {
+            "part": "Back-infill-8",
+            "volume_mm3": 336.048
+          }
+        ]
+      },
+      {
+        "corner_xy_mm": [
+          966,
+          23
+        ],
+        "current_post_overlap_mm3": 5341.778,
+        "shortened_post_overlap_mm3": 0.0,
+        "affected_panels": [
+          {
+            "part": "Right-infill-8-3",
+            "volume_mm3": 365.131
+          }
+        ]
+      },
+      {
+        "corner_xy_mm": [
+          966,
+          470
+        ],
+        "current_post_overlap_mm3": 5341.796,
+        "shortened_post_overlap_mm3": 0.0,
+        "affected_panels": [
+          {
+            "part": "Back-infill-8",
+            "volume_mm3": 365.157
+          },
+          {
+            "part": "Right-infill-8-3",
+            "volume_mm3": 331.924
+          }
+        ]
+      }
+    ]
+  },
+  "feet": {
+    "quantity": 4,
+    "sku": "D49M8H30",
+    "base_diameter_mm": 49,
+    "body_height_below_thread_mm": 34,
+    "existing_placeholder_height_mm": 12,
+    "current_post_vs_foot_body_overlap_mm3": 2369.483,
+    "mounting": "M8 tapping in lower profile ends and locking nuts to be specified",
+    "stock_post_lengths_pending": true
+  },
+  "endcaps": {
+    "sku": "4002",
+    "quantity": 4,
+    "locations": "Upper ends of the four full-height posts"
+  },
+  "right_side": {
+    "current_blanks_depth_height_mm": [
+      [
+        432,
+        312
+      ],
+      [
+        432,
+        306
+      ],
+      [
+        432,
+        337
+      ]
+    ],
+    "current_thickness_mm": 8,
+    "beam_count": 2,
+    "beam_length_mm": 417,
+    "continuous_slot_panel_blank_depth_height_mm": [
+      432,
+      985
+    ],
+    "continuous_panel_requires_new_shelf_supports": true
+  },
+  "fabrication_release": false
+}
