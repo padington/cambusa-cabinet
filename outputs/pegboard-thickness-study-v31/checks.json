@@ -1,0 +1,551 @@
+{
+  "status": "comparison only; v31 unchanged",
+  "fabrication_release": false,
+  "cases": {
+    "18": {
+      "panel_thickness_mm": 18,
+      "panel_blank_mm": [
+        416,
+        969,
+        18
+      ],
+      "inner_face_x_mm": 28,
+      "plate_mounting_x_mm": 34,
+      "backer_remaining_mm": 6,
+      "peg_diameter_mm": 12,
+      "peg_flat_depth_mm": 10,
+      "peg_remaining_skin_mm": 8,
+      "shelf_length_mm": 461,
+      "hinge_screw_wood_penetration_mm": 12.75,
+      "board_extra_gross_volume_m3": 0.0,
+      "board_extra_gross_mass_kg_at_700kg_m3": 0.0,
+      "board_net_mass_delta_kg_at_700kg_m3": -6.51925802230835e-16,
+      "poses": {
+        "0": {
+          "unexpected": [],
+          "thread_contacts": 38
+        },
+        "55": {
+          "unexpected": [],
+          "thread_contacts": 38
+        },
+        "90": {
+          "unexpected": [],
+          "thread_contacts": 38
+        },
+        "110": {
+          "unexpected": [],
+          "thread_contacts": 38
+        }
+      },
+      "door_sweep": {
+        "closest_sample": [
+          1.4811435872923961,
+          8.0,
+          "Post-4-23"
+        ],
+        "step_degrees": 0.125,
+        "analytic_speed_bound_mm_per_radian": 463.8681276362232,
+        "between_sample_allowance_mm": 0.5060016326445873,
+        "lower_bound_mm": 0.9751419546478088,
+        "scope": "Door vs cabinet, excluding its commercial hinge internals"
+      }
+    },
+    "21": {
+      "panel_thickness_mm": 21,
+      "panel_blank_mm": [
+        416,
+        969,
+        21
+      ],
+      "inner_face_x_mm": 31,
+      "plate_mounting_x_mm": 34,
+      "backer_remaining_mm": 3,
+      "peg_diameter_mm": 12,
+      "peg_flat_depth_mm": 13,
+      "peg_remaining_skin_mm": 8,
+      "shelf_length_mm": 458,
+      "hinge_screw_wood_penetration_mm": 15.75,
+      "board_extra_gross_volume_m3": 0.001209312,
+      "board_extra_gross_mass_kg_at_700kg_m3": 0.8465184,
+      "board_net_mass_delta_kg_at_700kg_m3": 0.8099166303883304,
+      "poses": {
+        "0": {
+          "unexpected": [],
+          "thread_contacts": 38
+        },
+        "55": {
+          "unexpected": [],
+          "thread_contacts": 38
+        },
+        "90": {
+          "unexpected": [],
+          "thread_contacts": 38
+        },
+        "110": {
+          "unexpected": [],
+          "thread_contacts": 38
+        }
+      },
+      "door_sweep": {
+        "closest_sample": [
+          1.4811435872923961,
+          8.0,
+          "Post-4-23"
+        ],
+        "step_degrees": 0.125,
+        "analytic_speed_bound_mm_per_radian": 463.8681276362232,
+        "between_sample_allowance_mm": 0.5060016326445873,
+        "lower_bound_mm": 0.9751419546478088,
+        "scope": "Door vs cabinet, excluding its commercial hinge internals"
+      }
+    },
+    "24": {
+      "panel_thickness_mm": 24,
+      "panel_blank_mm": [
+        416,
+        969,
+        24
+      ],
+      "inner_face_x_mm": 34,
+      "plate_mounting_x_mm": 34,
+      "backer_remaining_mm": 0,
+      "peg_diameter_mm": 12,
+      "peg_flat_depth_mm": 16,
+      "peg_remaining_skin_mm": 8,
+      "shelf_length_mm": 455,
+      "hinge_screw_wood_penetration_mm": 18.75,
+      "board_extra_gross_volume_m3": 0.002418624,
+      "board_extra_gross_mass_kg_at_700kg_m3": 1.6930368,
+      "board_net_mass_delta_kg_at_700kg_m3": 1.6198332608649995,
+      "poses": {
+        "0": {
+          "unexpected": [],
+          "thread_contacts": 38
+        },
+        "55": {
+          "unexpected": [],
+          "thread_contacts": 38
+        },
+        "90": {
+          "unexpected": [],
+          "thread_contacts": 38
+        },
+        "110": {
+          "unexpected": [],
+          "thread_contacts": 38
+        }
+      },
+      "door_sweep": {
+        "closest_sample": [
+          1.4811435872923961,
+          8.0,
+          "Post-4-23"
+        ],
+        "step_degrees": 0.125,
+        "analytic_speed_bound_mm_per_radian": 463.8681276362232,
+        "between_sample_allowance_mm": 0.5060016326445873,
+        "lower_bound_mm": 0.9751419546478088,
+        "scope": "Door vs cabinet, excluding its commercial hinge internals"
+      },
+      "hinge_sample_step_degrees": 1,
+      "hinge_sample_collisions": [],
+      "export_readback": {
+        "closed": {
+          "part_count": 233,
+          "maximum_bounds_error_mm": 0.0005450717599160271
+        },
+        "open": {
+          "part_count": 233,
+          "maximum_bounds_error_mm": 0.0005450717599160271
+        },
+        "hinge": {
+          "part_count": 14,
+          "maximum_bounds_error_mm": 0.00031717544639775497
+        }
+      },
+      "verified_blind_holes": 152
+    }
+  },
+  "sheet_counts_24mm_candidate": {
+    "6": 1,
+    "8": 1,
+    "12": 1,
+    "18": 2,
+    "24": 1
+  },
+  "layouts_24mm_candidate": [
+    {
+      "thickness_mm": 6.0,
+      "sheet": 1,
+      "size_mm": [
+        1525,
+        1525
+      ],
+      "pieces": [
+        {
+          "part": "Plywood-infill-6-1",
+          "xy_mm": [
+            10,
+            10
+          ],
+          "size_mm": [
+            288.0,
+            404.0
+          ]
+        },
+        {
+          "part": "Plywood-infill-6-2",
+          "xy_mm": [
+            10,
+            422.0
+          ],
+          "size_mm": [
+            270.0,
+            404.0
+          ]
+        },
+        {
+          "part": "Plywood-infill-6-3",
+          "xy_mm": [
+            10,
+            834.0
+          ],
+          "size_mm": [
+            270.0,
+            404.0
+          ]
+        }
+      ]
+    },
+    {
+      "thickness_mm": 8.0,
+      "sheet": 1,
+      "size_mm": [
+        1525,
+        1525
+      ],
+      "pieces": [
+        {
+          "part": "Back-infill-8",
+          "xy_mm": [
+            10,
+            10
+          ],
+          "size_mm": [
+            947.0,
+            985.0
+          ]
+        },
+        {
+          "part": "Floor-Left-8",
+          "xy_mm": [
+            10,
+            1003.0
+          ],
+          "size_mm": [
+            432.0,
+            466.0
+          ]
+        },
+        {
+          "part": "Floor-Right-8",
+          "xy_mm": [
+            450.0,
+            1003.0
+          ],
+          "size_mm": [
+            432.0,
+            466.0
+          ]
+        }
+      ]
+    },
+    {
+      "thickness_mm": 12.0,
+      "sheet": 1,
+      "size_mm": [
+        1525,
+        1525
+      ],
+      "pieces": [
+        {
+          "part": "Shelf-Right-1",
+          "xy_mm": [
+            10,
+            10
+          ],
+          "size_mm": [
+            404.0,
+            461.5
+          ]
+        },
+        {
+          "part": "Shelf-Right-2",
+          "xy_mm": [
+            10,
+            479.5
+          ],
+          "size_mm": [
+            404.0,
+            461.5
+          ]
+        },
+        {
+          "part": "Right-roof",
+          "xy_mm": [
+            10,
+            949.0
+          ],
+          "size_mm": [
+            405.0,
+            457.0
+          ]
+        }
+      ]
+    },
+    {
+      "thickness_mm": 18.0,
+      "sheet": 1,
+      "size_mm": [
+        1525,
+        1525
+      ],
+      "pieces": [
+        {
+          "part": "Left-door-face-18",
+          "xy_mm": [
+            10,
+            10
+          ],
+          "size_mm": [
+            452.0,
+            964.0
+          ]
+        },
+        {
+          "part": "Center-18",
+          "xy_mm": [
+            470.0,
+            10
+          ],
+          "size_mm": [
+            970.0,
+            435.0
+          ]
+        },
+        {
+          "part": "Right-wall-18",
+          "xy_mm": [
+            470.0,
+            453.0
+          ],
+          "size_mm": [
+            969.0,
+            416.0
+          ]
+        },
+        {
+          "part": "Top-18",
+          "xy_mm": [
+            470.0,
+            877.0
+          ],
+          "size_mm": [
+            932.0,
+            417.0
+          ]
+        },
+        {
+          "part": "Shelf-Left-1",
+          "xy_mm": [
+            10,
+            982.0
+          ],
+          "size_mm": [
+            355.0,
+            455.0
+          ]
+        },
+        {
+          "part": "Stile-L-1",
+          "xy_mm": [
+            1448.0,
+            10
+          ],
+          "size_mm": [
+            22.0,
+            318.0
+          ]
+        },
+        {
+          "part": "Stile-R-1",
+          "xy_mm": [
+            1478.0,
+            10
+          ],
+          "size_mm": [
+            22.0,
+            318.0
+          ]
+        },
+        {
+          "part": "Stile-L-2",
+          "xy_mm": [
+            1448.0,
+            336.0
+          ],
+          "size_mm": [
+            22.0,
+            300.0
+          ]
+        },
+        {
+          "part": "Stile-R-2",
+          "xy_mm": [
+            1478.0,
+            336.0
+          ],
+          "size_mm": [
+            22.0,
+            300.0
+          ]
+        },
+        {
+          "part": "Stile-L-3",
+          "xy_mm": [
+            1447.0,
+            644.0
+          ],
+          "size_mm": [
+            22.0,
+            300.0
+          ]
+        },
+        {
+          "part": "Stile-R-3",
+          "xy_mm": [
+            1410.0,
+            877.0
+          ],
+          "size_mm": [
+            22.0,
+            300.0
+          ]
+        },
+        {
+          "part": "Bottom-rail-1",
+          "xy_mm": [
+            1477.0,
+            644.0
+          ],
+          "size_mm": [
+            16.0,
+            404.0
+          ]
+        },
+        {
+          "part": "Bottom-rail-2",
+          "xy_mm": [
+            1440.0,
+            952.0
+          ],
+          "size_mm": [
+            16.0,
+            404.0
+          ]
+        },
+        {
+          "part": "Bottom-rail-3",
+          "xy_mm": [
+            1464.0,
+            1056.0
+          ],
+          "size_mm": [
+            16.0,
+            404.0
+          ]
+        },
+        {
+          "part": "Top-rail-1",
+          "xy_mm": [
+            1501.0,
+            644.0
+          ],
+          "size_mm": [
+            14.0,
+            404.0
+          ]
+        },
+        {
+          "part": "Top-rail-2",
+          "xy_mm": [
+            1488.0,
+            1056.0
+          ],
+          "size_mm": [
+            14.0,
+            404.0
+          ]
+        },
+        {
+          "part": "Top-rail-3",
+          "xy_mm": [
+            10,
+            1468.0
+          ],
+          "size_mm": [
+            404.0,
+            14.0
+          ]
+        }
+      ]
+    },
+    {
+      "thickness_mm": 18.0,
+      "sheet": 2,
+      "size_mm": [
+        1525,
+        1525
+      ],
+      "pieces": [
+        {
+          "part": "Shelf-Left-2",
+          "xy_mm": [
+            10,
+            10
+          ],
+          "size_mm": [
+            355.0,
+            455.0
+          ]
+        }
+      ]
+    },
+    {
+      "thickness_mm": 24,
+      "sheet": 1,
+      "size_mm": [
+        1525,
+        1525
+      ],
+      "pieces": [
+        {
+          "part": "Left-pegboard-24",
+          "xy_mm": [
+            10,
+            10
+          ],
+          "size_mm": [
+            416.0,
+            969.0
+          ]
+        }
+      ]
+    }
+  ],
+  "additional_backer_plate_count_removed": 3,
+  "cup_spacer_1_5mm_count_retained": 3,
+  "cup_spacer_scope": "Door-side cup spacer; increasing pegboard thickness replaces the body-side 6 mm backers only.",
+  "base_model_sha256": "5f96c81850575ec88ec4906c6570d23fc7f0dac4a6172d72719da8dcca83aaa4"
+}
