@@ -1,0 +1,146 @@
+<section id="cambusa-custom-parts-v30">
+  <h2>Заказные детали v30</h2>
+  <div class="viz-controls">
+    <label class="form-label" for="cp30-view">Деталь или узел
+      <select class="form-select" id="cp30-view">
+        <option value="axis-l">Ось и держатель · слева</option>
+        <option value="axis-r">Ось и держатель · справа</option>
+        <option value="hinge-spacer">Проставка петли</option>
+        <option value="hinge-context">Проставка петли · в сборке</option>
+        <option value="runner-spacer">Проставка направляющей</option>
+        <option value="runner-cut">Проставка направляющей · разрез</option>
+        <option value="guides">Опоры скольжения · две детали</option>
+        <option value="ledge">Ручка-полочка</option>
+        <option value="ledge-cut">Ручка-полочка · сечение</option>
+        <option value="shim">Прокладка под панель</option>
+        <option value="mechanism">Правый фасад · механизм</option>
+      </select>
+    </label>
+    <label class="form-label" for="cp30-yaw">Ракурс <output id="cp30-bearing" class="tabular-nums">65°</output>
+      <input class="form-range" id="cp30-yaw" type="range" min="-180" max="180" value="65">
+    </label>
+  </div>
+  <div class="viz-controls" id="cp30-motion" hidden>
+    <label class="form-label" for="cp30-progress">Правый фасад <output id="cp30-opening" class="tabular-nums">Горизонтально</output>
+      <input class="form-range" id="cp30-progress" type="range" min="0" max="200" value="100">
+    </label>
+    <button type="button" class="btn" id="cp30-toggle">Задвинуть</button>
+    <label class="form-check">
+      <input type="checkbox" class="form-check-input" id="cp30-neighbours" checked>
+      <span class="form-check-label">Соседние панели</span>
+    </label>
+  </div>
+  <div class="viz-controls">
+    <label class="form-label" for="cp30-zoom">Масштаб <output class="tabular-nums" id="cp30-scale">100%</output>
+      <input class="form-range" id="cp30-zoom" type="range" min="100" max="600" step="10" value="100">
+    </label>
+    <button type="button" class="btn" id="cp30-pan" aria-pressed="false">Сдвигать</button>
+  </div>
+  <canvas id="cp30-canvas" role="img" aria-label="Трёхмерные модели деталей шкафа v30 с вращением, увеличением и расчётным ходом правого фасада."></canvas>
+  <p id="cp30-caption" class="text-small" aria-live="polite">Держатель 32 × 18 × 3 мм · ось Ø6 · видимый вылет 7 мм</p>
+  <span class="sr-only" id="cp30-color" aria-hidden="true"></span>
+</section>
+<style>
+#cambusa-custom-parts-v30 {display:grid;gap:calc(var(--font-size-base) * .5);color-scheme:light dark;
+  --cp30-angle:light-dark(rgb(45,132,143),rgb(105,190,195));
+  --cp30-pin:light-dark(rgb(186,134,44),rgb(229,182,86));
+  --cp30-context:light-dark(rgb(151,158,159),rgb(108,119,123));
+  --cp30-handle:light-dark(rgb(147,159,165),rgb(184,198,205));
+  --cp30-wood:light-dark(rgb(126,88,61),rgb(155,114,83));
+}
+#cp30-canvas {display:block;width:100%;height:clamp(330px,65vw,500px);touch-action:pan-y;cursor:grab}
+#cp30-canvas:active {cursor:grabbing}
+#cp30-motion[hidden] {display:none}
+</style>
+<script type="application/octet-stream" id="cp30-data">__MODEL_DATA__</script>
+<script>
+(async()=>{
+ const root=document.getElementById('cambusa-custom-parts-v30'),q=id=>root.querySelector('#cp30-'+id);
+ const canvas=q('canvas'),gl=canvas.getContext('webgl',{alpha:true,antialias:true,preserveDrawingBuffer:true});
+ if(!gl){q('caption').textContent='Для просмотра нужен WebGL.';for(const c of root.querySelectorAll('input,select,button'))c.disabled=true;return;}
+ const packed=Uint8Array.from(atob(document.getElementById('cp30-data').textContent.trim()),c=>c.charCodeAt(0));
+ const model=await new Response(new Blob([packed]).stream().pipeThrough(new DecompressionStream('gzip'))).json();
+ const program=gl.createProgram();
+ function shader(kind,src){const s=gl.createShader(kind);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(s));gl.attachShader(program,s);}
+ shader(gl.VERTEX_SHADER,`attribute vec3 position,normal;uniform mat3 rotation;uniform vec3 shift,center,right,up,forward,paint;uniform vec2 scale;varying vec3 color;
+ void main(){vec3 p=rotation*position+shift-center;vec3 n=rotation*normal;gl_Position=vec4(dot(p,right)*scale.x,dot(p,up)*scale.y,-dot(p,forward)/2100.,1.);color=paint*(.62+.4*max(0.,dot(n,normalize(vec3(-.5,-.6,.8)))));}`);
+ shader(gl.FRAGMENT_SHADER,`precision mediump float;varying vec3 color;void main(){gl_FragColor=vec4(color,1.);}`);
+ gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(program));gl.useProgram(program);gl.enable(gl.DEPTH_TEST);
+ const u=Object.fromEntries(['rotation','shift','center','right','up','forward','paint','scale'].map(k=>[k,gl.getUniformLocation(program,k)]));
+ const attributes=['position','normal'].map(k=>gl.getAttribLocation(program,k));attributes.forEach(k=>gl.enableVertexAttribArray(k));
+ const unpack=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+ const geometry=Object.fromEntries(Object.entries(model.geo).map(([id,g])=>{
+  const raw=new Int16Array(unpack(g.v).buffer),f=new Uint16Array(unpack(g.f).buffer),vertices=[];
+  for(let i=0;i<raw.length;i+=3)vertices.push([raw[i]/32,raw[i+1]/32,raw[i+2]/32]);
+  return[id,{vertices,faces:f}];
+ }));
+ function prepare(p){
+  const g=geometry[p.geo],vertices=g.vertices.map(v=>v.map((n,i)=>n+p.origin[i]));
+  const flat=new Float32Array(g.faces.length*6);let offset=0;
+  for(let i=0;i<g.faces.length;i+=3){
+   const [a,b,c]=[0,1,2].map(j=>vertices[g.faces[i+j]]),x=b.map((n,k)=>n-a[k]),y=c.map((n,k)=>n-a[k]);
+   const n=[x[1]*y[2]-x[2]*y[1],x[2]*y[0]-x[0]*y[2],x[0]*y[1]-x[1]*y[0]],d=Math.hypot(...n)||1;
+   for(const v of[a,b,c]){flat.set(v,offset);flat.set(n.map(t=>t/d),offset+3);offset+=6;}
+  }
+  const buffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buffer);gl.bufferData(gl.ARRAY_BUFFER,flat,gl.STATIC_DRAW);
+  return{...p,vertices,buffer,count:g.faces.length};
+ }
+ const views=Object.fromEntries(Object.entries(model.views).map(([k,v])=>[k,v.map(prepare)]));
+ const bearings={'axis-l':[65,25],'axis-r':[-65,25],'hinge-spacer':[-25,35],'hinge-context':[135,12],'runner-spacer':[-25,35],
+  'runner-cut':[0,12],guides:[-25,30],ledge:[-25,30],'ledge-cut':[70,12],shim:[-25,35],mechanism:[-35,22]};
+ const captions={
+  'axis-l':'Держатель 32 × 18 × 3 мм · ось Ø6 · вылет 7 мм · захода оси в держатель нет',
+  'axis-r':'Держатель 32 × 18 × 2 мм · ось Ø6 · монтажные отверстия ещё не заданы',
+  'hinge-spacer':'51 × 24 × 6 мм · два сквозных отверстия Ø3,7 · межосевое 32 мм',
+  'hinge-context':'Наша проставка выделена цветом · модель петли частично упрощена',
+  'runner-spacer':'260 × 32 × 6 мм · два гнезда Ø5 · подготовка под резьбу М5 ещё не определена',
+  'runner-cut':'Разрез гнезда Ø5 · глубина 5,5 мм · оставшееся дно 0,5 мм',
+  guides:'Две отдельные детали · 260 × 17 × 8 и 260 × 16 × 8 мм · отверстий крепления нет',
+  ledge:'Длина 444 мм · стенка 2 мм · крепление к фасаду ещё не задано',
+  'ledge-cut':'Сечение ручки-полочки · стенка 2 мм · радиусы изготовления ещё не заданы',
+  shim:'18 × 20 × 1 мм · сквозное отверстие Ø6,6',
+  mechanism:'Нижняя правая секция · расчётный ход · крепления осей и опор скольжения не завершены'
+ };
+ const state={view:'axis-l',yaw:65,pitch:25,zoom:100,progress:100,neighbours:true,pan:false,panX:0,panY:0};
+ const clamp=(x,a,b)=>Math.max(a,Math.min(b,x)),dot=(a,b)=>a.reduce((s,n,i)=>s+n*b[i],0),rad=Math.PI/180,identity=[1,0,0,0,1,0,0,0,1];
+ const palette={};let queued=false,drag;
+ function pose(p){if(!p.moving)return{matrix:identity,shift:[0,0,0]};
+  const t=state.progress/100,angle=(model.tilt+(90-model.tilt)*Math.min(t,1))*rad;
+  const c=Math.cos(angle),s=Math.sin(angle),travel=model.slotStart+(model.slotEnd-model.slotStart)*Math.max(0,t-1);
+  return{matrix:[1,0,0,0,c,-s,0,s,c],shift:[0,model.pivotY+s*travel,model.pivotZ+c*travel]};
+ }
+ function transformed(v,t){const m=t.matrix,d=t.shift;return[m[0]*v[0]+m[3]*v[1]+m[6]*v[2]+d[0],m[1]*v[0]+m[4]*v[1]+m[7]*v[2]+d[1],m[2]*v[0]+m[5]*v[1]+m[8]*v[2]+d[2]];}
+ function draw(){queued=false;const w=canvas.clientWidth,h=canvas.clientHeight;if(!w||!h)return;
+  const d=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(w*d);canvas.height=Math.round(h*d);gl.viewport(0,0,canvas.width,canvas.height);gl.clearColor(0,0,0,0);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);
+  const y=state.yaw*rad,p=state.pitch*rad,c=Math.cos(y),s=Math.sin(y),cp=Math.cos(p),sp=Math.sin(p);
+  const right=[c,s,0],up=[-s*sp,c*sp,cp],forward=[s*cp,-c*cp,sp];
+  const parts=views[state.view].filter(p=>!p.context||state.neighbours),poses=new Map(parts.map(p=>[p,pose(p)]));
+  let minX=Infinity,minY=Infinity,maxX=-Infinity,maxY=-Infinity,minZ=Infinity,maxZ=-Infinity;
+  for(const part of parts)for(const v of part.vertices){const t=transformed(v,poses.get(part)),x=dot(t,right),y=dot(t,up),z=dot(t,forward);minX=Math.min(minX,x);maxX=Math.max(maxX,x);minY=Math.min(minY,y);maxY=Math.max(maxY,y);minZ=Math.min(minZ,z);maxZ=Math.max(maxZ,z);}
+  const base=Math.min((w-26)/Math.max(maxX-minX,.001),(h-26)/Math.max(maxY-minY,.001)),scale=base*state.zoom/100;
+  const cx=(minX+maxX)/2-state.panX*w/base,cy=(minY+maxY)/2+state.panY*h/base,cz=(minZ+maxZ)/2;
+  gl.uniform3fv(u.right,right);gl.uniform3fv(u.up,up);gl.uniform3fv(u.forward,forward);gl.uniform3fv(u.center,right.map((n,i)=>n*cx+up[i]*cy+forward[i]*cz));gl.uniform2f(u.scale,2*scale/w,2*scale/h);
+  for(const part of parts){gl.bindBuffer(gl.ARRAY_BUFFER,part.buffer);gl.vertexAttribPointer(attributes[0],3,gl.FLOAT,false,24,0);gl.vertexAttribPointer(attributes[1],3,gl.FLOAT,false,24,12);
+   const t=poses.get(part);gl.uniformMatrix3fv(u.rotation,false,t.matrix);gl.uniform3fv(u.shift,t.shift);gl.uniform3fv(u.paint,palette[part.color]);gl.drawArrays(gl.TRIANGLES,0,part.count);}
+ }
+ function request(){if(!queued){queued=true;requestAnimationFrame(draw);}}
+ function sync(){q('view').value=state.view;q('yaw').value=state.yaw;q('bearing').textContent=Math.round(state.yaw)+'°';q('zoom').value=state.zoom;q('scale').textContent=state.zoom+'%';q('pan').setAttribute('aria-pressed',String(state.pan));q('progress').value=state.progress;q('neighbours').checked=state.neighbours;q('motion').hidden=state.view!=='mechanism';
+  q('opening').textContent=state.progress===0?'Закрыт':state.progress<100?'Поднимается':state.progress===100?'Горизонтально':state.progress<200?'Задвигается':'Задвинут';q('toggle').textContent=state.progress===200?'Закрыть':'Задвинуть';q('caption').textContent=captions[state.view];request();}
+ function theme(){for(const key of ['angle','pin','context','handle','wood']){q('color').style.color=`var(--cp30-${key})`;palette[key]=getComputedStyle(q('color')).color.match(/[\d.]+/g).slice(0,3).map(v=>Number(v)/255);}request();}
+ function save(){window.openai?.setWidgetState?.({modelContent:{version:'cambusa-custom-parts-v30',view:state.view,progress:state.progress},privateContent:state})?.catch(()=>{});}
+ function restore(saved){if(saved?.modelContent?.version==='cambusa-custom-parts-v30'){
+   const s=saved.privateContent||{};if(Object.hasOwn(views,saved.modelContent.view))state.view=saved.modelContent.view;
+   for(const [k,a,b]of[['yaw',-180,180],['pitch',-20,75],['zoom',100,600],['progress',0,200],['panX',-2,2],['panY',-2,2]])if(Number.isFinite(s[k]))state[k]=clamp(s[k],a,b);
+   state.pan=s.pan===true;state.neighbours=s.neighbours!==false;
+  }sync();}
+ q('view').addEventListener('change',()=>{state.view=q('view').value;[state.yaw,state.pitch]=bearings[state.view];state.zoom=100;state.panX=state.panY=0;sync();save();});
+ for(const key of ['yaw','zoom','progress']){q(key).addEventListener('input',()=>{state[key]=Number(q(key).value);if(key==='zoom'&&state.zoom===100)state.panX=state.panY=0;sync();});q(key).addEventListener('change',save);}
+ q('toggle').addEventListener('click',()=>{state.progress=state.progress===200?0:200;sync();save();});
+ q('neighbours').addEventListener('change',()=>{state.neighbours=q('neighbours').checked;sync();save();});q('pan').addEventListener('click',()=>{state.pan=!state.pan;sync();save();});
+ canvas.addEventListener('pointerdown',e=>{if(e.button!==0)return;drag={id:e.pointerId,x:e.clientX,y:e.clientY,...state,pan:state.pan||e.shiftKey};canvas.setPointerCapture(e.pointerId);});
+ canvas.addEventListener('pointermove',e=>{if(drag?.id!==e.pointerId)return;if(drag.pan){const z=state.zoom/100;state.panX=clamp(drag.panX+(e.clientX-drag.x)/(canvas.clientWidth*z),-2,2);state.panY=clamp(drag.panY+(e.clientY-drag.y)/(canvas.clientHeight*z),-2,2);}else{state.yaw=((drag.yaw+(e.clientX-drag.x)*.55+540)%360)-180;state.pitch=clamp(drag.pitch+(e.clientY-drag.y)*.25,-20,75);}sync();});
+ canvas.addEventListener('lostpointercapture',()=>{drag=undefined;save();});
+ new ResizeObserver(request).observe(canvas);new MutationObserver(theme).observe(document.documentElement,{attributes:true,attributeFilter:['class','style','data-theme']});matchMedia('(prefers-color-scheme: dark)').addEventListener('change',theme);
+ window.addEventListener('openai:set_globals',e=>restore(e.detail?.globals?.widgetState));theme();restore(window.openai?.widgetState);
+})();
+</script>

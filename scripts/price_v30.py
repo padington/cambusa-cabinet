@@ -63,7 +63,7 @@ def main():
     unpriced('runner-backers','Заказные алюминиевые проставки 260 × 32 × 6',matched('Right-runner-spacer-'),'allow-custom','3 шт., резьбовые отверстия М5')
     unpriced('runners','Правые направляющие 260 × 8 × 16/17',matched('Runner-L-')+matched('Runner-R-'),'allow-custom','6 шт.; материал/изготовление и окончательный крепёж в работе')
     unpriced('pin-carriers','Держатели осей правых фасадов',matched('Pin-carrier-'),'allow-custom','6 шт.; три пластины толщиной 2 и три толщиной 3 мм')
-    unpriced('pivot-pins','Оси правых фасадов Ø6 × 7',matched('Pin-L-')+matched('Pin-R-'),'allow-custom','6 шт.; способ удержания в носителе ещё требует определения')
+    unpriced('pivot-pins','Оси правых фасадов Ø6; в модели только вылет 7 мм',matched('Pin-L-')+matched('Pin-R-'),'allow-custom','6 шт.; полная длина оси, заход в держатель и удержание не определены. Модель Ø6 × 7 не является готовой деталью для заказа')
     unpriced('display-ledges','Ручки-полочки длиной 444 мм, стенка 2 мм',matched('Display-ledge-'),'allow-custom','3 шт.; заказной профиль, материал и технология ещё не утверждены')
     unpriced('panel-shims','Прокладки панелей 18 × 20 × 1',matched('Pegboard-top-shim-')+matched('Right-wall-top-shim-'),'allow-custom','4 шт.')
     unpriced('frame-caps','Крышки кубов 2069',matched('Cube-cap-'),'upper-cube','12 шт. уже входят в покупные кубы; дополнительной стоимости нет')

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "views": 11,
+  "pixel_coverage": {
+    "axis-l": 185996,
+    "axis-r": 185154,
+    "hinge-spacer": 142172,
+    "hinge-context": 208833,
+    "runner-spacer": 44872,
+    "runner-cut": 141024,
+    "guides": 52854,
+    "ledge": 47028,
+    "ledge-cut": 48064,
+    "shim": 159964,
+    "mechanism": 168097
+  },
+  "motion_0_100_200": true,
+  "context_toggle": true,
+  "zoom": true,
+  "narrow_dark_layout": true,
+  "javascript_exceptions": []
+}
