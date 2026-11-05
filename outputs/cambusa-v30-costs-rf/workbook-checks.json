@@ -1,0 +1,8 @@
+{
+  "initial_budget": 100007.06999999999,
+  "edited_profile_budget": 100027.14,
+  "missing_rate_guard": true,
+  "zero_rate_allowed": true,
+  "independent_json_reconciliation": true,
+  "error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+}

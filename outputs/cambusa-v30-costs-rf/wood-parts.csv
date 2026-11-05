@@ -1,0 +1,29 @@
+code,part,a_mm,b_mm,stock_mm,area_m2,perimeter_m,source
+1,Back-infill-8,947.0,985.0,8.0,0.932795,3.864,v30 body CSV + GLB
+2,Floor-Left-8,466.0,432.0,8.0,0.201312,1.796,v30 body CSV + GLB
+3,Floor-Right-8,466.0,432.0,8.0,0.201312,1.796,v30 body CSV + GLB
+4,Center-18,435.0,970.0,18.0,0.42195,2.81,v30 body CSV + GLB
+5,Top-18,932.0,417.0,18.0,0.388644,2.698,v30 body CSV + GLB
+6,Right-roof,457.0,405.0,12.0,0.185085,1.724,v30 body CSV + GLB
+7,Shelf-Left-1,461.0,355.0,18.0,0.163655,1.632,v30 body CSV + GLB
+8,Shelf-Left-2,461.0,355.0,18.0,0.163655,1.632,v30 body CSV + GLB
+9,Left-pegboard-18,416.0,969.0,18.0,0.403104,2.77,v30 body CSV + GLB
+10,Right-wall-18,416.0,969.0,18.0,0.403104,2.77,v30 body CSV + GLB
+11,Left-door-face-18,452.0,964.0,18.0,0.435728,2.832,v30 body CSV + GLB
+12,Shelf-Right-1,461.5,404.0,12.0,0.186446,1.731,v30 body CSV + GLB
+13,Shelf-Right-2,461.5,404.0,12.0,0.186446,1.731,v30 body CSV + GLB
+14,Stile-L-1,22.0,318.0,18.0,0.006996,0.68,right_leaf local shape + posed GLB
+15,Stile-R-1,22.0,318.0,18.0,0.006996,0.68,right_leaf local shape + posed GLB
+16,Top-rail-1,404.0,14.0,18.0,0.005656,0.836,right_leaf local shape + posed GLB
+17,Bottom-rail-1,404.0,16.0,18.0,0.006464,0.84,right_leaf local shape + posed GLB
+18,Plywood-infill-6-1,404.0,288.0,6.0,0.116352,1.384,right_leaf local shape + posed GLB
+19,Stile-L-2,22.0,300.0,18.0,0.0066,0.644,right_leaf local shape + posed GLB
+20,Stile-R-2,22.0,300.0,18.0,0.0066,0.644,right_leaf local shape + posed GLB
+21,Top-rail-2,404.0,14.0,18.0,0.005656,0.836,right_leaf local shape + posed GLB
+22,Bottom-rail-2,404.0,16.0,18.0,0.006464,0.84,right_leaf local shape + posed GLB
+23,Plywood-infill-6-2,404.0,270.0,6.0,0.10908,1.348,right_leaf local shape + posed GLB
+24,Stile-L-3,22.0,300.0,18.0,0.0066,0.644,right_leaf local shape + posed GLB
+25,Stile-R-3,22.0,300.0,18.0,0.0066,0.644,right_leaf local shape + posed GLB
+26,Top-rail-3,404.0,14.0,18.0,0.005656,0.836,right_leaf local shape + posed GLB
+27,Bottom-rail-3,404.0,16.0,18.0,0.006464,0.84,right_leaf local shape + posed GLB
+28,Plywood-infill-6-3,404.0,270.0,6.0,0.10908,1.348,right_leaf local shape + posed GLB

@@ -5,4 +5,6 @@ work/cambusa-frame-v*-meshes.json
 work/vendor/
 inputs/*.local.json
 local-estimate/
+outputs/cambusa-v30-costs-rf/*.inspect.ndjson
+work/v30-costs/node_modules
 node_modules/

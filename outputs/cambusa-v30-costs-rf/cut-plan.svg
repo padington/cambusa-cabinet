@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 850" role="img">
+<title>Раскладка фанеры v30, полные листы 1525 × 1525</title>
+<rect width="100%" height="100%" fill="#faf9f5"/>
+<text x="20" y="30" font-family="Arial" font-size="20">v30 · все 28 деревянных деталей · зазор 8 мм</text>
+<text x="20" y="61" font-family="Arial" font-size="15">6 мм · лист 1</text>
+<rect x="20" y="75" width="305" height="305" fill="white" stroke="#6c6c6c"/>
+<rect x="22.0" y="77.0" width="57.6" height="80.80000000000001" fill="#d8bea0" stroke="#635547" stroke-width=".4"><title>Plywood-infill-6-1: 288 × 404 мм</title></rect>
+<text x="50.8" y="117.4" text-anchor="middle" font-size="11" font-family="Arial">18</text>
+<rect x="22.0" y="159.4" width="54.0" height="80.80000000000001" fill="#d5d8c9" stroke="#635547" stroke-width=".4"><title>Plywood-infill-6-2: 270 × 404 мм</title></rect>
+<text x="49.0" y="199.8" text-anchor="middle" font-size="11" font-family="Arial">23</text>
+<rect x="22.0" y="241.8" width="54.0" height="80.80000000000001" fill="#c4d1d5" stroke="#635547" stroke-width=".4"><title>Plywood-infill-6-3: 270 × 404 мм</title></rect>
+<text x="49.0" y="282.20000000000005" text-anchor="middle" font-size="11" font-family="Arial">28</text>
+<text x="360" y="61" font-family="Arial" font-size="15">8 мм · лист 1</text>
+<rect x="360" y="75" width="305" height="305" fill="white" stroke="#6c6c6c"/>
+<rect x="362.0" y="77.0" width="189.4" height="197.0" fill="#d8bea0" stroke="#635547" stroke-width=".4"><title>Back-infill-8: 947 × 985 мм</title></rect>
+<text x="456.7" y="175.5" text-anchor="middle" font-size="11" font-family="Arial">1</text>
+<rect x="362.0" y="275.6" width="86.4" height="93.2" fill="#d5d8c9" stroke="#635547" stroke-width=".4"><title>Floor-Left-8: 432 × 466 мм</title></rect>
+<text x="405.2" y="322.20000000000005" text-anchor="middle" font-size="11" font-family="Arial">2</text>
+<rect x="450.0" y="275.6" width="86.4" height="93.2" fill="#c4d1d5" stroke="#635547" stroke-width=".4"><title>Floor-Right-8: 432 × 466 мм</title></rect>
+<text x="493.20000000000005" y="322.20000000000005" text-anchor="middle" font-size="11" font-family="Arial">3</text>
+<text x="700" y="61" font-family="Arial" font-size="15">12 мм · лист 1</text>
+<rect x="700" y="75" width="305" height="305" fill="white" stroke="#6c6c6c"/>
+<rect x="702.0" y="77.0" width="80.80000000000001" height="92.30000000000001" fill="#d8bea0" stroke="#635547" stroke-width=".4"><title>Shelf-Right-1: 404 × 461.5 мм</title></rect>
+<text x="742.4" y="123.15" text-anchor="middle" font-size="11" font-family="Arial">12</text>
+<rect x="702.0" y="170.9" width="80.80000000000001" height="92.30000000000001" fill="#d5d8c9" stroke="#635547" stroke-width=".4"><title>Shelf-Right-2: 404 × 461.5 мм</title></rect>
+<text x="742.4" y="217.05" text-anchor="middle" font-size="11" font-family="Arial">13</text>
+<rect x="702.0" y="264.8" width="81.0" height="91.4" fill="#c4d1d5" stroke="#635547" stroke-width=".4"><title>Right-roof: 405 × 457 мм</title></rect>
+<text x="742.5" y="310.5" text-anchor="middle" font-size="11" font-family="Arial">6</text>
+<text x="20" y="451" font-family="Arial" font-size="15">18 мм · лист 1</text>
+<rect x="20" y="465" width="305" height="305" fill="white" stroke="#6c6c6c"/>
+<rect x="22.0" y="467.0" width="90.4" height="192.8" fill="#d8bea0" stroke="#635547" stroke-width=".4"><title>Left-door-face-18: 452 × 964 мм</title></rect>
+<text x="67.2" y="563.4" text-anchor="middle" font-size="11" font-family="Arial">11</text>
+<rect x="114.0" y="467.0" width="194.0" height="87.0" fill="#d5d8c9" stroke="#635547" stroke-width=".4"><title>Center-18: 970 × 435 мм</title></rect>
+<text x="211.0" y="510.5" text-anchor="middle" font-size="11" font-family="Arial">4</text>
+<rect x="114.0" y="555.6" width="193.8" height="83.2" fill="#c4d1d5" stroke="#635547" stroke-width=".4"><title>Left-pegboard-18: 969 × 416 мм</title></rect>
+<text x="210.9" y="597.2" text-anchor="middle" font-size="11" font-family="Arial">9</text>
+<rect x="114.0" y="640.4" width="193.8" height="83.2" fill="#d8bea0" stroke="#635547" stroke-width=".4"><title>Right-wall-18: 969 × 416 мм</title></rect>
+<text x="210.9" y="682.0" text-anchor="middle" font-size="11" font-family="Arial">10</text>
+<rect x="22.0" y="661.4" width="71.0" height="92.2" fill="#d5d8c9" stroke="#635547" stroke-width=".4"><title>Shelf-Left-1: 355 × 461 мм</title></rect>
+<text x="57.5" y="707.5" text-anchor="middle" font-size="11" font-family="Arial">7</text>
+<rect x="22.0" y="755.2" width="63.6" height="4.4" fill="#c4d1d5" stroke="#635547" stroke-width=".4"><title>Stile-L-1: 318 × 22 мм</title></rect>
+<rect x="22.0" y="761.2" width="63.6" height="4.4" fill="#d8bea0" stroke="#635547" stroke-width=".4"><title>Stile-R-1: 318 × 22 мм</title></rect>
+<rect x="87.2" y="755.2" width="60.0" height="4.4" fill="#d5d8c9" stroke="#635547" stroke-width=".4"><title>Stile-L-2: 300 × 22 мм</title></rect>
+<rect x="87.2" y="761.2" width="60.0" height="4.4" fill="#c4d1d5" stroke="#635547" stroke-width=".4"><title>Stile-R-2: 300 × 22 мм</title></rect>
+<rect x="309.6" y="467.0" width="4.4" height="60.0" fill="#d8bea0" stroke="#635547" stroke-width=".4"><title>Stile-L-3: 22 × 300 мм</title></rect>
+<rect x="315.6" y="467.0" width="4.4" height="60.0" fill="#d5d8c9" stroke="#635547" stroke-width=".4"><title>Stile-R-3: 22 × 300 мм</title></rect>
+<rect x="309.6" y="528.6" width="3.2" height="80.80000000000001" fill="#c4d1d5" stroke="#635547" stroke-width=".4"><title>Bottom-rail-1: 16 × 404 мм</title></rect>
+<rect x="314.40000000000003" y="528.6" width="3.2" height="80.80000000000001" fill="#d8bea0" stroke="#635547" stroke-width=".4"><title>Bottom-rail-2: 16 × 404 мм</title></rect>
+<rect x="319.2" y="528.6" width="3.2" height="80.80000000000001" fill="#d5d8c9" stroke="#635547" stroke-width=".4"><title>Bottom-rail-3: 16 × 404 мм</title></rect>
+<rect x="309.40000000000003" y="611.0" width="2.8000000000000003" height="80.80000000000001" fill="#c4d1d5" stroke="#635547" stroke-width=".4"><title>Top-rail-1: 14 × 404 мм</title></rect>
+<rect x="313.8" y="611.0" width="2.8000000000000003" height="80.80000000000001" fill="#d8bea0" stroke="#635547" stroke-width=".4"><title>Top-rail-2: 14 × 404 мм</title></rect>
+<rect x="318.2" y="611.0" width="2.8000000000000003" height="80.80000000000001" fill="#d5d8c9" stroke="#635547" stroke-width=".4"><title>Top-rail-3: 14 × 404 мм</title></rect>
+<text x="360" y="451" font-family="Arial" font-size="15">18 мм · лист 2</text>
+<rect x="360" y="465" width="305" height="305" fill="white" stroke="#6c6c6c"/>
+<rect x="362.0" y="467.0" width="83.4" height="186.4" fill="#d8bea0" stroke="#635547" stroke-width=".4"><title>Top-18: 417 × 932 мм</title></rect>
+<text x="403.7" y="560.2" text-anchor="middle" font-size="11" font-family="Arial">5</text>
+<rect x="362.0" y="655.0" width="71.0" height="92.2" fill="#d5d8c9" stroke="#635547" stroke-width=".4"><title>Shelf-Left-2: 355 × 461 мм</title></rect>
+<text x="397.5" y="701.1" text-anchor="middle" font-size="11" font-family="Arial">8</text>
+</svg>

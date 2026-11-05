@@ -1,0 +1,837 @@
+{
+  "version": "cambusa-v30",
+  "model_sha256": "d0f3c2c3eada17888ebeb8ba92c54d8c57fc01339a2b8bc6a3e08521fd9f9793",
+  "wood": [
+    {
+      "part": "Back-infill-8",
+      "a_mm": 947.0,
+      "b_mm": 985.0,
+      "stock_mm": 8.0,
+      "area_m2": 0.932795,
+      "perimeter_m": 3.864,
+      "source": "v30 body CSV + GLB"
+    },
+    {
+      "part": "Floor-Left-8",
+      "a_mm": 466.0,
+      "b_mm": 432.0,
+      "stock_mm": 8.0,
+      "area_m2": 0.201312,
+      "perimeter_m": 1.796,
+      "source": "v30 body CSV + GLB"
+    },
+    {
+      "part": "Floor-Right-8",
+      "a_mm": 466.0,
+      "b_mm": 432.0,
+      "stock_mm": 8.0,
+      "area_m2": 0.201312,
+      "perimeter_m": 1.796,
+      "source": "v30 body CSV + GLB"
+    },
+    {
+      "part": "Center-18",
+      "a_mm": 435.0,
+      "b_mm": 970.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.42195,
+      "perimeter_m": 2.81,
+      "source": "v30 body CSV + GLB"
+    },
+    {
+      "part": "Top-18",
+      "a_mm": 932.0,
+      "b_mm": 417.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.388644,
+      "perimeter_m": 2.698,
+      "source": "v30 body CSV + GLB"
+    },
+    {
+      "part": "Right-roof",
+      "a_mm": 457.0,
+      "b_mm": 405.0,
+      "stock_mm": 12.0,
+      "area_m2": 0.185085,
+      "perimeter_m": 1.724,
+      "source": "v30 body CSV + GLB"
+    },
+    {
+      "part": "Shelf-Left-1",
+      "a_mm": 461.0,
+      "b_mm": 355.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.163655,
+      "perimeter_m": 1.632,
+      "source": "v30 body CSV + GLB"
+    },
+    {
+      "part": "Shelf-Left-2",
+      "a_mm": 461.0,
+      "b_mm": 355.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.163655,
+      "perimeter_m": 1.632,
+      "source": "v30 body CSV + GLB"
+    },
+    {
+      "part": "Left-pegboard-18",
+      "a_mm": 416.0,
+      "b_mm": 969.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.403104,
+      "perimeter_m": 2.77,
+      "source": "v30 body CSV + GLB"
+    },
+    {
+      "part": "Right-wall-18",
+      "a_mm": 416.0,
+      "b_mm": 969.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.403104,
+      "perimeter_m": 2.77,
+      "source": "v30 body CSV + GLB"
+    },
+    {
+      "part": "Left-door-face-18",
+      "a_mm": 452.0,
+      "b_mm": 964.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.435728,
+      "perimeter_m": 2.832,
+      "source": "v30 body CSV + GLB"
+    },
+    {
+      "part": "Shelf-Right-1",
+      "a_mm": 461.5,
+      "b_mm": 404.0,
+      "stock_mm": 12.0,
+      "area_m2": 0.186446,
+      "perimeter_m": 1.731,
+      "source": "v30 body CSV + GLB"
+    },
+    {
+      "part": "Shelf-Right-2",
+      "a_mm": 461.5,
+      "b_mm": 404.0,
+      "stock_mm": 12.0,
+      "area_m2": 0.186446,
+      "perimeter_m": 1.731,
+      "source": "v30 body CSV + GLB"
+    },
+    {
+      "part": "Stile-L-1",
+      "a_mm": 22.0,
+      "b_mm": 318.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.006996,
+      "perimeter_m": 0.68,
+      "source": "right_leaf local shape + posed GLB"
+    },
+    {
+      "part": "Stile-R-1",
+      "a_mm": 22.0,
+      "b_mm": 318.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.006996,
+      "perimeter_m": 0.68,
+      "source": "right_leaf local shape + posed GLB"
+    },
+    {
+      "part": "Top-rail-1",
+      "a_mm": 404.0,
+      "b_mm": 14.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.005656,
+      "perimeter_m": 0.836,
+      "source": "right_leaf local shape + posed GLB"
+    },
+    {
+      "part": "Bottom-rail-1",
+      "a_mm": 404.0,
+      "b_mm": 16.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.006464,
+      "perimeter_m": 0.84,
+      "source": "right_leaf local shape + posed GLB"
+    },
+    {
+      "part": "Plywood-infill-6-1",
+      "a_mm": 404.0,
+      "b_mm": 288.0,
+      "stock_mm": 6.0,
+      "area_m2": 0.116352,
+      "perimeter_m": 1.384,
+      "source": "right_leaf local shape + posed GLB"
+    },
+    {
+      "part": "Stile-L-2",
+      "a_mm": 22.0,
+      "b_mm": 300.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.0066,
+      "perimeter_m": 0.644,
+      "source": "right_leaf local shape + posed GLB"
+    },
+    {
+      "part": "Stile-R-2",
+      "a_mm": 22.0,
+      "b_mm": 300.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.0066,
+      "perimeter_m": 0.644,
+      "source": "right_leaf local shape + posed GLB"
+    },
+    {
+      "part": "Top-rail-2",
+      "a_mm": 404.0,
+      "b_mm": 14.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.005656,
+      "perimeter_m": 0.836,
+      "source": "right_leaf local shape + posed GLB"
+    },
+    {
+      "part": "Bottom-rail-2",
+      "a_mm": 404.0,
+      "b_mm": 16.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.006464,
+      "perimeter_m": 0.84,
+      "source": "right_leaf local shape + posed GLB"
+    },
+    {
+      "part": "Plywood-infill-6-2",
+      "a_mm": 404.0,
+      "b_mm": 270.0,
+      "stock_mm": 6.0,
+      "area_m2": 0.10908,
+      "perimeter_m": 1.348,
+      "source": "right_leaf local shape + posed GLB"
+    },
+    {
+      "part": "Stile-L-3",
+      "a_mm": 22.0,
+      "b_mm": 300.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.0066,
+      "perimeter_m": 0.644,
+      "source": "right_leaf local shape + posed GLB"
+    },
+    {
+      "part": "Stile-R-3",
+      "a_mm": 22.0,
+      "b_mm": 300.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.0066,
+      "perimeter_m": 0.644,
+      "source": "right_leaf local shape + posed GLB"
+    },
+    {
+      "part": "Top-rail-3",
+      "a_mm": 404.0,
+      "b_mm": 14.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.005656,
+      "perimeter_m": 0.836,
+      "source": "right_leaf local shape + posed GLB"
+    },
+    {
+      "part": "Bottom-rail-3",
+      "a_mm": 404.0,
+      "b_mm": 16.0,
+      "stock_mm": 18.0,
+      "area_m2": 0.006464,
+      "perimeter_m": 0.84,
+      "source": "right_leaf local shape + posed GLB"
+    },
+    {
+      "part": "Plywood-infill-6-3",
+      "a_mm": 404.0,
+      "b_mm": 270.0,
+      "stock_mm": 6.0,
+      "area_m2": 0.10908,
+      "perimeter_m": 1.348,
+      "source": "right_leaf local shape + posed GLB"
+    }
+  ],
+  "sheets": [
+    {
+      "thickness_mm": 6.0,
+      "sheet": 1,
+      "size_mm": [
+        1525,
+        1525
+      ],
+      "pieces": [
+        {
+          "part": "Plywood-infill-6-1",
+          "xy_mm": [
+            10,
+            10
+          ],
+          "size_mm": [
+            288.0,
+            404.0
+          ]
+        },
+        {
+          "part": "Plywood-infill-6-2",
+          "xy_mm": [
+            10,
+            422.0
+          ],
+          "size_mm": [
+            270.0,
+            404.0
+          ]
+        },
+        {
+          "part": "Plywood-infill-6-3",
+          "xy_mm": [
+            10,
+            834.0
+          ],
+          "size_mm": [
+            270.0,
+            404.0
+          ]
+        }
+      ]
+    },
+    {
+      "thickness_mm": 8.0,
+      "sheet": 1,
+      "size_mm": [
+        1525,
+        1525
+      ],
+      "pieces": [
+        {
+          "part": "Back-infill-8",
+          "xy_mm": [
+            10,
+            10
+          ],
+          "size_mm": [
+            947.0,
+            985.0
+          ]
+        },
+        {
+          "part": "Floor-Left-8",
+          "xy_mm": [
+            10,
+            1003.0
+          ],
+          "size_mm": [
+            432.0,
+            466.0
+          ]
+        },
+        {
+          "part": "Floor-Right-8",
+          "xy_mm": [
+            450.0,
+            1003.0
+          ],
+          "size_mm": [
+            432.0,
+            466.0
+          ]
+        }
+      ]
+    },
+    {
+      "thickness_mm": 12.0,
+      "sheet": 1,
+      "size_mm": [
+        1525,
+        1525
+      ],
+      "pieces": [
+        {
+          "part": "Shelf-Right-1",
+          "xy_mm": [
+            10,
+            10
+          ],
+          "size_mm": [
+            404.0,
+            461.5
+          ]
+        },
+        {
+          "part": "Shelf-Right-2",
+          "xy_mm": [
+            10,
+            479.5
+          ],
+          "size_mm": [
+            404.0,
+            461.5
+          ]
+        },
+        {
+          "part": "Right-roof",
+          "xy_mm": [
+            10,
+            949.0
+          ],
+          "size_mm": [
+            405.0,
+            457.0
+          ]
+        }
+      ]
+    },
+    {
+      "thickness_mm": 18.0,
+      "sheet": 1,
+      "size_mm": [
+        1525,
+        1525
+      ],
+      "pieces": [
+        {
+          "part": "Left-door-face-18",
+          "xy_mm": [
+            10,
+            10
+          ],
+          "size_mm": [
+            452.0,
+            964.0
+          ]
+        },
+        {
+          "part": "Center-18",
+          "xy_mm": [
+            470.0,
+            10
+          ],
+          "size_mm": [
+            970.0,
+            435.0
+          ]
+        },
+        {
+          "part": "Left-pegboard-18",
+          "xy_mm": [
+            470.0,
+            453.0
+          ],
+          "size_mm": [
+            969.0,
+            416.0
+          ]
+        },
+        {
+          "part": "Right-wall-18",
+          "xy_mm": [
+            470.0,
+            877.0
+          ],
+          "size_mm": [
+            969.0,
+            416.0
+          ]
+        },
+        {
+          "part": "Shelf-Left-1",
+          "xy_mm": [
+            10,
+            982.0
+          ],
+          "size_mm": [
+            355.0,
+            461.0
+          ]
+        },
+        {
+          "part": "Stile-L-1",
+          "xy_mm": [
+            10,
+            1451.0
+          ],
+          "size_mm": [
+            318.0,
+            22.0
+          ]
+        },
+        {
+          "part": "Stile-R-1",
+          "xy_mm": [
+            10,
+            1481.0
+          ],
+          "size_mm": [
+            318.0,
+            22.0
+          ]
+        },
+        {
+          "part": "Stile-L-2",
+          "xy_mm": [
+            336.0,
+            1451.0
+          ],
+          "size_mm": [
+            300.0,
+            22.0
+          ]
+        },
+        {
+          "part": "Stile-R-2",
+          "xy_mm": [
+            336.0,
+            1481.0
+          ],
+          "size_mm": [
+            300.0,
+            22.0
+          ]
+        },
+        {
+          "part": "Stile-L-3",
+          "xy_mm": [
+            1448.0,
+            10
+          ],
+          "size_mm": [
+            22.0,
+            300.0
+          ]
+        },
+        {
+          "part": "Stile-R-3",
+          "xy_mm": [
+            1478.0,
+            10
+          ],
+          "size_mm": [
+            22.0,
+            300.0
+          ]
+        },
+        {
+          "part": "Bottom-rail-1",
+          "xy_mm": [
+            1448.0,
+            318.0
+          ],
+          "size_mm": [
+            16.0,
+            404.0
+          ]
+        },
+        {
+          "part": "Bottom-rail-2",
+          "xy_mm": [
+            1472.0,
+            318.0
+          ],
+          "size_mm": [
+            16.0,
+            404.0
+          ]
+        },
+        {
+          "part": "Bottom-rail-3",
+          "xy_mm": [
+            1496.0,
+            318.0
+          ],
+          "size_mm": [
+            16.0,
+            404.0
+          ]
+        },
+        {
+          "part": "Top-rail-1",
+          "xy_mm": [
+            1447.0,
+            730.0
+          ],
+          "size_mm": [
+            14.0,
+            404.0
+          ]
+        },
+        {
+          "part": "Top-rail-2",
+          "xy_mm": [
+            1469.0,
+            730.0
+          ],
+          "size_mm": [
+            14.0,
+            404.0
+          ]
+        },
+        {
+          "part": "Top-rail-3",
+          "xy_mm": [
+            1491.0,
+            730.0
+          ],
+          "size_mm": [
+            14.0,
+            404.0
+          ]
+        }
+      ]
+    },
+    {
+      "thickness_mm": 18.0,
+      "sheet": 2,
+      "size_mm": [
+        1525,
+        1525
+      ],
+      "pieces": [
+        {
+          "part": "Top-18",
+          "xy_mm": [
+            10,
+            10
+          ],
+          "size_mm": [
+            417.0,
+            932.0
+          ]
+        },
+        {
+          "part": "Shelf-Left-2",
+          "xy_mm": [
+            10,
+            950.0
+          ],
+          "size_mm": [
+            355.0,
+            461.0
+          ]
+        }
+      ]
+    }
+  ],
+  "profile_parts": [
+    {
+      "part": "Post-4-23",
+      "length_mm": 1726.0
+    },
+    {
+      "part": "Post-4-470",
+      "length_mm": 1726.0
+    },
+    {
+      "part": "Post-966-23",
+      "length_mm": 1726.0
+    },
+    {
+      "part": "Post-966-470",
+      "length_mm": 1726.0
+    },
+    {
+      "part": "Beam-body-front",
+      "length_mm": 932.0
+    },
+    {
+      "part": "Beam-body-rear",
+      "length_mm": 932.0
+    },
+    {
+      "part": "Beam-lower-rear",
+      "length_mm": 932.0
+    },
+    {
+      "part": "Beam-top-front",
+      "length_mm": 932.0
+    },
+    {
+      "part": "Beam-top-rear",
+      "length_mm": 932.0
+    },
+    {
+      "part": "Beam-body-center",
+      "length_mm": 417.0
+    },
+    {
+      "part": "Beam-body-side-4",
+      "length_mm": 417.0
+    },
+    {
+      "part": "Beam-body-side-966",
+      "length_mm": 417.0
+    },
+    {
+      "part": "Beam-lower-side-4",
+      "length_mm": 417.0
+    },
+    {
+      "part": "Beam-lower-side-966",
+      "length_mm": 417.0
+    },
+    {
+      "part": "Beam-top-side-4",
+      "length_mm": 417.0
+    },
+    {
+      "part": "Beam-top-side-966",
+      "length_mm": 417.0
+    }
+  ],
+  "bars": [
+    {
+      "bar": 1,
+      "stock_mm": 3040,
+      "trim_each_end_mm": 60,
+      "kerf_mm": 5,
+      "remainder_mm": 252.0,
+      "pieces": [
+        {
+          "part": "Post-4-23",
+          "length_mm": 1726.0,
+          "start_mm": 60
+        },
+        {
+          "part": "Beam-body-front",
+          "length_mm": 932.0,
+          "start_mm": 1791.0
+        }
+      ]
+    },
+    {
+      "bar": 2,
+      "stock_mm": 3040,
+      "trim_each_end_mm": 60,
+      "kerf_mm": 5,
+      "remainder_mm": 252.0,
+      "pieces": [
+        {
+          "part": "Post-4-470",
+          "length_mm": 1726.0,
+          "start_mm": 60
+        },
+        {
+          "part": "Beam-body-rear",
+          "length_mm": 932.0,
+          "start_mm": 1791.0
+        }
+      ]
+    },
+    {
+      "bar": 3,
+      "stock_mm": 3040,
+      "trim_each_end_mm": 60,
+      "kerf_mm": 5,
+      "remainder_mm": 252.0,
+      "pieces": [
+        {
+          "part": "Post-966-23",
+          "length_mm": 1726.0,
+          "start_mm": 60
+        },
+        {
+          "part": "Beam-lower-rear",
+          "length_mm": 932.0,
+          "start_mm": 1791.0
+        }
+      ]
+    },
+    {
+      "bar": 4,
+      "stock_mm": 3040,
+      "trim_each_end_mm": 60,
+      "kerf_mm": 5,
+      "remainder_mm": 252.0,
+      "pieces": [
+        {
+          "part": "Post-966-470",
+          "length_mm": 1726.0,
+          "start_mm": 60
+        },
+        {
+          "part": "Beam-top-front",
+          "length_mm": 932.0,
+          "start_mm": 1791.0
+        }
+      ]
+    },
+    {
+      "bar": 5,
+      "stock_mm": 3040,
+      "trim_each_end_mm": 60,
+      "kerf_mm": 5,
+      "remainder_mm": 295.0,
+      "pieces": [
+        {
+          "part": "Beam-top-rear",
+          "length_mm": 932.0,
+          "start_mm": 60
+        },
+        {
+          "part": "Beam-body-center",
+          "length_mm": 417.0,
+          "start_mm": 997.0
+        },
+        {
+          "part": "Beam-body-side-4",
+          "length_mm": 417.0,
+          "start_mm": 1419.0
+        },
+        {
+          "part": "Beam-body-side-966",
+          "length_mm": 417.0,
+          "start_mm": 1841.0
+        },
+        {
+          "part": "Beam-lower-side-4",
+          "length_mm": 417.0,
+          "start_mm": 2263.0
+        }
+      ]
+    },
+    {
+      "bar": 6,
+      "stock_mm": 3040,
+      "trim_each_end_mm": 60,
+      "kerf_mm": 5,
+      "remainder_mm": 1654.0,
+      "pieces": [
+        {
+          "part": "Beam-lower-side-966",
+          "length_mm": 417.0,
+          "start_mm": 60
+        },
+        {
+          "part": "Beam-top-side-4",
+          "length_mm": 417.0,
+          "start_mm": 482.0
+        },
+        {
+          "part": "Beam-top-side-966",
+          "length_mm": 417.0,
+          "start_mm": 904.0
+        }
+      ]
+    }
+  ],
+  "infeasible_profile_bar_counts": [
+    5
+  ],
+  "profile_net_m": 14.483,
+  "profile_purchase_m": 18.24,
+  "profile_billable_cuts": 28,
+  "plywood_purchase_sheets": {
+    "6": 1,
+    "8": 1,
+    "12": 1,
+    "18": 2
+  },
+  "surface_area_m2": 9.985304,
+  "sheet_edge_trim_mm": 10,
+  "part_clearance_mm": 8,
+  "grain_orientation_approved": false,
+  "fabrication_release": false
+}
