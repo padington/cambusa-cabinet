@@ -1,0 +1,75 @@
+{
+  "blum-71b3750": [
+    {
+      "part": 0,
+      "valid": true,
+      "volume": 6037.361645221575,
+      "bounds": [
+        [
+          -14.924966522163784,
+          -22.499999999999993,
+          -7.550000000000001
+        ],
+        [
+          -1.9999999999999407,
+          29.43100386385693,
+          7.550000000000002
+        ]
+      ],
+      "triangles": 600
+    },
+    {
+      "part": 1,
+      "error": "CadQueryConversionError: loop $776: expected CoedgeEntity, got tcoedge-coedge",
+      "cause": "None"
+    },
+    {
+      "part": 2,
+      "valid": true,
+      "volume": 1718.8045025149233,
+      "bounds": [
+        [
+          -38.37213734587743,
+          -50.13085277422945,
+          -7.274999999999998
+        ],
+        [
+          -13.190309845245206,
+          -39.43309218839571,
+          7.275000000000003
+        ]
+      ],
+      "triangles": 592
+    },
+    {
+      "part": 3,
+      "valid": true,
+      "volume": 798.0583061005337,
+      "bounds": [
+        [
+          -30.164983241081945,
+          -44.940682824553605,
+          -3.6499999999999977
+        ],
+        [
+          -8.143184106919705,
+          -31.16999997782588,
+          3.6500000000000026
+        ]
+      ],
+      "triangles": 756
+    },
+    {
+      "part": 4,
+      "error": "CadQueryConversionError: face $19 surface: unsupported geometry spline-surface",
+      "cause": "None"
+    }
+  ],
+  "blum-plate-46187859": [
+    {
+      "part": 0,
+      "error": "CadQueryConversionError: loop $18: expected CoedgeEntity, got tcoedge-coedge",
+      "cause": "None"
+    }
+  ]
+}

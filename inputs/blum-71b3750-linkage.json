@@ -1,0 +1,14 @@
+{
+  "product": "Blum 71B3750 with 175H3100 mounting plate",
+  "source_cad": "supplier-cad/blum-71b3750.dxf",
+  "source_plate_cad": "supplier-cad/blum-plate-46187859.dxf",
+  "source_description": "Parallel pin axes from cylindrical surfaces in the manufacturer CAD. XY coordinates after the file body transform, millimetres.",
+  "fixed_p": [-36.0, -42.61],
+  "fixed_q": [-26.44, -34.32],
+  "moving_b": [-15.94, -45.4],
+  "moving_a": [-11.14, -40.8],
+  "world_offset_xy": [34.0, 79.5],
+  "centers_z_mm": [893.0, 1285.0, 1677.0],
+  "maximum_angle_deg": 110,
+  "geometry_scope": "Manufacturer bodies 0, 2 and 3 converted. Cup, housing and mounting plate use dimensional envelopes. Full supplier B-rep conversion remains incomplete."
+}

@@ -1,0 +1,11 @@
+{
+  "sha256": {
+    "blum-71b3750.dxf": "ade4639f99dc40b000c6baea7099232100435a54c63863e5f3c0635ac3ebe97e",
+    "blum-plate-46187859.dxf": "53e8e3b8d4aab43c311d92cefae7522c91f53e33dc7e660cef6079fa2c32533a",
+    "blum-110-planning.pdf": "e66791b5c13dc2d323a7ee3067cef35e99aa292bd0df2e094ca213e6fe890053"
+  },
+  "manufacturer": "Julius Blum",
+  "candidate_only": true,
+  "download_url_recorded": false,
+  "source_note": "Supplier copies of manufacturer DXF and planning PDF, exact download URL was not retained."
+}

@@ -1,0 +1,72 @@
+{
+  "status": "NOT RELEASED",
+  "geometry_scope": "Three factory bodies; cup, housing and plate are envelopes",
+  "purpose": "Candidate only; overview retains RSI 3025 from v28",
+  "poses": {
+    "0": {
+      "unexpected_contacts": [],
+      "thread_contacts": 32
+    },
+    "55": {
+      "unexpected_contacts": [],
+      "thread_contacts": 32
+    },
+    "90": {
+      "unexpected_contacts": [],
+      "thread_contacts": 32
+    },
+    "100": {
+      "unexpected_contacts": [],
+      "thread_contacts": 32
+    },
+    "110": {
+      "unexpected_contacts": [
+        {
+          "parts": [
+            "Blum-1-factory-link2",
+            "Left-door-face-18"
+          ],
+          "volume_mm3": 21.438
+        },
+        {
+          "parts": [
+            "Blum-1-factory-link3",
+            "Left-door-face-18"
+          ],
+          "volume_mm3": 16.735
+        },
+        {
+          "parts": [
+            "Blum-2-factory-link2",
+            "Left-door-face-18"
+          ],
+          "volume_mm3": 21.438
+        },
+        {
+          "parts": [
+            "Blum-2-factory-link3",
+            "Left-door-face-18"
+          ],
+          "volume_mm3": 16.735
+        },
+        {
+          "parts": [
+            "Blum-3-factory-link2",
+            "Left-door-face-18"
+          ],
+          "volume_mm3": 21.438
+        },
+        {
+          "parts": [
+            "Blum-3-factory-link3",
+            "Left-door-face-18"
+          ],
+          "volume_mm3": 16.735
+        }
+      ],
+      "thread_contacts": 32
+    }
+  },
+  "maximum_pin_link_residual_mm": 1.4210854715202004e-14,
+  "next_step": "Resolve the link-to-wood interference at 110 degrees against manufacturer CAD/datums before ordering or replacing the current hinge."
+}
