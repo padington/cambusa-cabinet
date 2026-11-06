@@ -1,0 +1,27 @@
+{
+  "version": "cambusa-v33-independent-hinge",
+  "hardware_skus_and_quantities_complete": true,
+  "independent_source_found": true,
+  "source_overlap_independently_confirmed_for_pairs": [
+    [
+      2,
+      4
+    ]
+  ],
+  "all_internal_overlap_pairs_independently_classified": false,
+  "external_nominal_fit_passed": true,
+  "angular_samples": 681,
+  "sampled_moving_link_clearance_target_mm": 0.5,
+  "minimum_sampled_moving_link_to_wood_mm": 0.6092289873256767,
+  "wood_machining_files_complete": true,
+  "order_request_package_ready": true,
+  "supplier_material_and_tolerance_acceptance_received": false,
+  "unconditional_manufacturing_release": false,
+  "physical_test_performed": false,
+  "complete_cabinet_release": false,
+  "remaining_before_CNC_start": [
+    "Confirm finished stock thicknesses and surface finish",
+    "Manufacturer accepts ORDER-SPEC.md machining tolerances and correct datum faces"
+  ],
+  "scope": "Purchased complete Blum hinge node; nominal CAD fit using previous factory-derived pivot graph. No independent factory animated assembly, full adjustment-envelope certificate, or physical qualification."
+}

@@ -1,0 +1,288 @@
+{
+  "passed": true,
+  "method": "Independent +Z ray parity from original binary source planes and exact source edge evaluations; no OCCT topology or Boolean classification",
+  "scope": "Confirms source overlap of bodies 2 and 4 at nine interior witness points, not the physical hinge mechanism",
+  "curve_samples_per_edge": 4097,
+  "minimum_hit_distance_to_trim_mm": 0.09022797745562888,
+  "witnesses": [
+    {
+      "point": [
+        -32.54508578,
+        -20.78081606,
+        0.0
+      ],
+      "bodies": {
+        "2": {
+          "inside": true,
+          "hits": [
+            [
+              9.300006791065133,
+              120,
+              0.20016671383970147
+            ]
+          ],
+          "curved_possible": []
+        },
+        "4": {
+          "inside": true,
+          "hits": [
+            [
+              5.3500067910649225,
+              131,
+              0.20524623889637122
+            ]
+          ],
+          "curved_possible": []
+        }
+      }
+    },
+    {
+      "point": [
+        -32.64508578,
+        -20.88081606,
+        -0.1
+      ],
+      "bodies": {
+        "2": {
+          "inside": true,
+          "hits": [
+            [
+              9.400006823744622,
+              120,
+              0.09022797745562888
+            ]
+          ],
+          "curved_possible": []
+        },
+        "4": {
+          "inside": true,
+          "hits": [
+            [
+              5.4500068237444115,
+              131,
+              0.31563219720339497
+            ]
+          ],
+          "curved_possible": []
+        }
+      }
+    },
+    {
+      "point": [
+        -32.64508578,
+        -20.88081606,
+        0.1
+      ],
+      "bodies": {
+        "2": {
+          "inside": true,
+          "hits": [
+            [
+              9.200006823744623,
+              120,
+              0.09022797745562888
+            ]
+          ],
+          "curved_possible": []
+        },
+        "4": {
+          "inside": true,
+          "hits": [
+            [
+              5.250006823744412,
+              131,
+              0.31563219720339497
+            ]
+          ],
+          "curved_possible": []
+        }
+      }
+    },
+    {
+      "point": [
+        -32.64508578,
+        -20.680816059999998,
+        -0.1
+      ],
+      "bodies": {
+        "2": {
+          "inside": true,
+          "hits": [
+            [
+              9.400006758385643,
+              120,
+              0.11120900342472699
+            ]
+          ],
+          "curved_possible": []
+        },
+        "4": {
+          "inside": true,
+          "hits": [
+            [
+              5.450006758385433,
+              131,
+              0.29364838937156273
+            ]
+          ],
+          "curved_possible": []
+        }
+      }
+    },
+    {
+      "point": [
+        -32.64508578,
+        -20.680816059999998,
+        0.1
+      ],
+      "bodies": {
+        "2": {
+          "inside": true,
+          "hits": [
+            [
+              9.200006758385644,
+              120,
+              0.11120900342472699
+            ]
+          ],
+          "curved_possible": []
+        },
+        "4": {
+          "inside": true,
+          "hits": [
+            [
+              5.2500067583854335,
+              131,
+              0.29364838937156273
+            ]
+          ],
+          "curved_possible": []
+        }
+      }
+    },
+    {
+      "point": [
+        -32.44508578,
+        -20.88081606,
+        -0.1
+      ],
+      "bodies": {
+        "2": {
+          "inside": true,
+          "hits": [
+            [
+              9.400006823744622,
+              120,
+              0.28912442425467183
+            ]
+          ],
+          "curved_possible": []
+        },
+        "4": {
+          "inside": true,
+          "hits": [
+            [
+              5.4500068237444115,
+              131,
+              0.11684408842116947
+            ]
+          ],
+          "curved_possible": []
+        }
+      }
+    },
+    {
+      "point": [
+        -32.44508578,
+        -20.88081606,
+        0.1
+      ],
+      "bodies": {
+        "2": {
+          "inside": true,
+          "hits": [
+            [
+              9.200006823744623,
+              120,
+              0.28912442425467183
+            ]
+          ],
+          "curved_possible": []
+        },
+        "4": {
+          "inside": true,
+          "hits": [
+            [
+              5.250006823744412,
+              131,
+              0.11684408842116947
+            ]
+          ],
+          "curved_possible": []
+        }
+      }
+    },
+    {
+      "point": [
+        -32.44508578,
+        -20.680816059999998,
+        -0.1
+      ],
+      "bodies": {
+        "2": {
+          "inside": true,
+          "hits": [
+            [
+              9.400006758385643,
+              120,
+              0.3101054502237811
+            ]
+          ],
+          "curved_possible": []
+        },
+        "4": {
+          "inside": true,
+          "hits": [
+            [
+              5.450006758385433,
+              131,
+              0.09486028058934154
+            ]
+          ],
+          "curved_possible": []
+        }
+      }
+    },
+    {
+      "point": [
+        -32.44508578,
+        -20.680816059999998,
+        0.1
+      ],
+      "bodies": {
+        "2": {
+          "inside": true,
+          "hits": [
+            [
+              9.200006758385644,
+              120,
+              0.3101054502237811
+            ]
+          ],
+          "curved_possible": []
+        },
+        "4": {
+          "inside": true,
+          "hits": [
+            [
+              5.2500067583854335,
+              131,
+              0.09486028058934154
+            ]
+          ],
+          "curved_possible": []
+        }
+      }
+    }
+  ]
+}

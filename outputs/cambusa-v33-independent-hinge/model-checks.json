@@ -1,0 +1,27 @@
+{
+  "version": "cambusa-v33-independent-hinge",
+  "geometry_source": "independent Demos DWG: all 7 bodies, datum-aligned; original real mounting plate",
+  "actual_factory_body_count": 24,
+  "cup_spacers": 0,
+  "side_backers": 0,
+  "supplier_internal_collision_qualification": false,
+  "physical_load_test": false,
+  "complete_cabinet_release": false,
+  "exports": {
+    "0": {
+      "parts": 236,
+      "bounds_error_mm": 0.0005450717599160271,
+      "sha256": "d993c934d708774181f93a83cc8daaf2ae66a5a5f3f4b80e614270c470d39109"
+    },
+    "110": {
+      "parts": 236,
+      "bounds_error_mm": 0.0005450717599160271,
+      "sha256": "0991650458224aa0384339cdf8a29528f3614a40df4d20492750b6715ab6cd66"
+    },
+    "170": {
+      "parts": 236,
+      "bounds_error_mm": 0.0005450717599160271,
+      "sha256": "007dd2bc90fb6f06fe0f08cce79e0650d62716402ae151a392abfcb4dc849280"
+    }
+  }
+}

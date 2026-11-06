@@ -1,0 +1,107 @@
+{
+  "version": "cambusa-v33-independent-hinge",
+  "hinge": "71T6650",
+  "plate": "175H7190",
+  "source": "Independent Demos DWG; all seven bodies; common mounting-datum rotation",
+  "pocket_mm": [
+    11.0,
+    28.0,
+    6.0
+  ],
+  "pocket_radius_mm": 3.0,
+  "cup_bore_mm": [
+    35.2,
+    11.2
+  ],
+  "exact_brep": true,
+  "sample_step_degrees": 0.25,
+  "collision_volume_threshold_mm3": 0.001,
+  "target_moving_link_clearance_mm": 0.5,
+  "unexpected": [],
+  "minimum_moving_link_clearance": {
+    "1": {
+      "mm": 37.19295139393441,
+      "degrees": 0.0
+    },
+    "2": {
+      "mm": 0.9168068992046953,
+      "degrees": 27.75
+    },
+    "3": {
+      "mm": 2.7121181553595113,
+      "degrees": 170.0
+    },
+    "4": {
+      "mm": 0.6092289873256767,
+      "degrees": 74.0
+    }
+  },
+  "factory_model_internal_overlaps": [
+    [
+      0,
+      1,
+      503.3082407477111
+    ],
+    [
+      0,
+      2,
+      11415.54902019928
+    ],
+    [
+      0,
+      3,
+      408.58013312278337
+    ],
+    [
+      0,
+      6,
+      4638.634235456301
+    ],
+    [
+      1,
+      2,
+      580.0205833571318
+    ],
+    [
+      2,
+      3,
+      2844.9118245563004
+    ],
+    [
+      2,
+      4,
+      30.819656611236148
+    ],
+    [
+      2,
+      5,
+      22.542308653346826
+    ],
+    [
+      2,
+      6,
+      48.661142015110386
+    ],
+    [
+      3,
+      4,
+      4030.2284083464297
+    ],
+    [
+      4,
+      5,
+      0.09789947555586895
+    ]
+  ],
+  "cup_wood_overlap_mm3": 0.0,
+  "sample_count": 681,
+  "external_nominal_fit_passed": true,
+  "sampled_clearance_target_passed": true,
+  "source_overlap_independently_confirmed_for_bodies": [
+    2,
+    4
+  ],
+  "physical_test_performed": false,
+  "extreme_adjustment_combinations_checked": false,
+  "scope": "Purchased hinge exterior fit at nominal adjustment, using the previous factory-derived six-bar pivot graph; source CAD bodies are not physically disjoint internal components. Finite angular samples, not a continuous clearance certificate."
+}

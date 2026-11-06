@@ -1,0 +1,88 @@
+{
+  "source": "inputs/supplier-cad/blum-71t6650-demos.dwg",
+  "source_sha256": "ecec7b14e4d15a160e233c4c26f5d432c24c65b932d861ef0ef3ebec0dbca055",
+  "source_page": "https://www.demos-trade.sk/blum-71t6650-zaves-polonalozeny-skrutka-170/",
+  "download_url": "https://www.demos-trade.sk/product-file/download/33779",
+  "retrieved_date": "2026-11-06",
+  "extraction": "Original binary acis_data from LibreDWG JSON; no SAT translation or coordinate rounding",
+  "converter": "dwgread 0.14",
+  "bodies": [
+    {
+      "body": 0,
+      "handle": [
+        0,
+        1,
+        113
+      ],
+      "bytes": 72285,
+      "sha256": "371cf4d757d898b68b2b5dc34605d6cc7084809705b72737bce3341ae4160a5c",
+      "file": "inputs/supplier-cad/demos-71t6650/body-0.sab"
+    },
+    {
+      "body": 1,
+      "handle": [
+        0,
+        1,
+        114
+      ],
+      "bytes": 17043,
+      "sha256": "991fd29f6acf7d0474bc8eb5cdeee1ab126f632fb74cff2d64477be864b1045b",
+      "file": "inputs/supplier-cad/demos-71t6650/body-1.sab"
+    },
+    {
+      "body": 2,
+      "handle": [
+        0,
+        1,
+        115
+      ],
+      "bytes": 96570,
+      "sha256": "dfa9871dadfb7d2f2225f8bb9ac3107c6bc571a8433a5bef1513b72ce0106b6c",
+      "file": "inputs/supplier-cad/demos-71t6650/body-2.sab"
+    },
+    {
+      "body": 3,
+      "handle": [
+        0,
+        1,
+        116
+      ],
+      "bytes": 179038,
+      "sha256": "a8288792e19f9be2c3386a8bedbaf9ffad882935c7b168b68e8e31d0b5825395",
+      "file": "inputs/supplier-cad/demos-71t6650/body-3.sab"
+    },
+    {
+      "body": 4,
+      "handle": [
+        0,
+        1,
+        117
+      ],
+      "bytes": 22337,
+      "sha256": "0b2cb32288179cb97e3dd63b77d75dec774d616a0ee7a319ae6efb7fa1b823e0",
+      "file": "inputs/supplier-cad/demos-71t6650/body-4.sab"
+    },
+    {
+      "body": 5,
+      "handle": [
+        0,
+        1,
+        118
+      ],
+      "bytes": 166326,
+      "sha256": "bec69614889d55b23c482d2931451f6666eff60261c9e9207f1cab4aa4d393c7",
+      "file": "inputs/supplier-cad/demos-71t6650/body-5.sab"
+    },
+    {
+      "body": 6,
+      "handle": [
+        0,
+        1,
+        119
+      ],
+      "bytes": 40325,
+      "sha256": "15344651e4a02260588df713f822336c01e76ea6b8256b3ca1184a59904cbe47",
+      "file": "inputs/supplier-cad/demos-71t6650/body-6.sab"
+    }
+  ]
+}

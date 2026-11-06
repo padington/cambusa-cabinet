@@ -1,0 +1,19 @@
+part,face,operation,u_mm,v_mm,diameter_or_width_mm,depth_mm,note
+Left-door-face-18,back,cup,23,90.0,35.2,11.2,flat bottom
+Left-door-face-18,back,relief,0,90.0,11.0,6.0,height 28.0; internal R3.0; open to hinge edge
+Left-door-face-18,back,pilot,32.5,67.5,2.7,8,609.1500
+Left-door-face-18,back,pilot,32.5,112.5,2.7,8,609.1500
+Left-pegboard-24,inner,pilot,26,77.0,2.7,8,609.1500
+Left-pegboard-24,inner,pilot,26,109.0,2.7,8,609.1500
+Left-door-face-18,back,cup,23,482.0,35.2,11.2,flat bottom
+Left-door-face-18,back,relief,0,482.0,11.0,6.0,height 28.0; internal R3.0; open to hinge edge
+Left-door-face-18,back,pilot,32.5,459.5,2.7,8,609.1500
+Left-door-face-18,back,pilot,32.5,504.5,2.7,8,609.1500
+Left-pegboard-24,inner,pilot,26,469.0,2.7,8,609.1500
+Left-pegboard-24,inner,pilot,26,501.0,2.7,8,609.1500
+Left-door-face-18,back,cup,23,874.0,35.2,11.2,flat bottom
+Left-door-face-18,back,relief,0,874.0,11.0,6.0,height 28.0; internal R3.0; open to hinge edge
+Left-door-face-18,back,pilot,32.5,851.5,2.7,8,609.1500
+Left-door-face-18,back,pilot,32.5,896.5,2.7,8,609.1500
+Left-pegboard-24,inner,pilot,26,861.0,2.7,8,609.1500
+Left-pegboard-24,inner,pilot,26,893.0,2.7,8,609.1500

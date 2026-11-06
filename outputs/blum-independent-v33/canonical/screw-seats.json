@@ -1,0 +1,44 @@
+{
+  "plate": {
+    "native_head_top": [
+      6.5089999999999995,
+      0,
+      16
+    ],
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "total_length_mm": 15,
+    "nominal_head_diameter_mm": 7,
+    "nominal_head_height_mm": 2.09,
+    "seat_interval_mm": [
+      6.510000538825988,
+      6.510000538841995
+    ],
+    "contact_gap_margin_mm": 0.001,
+    "metal_overlap_mm3": 0.0
+  },
+  "cup": {
+    "native_head_top": [
+      -25.5,
+      -35.959,
+      22.5
+    ],
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "total_length_mm": 15,
+    "nominal_head_diameter_mm": 7,
+    "nominal_head_height_mm": 2.09,
+    "seat_interval_mm": [
+      35.960000497670265,
+      35.960000497686266
+    ],
+    "contact_gap_margin_mm": 0.001,
+    "metal_overlap_mm3": 0.0
+  }
+}

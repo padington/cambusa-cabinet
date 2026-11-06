@@ -1,0 +1,184 @@
+part,face_datum,operation,drawing_x_mm,drawing_y_mm,diameter_or_width_mm,depth_mm
+door-18,back; hinge edge right,CUP,429,90,35.2,11.2
+door-18,back; hinge edge right,PILOT,419.5,67.5,2.7,8
+door-18,back; hinge edge right,PILOT,419.5,112.5,2.7,8
+door-18,back; hinge edge right,RELIEF_WIDTH11_HEIGHT28_R3,441.0,90,11.0,6.0
+door-18,back; hinge edge right,CUP,429,482,35.2,11.2
+door-18,back; hinge edge right,PILOT,419.5,459.5,2.7,8
+door-18,back; hinge edge right,PILOT,419.5,504.5,2.7,8
+door-18,back; hinge edge right,RELIEF_WIDTH11_HEIGHT28_R3,441.0,482,11.0,6.0
+door-18,back; hinge edge right,CUP,429,874,35.2,11.2
+door-18,back; hinge edge right,PILOT,419.5,851.5,2.7,8
+door-18,back; hinge edge right,PILOT,419.5,896.5,2.7,8
+door-18,back; hinge edge right,RELIEF_WIDTH11_HEIGHT28_R3,441.0,874,11.0,6.0
+door-18,front; hinge edge left,GRIP_WIDTH18_HEIGHT90_R9,434,483,18,12
+side-24,inner,HINGE_PILOT,26,77,2.7,8
+side-24,inner,HINGE_PILOT,26,109,2.7,8
+side-24,inner,HINGE_PILOT,26,469,2.7,8
+side-24,inner,HINGE_PILOT,26,501,2.7,8
+side-24,inner,HINGE_PILOT,26,861,2.7,8
+side-24,inner,HINGE_PILOT,26,893,2.7,8
+side-24,inner,SHELF_PIN,96.5,338,6.06,10.3
+side-24,inner,SHELF_PIN,96.5,658,6.06,10.3
+side-24,inner,SHELF_PIN,346.5,338,6.06,10.3
+side-24,inner,SHELF_PIN,346.5,658,6.06,10.3
+side-24,inner,CROSS_DOWEL_ACCESS,43.5,20,10.1,20.6
+side-24,inner,CROSS_DOWEL_ACCESS,43.5,949,10.1,20.6
+side-24,inner,CROSS_DOWEL_ACCESS,372.5,20,10.1,20.6
+side-24,inner,CROSS_DOWEL_ACCESS,372.5,949,10.1,20.6
+side-24,outer; front edge right,PEG,383,34.5,12,16
+side-24,outer; front edge right,PEG,383,84.5,12,16
+side-24,outer; front edge right,PEG,383,134.5,12,16
+side-24,outer; front edge right,PEG,383,184.5,12,16
+side-24,outer; front edge right,PEG,383,234.5,12,16
+side-24,outer; front edge right,PEG,383,284.5,12,16
+side-24,outer; front edge right,PEG,383,334.5,12,16
+side-24,outer; front edge right,PEG,383,384.5,12,16
+side-24,outer; front edge right,PEG,383,434.5,12,16
+side-24,outer; front edge right,PEG,383,484.5,12,16
+side-24,outer; front edge right,PEG,383,534.5,12,16
+side-24,outer; front edge right,PEG,383,584.5,12,16
+side-24,outer; front edge right,PEG,383,634.5,12,16
+side-24,outer; front edge right,PEG,383,684.5,12,16
+side-24,outer; front edge right,PEG,383,734.5,12,16
+side-24,outer; front edge right,PEG,383,784.5,12,16
+side-24,outer; front edge right,PEG,383,834.5,12,16
+side-24,outer; front edge right,PEG,383,884.5,12,16
+side-24,outer; front edge right,PEG,383,934.5,12,16
+side-24,outer; front edge right,PEG,333,34.5,12,16
+side-24,outer; front edge right,PEG,333,84.5,12,16
+side-24,outer; front edge right,PEG,333,134.5,12,16
+side-24,outer; front edge right,PEG,333,184.5,12,16
+side-24,outer; front edge right,PEG,333,234.5,12,16
+side-24,outer; front edge right,PEG,333,284.5,12,16
+side-24,outer; front edge right,PEG,333,334.5,12,16
+side-24,outer; front edge right,PEG,333,384.5,12,16
+side-24,outer; front edge right,PEG,333,434.5,12,16
+side-24,outer; front edge right,PEG,333,484.5,12,16
+side-24,outer; front edge right,PEG,333,534.5,12,16
+side-24,outer; front edge right,PEG,333,584.5,12,16
+side-24,outer; front edge right,PEG,333,634.5,12,16
+side-24,outer; front edge right,PEG,333,684.5,12,16
+side-24,outer; front edge right,PEG,333,734.5,12,16
+side-24,outer; front edge right,PEG,333,784.5,12,16
+side-24,outer; front edge right,PEG,333,834.5,12,16
+side-24,outer; front edge right,PEG,333,884.5,12,16
+side-24,outer; front edge right,PEG,333,934.5,12,16
+side-24,outer; front edge right,PEG,283,34.5,12,16
+side-24,outer; front edge right,PEG,283,84.5,12,16
+side-24,outer; front edge right,PEG,283,134.5,12,16
+side-24,outer; front edge right,PEG,283,184.5,12,16
+side-24,outer; front edge right,PEG,283,234.5,12,16
+side-24,outer; front edge right,PEG,283,284.5,12,16
+side-24,outer; front edge right,PEG,283,334.5,12,16
+side-24,outer; front edge right,PEG,283,384.5,12,16
+side-24,outer; front edge right,PEG,283,434.5,12,16
+side-24,outer; front edge right,PEG,283,484.5,12,16
+side-24,outer; front edge right,PEG,283,534.5,12,16
+side-24,outer; front edge right,PEG,283,584.5,12,16
+side-24,outer; front edge right,PEG,283,634.5,12,16
+side-24,outer; front edge right,PEG,283,684.5,12,16
+side-24,outer; front edge right,PEG,283,734.5,12,16
+side-24,outer; front edge right,PEG,283,784.5,12,16
+side-24,outer; front edge right,PEG,283,834.5,12,16
+side-24,outer; front edge right,PEG,283,884.5,12,16
+side-24,outer; front edge right,PEG,283,934.5,12,16
+side-24,outer; front edge right,PEG,233,34.5,12,16
+side-24,outer; front edge right,PEG,233,84.5,12,16
+side-24,outer; front edge right,PEG,233,134.5,12,16
+side-24,outer; front edge right,PEG,233,184.5,12,16
+side-24,outer; front edge right,PEG,233,234.5,12,16
+side-24,outer; front edge right,PEG,233,284.5,12,16
+side-24,outer; front edge right,PEG,233,334.5,12,16
+side-24,outer; front edge right,PEG,233,384.5,12,16
+side-24,outer; front edge right,PEG,233,434.5,12,16
+side-24,outer; front edge right,PEG,233,484.5,12,16
+side-24,outer; front edge right,PEG,233,534.5,12,16
+side-24,outer; front edge right,PEG,233,584.5,12,16
+side-24,outer; front edge right,PEG,233,634.5,12,16
+side-24,outer; front edge right,PEG,233,684.5,12,16
+side-24,outer; front edge right,PEG,233,734.5,12,16
+side-24,outer; front edge right,PEG,233,784.5,12,16
+side-24,outer; front edge right,PEG,233,834.5,12,16
+side-24,outer; front edge right,PEG,233,884.5,12,16
+side-24,outer; front edge right,PEG,233,934.5,12,16
+side-24,outer; front edge right,PEG,183,34.5,12,16
+side-24,outer; front edge right,PEG,183,84.5,12,16
+side-24,outer; front edge right,PEG,183,134.5,12,16
+side-24,outer; front edge right,PEG,183,184.5,12,16
+side-24,outer; front edge right,PEG,183,234.5,12,16
+side-24,outer; front edge right,PEG,183,284.5,12,16
+side-24,outer; front edge right,PEG,183,334.5,12,16
+side-24,outer; front edge right,PEG,183,384.5,12,16
+side-24,outer; front edge right,PEG,183,434.5,12,16
+side-24,outer; front edge right,PEG,183,484.5,12,16
+side-24,outer; front edge right,PEG,183,534.5,12,16
+side-24,outer; front edge right,PEG,183,584.5,12,16
+side-24,outer; front edge right,PEG,183,634.5,12,16
+side-24,outer; front edge right,PEG,183,684.5,12,16
+side-24,outer; front edge right,PEG,183,734.5,12,16
+side-24,outer; front edge right,PEG,183,784.5,12,16
+side-24,outer; front edge right,PEG,183,834.5,12,16
+side-24,outer; front edge right,PEG,183,884.5,12,16
+side-24,outer; front edge right,PEG,183,934.5,12,16
+side-24,outer; front edge right,PEG,133,34.5,12,16
+side-24,outer; front edge right,PEG,133,84.5,12,16
+side-24,outer; front edge right,PEG,133,134.5,12,16
+side-24,outer; front edge right,PEG,133,184.5,12,16
+side-24,outer; front edge right,PEG,133,234.5,12,16
+side-24,outer; front edge right,PEG,133,284.5,12,16
+side-24,outer; front edge right,PEG,133,334.5,12,16
+side-24,outer; front edge right,PEG,133,384.5,12,16
+side-24,outer; front edge right,PEG,133,434.5,12,16
+side-24,outer; front edge right,PEG,133,484.5,12,16
+side-24,outer; front edge right,PEG,133,534.5,12,16
+side-24,outer; front edge right,PEG,133,584.5,12,16
+side-24,outer; front edge right,PEG,133,634.5,12,16
+side-24,outer; front edge right,PEG,133,684.5,12,16
+side-24,outer; front edge right,PEG,133,734.5,12,16
+side-24,outer; front edge right,PEG,133,784.5,12,16
+side-24,outer; front edge right,PEG,133,834.5,12,16
+side-24,outer; front edge right,PEG,133,884.5,12,16
+side-24,outer; front edge right,PEG,133,934.5,12,16
+side-24,outer; front edge right,PEG,83,34.5,12,16
+side-24,outer; front edge right,PEG,83,84.5,12,16
+side-24,outer; front edge right,PEG,83,134.5,12,16
+side-24,outer; front edge right,PEG,83,184.5,12,16
+side-24,outer; front edge right,PEG,83,234.5,12,16
+side-24,outer; front edge right,PEG,83,284.5,12,16
+side-24,outer; front edge right,PEG,83,334.5,12,16
+side-24,outer; front edge right,PEG,83,384.5,12,16
+side-24,outer; front edge right,PEG,83,434.5,12,16
+side-24,outer; front edge right,PEG,83,484.5,12,16
+side-24,outer; front edge right,PEG,83,534.5,12,16
+side-24,outer; front edge right,PEG,83,584.5,12,16
+side-24,outer; front edge right,PEG,83,634.5,12,16
+side-24,outer; front edge right,PEG,83,684.5,12,16
+side-24,outer; front edge right,PEG,83,734.5,12,16
+side-24,outer; front edge right,PEG,83,784.5,12,16
+side-24,outer; front edge right,PEG,83,834.5,12,16
+side-24,outer; front edge right,PEG,83,884.5,12,16
+side-24,outer; front edge right,PEG,83,934.5,12,16
+side-24,outer; front edge right,PEG,33,34.5,12,16
+side-24,outer; front edge right,PEG,33,84.5,12,16
+side-24,outer; front edge right,PEG,33,134.5,12,16
+side-24,outer; front edge right,PEG,33,184.5,12,16
+side-24,outer; front edge right,PEG,33,234.5,12,16
+side-24,outer; front edge right,PEG,33,284.5,12,16
+side-24,outer; front edge right,PEG,33,334.5,12,16
+side-24,outer; front edge right,PEG,33,384.5,12,16
+side-24,outer; front edge right,PEG,33,434.5,12,16
+side-24,outer; front edge right,PEG,33,484.5,12,16
+side-24,outer; front edge right,PEG,33,534.5,12,16
+side-24,outer; front edge right,PEG,33,584.5,12,16
+side-24,outer; front edge right,PEG,33,634.5,12,16
+side-24,outer; front edge right,PEG,33,684.5,12,16
+side-24,outer; front edge right,PEG,33,734.5,12,16
+side-24,outer; front edge right,PEG,33,784.5,12,16
+side-24,outer; front edge right,PEG,33,834.5,12,16
+side-24,outer; front edge right,PEG,33,884.5,12,16
+side-24,outer; front edge right,PEG,33,934.5,12,16
+side-24,bottom edge,EDGE_BOLT,43.5,9,6.6,25
+side-24,bottom edge,EDGE_BOLT,372.5,9,6.6,25
+side-24,top edge,EDGE_BOLT,43.5,9,6.6,25
+side-24,top edge,EDGE_BOLT,372.5,9,6.6,25

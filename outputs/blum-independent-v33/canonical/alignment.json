@@ -1,0 +1,87 @@
+{
+  "source_plane_entity": 789,
+  "source_normal": [
+    0.0,
+    0.9999999999999466,
+    -3.2679489669895645e-07
+  ],
+  "source_point": [
+    -45.00000000000003,
+    -38.4999906863434,
+    28.500012581602004
+  ],
+  "rotation_axis": [
+    1,
+    0,
+    0
+  ],
+  "rotation_degrees": 1.8723968347264255e-05,
+  "rotation_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.9999999999999466,
+      -3.2679489669895645e-07
+    ],
+    [
+      0.0,
+      3.2679489669895645e-07,
+      0.9999999999999466
+    ]
+  ],
+  "translation": [
+    0,
+    0,
+    0
+  ],
+  "nominal_flange_y_mm": -38.500000000000014,
+  "individual_part_adjustments": false,
+  "bodies": [
+    {
+      "body": 0,
+      "volume_before": 22453.085830622633,
+      "volume_after": 22453.08583062263,
+      "valid": true
+    },
+    {
+      "body": 1,
+      "volume_before": 1071.0712675112254,
+      "volume_after": 1071.0712675112252,
+      "valid": true
+    },
+    {
+      "body": 2,
+      "volume_before": 28224.46924450847,
+      "volume_after": 28224.469244508462,
+      "valid": true
+    },
+    {
+      "body": 3,
+      "volume_before": 9589.528107293425,
+      "volume_after": 9589.528107293421,
+      "valid": true
+    },
+    {
+      "body": 4,
+      "volume_before": 5903.3984757620865,
+      "volume_after": 5903.398475762086,
+      "valid": true
+    },
+    {
+      "body": 5,
+      "volume_before": 4257.242915682992,
+      "volume_after": 4257.24291568299,
+      "valid": true
+    },
+    {
+      "body": 6,
+      "volume_before": 5269.230571307281,
+      "volume_after": 5269.230571307279,
+      "valid": true
+    }
+  ]
+}

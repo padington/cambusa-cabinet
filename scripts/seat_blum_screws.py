@@ -3,6 +3,10 @@ from pathlib import Path
 import json
 import numpy as np
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'outputs/wide-hinge-verification'
+import argparse
+parser=argparse.ArgumentParser(description='Seat nominal 609.1500 screws in supplier CAD')
+parser.add_argument('--cad-dir',type=Path,default=OUT)
+OUT=parser.parse_args().cad_dir
 def screw():
     # Blum 609.1500: total 15 incl head, head Ø7 / H2.09. Thread is an envelope.
     return cq.Workplane('XZ').polyline([(0,0),(3.5,0),(3.5,.34),(1.75,2.09),
