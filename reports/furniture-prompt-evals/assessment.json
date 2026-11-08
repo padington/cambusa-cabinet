@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-07",
+  "reviewer": "prompt author; not blinded",
+  "scope": "First response only",
+  "cases": [
+    {
+      "prompt_version": "0.2",
+      "case_id": "cabinet-continuation",
+      "response": "reports/furniture-prompt-evals/2026-11-07-v0.2/cabinet-continuation-response.md",
+      "response_sha256": "c0e6255e93fe6379c88ae012ac4928cafb1d646b15e553de829939fa041da131",
+      "judgments": [
+        {
+          "criterion": "Сохраняет габариты, полный каркас и отсутствие колёс; не перезапрашивает известное",
+          "result": "meets"
+        },
+        {
+          "criterion": "Различает старую v11 и текущие требования; не возвращает дверные полки или отложенные ящики",
+          "result": "meets"
+        },
+        {
+          "criterion": "Не объявляет весь шкаф готовым и не выдаёт сохранённый отчёт за собственную новую проверку",
+          "result": "meets"
+        },
+        {
+          "criterion": "Следующим трудным узлом выбирает оставшиеся правые механизмы/обработку/сборку; указывает подтверждение изготовителя",
+          "result": "meets"
+        },
+        {
+          "criterion": "Называет зависимости модели, обработки, фурнитуры, раскладок, стоимости и инструкции",
+          "result": "meets"
+        },
+        {
+          "criterion": "Без доступа к инструментам не заявляет свежую проверку цены, CAD или физического образца",
+          "result": "meets"
+        }
+      ]
+    },
+    {
+      "prompt_version": "0.2",
+      "case_id": "open-bookcase",
+      "response": "reports/furniture-prompt-evals/2026-11-07-v0.2/open-bookcase-response.md",
+      "response_sha256": "31cc6c29967c15b108e6c01cea6054cf494e7f88111c0c9b55e83ac583c80ed1",
+      "judgments": [
+        {
+          "criterion": "Не наследует Cambusa, алюминиевый профиль, тёмную отделку, петли, механизмы или размеры шкафа",
+          "result": "meets"
+        },
+        {
+          "criterion": "Не переспрашивает заданные габариты, бюджет и число полок; задаёт только существенные вопросы",
+          "result": "meets"
+        },
+        {
+          "criterion": "Учитывает20кг на полку, прогиб/соединения и устойчивость, не объявляет несущую способность доказанной",
+          "result": "meets"
+        },
+        {
+          "criterion": "Предлагает ограниченный выбор разборных конструкций из готовых обработанных деталей",
+          "result": "partial"
+        },
+        {
+          "criterion": "Не обещает укладывание в бюджет и наличие фурнитуры без цен и источников",
+          "result": "meets"
+        },
+        {
+          "criterion": "Планирует связанный набор модели, обработки, крепежа, раскладки, сметы и сборки",
+          "result": "partial"
+        }
+      ]
+    },
+    {
+      "prompt_version": "0.3",
+      "case_id": "cabinet-continuation",
+      "response": "reports/furniture-prompt-evals/2026-11-07-v0.3/cabinet-continuation-response.md",
+      "response_sha256": "3b7101ecde971cb1d30d93b7746de014d75f4c9451c2f5c6a647ef18adf6a070",
+      "judgments": [
+        {
+          "criterion": "Сохраняет габариты, полный каркас и отсутствие колёс; не перезапрашивает известное",
+          "result": "meets"
+        },
+        {
+          "criterion": "Различает старую v11 и текущие требования; не возвращает дверные полки или отложенные ящики",
+          "result": "meets"
+        },
+        {
+          "criterion": "Не объявляет весь шкаф готовым и не выдаёт сохранённый отчёт за собственную новую проверку",
+          "result": "meets"
+        },
+        {
+          "criterion": "Следующим трудным узлом выбирает оставшиеся правые механизмы/обработку/сборку; указывает подтверждение изготовителя",
+          "result": "meets"
+        },
+        {
+          "criterion": "Называет зависимости модели, обработки, фурнитуры, раскладок, стоимости и инструкции",
+          "result": "meets"
+        },
+        {
+          "criterion": "Без доступа к инструментам не заявляет свежую проверку цены, CAD или физического образца",
+          "result": "meets"
+        }
+      ]
+    },
+    {
+      "prompt_version": "0.3",
+      "case_id": "open-bookcase",
+      "response": "reports/furniture-prompt-evals/2026-11-07-v0.3/open-bookcase-response.md",
+      "response_sha256": "070734adba46d4b93c716e64baef4e4d8d9ba9c60cec085b7c17cab6d9d3d9f6",
+      "judgments": [
+        {
+          "criterion": "Не наследует Cambusa, алюминиевый профиль, тёмную отделку, петли, механизмы или размеры шкафа",
+          "result": "meets"
+        },
+        {
+          "criterion": "Не переспрашивает заданные габариты, бюджет и число полок; задаёт только существенные вопросы",
+          "result": "meets"
+        },
+        {
+          "criterion": "Учитывает20кг на полку, прогиб/соединения и устойчивость, не объявляет несущую способность доказанной",
+          "result": "meets"
+        },
+        {
+          "criterion": "Предлагает ограниченный выбор разборных конструкций из готовых обработанных деталей",
+          "result": "meets"
+        },
+        {
+          "criterion": "Не обещает укладывание в бюджет и наличие фурнитуры без цен и источников",
+          "result": "meets"
+        },
+        {
+          "criterion": "Планирует связанный набор модели, обработки, крепежа, раскладки, сметы и сборки",
+          "result": "meets"
+        }
+      ]
+    }
+  ],
+  "unrun_cases": [
+    "nominal-slot-versus-panel",
+    "sampling-is-not-continuous",
+    "supplier-contradiction",
+    "unknown-cost-and-packages"
+  ],
+  "limitations": [
+    "First responses remain verbose; conciseness improvement not demonstrated.",
+    "Only two known development cases, one execution each per revision.",
+    "No independent model/settings telemetry; no cost or efficiency claim.",
+    "No execution of CAD, purchasing research, nesting, or physical assembly."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "archive": "furniture-prompt-v1.0.zip",
+  "archive_sha256": "da59c2d2553e4f98f7036e000bf13316471451129612e1bcbf62f66d1bb2e41b",
+  "files": {
+    "START.md": "729a966bae9b2b27eb202082b8b3433b774bceafa99739028a13ec7c97aef699",
+    "brief.md": "1c24bfc8c52beefd24a12285058af7141c075ce3f51fa7227aa04eaf071de960",
+    "checks.md": "ba2f8264958a0735d51c2e920d1f10f3db9cfb765447da7d2482a9a06369bd6b",
+    "prompt.md": "e3c51805ba5c13231d11145e503dc430b938e0b09ed1977ea4950d8d0d016f0d",
+    "release.json": "742a980536ae8759e08f676612142bca4958f3a99ca026aff7596b8e20022b36"
+  },
+  "scope": "Reusable instructions. First-response behavior tested on two text-only tasks; no end-to-end CAD or physical qualification."
+}

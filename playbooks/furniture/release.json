@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "date": "2026-11-07",
+  "status": "usable-first-release-with-limited-startup-evidence",
+  "scope": "Reusable instructions. First-response behavior tested on two text-only tasks; no end-to-end CAD or physical qualification.",
+  "tested_prompt_source": "playbooks/furniture/iterations/prompt-v0.3.md",
+  "tested_prompt_sha256": "fb04eb6edacdc9d962acfaaf75645ffbc05cabc9a79ce7beca3d1d529b3e04c8",
+  "release_prompt_sha256": "e3c51805ba5c13231d11145e503dc430b938e0b09ed1977ea4950d8d0d016f0d",
+  "release_changes_from_tested_prompt": "Only first-line version label changed from v0.3 to v1.0; remaining text byte-identical in UTF-8.",
+  "fresh_context_attempts": 4,
+  "unique_executed_cases": 2,
+  "independent_blind_grading": false,
+  "end_to_end_tool_workflow_verified": false,
+  "physical_furniture_verified": false,
+  "known_issues": [
+    "First responses remain verbose; conciseness improvement not demonstrated."
+  ],
+  "prepared_unrun_cases": [
+    "nominal-slot-versus-panel",
+    "sampling-is-not-continuous",
+    "supplier-contradiction",
+    "unknown-cost-and-packages"
+  ],
+  "evidence_report": "reports/furniture-prompt-evals/README.md",
+  "exact_model_and_token_usage": null
+}

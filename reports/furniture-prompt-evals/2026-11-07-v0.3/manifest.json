@@ -1,0 +1,40 @@
+{
+  "prompt_version": "0.3",
+  "prompt_sha256": "fb04eb6edacdc9d962acfaaf75645ffbc05cabc9a79ce7beca3d1d529b3e04c8",
+  "cases_sha256": "9dd36e219eeb2dd64f50c8cd8b99f5f5de343f22126d50777261fb28140e760a",
+  "scope": "First-response portability only",
+  "runs": [
+    {
+      "case_id": "cabinet-continuation",
+      "thread_id": "01a1b6de-2f18-7723-954d-27dbe7fffa0d",
+      "host_id": "local",
+      "turn_id": "01a1b6de-2f9f-7c31-88c0-9da9b4efd165",
+      "status": "completed",
+      "turn_duration_ms": 50411,
+      "request_sha256": "e790ba214e0afbd3763e545b071e123050deb05f1362f80c362f039641434244",
+      "response_sha256": "3b7101ecde971cb1d30d93b7746de014d75f4c9451c2f5c6a647ef18adf6a070",
+      "observed_sha256": "8d5bb6352db373b50dac956e7946521b955a480979ad6aa57a50923157e24695",
+      "observed_request_matches_frozen_packet": true,
+      "tool_execution_items_observed": 0,
+      "response_words": 434,
+      "input_cached_output_tokens": null,
+      "model_exact_identifier": null
+    },
+    {
+      "case_id": "open-bookcase",
+      "thread_id": "01a1b6de-52be-7cc2-9d71-893588494510",
+      "host_id": "local",
+      "turn_id": "01a1b6de-534f-7563-8c07-884c23c88352",
+      "status": "completed",
+      "turn_duration_ms": 73075,
+      "request_sha256": "4de1101a43d96c2795891c995fb3b9951e52dbc6c5998b9e93a3ee3a55ac8ec6",
+      "response_sha256": "070734adba46d4b93c716e64baef4e4d8d9ba9c60cec085b7c17cab6d9d3d9f6",
+      "observed_sha256": "c57ea589f317585291b29eebeabb6ee7c32d9ec46d4193c58e64304cf878a069",
+      "observed_request_matches_frozen_packet": true,
+      "tool_execution_items_observed": 0,
+      "response_words": 420,
+      "input_cached_output_tokens": null,
+      "model_exact_identifier": null
+    }
+  ]
+}
